@@ -1,0 +1,30 @@
+site_name: NU CSE Notes Store
+site_description: Free CSE Notes and Study Resources for National University Students
+site_url: https://taimiyatahsin0-png.github.io/nu-cse-notes-store/
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: green
+      accent: teal
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - search.suggest
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - First Semester:
+      - EEC: subjects/eec/index.md
+      - English: subjects/eng/index.md
+      - SPL: subjects/spl/index.md
+      - Calculus: subjects/cal/index.md
+      - Physics: subjects/phy/index.md
+  - Resources: resources/index.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
