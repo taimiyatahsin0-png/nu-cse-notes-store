@@ -1,0 +1,51 @@
+
+# Structured Programming Language Lab
+
+**Course Code:** 510202  
+**Marks:** 40  
+**Credits:** 1.5  
+**Related Theory Course:** 510201 – Structured Programming Language
+
+## Course Objectives
+
+This laboratory course is based on Structured Programming Language (510201).
+
+The main objectives are to develop practical skills in:
+
+- Designing C programs
+- Developing and implementing programs
+- Debugging programs
+- Testing programs
+- Maintaining programs
+- Solving problems using C programming
+
+## Laboratory Activities
+
+Students will regularly solve programming problems to improve their practical programming skills.
+
+### Programming Practice
+
+- Practice based on the topics covered in SPL Theory
+- Writing and executing C programs
+- Identifying and correcting programming errors
+- Testing and debugging programs
+- Developing problem-solving skills
+
+## Final Lab Project
+
+At the end of the course, students are expected to develop a simple real-life programming project.
+
+## Study Materials
+
+- C Programming Lab Notes
+- Programming Exercises
+- Lab Reports
+- Practical Examples
+- Project Documentation
+- Previous Lab Questions
+
+---
+
+*This page is organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
+
+Happy Coding! 💻
