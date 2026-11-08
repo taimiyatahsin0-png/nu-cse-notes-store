@@ -1,5 +1,5 @@
 # Chapter 01: Introduction to C Programming
-[📥 Download Chapter 01 PDF](SPL-Chapter-01.pdf)
+[📥 Download Chapter 01 PDF](../SPL-Chapter-01.pdf)
 **Course Name:** Structured Programming Language  
 **Course Code:** 510201  
 **Chapter:** 01  
