@@ -1,5 +1,4 @@
 
-
 site_name: NU CSE Notes Store
 site_description: Free CSE Notes and Study Resources for National University Students
 site_url: https://taimiyatahsin0-png.github.io/nu-cse-notes-store/
@@ -19,6 +18,9 @@ theme:
 nav:
   - Home: index.md
 
+  - Academic Syllabus:
+      - Syllabus Overview: syllabus/index.md
+
   - First Semester:
       - SPL (510201): subjects/spl/index.md
       - SPL Lab (510202): subjects/spl-lab/index.md
@@ -32,3 +34,4 @@ markdown_extensions:
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+
