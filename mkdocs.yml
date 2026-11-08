@@ -1,3 +1,5 @@
+
+
 site_name: NU CSE Notes Store
 site_description: Free CSE Notes and Study Resources for National University Students
 site_url: https://taimiyatahsin0-png.github.io/nu-cse-notes-store/
@@ -16,13 +18,15 @@ theme:
 
 nav:
   - Home: index.md
+
   - First Semester:
-      - EEC: subjects/eec/index.md
-      - English: subjects/eng/index.md
-      - SPL: subjects/spl/index.md
-      - Calculus: subjects/cal/index.md
-      - Physics: subjects/phy/index.md
-  - Resources: resources/index.md
+      - SPL (510201): subjects/spl/index.md
+      - SPL Lab (510202): subjects/spl-lab/index.md
+      - EEC (510203): subjects/eec/index.md
+      - EEC Lab (510204): subjects/eec-lab/index.md
+      - Calculus (510205): subjects/cal/index.md
+      - Physics (510207): subjects/phy/index.md
+      - English (510209): subjects/eng/index.md
 
 markdown_extensions:
   - admonition
