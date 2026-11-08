@@ -1,25 +1,113 @@
-# EEC – Electrical and Electronic Engineering
 
-Welcome to the EEC study section!
+
+# Electrical and Electronic Circuit (EEC)
+
+**Course Code:** 510203  
+**Marks:** 80  
+**Credits:** 3.0  
+**Class Hours:** 45  
+**Semester:** First Year – First Semester
+
+## Course Overview
+
+This course introduces the fundamental concepts of electrical circuits, AC fundamentals, semiconductor devices, electronic circuits, transistors and operational amplifiers.
+
+## Official Syllabus Topics
+
+### 1. AC Fundamentals
+
+- Basic Principles of AC Generators
+- Alternating Voltages and Currents
+- Frequency, Amplitude and Phase
+- RMS Value and Average Value
+- Form Factor
+- Resistance, Inductance and Capacitance
+- RLC Series Connection and Resonance
+- Parallel Resonance
+
+### 2. Network Theorems
+
+- Kirchhoff's Current Law (KCL)
+- Kirchhoff's Voltage Law (KVL)
+- Superposition Theorem
+- Thevenin's Theorem
+- Norton's Theorem
+- Maximum Power Transfer Theorem
+
+### 3. Introduction to Semiconductors
+
+- Semiconductors and Their Properties
+- Intrinsic Semiconductors
+- Extrinsic Semiconductors
+
+### 4. Semiconductor Diodes and Special Purpose Diodes
+
+- Formation of P-N Junction
+- Properties of P-N Junction
+- V-I Characteristics
+- Basic Construction of Special Purpose Diodes
+- Characteristics, Operations and Uses of Special Diodes
+- Light Emitting Diode (LED)
+- Zener Diode
+
+### 5. Regulated Power Supply
+
+- Voltage Regulation
+- Rectifiers
+- Half-Wave Rectifiers
+- Full-Wave Rectifiers
+- Zener Diode Voltage Regulator
+- Transistor Voltage Regulator
+
+### 6. Bipolar Junction Transistors (BJT)
+
+- NPN and PNP Transistors
+- Amplifying Action of Transistor
+- Switching Action of Transistor
+- Transistor Characteristics in CB Configuration
+- Transistor Characteristics in CE Configuration
+- Transistor Characteristics in CC Configuration
+- Operating Point
+- Transistor Load Line Analysis
+- BJT Biasing
+
+### 7. Field Effect Transistors (FET)
+
+- Classification of FET
+- Construction and Operation of JFET
+- Characteristics of JFET
+- Operation and Characteristics of MOSFET
+- DC Biasing of JFET
+
+### 8. Feedback Techniques and Operational Amplifiers
+
+- Negative and Positive Feedback
+- Characteristics and Gain with Negative Voltage Feedback
+- Characteristics and Gain with Negative Current Feedback
+- Emitter Follower
+- Basic Characteristics of Operational Amplifiers
+- Inverting Amplifier
+- Non-Inverting Amplifier
+- Integrators
+- Differentiators
+- Summing Amplifiers
+
+## Reference Books
+
+1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
+2. Electronic Devices and Circuit Theory — Robert L. Boylestad and Louis Nashelsky
 
 ## Study Materials
 
-Notes and learning materials will be added here.
+- Chapter-wise Notes
+- Circuit Diagrams
+- Important Formulas
+- Solved Numerical Problems
+- Practical Applications
+- Previous Year Questions
 
-## Topics
+---
 
-- Electrical Fundamentals
-- Electric Current
-- Voltage and Resistance
-- AC and DC Circuits
-- Power and Energy
-- Semiconductor Basics
+*Based on the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
-## Resources
-
-- Class Notes
-- Lecture Sheets
-- Practice Questions
-- Previous Questions
-
-Happy Learning! 🌿
+Happy Learning! ⚡
