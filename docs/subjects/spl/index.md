@@ -69,6 +69,15 @@ C Programming Language
 2. Teach Yourself C — Herbert Schildt
 
 ---
+---
+
+## 📖 Chapter-wise Notes
+
+### Chapter 01: Introduction to C Programming
+
+Learn the fundamentals of C programming, its history, features, compiler and basic program structure.
+
+[Read Chapter 01 →](chapter-01.md)
 
 *Note: Topics are organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
