@@ -1,14 +1,14 @@
-# 🌿 NU CSE Notes Store
+# 🌿 NU CSE – First Semester
 
 ### Learn • Practice • Grow
 
-A student-friendly study space for Computer Science and Engineering students of National University, Bangladesh.
+A student-friendly study space for First Semester Computer Science and Engineering students of National University, Bangladesh.
 
 ---
 
 ## Student Dashboard
 
-Welcome! Use this page as your starting point for semester notes, syllabus references, programming practice and exam preparation.
+Welcome to your NU CSE First Semester study space. Find subject notes, syllabus references, programming practice and exam preparation in one place.
 
 <div class="grid cards" markdown>
 
@@ -65,7 +65,7 @@ Welcome! Use this page as your starting point for semester notes, syllabus refer
 | English | 510209 | 3.0 |
 | **Total recorded in this syllabus copy** |  | **18.0** |
 
-*Credit values are copied from the syllabus reference currently stored in this repository (effective Session 2017–2018). Confirm the approved syllabus for your own programme and session.*
+*Syllabus reference: NU CSE First Semester, effective from Session 2017–2018 (the syllabus currently followed for this course, as confirmed for this site).*
 
 ---
 
