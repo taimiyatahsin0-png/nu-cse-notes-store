@@ -264,18 +264,18 @@ Here (n), (p), and (n_i) are carrier concentrations. This relation is a useful d
 
 Both electrons and holes can carry current. A commonly used expression for conductivity is:
 
-[
-sigma = q(nmu_n + pmu_p)
-]
+\[
+\sigma = q(n\mu_n + p\mu_p)
+\]
 
 Where:
 
-- (sigma) = electrical conductivity (S/m)
-- (q) = magnitude of electron charge (approximately (1.602 	imes 10^{-19}) C)
-- (n) = electron concentration (m(^{-3}))
-- (p) = hole concentration (m(^{-3}))
-- (mu_n) = electron mobility (m(^2)/(V·s))
-- (mu_p) = hole mobility (m(^2)/(V·s))
+- \(\sigma\) = electrical conductivity (S/m)
+- \(q\) = magnitude of electron charge (approximately \(1.602 \times 10^{-19}\) C)
+- \(n\) = electron concentration (m\(^{-3}\))
+- \(p\) = hole concentration (m\(^{-3}\))
+- \(\mu_n\) = electron mobility (m\(^2\)/(V·s))
+- \(\mu_p\) = hole mobility (m\(^2\)/(V·s))
 
 This equation tells us that conductivity depends on both the number of carriers and how easily they move. Doping changes carrier concentration, which is why it can strongly change conductivity.
 
