@@ -645,7 +645,7 @@ In this chapter, we learned:
 - How to compile and execute a simple C program.
 - Common beginner mistakes.
 
-**Next Chapter:** Basic Structure of C Program, Variables, Data Types and Constants.
+**Next Chapter:** Variables, Data Types, Constants and Operators in C.
 
 ---
 
