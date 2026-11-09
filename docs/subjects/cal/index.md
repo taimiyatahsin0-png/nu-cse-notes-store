@@ -12,7 +12,7 @@
 
 This course covers the fundamental concepts of Differential Calculus and Integral Calculus, including functions, limits, continuity, differentiation, integration and their applications.
 
-# Official Syllabus Topics
+# Syllabus Topics (Reference: Session 2017–2018)
 
 ## Part A: Differential Calculus
 
