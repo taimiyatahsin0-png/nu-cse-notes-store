@@ -63,7 +63,7 @@ int main(void)
 
     if (scanf("%d %d", &first, &second) != 2)
     {
-        printf("Invalid input. Please enter two integers.\\n");
+        printf("Invalid input. Please enter two integers.\n");
         return 1;
     }
 
@@ -71,18 +71,18 @@ int main(void)
     difference = (long long)first - second;
     product = (long long)first * second;
 
-    printf("Addition = %lld\\n", sum);
-    printf("Subtraction = %lld\\n", difference);
-    printf("Multiplication = %lld\\n", product);
+    printf("Addition = %lld\n", sum);
+    printf("Subtraction = %lld\n", difference);
+    printf("Multiplication = %lld\n", product);
 
     if (second != 0)
     {
-        printf("Division = %.2f\\n", (double)first / second);
-        printf("Remainder = %d\\n", first % second);
+        printf("Division = %.2f\n", (double)first / second);
+        printf("Remainder = %d\n", first % second);
     }
     else
     {
-        printf("Division and modulus are not possible because the second number is zero.\\n");
+        printf("Division and modulus are not possible because the second number is zero.\n");
     }
 
     return 0;
