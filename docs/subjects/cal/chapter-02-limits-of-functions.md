@@ -647,3 +647,40 @@ f(x)=
 **Next chapter:** Continuity.
 
 *Study note: This guide follows the topics listed on the repository's Calculus syllabus page, which cites the NU syllabus effective from Session 2017–2018. Verify the applicable syllabus and your teacher's examination scope for any later updates.*
+
+---
+
+## 15. NU Previous Questions and Board Question Archive
+
+### Questions identifiable in the NU CSE Calculus compilation (2009–2019)
+
+The following item is readable in the student-compiled question collection:
+
+**Q1.** By the \((\epsilon,\delta)\)-definition, prove that
+
+\[
+\lim_{x\to5}\frac{x^2-25}{x-5}=10.
+\]
+
+**Source/year note:** The compilation identifies itself as NU CSE 1st Semester Calculus Questions (2009–2019), but the year attached to this particular item is not legible in the accessible text. It is therefore recorded as an NU question-bank item with **year not confirmed**, not assigned an invented year.
+
+A separate entry in the same compilation asks students to **define the limit of a function**, with **2017 and 2018** shown beside the question.
+
+### Board-question archive
+
+The NU CSE notes resource lists these first-semester archives:
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE Calculus question collection (2009–2019)](https://www.scribd.com/document/947202575/NU-CSE-1st-Semester-Calculus)
+
+**Verification note:** The year labels above are transcribed only where readable. The archives are student-maintained resources; check original paper scans before treating an item as an official board-paper transcription.
+
+### Additional practice (not verified PYQs)
+
+1. Evaluate a limit by factorization.
+2. Evaluate a limit by rationalization.
+3. Find the left-hand and right-hand limits of a piecewise function.
+4. Evaluate a limit at infinity by dividing by the highest power of \(x\).
+
+These are practice questions, not confirmed past-paper questions.
