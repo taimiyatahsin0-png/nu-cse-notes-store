@@ -126,7 +126,7 @@ body {
 .cgpa-remove:disabled { opacity: .35; cursor: not-allowed; }
 .cgpa-previous-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
 .cgpa-previous-grid label { display: grid; gap: .4rem; font-weight: 600; }
-.cgpa-results { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .75rem; }
+.cgpa-results { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .75rem; }
 .cgpa-result-card { display: grid; gap: .25rem; }
 .cgpa-result-card span { color: var(--muted); font-size: .85rem; }
 .cgpa-result-card strong { font-size: 1.7rem; color: var(--forest-dark); }
