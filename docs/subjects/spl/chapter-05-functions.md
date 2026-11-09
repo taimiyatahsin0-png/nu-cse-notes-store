@@ -427,13 +427,15 @@ Scope is the region of a program in which an identifier can be accessed.
 **2019**
 - Define user-defined function and library function with examples.
 - What are actual and formal parameters? Explain with an example.
-- Explain call by value and call by reference.
 - Write a program to calculate a series using a function.
 
 **2022**
 - What is a function in C?
 - Differentiate between actual and formal parameters.
 - Explain storage classes in C.
+
+**2023**
+- Explain call by value and call by reference.
 
 ### Topic-year references in the student-compiled NU question bank
 
