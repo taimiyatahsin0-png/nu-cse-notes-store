@@ -741,3 +741,160 @@ In this chapter, we learned:
 **Learning Tip:** Formula মুখস্থ করার আগে প্রতিটি symbol, unit এবং physical meaning বুঝে নাও। Numerical problem সমাধানের সময় unit conversion বিশেষভাবে খেয়াল করবে।
 
 *Educational resource for National University CSE students. This chapter follows the EEC topic outline currently recorded in this repository; confirm any later syllabus revision with your department.*
+
+
+---
+
+# 16. NU Previous Questions and Board Question Archive
+
+This section records question topics that can be matched to the EEC course (510203), Chapter 01: AC Fundamentals. Year labels below come from student-compiled question-bank material; the 2022 items are also readable in a separately uploaded 2022 examination-paper copy. These are useful study references, but the uploads are not official NU-hosted scans.
+
+## A. Identifiable NU CSE questions
+
+### 2022 — First Year, First Semester Examination
+
+The accessible 2022 paper copy contains these AC Fundamentals questions:
+
+1. Define alternating current and phase.
+2. Derive the average value of an alternating current.
+3. Explain resonance of a circuit and show the resonant-frequency expression for a series RLC circuit.
+4. A coil with inductance 50 mH and resistance 10 Ω is connected in series with a 25 μF capacitor across a 200 V AC supply. Calculate:
+   - Resonance frequency
+   - Current at resonance
+   - Q-factor
+
+**Worked solution for Question 4**
+
+Given:
+
+\[
+L=50\text{ mH}=0.05\text{ H}
+\]
+
+\[
+R=10\ \Omega,\quad C=25\ \mu\text{F}=25\times10^{-6}\text{ F}
+\]
+
+\[
+V=200\text{ V}
+\]
+
+**(i) Resonant frequency**
+
+\[
+f_r=\frac{1}{2\pi\sqrt{LC}}
+\]
+
+\[
+f_r=\frac{1}{2\pi\sqrt{0.05\times25\times10^{-6}}}
+\]
+
+\[
+\boxed{f_r\approx142.35\text{ Hz}}
+\]
+
+**(ii) Current at resonance**
+
+At series resonance, the ideal series-circuit impedance is equal to its resistance:
+
+\[
+Z=R=10\ \Omega
+\]
+
+\[
+I_r=\frac{V}{R}=\frac{200}{10}
+\]
+
+\[
+\boxed{I_r=20\text{ A}}
+\]
+
+**(iii) Q-factor**
+
+For a series RLC circuit:
+
+\[
+Q=\frac{\omega_rL}{R}
+=\frac{2\pi f_rL}{R}
+\]
+
+\[
+Q=\frac{2\pi(142.35)(0.05)}{10}
+\]
+
+\[
+\boxed{Q\approx4.47}
+\]
+
+*Assumption:* The question-bank text extraction reads the coil resistance as 10 Ω. Confirm the original scan if your copy shows a different value.
+
+### 2019 — First Semester Examination / question-bank listing
+
+The accessible 2019 paper copy includes these Chapter 01-related prompts:
+
+- Define impedance and find the impedance of a series RLC circuit.
+- Define power factor and Q-factor of a coil.
+- A coil draws 6 A from a 24 V DC supply; the same current requires 30 V at 50 Hz AC. Calculate the impedance and power factor.
+- Show the phase relation between voltage and current in an RL circuit.
+
+For the coil numerical, the DC measurement gives:
+
+\[
+R=\frac{24}{6}=4\ \Omega
+\]
+
+The AC impedance magnitude is:
+
+\[
+Z=\frac{30}{6}=5\ \Omega
+\]
+
+Therefore, the power factor is:
+
+\[
+\cos\phi=\frac{R}{Z}=\frac45
+\]
+
+\[
+\boxed{\cos\phi=0.8\text{ (lagging for an inductive coil)}}
+\]
+
+### Additional year tags in the student-compiled NU CSE question bank
+
+| Topic / question prompt | Listed year(s) |
+|---|---|
+| AC generator | 2018 |
+| Frequency | 2018 |
+| Phase | 2018, 2022 |
+| Form factor | 2021 |
+| Define average value | 2019 |
+| Define RMS value | 2019, 2021 |
+| Define alternating current | 2022 |
+| Power factor and Q-factor of a coil | 2019 |
+| Impedance of a series RLC circuit | 2019, 2021 |
+| Basic principle of AC generator | 2018, 2021 |
+| Phase-difference equation | 2018 |
+| Derive average value of AC | 2022 |
+| AC through resistance, inductance and capacitance | 2019 |
+
+**Year-label caution:** The table is transcribed from a student-maintained question-bank excerpt. Treat the years as leads to locate the original paper, not as independently authenticated official records.
+
+## B. Board-question archive
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE question bank — EEC Chapter 01: AC Fundamentals](https://www.scribd.com/document/948205368/862105744-National-University-CSE-Question-Bank-1st-First-Semester)
+- [NU CSE 1st Semester Examination Questions 2019](https://www.scribd.com/document/948206995/NU-CSE-1st-Semester-Questions-2019)
+- [NU CSE 1st Semester Examination Questions 2022](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+
+**Source limitation:** These are student-uploaded or student-compiled copies. They are not an official NU question-paper repository. Always compare wording, numerical values and year with the original paper scan where possible.
+
+## C. Extra practice (not verified PYQs)
+
+1. Derive the RMS value of a sinusoidal current.
+2. Explain the difference between peak value, RMS value and average rectified value.
+3. Derive the impedance of a series RLC circuit using a phasor diagram.
+4. Define Q-factor and explain its significance in a series resonant circuit.
+5. Explain why current is maximum at series resonance.
+
+These five questions are syllabus-based practice, not confirmed past-paper questions.
