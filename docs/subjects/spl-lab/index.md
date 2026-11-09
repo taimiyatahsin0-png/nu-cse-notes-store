@@ -44,6 +44,7 @@ Students will regularly solve programming problems to improve their practical pr
 - [Practical 09: Arrays and Strings in C](09-arrays-and-strings.md) — suggested practice on one-dimensional arrays, matrices, and basic string operations.
 - [Practical 10: Functions in C](10-functions-in-c.md) — suggested practice on function prototypes, definitions, calls, arguments, return values, and pass by value.
 - [Practical 11: Structure and Union in C](11-structure-and-union.md) — suggested practice on structure variables, arrays of structures, function parameters, unions, and memory sharing.
+- [Practical 12: Pointers in C](12-pointers-in-c.md) — suggested practice on pointer declaration, addresses, dereferencing, arrays, and function arguments.
 
 ## Final Lab Project
 
