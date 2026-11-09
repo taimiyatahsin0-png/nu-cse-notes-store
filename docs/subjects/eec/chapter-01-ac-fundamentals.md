@@ -142,10 +142,6 @@ v(t)=V_m\sin(\omega t)
 
 ## 3.2 Important Parts of a Sine Wave
 
-<figure>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Sine_wave.svg" alt="Sinusoidal waveform showing one cycle" />
-</figure>
-
 - **Positive half-cycle:** Waveform-এর positive অংশ।
 - **Negative half-cycle:** Waveform-এর negative অংশ।
 - **Peak value:** সর্বোচ্চ absolute value।
