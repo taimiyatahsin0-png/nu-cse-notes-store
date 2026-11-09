@@ -81,6 +81,27 @@ The following grammatical aspects may be taught:
 - Pre-Qualification Notice Writing
 - Report Writing on Specific Topics
 
+
+## Topic-wise Learning Notes
+
+These pages provide Bangla-first explanations, standard English exam terminology, examples and practice answers for the topics in your reported English midterm scope.
+
+- [01. Reading Comprehension](01-reading-comprehension.md)
+- [02. Articles](02-articles.md)
+- [03. Correct Form of Verbs](03-correct-form-of-verbs.md)
+- [04. Conjunctions](04-conjunctions.md)
+- [05. Correct Sentences](05-correct-sentences.md)
+- [06. Paragraph Writing](06-paragraph-writing.md)
+- [07. Summary Writing](07-summary-writing.md)
+- [08. Business Letter](08-business-letter.md)
+- [09. Complaint Letter](09-complaint-letter.md)
+
+## Reported Midterm Scope
+
+Reading Comprehension; Articles; Correct Form of Verbs; Conjunctions; Correct Sentences; Paragraph; Summary; Business Letter; Complaint Letter.
+
+*This list reflects the midterm topics previously provided by the student. It is not a claim that these are the complete official course syllabus topics.*
+
 ## Reference Books
 
 1. College Writing Skills with Readings — John Langan
