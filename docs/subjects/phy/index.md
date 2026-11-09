@@ -7,7 +7,7 @@
 **Credits:** 3.0  
 **Marks:** 80  
 **Class Hours:** 45  
-**Semester:** First Year – First Semester
+**Semester:** CSE First Semester
 
 ## Course Overview
 
@@ -95,18 +95,5 @@ Each chapter follows a beginner-friendly order: Bangla concept explanation, stan
 2. Introductory Circuit Analysis — Robert L. Boylestad
 3. A Textbook of Electrical Technology — B. L. Theraja
 
-## Study Materials
-
-- Topic-wise Notes
-- Important Definitions
-- Physics Formulas
-- Circuit and Field Diagrams
-- Solved Numerical Problems
-- Previous Year Questions
-- Practice Questions
-
----
-
 *Based on the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
-Happy Learning! ⚛️
