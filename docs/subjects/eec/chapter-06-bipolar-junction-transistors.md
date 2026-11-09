@@ -52,7 +52,7 @@ There are two basic types of BJT:
 
 An NPN transistor has a thin P-type base region between two N-type regions.
 
-\`\`\`text
+```text
        N-type       P-type       N-type
       Emitter        Base       Collector
          N             P             N
@@ -60,7 +60,7 @@ An NPN transistor has a thin P-type base region between two N-type regions.
       │     │                │     │
       └─────┴────────────────┴─────┘
            Emitter - Base - Collector
-\`\`\`
+```
 
 In an NPN transistor, electrons are the majority carriers in the emitter and collector regions.
 
@@ -70,7 +70,7 @@ The circuit symbol has an arrow on the emitter pointing **outward**.
 
 A PNP transistor has a thin N-type base region between two P-type regions.
 
-\`\`\`text
+```text
        P-type       N-type       P-type
       Emitter        Base       Collector
          P             N             P
@@ -78,7 +78,7 @@ A PNP transistor has a thin N-type base region between two P-type regions.
       │     │                │     │
       └─────┴────────────────┴─────┘
            Emitter - Base - Collector
-\`\`\`
+```
 
 In a PNP transistor, holes are the majority carriers in the emitter and collector regions.
 
@@ -284,7 +284,7 @@ A BJT can amplify a small change in base-emitter input voltage or base current i
 
 ### Basic common-emitter amplifier idea
 
-\`\`\`text
+```text
              +VCC
                |
               RC
@@ -296,7 +296,7 @@ Input ──────── B   NPN
                E
                |
               GND
-\`\`\`
+```
 
 This is a simplified conceptual circuit; a practical amplifier also needs suitable biasing and often coupling and bypass capacitors.
 
@@ -330,7 +330,7 @@ A transistor can work as an electronic switch by operating mainly in cut-off and
 
 A low-power control signal can drive an NPN transistor through a base resistor. The transistor then controls current through an LED and its series resistor.
 
-\`\`\`text
+```text
         +VCC
           |
        LED + R
@@ -340,7 +340,7 @@ Control─RB─B   NPN
           E
           |
          GND
-\`\`\`
+```
 
 This is a conceptual low-side switch. The base resistor limits base current, and the LED resistor limits LED current. Component values must be selected for the supply voltage, LED and transistor ratings.
 
@@ -557,7 +557,7 @@ A resistor is connected between the supply and the base to provide base current.
 
 Simplified NPN CE idea:
 
-\`\`\`text
+```text
        +VCC
          |
         RC
@@ -570,7 +570,7 @@ Simplified NPN CE idea:
         GND
 
 +VCC ── RB ── B
-\`\`\`
+```
 
 For a simple fixed-bias circuit with emitter grounded:
 
@@ -600,7 +600,7 @@ This method uses two resistors to establish a base voltage. An emitter resistor 
 
 Simplified arrangement:
 
-\`\`\`text
+```text
               +VCC
                 |
           +-----+------+
@@ -614,7 +614,7 @@ Simplified arrangement:
          GND           RE
                        |
                       GND
-\`\`\`
+```
 
 The resistor divider establishes an approximately fixed base voltage. The emitter resistor provides negative feedback: if emitter current rises, emitter voltage rises, reducing base-emitter voltage and opposing the increase.
 
