@@ -78,7 +78,17 @@ C Programming Language
 Learn the fundamentals of C programming, its history, features, compiler and basic program structure.
 
 [Read Chapter 01 →](chapter-01.md)
+## Chapter-wise Notes
 
+### Chapter 01: Introduction to C Programming
+
+[📖 Read Chapter 01](chapter-01.md)
+
+[📥 Download Chapter 01 PDF](SPL-Chapter-01.pdf)
+
+### Chapter 02: Variables, Data Types and Operators
+
+[📖 Read Chapter 02](chapter-02.md)
 *Note: Topics are organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
 Happy Coding! 💻
