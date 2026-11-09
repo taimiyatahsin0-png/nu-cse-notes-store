@@ -1008,7 +1008,7 @@ int main(void)
     for (i = 1; i <= n; i++)
         sum += i;
 
-    printf("Sum = %d\n", sum);
+    printf("Sum = %lld\n", sum);
     return 0;
 }
 ~~~
