@@ -208,6 +208,12 @@ int id_exists(int id)
         }
     }
 
+    if (ferror(fp))
+    {
+        fclose(fp);
+        return -1;
+    }
+
     fclose(fp);
     return 0;
 }
@@ -217,6 +223,7 @@ void add_student(void)
 {
     FILE *fp;
     struct Student student;
+    int duplicate_status;
 
     student.id = read_int("Enter student ID: ");
 
@@ -226,9 +233,17 @@ void add_student(void)
         return;
     }
 
-    if (id_exists(student.id))
+    duplicate_status = id_exists(student.id);
+
+    if (duplicate_status == 1)
     {
         printf("This ID already exists.\n");
+        return;
+    }
+
+    if (duplicate_status == -1)
+    {
+        printf("Could not read the data file to verify the ID.\n");
         return;
     }
 
@@ -413,6 +428,7 @@ void delete_student(void)
 {
     FILE *source;
     FILE *temporary;
+    FILE *backup_check;
     struct Student student;
     int delete_id;
     int found = 0;
@@ -472,6 +488,20 @@ void delete_student(void)
     if (!found)
     {
         printf("Student not found.\n");
+        remove(TEMP_FILE);
+        return;
+    }
+
+    /*
+       Do not overwrite an earlier backup. It may contain the only recoverable
+       copy from a previous failed operation.
+    */
+    backup_check = fopen(BACKUP_FILE, "rb");
+
+    if (backup_check != NULL)
+    {
+        fclose(backup_check);
+        printf("A backup file already exists. Keep it safe, move it elsewhere, and retry.\n");
         remove(TEMP_FILE);
         return;
     }
