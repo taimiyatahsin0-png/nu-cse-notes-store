@@ -105,6 +105,7 @@ This course covers the fundamental concepts of Differential Calculus and Integra
 
 ## Study Materials
 
+- [Mathematical Symbols & Notation for Beginners](mathematical-symbols-and-notation-for-beginners.md)
 - Topic-wise Notes
 - Important Formulas
 - Step-by-step Solved Problems
