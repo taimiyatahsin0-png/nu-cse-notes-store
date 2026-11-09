@@ -758,8 +758,8 @@ int result = 10 + 5 * 2;
 
 | Priority | Operators | Description |
 |---|---|---|
-| 1 | `( )` | Parentheses used for grouping |
-| 2 | Postfix `++ --`; unary `++ -- + - ! ~ * & sizeof` | Postfix and unary operators |
+| 1 | Postfix: `[]`, function call `()`, member access `.` and `->`, postfix `++ --` | Postfix operators |
+| 2 | Prefix `++ --`, unary `+ - ! ~ * &`, `sizeof`, type cast | Unary operators |
 | 3 | `* / %` | Multiplication, division, modulus |
 | 4 | `+ -` | Addition, subtraction |
 | 5 | `<< >>` | Bitwise shift |
@@ -774,7 +774,7 @@ int result = 10 + 5 * 2;
 | 14 | `= += -= *= /= %=` | Assignment |
 | 15 | `,` | Comma |
 
-**Note:** This table shows common precedence groups from high to low. Operators in the same group may follow different associativity rules. Parentheses can make expressions easier to understand.
+**Note:** This table shows common precedence groups from high to low. Operators in the same group may follow different associativity rules. Parentheses can be used to group expressions and override the usual precedence order.
 
 ### Example
 
