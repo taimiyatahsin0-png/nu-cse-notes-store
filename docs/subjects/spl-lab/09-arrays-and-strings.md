@@ -172,8 +172,9 @@ The loop runs for `i = 0` through `i = 4`. It stops when `i < 5` becomes false.
 int main(void)
 {
     int numbers[5];
-    int i, sum = 0;
-    float average;
+    int i;
+    long long sum = 0;
+    double average;
 
     printf("Enter 5 numbers:\n");
 
@@ -185,7 +186,7 @@ int main(void)
 
     average = sum / 5.0;
 
-    printf("Sum = %d\n", sum);
+    printf("Sum = %lld\n", sum);
     printf("Average = %.2f\n", average);
 
     return 0;
@@ -486,7 +487,7 @@ Try these yourself before checking a solution:
 3. Search for a given value in an array and report whether it exists.
 4. Find the sum of the main diagonal of a 3×3 matrix.
 5. Read two strings and check whether they are equal using `strcmp()`.
-6. Join two strings using `strcat()), ensuring the destination has enough space.
+6. Join two strings using `strcat()`, ensuring the destination has enough space.
 
 ## 13. Viva Questions
 
