@@ -90,8 +90,8 @@ int main(void) {
     int rows;
 
     printf("Enter the number of rows: ");
-    if (scanf("%d", &rows) != 1 || rows < 1) {
-        printf("Please enter a positive integer.\n");
+    if (scanf("%d", &rows) != 1 || rows < 1 || rows > 100) {
+        printf("Please enter a number of rows from 1 to 100.\n");
         return 1;
     }
 
@@ -134,8 +134,8 @@ int main(void) {
     int rows;
 
     printf("Enter the number of rows: ");
-    if (scanf("%d", &rows) != 1 || rows < 1) {
-        printf("Please enter a positive integer.\n");
+    if (scanf("%d", &rows) != 1 || rows < 1 || rows > 100) {
+        printf("Please enter a number of rows from 1 to 100.\n");
         return 1;
     }
 
