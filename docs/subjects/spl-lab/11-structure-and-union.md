@@ -135,10 +135,10 @@ int main(void)
     printf("Enter a one-word name: ");
     scanf("%49s", student.name);
 
-    printf("\\nStudent Information\\n");
-    printf("ID: %d\\n", student.id);
-    printf("Name: %s\\n", student.name);
-    printf("GPA: %.2f\\n", student.gpa);
+    printf("\nStudent Information\n");
+    printf("ID: %d\n", student.id);
+    printf("Name: %s\n", student.name);
+    printf("GPA: %.2f\n", student.gpa);
 
     return 0;
 }
@@ -202,11 +202,11 @@ int main(void)
         scanf("%d %f", &students[i].id, &students[i].marks);
     }
 
-    printf("\\nStudent Records\\n");
+    printf("\nStudent Records\n");
 
     for (i = 0; i < 3; i++)
     {
-        printf("ID: %d, Marks: %.2f\\n",
+        printf("ID: %d, Marks: %.2f\n",
                students[i].id, students[i].marks);
     }
 
@@ -279,8 +279,8 @@ int main(void)
 
 void displayBook(struct Book b)
 {
-    printf("Book ID: %d\\n", b.id);
-    printf("Book Price: %.2f\\n", b.price);
+    printf("Book ID: %d\n", b.id);
+    printf("Book Price: %.2f\n", b.price);
 }
 ```
 
@@ -321,15 +321,15 @@ int main(void)
     union Data value;
 
     value.number = 25;
-    printf("Integer member: %d\\n", value.number);
+    printf("Integer member: %d\n", value.number);
 
     value.decimal = 7.5f;
-    printf("Float member: %.1f\\n", value.decimal);
+    printf("Float member: %.1f\n", value.decimal);
 
     value.letter = 'A';
-    printf("Character member: %c\\n", value.letter);
+    printf("Character member: %c\n", value.letter);
 
-    printf("Size of union = %zu bytes\\n", sizeof(value));
+    printf("Size of union = %zu bytes\n", sizeof(value));
 
     return 0;
 }
@@ -378,10 +378,10 @@ union SampleUnion
 
 int main(void)
 {
-    printf("Size of structure = %zu bytes\\n",
+    printf("Size of structure = %zu bytes\n",
            sizeof(struct SampleStruct));
 
-    printf("Size of union = %zu bytes\\n",
+    printf("Size of union = %zu bytes\n",
            sizeof(union SampleUnion));
 
     return 0;
