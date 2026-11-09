@@ -42,6 +42,7 @@ Students will regularly solve programming problems to improve their practical pr
 - [Practical 07: Looping Statements in C (for, while, and do-while)](07-looping-statements-for-while-do-while.md) — suggested practice on the three basic loop structures.
 - [Practical 08: Nested Loops and Pattern Printing in C](08-nested-loops-pattern-printing.md) — suggested practice on nested loops, star patterns, number patterns, and multiplication tables.
 - [Practical 09: Arrays and Strings in C](09-arrays-and-strings.md) — suggested practice on one-dimensional arrays, matrices, and basic string operations.
+- [Practical 10: Functions in C](10-functions-in-c.md) — suggested practice on function prototypes, definitions, calls, arguments, return values, and pass by value.
 
 ## Final Lab Project
 
