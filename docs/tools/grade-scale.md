@@ -15,7 +15,7 @@ This page reproduces the grade distribution displayed on CSE Buddy's Grade Scale
 | C+ | 2.50 | 50–54 |
 | C | 2.25 | 45–49 |
 | D | 2.00 | 40–44 |
-| F(Fail) | 0.00 | 0–39 |
+| F (Fail) | 0.00 | 0–39 |
 
 ## GPA / SGPA formula
 
