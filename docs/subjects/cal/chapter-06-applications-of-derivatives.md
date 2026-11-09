@@ -1093,3 +1093,28 @@ Use these notes alongside your prescribed textbook, class lectures and teacher's
 ---
 
 *End of Chapter 06.*
+
+---
+
+## 16. NU Previous Questions and Board Question Archive
+
+### Verified-question status
+
+The accessible NU CSE Calculus question compilation (2009–2019) did not expose a sufficiently readable, year-tagged question specifically on extrema, optimization, concavity or points of inflection. No year has been guessed or attached to a textbook exercise.
+
+### Board-question archive
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE Calculus question collection (2009–2019)](https://www.scribd.com/document/947202575/NU-CSE-1st-Semester-Calculus)
+
+**Verification note:** The archive links are listed by a student-maintained NU CSE notes site. The original paper images still need to be checked before any specific question can be attributed to a year.
+
+### Additional practice (not verified PYQs)
+
+1. Find the local maximum and minimum values of a polynomial function.
+2. Determine intervals of increase and decrease.
+3. Find intervals of concavity and points of inflection.
+4. Solve a maximum/minimum word problem using differentiation.
+
+These are practice questions, not confirmed past-paper questions.
