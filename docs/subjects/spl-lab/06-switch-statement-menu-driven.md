@@ -108,11 +108,7 @@ int main(void) {
 
         case 4:
             if (b != 0) {
-                if (a == INT_MIN && b == -1) {
-                    printf("Error: Division result is outside the int input range.\n");
-                } else {
-                    printf("Division = %.2f\n", (double)a / b);
-                }
+                printf("Division = %.2f\n", (double)a / b);
             } else {
                 printf("Error: Division by zero is not allowed.\n");
             }
