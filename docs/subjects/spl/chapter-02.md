@@ -1228,3 +1228,149 @@ In this chapter, we learned:
 3. Explain implicit and explicit type conversion with examples.
 
 **Source caution:** Exact year tags come from student-maintained resources. Confirm them against the original paper scan before citing a year in an assignment or exam guide.
+
+---
+
+# 11. Solved Examples and Dry Runs
+
+## 11.1 Calculate the Average of Three Numbers
+
+### Logic first
+
+1. Declare three variables to store the numbers.
+2. Read the three numbers.
+3. Add them and divide the sum by 3.0.
+4. Display the average.
+
+### C Program
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    float a, b, c, average;
+
+    printf("Enter three numbers: ");
+    if (scanf("%f %f %f", &a, &b, &c) != 3)
+    {
+        printf("Invalid input.\n");
+        return 1;
+    }
+
+    average = (a + b + c) / 3.0f;
+    printf("Average = %.2f\n", average);
+
+    return 0;
+}
+~~~
+
+### Sample Input
+
+~~~text
+10 20 30
+~~~
+
+### Output
+
+~~~text
+Average = 20.00
+~~~
+
+### Dry Run
+
+| Step | Operation | Value |
+|---:|---|---|
+| 1 | Input | a = 10, b = 20, c = 30 |
+| 2 | Add | 10 + 20 + 30 = 60 |
+| 3 | Divide | 60 / 3.0 = 20.0 |
+| 4 | Display | Average = 20.00 |
+
+## 11.2 Operator Precedence
+
+### সহজ বাংলায়
+
+একটি expression-এ একাধিক operator থাকলে কোন কাজ আগে হবে, তা operator precedence নির্ধারণ করে।
+
+Example:
+
+~~~c
+int a = 5, b = 2;
+int result = a + b * 3;
+~~~
+
+এখানে multiplication আগে হবে:
+
+- b * 3 = 2 * 3 = 6
+- a + 6 = 5 + 6 = 11
+
+তাই result-এর মান 11।
+
+**Parentheses** ব্যবহার করলে expression-এর কোন অংশ আগে হিসাব হবে তা পরিষ্কার করা যায়।
+
+~~~c
+int result = (a + b) * 3; /* 21 */
+~~~
+
+### Dry Run
+
+| Expression | Calculation | Result |
+|---|---|---:|
+| 5 + 2 * 3 | 5 + 6 | 11 |
+| (5 + 2) * 3 | 7 * 3 | 21 |
+| 20 / 5 * 2 | 4 * 2 (left to right) | 8 |
+
+## 11.3 Integer Division vs Floating-point Division
+
+~~~c
+int a = 7, b = 2;
+printf("%d\n", a / b);
+printf("%.2f\n", (float)a / b);
+~~~
+
+Output:
+
+~~~text
+3
+3.50
+~~~
+
+**ব্যাখ্যা:** দুইটি integer ভাগ করলে integer division হয় এবং ভগ্নাংশ অংশ বাদ যায়। একটি operand-কে float করলে floating-point division হয়।
+
+## 11.4 Pre-increment and Post-increment
+
+~~~c
+int x = 5;
+int a = ++x; /* increment first, then use */
+int b = x++; /* use first, then increment */
+~~~
+
+| Statement | x after statement | Assigned value |
+|---|---:|---:|
+| a = ++x | 6 | a = 6 |
+| b = x++ | 7 | b = 6 |
+
+**মনে রাখবে:** Pre-increment আগে value বাড়ায়, post-increment expression-এ আগের value ব্যবহার করে তারপর value বাড়ায়।
+
+## 11.5 Common Operator Mistakes
+
+| Mistake | Why it is wrong | Correct idea |
+|---|---|---|
+| a = b to compare values | Assignment changes the value | Use a == b for equality |
+| 7 / 2 expecting 3.5 | Both operands are integers | Use 7.0 / 2 or cast one operand |
+| a + b * c assuming left-to-right | Multiplication has higher precedence than addition | Use parentheses when needed |
+| Using %d for a float | Format specifier does not match the value type | Use %f in printf |
+| Dividing by a value that may be zero | Division by zero is invalid | Check the divisor first |
+
+## 11.6 Exam Revision Checklist
+
+- [ ] Define variable, constant and data type.
+- [ ] Differentiate declaration and initialization.
+- [ ] Write rules for naming identifiers.
+- [ ] Explain basic data types and format specifiers.
+- [ ] Describe arithmetic, relational, logical and assignment operators.
+- [ ] Explain pre-increment and post-increment.
+- [ ] Solve expressions using operator precedence.
+- [ ] Differentiate integer division and floating-point division.
+- [ ] Write and dry-run a simple arithmetic C program.
+
