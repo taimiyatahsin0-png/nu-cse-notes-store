@@ -99,6 +99,8 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 01: AC Fundamentals](chapter-01-ac-fundamentals.md)
 
+[📝 Chapter 01 Exam Preparation Pack](chapter-01-exam-preparation.md)
+
 ### Chapter 02: Network Theorems
 
 [📖 Read Chapter 02: Network Theorems](chapter-02-network-theorems.md)
