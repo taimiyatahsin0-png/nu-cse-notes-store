@@ -60,10 +60,10 @@
 **English exam answer:** The RMS value of an alternating quantity is the equivalent DC value that produces the same heating effect in a given resistance over the same period.
 
 For a sine wave:
-[
+\\[
 V_{rms}=\frac{V_m}{\sqrt{2}}=0.707V_m
 \]
-[
+\\[
 I_{rms}=\frac{I_m}{\sqrt{2}}=0.707I_m
 \]
 
@@ -74,7 +74,7 @@ I_{rms}=\frac{I_m}{\sqrt{2}}=0.707I_m
 **English exam answer:** Form factor is the ratio of the RMS value to the average rectified value of an alternating quantity.
 
 For a sine wave:
-[
+\\[
 K_f=\frac{V_{rms}}{V_{avg,rect}}
 =\frac{0.707V_m}{0.637V_m}
 \approx 1.11
@@ -86,7 +86,7 @@ K_f=\frac{V_{rms}}{V_{avg,rect}}
 
 **English exam answer:** Series resonance occurs when the inductive reactance equals the capacitive reactance.
 
-[
+\\[
 X_L=X_C
 \]
 
@@ -97,33 +97,33 @@ X_L=X_C
 ### 3.1 Derivation of RMS value of a sinusoidal voltage
 
 ধরি, একটি sinusoidal voltage:
-[
+\\[
 v=V_m\sin\theta
 \]
 
 RMS-এর সংজ্ঞা অনুযায়ী,
-[
+\\[
 V_{rms}=\sqrt{\frac{1}{2\pi}\int_0^{2\pi}v^2\,d\theta}
 \]
 
 মান বসিয়ে,
-[
+\\[
 V_{rms}=\sqrt{\frac{1}{2\pi}\int_0^{2\pi}V_m^2\sin^2\theta\,d\theta}
 \]
 
 ধ্রুবক বাইরে নিলে,
-[
+\\[
 V_{rms}=V_m\sqrt{\frac{1}{2\pi}\int_0^{2\pi}\sin^2\theta\,d\theta}
 \]
 
 একটি পূর্ণ cycle-এ (\sin^2\theta)-এর গড় মান (1/2)। সুতরাং,
-[
+\\[
 V_{rms}=V_m\sqrt{\frac12}
 =\frac{V_m}{\sqrt2}
 \]
 
 অতএব,
-[
+\\[
 \boxed{V_{rms}=0.707V_m}
 \]
 
@@ -132,26 +132,26 @@ V_{rms}=V_m\sqrt{\frac12}
 ### 3.2 Derivation of average value of a sine wave over a half-cycle
 
 ধরি,
-[
+\\[
 v=V_m\sin\theta
 \]
 
 Positive half-cycle-এর average value:
-[
+\\[
 V_{avg}=\frac{1}{\pi}\int_0^{\pi}V_m\sin\theta\,d\theta
 \]
 
-[
+\\[
 =\frac{V_m}{\pi}[-\cos\theta]_0^{\pi}
 \]
 
-[
+\\[
 =\frac{V_m}{\pi}[1-(-1)]
 =\frac{2V_m}{\pi}
 \]
 
 অতএব,
-[
+\\[
 \boxed{V_{avg}=0.637V_m}
 \]
 
@@ -162,12 +162,12 @@ V_{avg}=\frac{1}{\pi}\int_0^{\pi}V_m\sin\theta\,d\theta
 Series RLC circuit-এ resistance (R) এবং net reactance ((X_L-X_C)) পরস্পরের সঙ্গে phasor-এ perpendicular।
 
 তাই impedance-এর মান:
-[
+\\[
 \boxed{Z=\sqrt{R^2+(X_L-X_C)^2}}
 \]
 
 এবং supply voltage (V) হলে,
-[
+\\[
 \boxed{I=\frac{V}{Z}}
 \]
 
@@ -208,17 +208,17 @@ Series RLC circuit-এ resistance (R) এবং net reactance ((X_L-X_C)) পর
 **Question:** An AC waveform has a time period of (0.02\text{ s}). Find its frequency.
 
 **Given:**
-[
+\\[
 T=0.02\text{ s}
 \]
 
 **Formula:**
-[
+\\[
 f=\frac1T
 \]
 
 **Calculation:**
-[
+\\[
 f=\frac{1}{0.02}=50\text{ Hz}
 \]
 
@@ -229,17 +229,17 @@ f=\frac{1}{0.02}=50\text{ Hz}
 **Question:** A sinusoidal voltage has a maximum value of (311\text{ V}). Find its RMS value.
 
 **Given:**
-[
+\\[
 V_m=311\text{ V}
 \]
 
 **Formula:**
-[
+\\[
 V_{rms}=\frac{V_m}{\sqrt2}
 \]
 
 **Calculation:**
-[
+\\[
 V_{rms}=\frac{311}{1.414}
 \approx219.95\text{ V}
 \]
@@ -251,20 +251,20 @@ V_{rms}=\frac{311}{1.414}
 **Question:** An inductor of (0.2\text{ H}) is connected to a (50\text{ Hz}) AC supply. Find its inductive reactance.
 
 **Given:**
-[
+\\[
 L=0.2\text{ H},\quad f=50\text{ Hz}
 \]
 
 **Formula:**
-[
+\\[
 X_L=2\pi fL
 \]
 
 **Calculation:**
-[
+\\[
 X_L=2\times3.1416\times50\times0.2
 \]
-[
+\\[
 X_L\approx62.83\ \Omega
 \]
 
@@ -275,23 +275,23 @@ X_L\approx62.83\ \Omega
 **Question:** A (100\mu\text{F}) capacitor is connected to a (50\text{ Hz}) supply. Find its capacitive reactance.
 
 **Given:**
-[
+\\[
 C=100\times10^{-6}\text{ F}=0.0001\text{ F}
 \]
-[
+\\[
 f=50\text{ Hz}
 \]
 
 **Formula:**
-[
+\\[
 X_C=\frac{1}{2\pi fC}
 \]
 
 **Calculation:**
-[
+\\[
 X_C=\frac{1}{2\times3.1416\times50\times0.0001}
 \]
-[
+\\[
 X_C\approx31.83\ \Omega
 \]
 
@@ -302,25 +302,25 @@ X_C\approx31.83\ \Omega
 **Question:** A series RLC circuit has (R=6\ \Omega), (X_L=10\ \Omega), and (X_C=2\ \Omega). If the supply voltage is (100\text{ V RMS}), find impedance and current.
 
 **Given:**
-[
+\\[
 R=6\ \Omega,\quad X_L=10\ \Omega,\quad X_C=2\ \Omega
 \]
-[
+\\[
 V=100\text{ V}
 \]
 
 **Step 1 — Impedance:**
-[
+\\[
 Z=\sqrt{R^2+(X_L-X_C)^2}
 \]
-[
+\\[
 Z=\sqrt{6^2+(10-2)^2}
 =\sqrt{36+64}
 =10\ \Omega
 \]
 
 **Step 2 — Current:**
-[
+\\[
 I=\frac VZ=\frac{100}{10}=10\text{ A}
 \]
 
@@ -331,20 +331,20 @@ I=\frac VZ=\frac{100}{10}=10\text{ A}
 **Question:** Find the resonant frequency of an ideal LC circuit with (L=0.2\text{ H}) and (C=50\mu\text{F}).
 
 **Given:**
-[
+\\[
 L=0.2\text{ H},\quad C=50\times10^{-6}\text{ F}
 \]
 
 **Formula:**
-[
+\\[
 f_r=\frac{1}{2\pi\sqrt{LC}}
 \]
 
 **Calculation:**
-[
+\\[
 f_r=\frac{1}{2\pi\sqrt{0.2\times50\times10^{-6}}}
 \]
-[
+\\[
 f_r\approx50.33\text{ Hz}
 \]
 
@@ -462,7 +462,7 @@ Prepare structured answers for these questions:
 
 1. (f=50\text{ Hz},\ T=0.02\text{ s})
 2. (I_{rms}=10\text{ A})
-3. (V_{avg}=127.4\text{ V}\) (approximately)
+3. \\(V_{avg}=127.3\\text{ V}\\) (approximately)
 4. (X_L\approx37.70\ \Omega)
 5. (X_C\approx67.73\ \Omega)
 6. (Z=10\ \Omega)
