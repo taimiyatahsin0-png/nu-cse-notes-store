@@ -1,5 +1,5 @@
-site_name: NU CSE – First Semester
-site_description: First Semester CSE Notes, Programming Practice and Exam Preparation for National University Students
+site_name: NU CSE Notes Store
+site_description: CSE Notes, Programming Practice and Exam Preparation for National University Students
 site_url: https://taimiyatahsin0-png.github.io/nu-cse-notes-store/
 
 theme:
@@ -41,8 +41,8 @@ markdown_extensions:
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.emoji:
-      emoji_index: !!python/name: material.extensions.emoji.twemoji
-      emoji_generator: !!python/name: material.extensions.emoji.to_svg
+      emoji_index: !!python/name: material.extensions.emoji.twemoji ''
+      emoji_generator: !!python/name: material.extensions.emoji.to_svg ''
   
 extra_javascript:
   - javascripts/cgpa-calculator.js
