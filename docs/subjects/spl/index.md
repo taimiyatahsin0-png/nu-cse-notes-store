@@ -84,6 +84,8 @@ C Programming Language
 
 [📥 Download Chapter 02 PDF](SPL-Chapter-02.pdf)
 
+- [Algorithm, Flowchart and Pseudocode](algorithm-flowchart-pseudocode.md)
+
 ### Chapter 03: Input, Output and Control Statements
 
 [📖 Read Chapter 03](chapter-03.md)
