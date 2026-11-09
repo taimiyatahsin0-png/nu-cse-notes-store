@@ -287,7 +287,7 @@ int main()
 
     if (scanf("%d", &age) != 1)
     {
-        printf("Invalid input.\\n");
+        printf("Invalid input.\n");
         return 1;
     }
 
@@ -960,13 +960,13 @@ int main()
 
     if (scanf("%d %d", &a, &b) != 2)
     {
-        printf("Invalid input.\\n");
+        printf("Invalid input.\n");
         return 1;
     }
 
     sum = (long long)a + b;
 
-    printf("Sum = %lld\\n", sum);
+    printf("Sum = %lld\n", sum);
 
     return 0;
 }
@@ -1001,19 +1001,19 @@ int main()
 
     if (scanf("%lf %lf", &length, &width) != 2)
     {
-        printf("Invalid input.\\n");
+        printf("Invalid input.\n");
         return 1;
     }
 
     if (length < 0.0 || width < 0.0)
     {
-        printf("Length and width cannot be negative.\\n");
+        printf("Length and width cannot be negative.\n");
         return 1;
     }
 
     area = length * width;
 
-    printf("Area = %.2f\\n", area);
+    printf("Area = %.2f\n", area);
 
     return 0;
 }
