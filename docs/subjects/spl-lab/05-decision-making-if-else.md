@@ -101,13 +101,13 @@ int main(void)
 
     if (scanf("%d", &number) != 1)
     {
-        printf("Invalid input.\\n");
+        printf("Invalid input.\n");
         return 1;
     }
 
     if (number > 0)
     {
-        printf("The number is positive.\\n");
+        printf("The number is positive.\n");
     }
 
     return 0;
@@ -138,17 +138,17 @@ int main(void)
 
     if (scanf("%d", &number) != 1)
     {
-        printf("Invalid input.\\n");
+        printf("Invalid input.\n");
         return 1;
     }
 
     if (number % 2 == 0)
     {
-        printf("The number is even.\\n");
+        printf("The number is even.\n");
     }
     else
     {
-        printf("The number is odd.\\n");
+        printf("The number is odd.\n");
     }
 
     return 0;
@@ -179,7 +179,7 @@ int main(void)
 
     if (scanf("%d %d %d", &a, &b, &c) != 3)
     {
-        printf("Invalid input.\\n");
+        printf("Invalid input.\n");
         return 1;
     }
 
@@ -187,22 +187,22 @@ int main(void)
     {
         if (a >= c)
         {
-            printf("Largest = %d\\n", a);
+            printf("Largest = %d\n", a);
         }
         else
         {
-            printf("Largest = %d\\n", c);
+            printf("Largest = %d\n", c);
         }
     }
     else
     {
         if (b >= c)
         {
-            printf("Largest = %d\\n", b);
+            printf("Largest = %d\n", b);
         }
         else
         {
-            printf("Largest = %d\\n", c);
+            printf("Largest = %d\n", c);
         }
     }
 
