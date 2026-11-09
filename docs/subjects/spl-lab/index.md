@@ -36,6 +36,8 @@ Students will regularly solve programming problems to improve their practical pr
 - [Practical 01: Basic Structure of a C Program](01-basic-structure-of-c-program.md) — suggested foundational practical; verify experiment order with your department's current lab manual.
 - [Practical 02: Basic Input and Output Operations](02-basic-input-output-and-addition.md) — suggested exercise on variables, `scanf()`, `printf()`, and arithmetic.
 - [Practical 03: Arithmetic Operations in C](03-arithmetic-operations.md) — suggested practice on arithmetic operators and division-by-zero handling.
+- [Practical 04: Relational and Logical Operators in C](04-relational-and-logical-operators.md) — suggested practice on comparisons and combined conditions.
+- [Practical 05: Decision Making Using if, if-else, and Nested if](05-decision-making-if-else.md) — suggested practice on conditional statements.
 
 ## Final Lab Project
 
