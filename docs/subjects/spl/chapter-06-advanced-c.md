@@ -491,7 +491,7 @@ int main(void)
 
     if (a == NULL)
     {
-        printf("Memory allocation failed.\\n");
+        printf("Memory allocation failed.\n");
         return 1;
     }
 
