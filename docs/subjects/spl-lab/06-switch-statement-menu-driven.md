@@ -13,7 +13,7 @@ After completing this practical, you should be able to:
 - Explain the purpose and syntax of `switch`, `case`, `break`, and `default`.
 - Select an operation based on a user's menu choice.
 - Use `switch` to handle multiple fixed choices.
-- Prevent division-by-zero and modulus-by-zero errors.
+- Prevent division-by-zero, modulus-by-zero, and signed integer edge-case errors.
 
 ## 3. Theory
 
@@ -65,9 +65,11 @@ The program below takes two integers and lets the user choose an arithmetic oper
 
 ```c
 #include <stdio.h>
+#include <limits.h>
 
 int main(void) {
     int a, b, choice;
+    long long result;
 
     printf("===== MENU =====\n");
     printf("1. Addition\n");
@@ -90,30 +92,39 @@ int main(void) {
 
     switch (choice) {
         case 1:
-            printf("Addition = %d\n", a + b);
+            result = (long long)a + b;
+            printf("Addition = %lld\n", result);
             break;
 
         case 2:
-            printf("Subtraction = %d\n", a - b);
+            result = (long long)a - b;
+            printf("Subtraction = %lld\n", result);
             break;
 
         case 3:
-            printf("Multiplication = %d\n", a * b);
+            result = (long long)a * b;
+            printf("Multiplication = %lld\n", result);
             break;
 
         case 4:
             if (b != 0) {
-                printf("Division = %.2f\n", (double)a / b);
+                if (a == INT_MIN && b == -1) {
+                    printf("Error: Division result is outside the int input range.\n");
+                } else {
+                    printf("Division = %.2f\n", (double)a / b);
+                }
             } else {
                 printf("Error: Division by zero is not allowed.\n");
             }
             break;
 
         case 5:
-            if (b != 0) {
-                printf("Modulus = %d\n", a % b);
-            } else {
+            if (b == 0) {
                 printf("Error: Modulus by zero is not allowed.\n");
+            } else if (a == INT_MIN && b == -1) {
+                printf("Error: Remainder is not representable as an int.\n");
+            } else {
+                printf("Modulus = %d\n", a % b);
             }
             break;
 
@@ -148,7 +159,7 @@ int main(void) {
 4. Read two integer numbers.
 5. Check the choice using a `switch` statement.
 6. Perform the selected operation.
-7. Before division or modulus, check whether the second number is zero.
+7. Before division or modulus, check whether the second number is zero; also handle the `INT_MIN` and `-1` edge case.
 8. If the choice is invalid, display an error message.
 9. Stop.
 
@@ -237,7 +248,7 @@ If GCC is not installed or configured, use the C compiler/IDE available in your 
 - Writing duplicate case values.
 - Using a non-constant expression as a case label.
 - Forgetting to handle invalid menu choices with `default`.
-- Dividing by zero or calculating modulus by zero.
+- Dividing by zero, calculating modulus by zero, or overlooking the `INT_MIN` and `-1` edge case.
 - Using `%` with floating-point values.
 - Forgetting the address operator `&` in `scanf()`.
 
