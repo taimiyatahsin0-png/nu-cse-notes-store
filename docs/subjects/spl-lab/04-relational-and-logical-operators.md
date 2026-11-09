@@ -70,22 +70,22 @@ int main(void)
 
     if (scanf("%d %d", &first, &second) != 2)
     {
-        printf("Invalid input. Please enter two integers.\\n");
+        printf("Invalid input. Please enter two integers.\n");
         return 1;
     }
 
-    printf("first > second: %d\\n", first > second);
-    printf("first < second: %d\\n", first < second);
-    printf("first == second: %d\\n", first == second);
-    printf("first != second: %d\\n", first != second);
+    printf("first > second: %d\n", first > second);
+    printf("first < second: %d\n", first < second);
+    printf("first == second: %d\n", first == second);
+    printf("first != second: %d\n", first != second);
 
-    printf("Both numbers are positive: %d\\n",
+    printf("Both numbers are positive: %d\n",
            first > 0 && second > 0);
 
-    printf("At least one number is positive: %d\\n",
+    printf("At least one number is positive: %d\n",
            first > 0 || second > 0);
 
-    printf("The numbers are not equal: %d\\n",
+    printf("The numbers are not equal: %d\n",
            !(first == second));
 
     return 0;
