@@ -470,9 +470,9 @@ int main(void)
     }
 
     if (isPalindrome)
-        printf("Palindrome\\n");
+        printf("Palindrome\n");
     else
-        printf("Not a palindrome\\n");
+        printf("Not a palindrome\n");
 
     return 0;
 }
@@ -517,7 +517,7 @@ int main(void)
     for (i = 0; i < 5; i++)
         printf("%d ", a[i]);
 
-    printf("\\n");
+    printf("\n");
     return 0;
 }
 ```
