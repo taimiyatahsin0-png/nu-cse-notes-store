@@ -77,6 +77,18 @@ This course covers fundamental concepts of electricity and magnetism, including 
 - Inductance in Series and Parallel
 - Hysteresis and Eddy Current Losses
 
+
+## Chapter-wise Notes
+
+- [Chapter 01: Electrostatics and Capacitance](chapter-01-electrostatics-and-capacitance.md)
+- [Chapter 02: Electric Current, Circuits and Measurements](chapter-02-electric-current-and-circuits.md)
+- [Chapter 03: Magnetic Fields and Force on Current](chapter-03-magnetic-fields-and-force.md)
+- [Chapter 04: Magnetic Properties of Matter and Induction](chapter-04-magnetic-properties-and-induction.md)
+
+## Study Approach
+
+Each chapter follows a beginner-friendly order: Bangla concept explanation, standard English definitions, formula derivations or reasoning, solved numerical examples, common mistakes, short exam questions and original practice questions. Practice questions are not labelled as NU past questions unless the original paper and year are verified.
+
 ## Reference Books
 
 1. Physics, Part II — David Halliday and Robert Resnick
