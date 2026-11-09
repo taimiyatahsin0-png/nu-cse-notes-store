@@ -1,8 +1,6 @@
 
 # NU CSE First Semester Syllabus
 
-Welcome to the academic syllabus section of NU CSE Notes Store.
-
 This section covers the currently followed First Semester syllabus for the B.Sc. Honours in Computer Science and Engineering (CSE) under National University, Bangladesh.
 
 ## CSE First Semester Course Information
@@ -40,4 +38,3 @@ This section covers the currently followed First Semester syllabus for the B.Sc.
 
 **Note:** The notes and course list on this website are organized for NU CSE First Semester using the syllabus effective from Session 2017–2018.
 
-Happy Learning! 🌿
