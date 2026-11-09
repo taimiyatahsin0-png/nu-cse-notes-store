@@ -565,7 +565,8 @@ Compile and run each program separately.
 9. What are the four common categories of user-defined functions?
 10. What is meant by pass by value?
 11. Can a `void` function return a value?
-12. What is the role of the `main()` function?\n13. What is the difference between local scope and global scope?\n14. What is a static local variable?\n15. What is recursion? Why is a base case necessary?\n16. What is the basic purpose of `extern`?
+12. What is the role of the `main()` function?
+13. What is the difference between local scope and global scope?\n14. What is a static local variable?\n15. What is recursion? Why is a base case necessary?\n16. What is the basic purpose of `extern`?
 
 ---
 
