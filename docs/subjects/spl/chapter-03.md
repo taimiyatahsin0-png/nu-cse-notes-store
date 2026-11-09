@@ -15,7 +15,7 @@ After completing this chapter, students will be able to:
 - Explain formatted input and output in C.
 - Use `printf()` and `scanf()` with suitable format specifiers.
 - Distinguish sequential execution from decision-making statements.
-- Write and trace `if`, `if-else`, nested `if`, `else-if` ladder and `switch` statements.
+- Write and trace `if`, `if-else`, nested `if`, `else-if` ladder, `switch` and looping statements.
 - Solve beginner-level decision problems with complete C programs.
 - Present definitions, differences and program answers in a clear exam format.
 
@@ -842,6 +842,357 @@ Ans: `=` is the assignment operator, whereas `==` is the equality operator used 
 
 ---
 
+
+
+---
+
+# Part G: Looping Statements in C
+
+## 13. What is Looping?
+
+একই statement বা statement-এর group বারবার execute করার পদ্ধতিকে Looping বলে। কোনো কাজ নির্দিষ্ট সংখ্যক বার বা কোনো condition সত্য থাকা পর্যন্ত করতে হলে loop ব্যবহার করা হয়।
+
+**English Exam Definition:** A loop is a control structure that repeatedly executes a block of statements while a specified condition is satisfied or until a termination condition is reached.
+
+C-তে প্রধানত তিন ধরনের loop আছে: while, do-while এবং for।
+
+## 14. The while Loop
+
+while loop প্রথমে condition পরীক্ষা করে। Condition true হলে body execute হয়। তাই condition শুরুতেই false হলে body একবারও execute হয় না।
+
+### Syntax
+
+~~~c
+while (condition)
+{
+    statements;
+}
+~~~
+
+### Example: Display 1 to 5
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 1;
+
+    while (i <= 5)
+    {
+        printf("%d\n", i);
+        i++;
+    }
+
+    return 0;
+}
+~~~
+
+Output:
+~~~text
+1
+2
+3
+4
+5
+~~~
+
+### Dry Run
+
+| Iteration | i before check | Condition i <= 5 | Printed | i after update |
+|---:|---:|---|---:|---:|
+| 1 | 1 | True | 1 | 2 |
+| 2 | 2 | True | 2 | 3 |
+| 3 | 3 | True | 3 | 4 |
+| 4 | 4 | True | 4 | 5 |
+| 5 | 5 | True | 5 | 6 |
+| 6 | 6 | False | — | 6 |
+
+## 15. The do-while Loop
+
+do-while loop-এ body আগে execute হয়, তারপর condition পরীক্ষা হয়। তাই condition শুরুতে false হলেও body অন্তত একবার execute হয়।
+
+### Syntax
+
+~~~c
+do
+{
+    statements;
+} while (condition);
+~~~
+
+মনে রাখবে: while (condition);-এর শেষে semicolon থাকে।
+
+### Example
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int i = 1;
+
+    do
+    {
+        printf("%d\n", i);
+        i++;
+    } while (i <= 5);
+
+    return 0;
+}
+~~~
+
+## 16. The for Loop
+
+নির্দিষ্ট সংখ্যক বার repeat করার ক্ষেত্রে for loop অনেক সুবিধাজনক। এতে initialization, condition এবং update একই লাইনে থাকে।
+
+### Syntax
+
+~~~c
+for (initialization; condition; update)
+{
+    statements;
+}
+~~~
+
+Execution order:
+1. Initialization একবার হয়।
+2. Condition পরীক্ষা হয়।
+3. True হলে body চলে।
+4. Update হয়।
+5. আবার condition পরীক্ষা হয়।
+6. False হলে loop শেষ হয়।
+
+### Example: Display 1 to 5
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int i;
+
+    for (i = 1; i <= 5; i++)
+        printf("%d\n", i);
+
+    return 0;
+}
+~~~
+
+## 17. Difference Between while, do-while and for
+
+| while | do-while | for |
+|---|---|---|
+| Entry-controlled loop | Exit-controlled loop | Entry-controlled loop |
+| আগে condition পরীক্ষা | পরে condition পরীক্ষা | আগে condition পরীক্ষা |
+| Zero or more execution | At least one execution | Zero or more execution |
+| Initialization/update আলাদা লেখা হয় | Initialization/update আলাদা লেখা হয় | এক লাইনে লেখা যায় |
+
+## 18. Program: Sum of First N Natural Numbers
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int n, i, sum = 0;
+
+    printf("Enter a positive integer: ");
+    if (scanf("%d", &n) != 1 || n < 1)
+    {
+        printf("Please enter a positive integer.\n");
+        return 1;
+    }
+
+    for (i = 1; i <= n; i++)
+        sum += i;
+
+    printf("Sum = %d\n", sum);
+    return 0;
+}
+~~~
+
+Input: 5  
+Output: Sum = 15
+
+## 19. Nested Loop
+
+একটি loop-এর ভেতরে আরেকটি loop থাকলে তাকে Nested Loop বলে। Matrix, table এবং pattern printing-এ এটি ব্যবহৃত হয়।
+
+### Example: 3×3 Star Pattern
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int i, j;
+
+    for (i = 1; i <= 3; i++)
+    {
+        for (j = 1; j <= 3; j++)
+            printf("* ");
+        printf("\n");
+    }
+
+    return 0;
+}
+~~~
+
+Output:
+~~~text
+* * *
+* * *
+* * *
+~~~
+
+Outer loop row নিয়ন্ত্রণ করে, inner loop প্রতিটি row-এর column/character নিয়ন্ত্রণ করে।
+
+## 20. The break Statement
+
+break loop বা switch statement থেকে সঙ্গে সঙ্গে বের হয়ে যায়।
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int i;
+
+    for (i = 1; i <= 10; i++)
+    {
+        if (i == 5)
+            break;
+        printf("%d ", i);
+    }
+
+    return 0;
+}
+~~~
+
+Output: 1 2 3 4
+
+## 21. The continue Statement
+
+continue বর্তমান iteration-এর বাকি অংশ skip করে পরবর্তী iteration-এর জন্য loop control-এ ফিরে যায়।
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int i;
+
+    for (i = 1; i <= 5; i++)
+    {
+        if (i == 3)
+            continue;
+        printf("%d ", i);
+    }
+
+    return 0;
+}
+~~~
+
+Output: 1 2 4 5
+
+**সতর্কতা:** while loop-এ continue ব্যবহার করলে condition-এ ফেরার আগে update statement skip হয়ে যেতে পারে। তাই update যেন বাদ না পড়ে, তা নিশ্চিত করতে হবে।
+
+## 22. Difference Between break and continue
+
+| break | continue |
+|---|---|
+| Loop পুরোপুরি শেষ করে | শুধু বর্তমান iteration skip করে |
+| Loop-এর পরের statement-এ যায় | পরবর্তী iteration শুরু করে |
+| switch-এও ব্যবহৃত হয় | Loop-এ ব্যবহৃত হয় |
+
+## 23. Infinite Loop
+
+যে loop-এর termination condition কখনো false হয় না, সেটি অনির্দিষ্টকাল চলতে পারে।
+
+~~~c
+while (1)
+{
+    /* repeats until an exit mechanism is used */
+}
+~~~
+
+Beginner program-এ loop variable update করতে ভুল করলে accidental infinite loop হতে পারে।
+
+## 24. Loop Control: Common Mistakes
+
+1. i++ বা অন্য update ভুলে যাওয়া।
+2. i <= n এবং i < n গুলিয়ে ফেলা।
+3. do-while-এর শেষে semicolon না দেওয়া।
+4. Loop-এর শুরুতে variable initialize না করা।
+5. ভুল condition-এর কারণে infinite loop তৈরি করা।
+6. Nested loop-এ inner ও outer variable গুলিয়ে ফেলা।
+
+## 25. English Exam Notes
+
+**Q1. What is a loop?**  
+A loop is a control structure that repeatedly executes a block of statements based on a condition.
+
+**Q2. What is an entry-controlled loop?**  
+An entry-controlled loop checks its condition before executing the loop body. Examples: for and while.
+
+**Q3. What is an exit-controlled loop?**  
+An exit-controlled loop checks its condition after executing the loop body. Example: do-while.
+
+**Q4. What is a nested loop?**  
+A nested loop is a loop placed inside another loop.
+
+**Q5. What is the purpose of break?**  
+The break statement immediately terminates the nearest enclosing loop or switch statement.
+
+**Q6. What is the purpose of continue?**  
+The continue statement skips the remaining statements in the current iteration and proceeds to the next iteration of the loop.
+
+## 26. Short Questions (2 Marks)
+
+1. Define looping.
+2. Name the three loops in C.
+3. What is an entry-controlled loop?
+4. What is an exit-controlled loop?
+5. What is a nested loop?
+6. Write the syntax of a for loop.
+7. Why is a semicolon used after the while condition in do-while?
+8. What is an infinite loop?
+9. Differentiate between break and continue.
+
+## 27. Broad Questions (5 Marks)
+
+1. Explain the while loop with syntax and example.
+2. Explain the do-while loop with syntax and example.
+3. Explain the for loop with a flow of execution.
+4. Differentiate between while, do-while and for.
+5. Explain nested loops with a suitable program.
+6. Differentiate between break and continue.
+
+## 28. Programming Practice
+
+1. Display even numbers from 1 to 100.
+2. Find the factorial of a positive integer using a loop.
+3. Reverse the digits of an integer.
+4. Count the digits of an integer.
+5. Check whether a number is prime.
+6. Print a multiplication table.
+7. Find the sum of all even numbers from 1 to N.
+8. Print a right-angled triangle pattern using nested loops.
+
+## 29. Quick Revision
+
+- while: checks condition before body.
+- do-while: executes body at least once.
+- for: initialization, condition and update in one header.
+- Nested loop: loop inside another loop.
+- break: exits nearest loop/switch.
+- continue: skips current iteration.
+- Infinite loop: termination condition never becomes false.
+
+**End of Looping Section**
+
+
 # Chapter Summary
 
 In this chapter, we learned:
@@ -851,6 +1202,8 @@ In this chapter, we learned:
 - Conditions use relational and logical operators to select a path.
 - `if`, `if-else`, nested `if`, and `else-if` ladder implement decisions.
 - `switch` selects among fixed case values; `break` prevents unwanted fall-through and `default` handles unmatched values.
+- `while`, `do-while` and `for` repeat statements; nested loops handle repeated rows/columns.
+- `break` exits the nearest loop or switch, while `continue` skips the current loop iteration.
 - Boundary checks and correct condition order help avoid logic errors.
 
 **Remember:** For every decision problem, understand the condition first, arrange branches carefully, and test boundary values before writing the final answer.
@@ -859,5 +1212,5 @@ In this chapter, we learned:
 
 **End of Chapter 03**
 
-*Next: Looping statements in C.*
+*This chapter also covers looping statements in C.*
 
