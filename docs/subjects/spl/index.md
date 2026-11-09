@@ -68,8 +68,12 @@ C Programming Language
 2. Teach Yourself C — Herbert Schildt
 
 ---
----
+
 ## Chapter-wise Notes
+
+### Foundation: Problem Solving
+
+- [📖 Algorithm, Flowchart and Pseudocode](algorithm-flowchart-pseudocode.md)
 
 ### Chapter 01: Introduction to C Programming
 
@@ -82,8 +86,6 @@ C Programming Language
 [📖 Read Chapter 02](chapter-02.md)
 
 [📥 Download Chapter 02 PDF](SPL-Chapter-02.pdf)
-
-- [📖 Algorithm, Flowchart and Pseudocode](algorithm-flowchart-pseudocode.md)
 
 ### Chapter 03: Input, Output, Decision Making and Looping
 
