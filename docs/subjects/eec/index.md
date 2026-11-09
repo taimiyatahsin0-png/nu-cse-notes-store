@@ -92,6 +92,13 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 - Differentiators
 - Summing Amplifiers
 
+
+## Chapter-wise Notes
+
+### Chapter 01: AC Fundamentals
+
+[📖 Read Chapter 01: AC Fundamentals](chapter-01-ac-fundamentals.md)
+
 ## Reference Books
 
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
