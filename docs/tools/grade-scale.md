@@ -1,33 +1,29 @@
-# NU Grade Scale
+# Grade Scale
 
-This page summarizes the commonly published National University 4.00 grading scale for Honours programmes. Always confirm that the regulation applies to your programme and session. The 2025 Revised Honours Regulation may not govern Professional Honours CSE.
+This page reproduces the grade distribution displayed on CSE Buddy's Grade Scale page.
 
-## Grade and marks range
+## Grade, point and marks range
 
-| Marks obtained | Letter grade | Grade point | Result |
-|---:|:---:|---:|---|
-| 80%–100% | A+ | 4.00 | Pass |
-| 75%–less than 80% | A | 3.75 | Pass |
-| 70%–less than 75% | A− | 3.50 | Pass |
-| 65%–less than 70% | B+ | 3.25 | Pass |
-| 60%–less than 65% | B | 3.00 | Pass |
-| 55%–less than 60% | B− | 2.75 | Pass |
-| 50%–less than 55% | C+ | 2.50 | Pass |
-| 45%–less than 50% | C | 2.25 | Pass |
-| 40%–less than 45% | D | 2.00 | Lowest pass grade |
-| Below 40% | F | 0.00 | Fail |
+| Grade | Grade point | Marks range |
+|:---:|---:|---:|
+| A+ | 4.00 | 80–100 |
+| A | 3.75 | 75–79 |
+| A− | 3.50 | 70–74 |
+| B+ | 3.25 | 65–69 |
+| B | 3.00 | 60–64 |
+| B− | 2.75 | 55–59 |
+| C+ | 2.50 | 50–54 |
+| C | 2.25 | 45–49 |
+| D | 2.00 | 40–44 |
+| F (Fail) | 0.00 | 0–39 |
 
-**Range clarification:** 75% exactly is A (3.75), 70% exactly is A− (3.50), 40% exactly is D (2.00), and 39.99% is F (0.00). A+ begins at 80%.
-
-## GPA and CGPA formula
-
-A credit-weighted result gives more weight to a course with more credits.
+## GPA / SGPA formula
 
 \[
-\text{GPA} = \frac{\sum(\text{Credit} \times \text{Grade Point})}{\sum(\text{Attempted Credits})}
+\text{GPA} = \frac{\sum(\text{Course Credit} \times \text{Grade Point})}{\sum(\text{Attempted Course Credits})}
 \]
 
-For example:
+**Example**
 
 | Course | Credit | Grade | Grade point | Quality points |
 |---|---:|:---:|---:|---:|
@@ -40,32 +36,19 @@ For example:
 \text{GPA} = 31.50 \div 9 = 3.50
 \]
 
-## What CGPA range should I aim for?
+## Important notes
 
-| CGPA | Practical interpretation |
-|---:|---|
-| 3.75–4.00 | Very strong target; NU Honours 2025 regulation identifies this band for Distinction |
-| 3.50–3.74 | Strong academic result |
-| 3.00–3.49 | Good result; can support many academic and career pathways |
-| 2.50–2.99 | Moderate; improvement may widen options |
-| 2.00–2.49 | Lower range; review eligibility requirements for each opportunity |
-| Below 2.00 | Check programme rules and academic standing carefully |
+- The CGPA calculator uses these grade points for course-grade calculations.
+- A course with an F receives 0.00 grade points and is counted in attempted credits in this calculator.
+- Quick CGPA uses each semester's displayed curriculum credit total to calculate a credit-weighted average.
+- Grade marks and points here are transcribed from CSE Buddy's displayed grade distribution. They are a reference, not confirmation that the same regulation applies to every NU programme.
 
-The interpretation bands above are planning guidance, not official NU class divisions. The 2025 Honours regulation states a minimum CGPA of 2.00 for the Honours degree and a 3.75–4.00 band for Honours with Distinction; confirm how these clauses apply to your specific Professional Honours programme. In the regulation example, yearly GPA uses attempted credits (including an F course at 0 points), while F does not earn credit. The cumulative calculation and repeat/improvement rules must be checked against the regulation that applies to your programme.
+## Verify your programme's regulation
 
-## Common mistakes
+Your official NU Professional Honours CSE syllabus and applicable examination regulations take precedence over a third-party reference. In particular, confirm the grade scale, credit weighting, failed-course treatment, repeat/improvement rules and CGPA calculation method for your 2025–26 session before using this as an official estimate.
 
-1. Taking a simple average of course GPAs instead of weighting by credit.
-2. Entering a non-credit course in the calculation.
-3. Counting an F course as earned credit.
-4. Using the wrong credit value for a lab or theory course.
-5. Treating a target CGPA as a guaranteed scholarship, job or admission cutoff.
-
-## Official references
-
-- [National University — Bachelor Degree (Honours) Revised Regulation 2025 (PDF)](https://rc.gov.bd/notice_panel/rc/upload_notices/IMG_20251111_0004.pdf)
-- [National University official website](https://www.nu.ac.bd/)
+**Reference:** [CSE Buddy — Grade Scale](https://csebuddy.pythonanywhere.com/grade-distribution/) · [CSE Buddy — CGPA Calculator](https://csebuddy.pythonanywhere.com/cgpa-calculator/)
 
 [Open the CGPA Calculator](cgpa-calculator.md)
 
-*This page is an educational guide, not an official transcript or result calculator.*
+*This is an unofficial study tool. It does not replace an NU transcript or official result.*
