@@ -18,7 +18,7 @@ Special emphasis is given to the development of reading and writing skills.
 
 **Assessment Note:** 30% of the total marks will be allotted to class work in reading and writing.
 
-# Official Syllabus Topics
+# Syllabus Topics (Reference: Session 2017–2018)
 
 ## 1. Speaking Skills
 
