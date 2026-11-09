@@ -296,7 +296,7 @@ int main(void)
     {
         printf("Enter mark %d: ", i);
 
-        if (scanf("%f", &mark) != 1 || mark < 0.0f || mark > 100.0f)
+        if (scanf("%f", &mark) != 1 || !(mark >= 0.0f && mark <= 100.0f))
         {
             printf("Error: Enter a valid mark from 0 to 100.\n");
             return 1;
