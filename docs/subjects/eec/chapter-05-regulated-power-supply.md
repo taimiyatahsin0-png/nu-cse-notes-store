@@ -39,7 +39,7 @@ A traditional linear power supply commonly has these stages:
 
 Simplified block diagram:
 
-\`\`\`text
+```text
 AC input
    |
    v
@@ -56,7 +56,7 @@ Voltage regulator
    |
    v
 Stable DC output
-\`\`\`
+```
 
 Some modern power supplies use switching converters rather than a traditional transformer-and-linear-regulator arrangement. The block diagram above describes the basic linear supply taught in introductory electronics.
 
@@ -82,14 +82,14 @@ A **half-wave rectifier** uses one diode to pass one half-cycle of an AC input a
 
 ### Circuit idea
 
-\`\`\`text
+```text
        D
 AC o───|>|─────+──── Vout(+)
                 |
                R_L
                 |
 AC o────────────+──── Vout(-)
-\`\`\`
+```
 
 Here \(R_L\) is the load resistance.
 
@@ -113,7 +113,7 @@ The output therefore contains only one half of each input cycle.
 
 ### Output waveform (conceptual)
 
-\`\`\`text
+```text
 Input AC:       /\\      /\\
           _____/  \\____/  \\____
                \\  /    \\  /
@@ -121,7 +121,7 @@ Input AC:       /\\      /\\
 
 Half-wave:      /\\              /\\
           _____/  \\____________/  \\____
-\`\`\`
+```
 
 The sketch is conceptual, not a scale drawing.
 
@@ -180,7 +180,7 @@ This circuit uses a centre-tapped transformer and two diodes.
 
 Simplified circuit idea:
 
-\`\`\`text
+```text
 Transformer end A ──|>|───+
                     D1    |
                           +──── Vout(+)
@@ -191,7 +191,7 @@ Centre tap ───────────────+──── Vout(-)
                           |
 Transformer end B ──|>|───+
                     D2
-\`\`\`
+```
 
 The two secondary ends produce voltages of opposite phase with respect to the centre tap.
 
@@ -237,7 +237,7 @@ A bridge rectifier uses four diodes arranged in a bridge. It does not require a 
 
 Simplified bridge arrangement:
 
-\`\`\`text
+```text
                  D1          D2
 AC terminal A o─|>|────+────|<|─o AC terminal B
                         |
@@ -249,7 +249,7 @@ AC terminal A o─|>|────+────|<|─o AC terminal B
                         |
 AC terminal A o─|<|────+────|>|─o AC terminal B
                  D3          D4
-\`\`\`
+```
 
 This is a conceptual bridge sketch showing the four-diode arrangement. In an actual circuit, each half-cycle uses a diagonally opposite pair of diodes.
 
@@ -314,7 +314,7 @@ The simplest commonly taught filter is a capacitor connected in parallel with th
 
 ### Capacitor filter
 
-\`\`\`text
+```text
 Rectifier output ────+──── Vout(+)
                     |
                     C
@@ -324,7 +324,7 @@ Rectifier output ────+──── Vout(+)
                    R_L
                     |
                    GND
-\`\`\`
+```
 
 The capacitor is connected across the load.
 
@@ -440,7 +440,7 @@ A Zener diode can be used as a simple **shunt voltage regulator**. It is connect
 
 ### Circuit arrangement
 
-\`\`\`text
+```text
              R_S
 Vin(+) ────/\\/\\/────+──── Vout(+)
                      |
@@ -451,7 +451,7 @@ Vin(+) ────/\\/\\/────+──── Vout(+)
                 bias)   │
                   │     │
 GND ──────────────+─────+──── Vout(-)
-\`\`\`
+```
 
 The Zener diode and load are connected in parallel.
 
@@ -546,7 +546,7 @@ A reference voltage and a control or error-amplifier stage are often used to com
 
 ### Basic idea
 
-\`\`\`text
+```text
 Unregulated DC
       |
       v
@@ -560,7 +560,7 @@ Unregulated DC
 
 Reference and feedback/control circuit
 adjusts transistor conduction.
-\`\`\`
+```
 
 This is a functional block sketch, not a complete transistor-level circuit.
 
