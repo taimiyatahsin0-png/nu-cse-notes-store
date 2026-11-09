@@ -81,6 +81,8 @@ C Programming Language
 ### Chapter 02: Variables, Data Types and Operators
 
 [📖 Read Chapter 02](chapter-02.md)
+
+[📥 Download Chapter 02 PDF](SPL-Chapter-02.pdf)
 *Note: Topics are organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
 Happy Coding! 💻
