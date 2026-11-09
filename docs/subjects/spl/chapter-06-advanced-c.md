@@ -472,11 +472,11 @@ Dynamic memory allocation means requesting memory while a program is running. Th
 | Function | Purpose |
 |---|---|
 | malloc(size) | Allocates a block of bytes; contents are uninitialized |
-| calloc(n, size) | Allocates space for an array of n elements and initializes all bytes to zero |
+| calloc(n, size) | Allocates space for an array of n elements and sets all allocated bytes to zero |
 | realloc(ptr, new_size) | Resizes an existing allocated block |
 | free(ptr) | Releases dynamically allocated memory |
 
-All four are declared in stdlib.h.
+All four are declared in stdlib.h. calloc() sets bytes to zero; for ordinary integer arrays this gives zero values, but zeroed bytes should not be assumed to represent every possible type's zero value (for example, every implementation's null pointer representation).
 
 ### Example: Allocate an integer array
 
