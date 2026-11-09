@@ -70,14 +70,6 @@ C Programming Language
 
 ---
 ---
-
-## 📖 Chapter-wise Notes
-
-### Chapter 01: Introduction to C Programming
-
-Learn the fundamentals of C programming, its history, features, compiler and basic program structure.
-
-[Read Chapter 01 →](chapter-01.md)
 ## Chapter-wise Notes
 
 ### Chapter 01: Introduction to C Programming
