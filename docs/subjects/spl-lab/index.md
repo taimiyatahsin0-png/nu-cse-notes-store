@@ -55,6 +55,8 @@ Students will regularly solve programming problems to improve their practical pr
 
 At the end of the course, students are expected to develop a simple real-life programming project.
 
+- [Final Lab Project: Student Record Management System in C](final-lab-project-student-record-management.md) — a guided menu-driven project combining structures, functions, pointers, and file handling.
+
 ## Study Materials
 
 - C Programming Lab Notes
