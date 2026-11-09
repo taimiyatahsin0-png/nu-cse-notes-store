@@ -112,7 +112,7 @@ Use the appropriate header file for each function.
 ```c
 #include <stdio.h>
 
-#define SQUARE(x) ((x) * (x))
+#define SQUARE(x) ((long long)(x) * (x))
 
 int main(void)
 {
