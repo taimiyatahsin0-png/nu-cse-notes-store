@@ -124,6 +124,30 @@ This course covers the fundamental concepts of Differential Calculus and Integra
 - Previous Year Questions
 - Practice Exercises
 
+
+## NU Exam Answer Standard
+
+These notes use a consistent learning order:
+
+1. **Bangla concept first:** understand what the idea means and why it works.
+2. **Exam-ready English:** learn a concise, standard definition or theorem statement.
+3. **Worked solution:** show the formula, substitutions and intermediate steps—not only the final answer.
+4. **Practice and revision:** include common mistakes, formula review and questions clearly separated by source.
+
+**For mathematical answers:** state the relevant theorem or formula, check its conditions, show each algebraic step and box the final result. For proofs, write the assumptions, logical steps and conclusion.
+
+### Chapter roadmap
+
+- Chapters 01–07: Differential Calculus — notes available.
+- Chapter 08: Integration — introductory techniques and Riemann sums.
+- Chapters 09–12: Fundamental Theorems and Reduction, Applications of Integration, Improper Integrals / Gamma and Beta Functions, and Polar Coordinates — to be prepared next in the order of the syllabus.
+
+### Syllabus reference
+
+[NU CSE First-Year Syllabus copy (effective Session 2017–2018; hosted by DIIT)](https://diit.edu.bd/media/resource/Computer_Science_and_Engineering_1st_Year_Pub_Date_15092019.pdf)
+
+The repository follows this published syllabus copy. It is not a guarantee that NU has not issued a later revision; check your department's currently approved syllabus and teacher's scope.
+
 ---
 
 *Based on the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
