@@ -90,4 +90,3 @@ Each page provides a theory summary, procedure outline, observation table, calcu
 
 *The experiment list currently recorded here follows a 2017–2018 syllabus reference. Confirm the current Professional Honours lab manual, experiment order and circuit diagrams with your department before practical assessment.*
 
-Happy Experimenting! ⚡
