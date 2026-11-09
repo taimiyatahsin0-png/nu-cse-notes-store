@@ -71,7 +71,7 @@ int main(void)
     for (i = 0; i < 5; i++)
     {
         printf("Enter mark %d: ", i + 1);
-        scanf("%d", &marks[i]);
+        if (scanf("%d", &marks[i]) != 1)\n            return 1;
     }
 
     printf("Marks: ");
@@ -94,7 +94,7 @@ int main(void)
 int main(void)
 {
     int a[5];
-    int i, sum = 0;
+    int i;\n    long long sum = 0;
     double average;
 
     for (i = 0; i < 5; i++)
@@ -105,7 +105,7 @@ int main(void)
         sum += a[i];
     }
 
-    average = (double)sum / 5;
+    average = (double)sum / 5.0;
 
     printf("Sum = %d\n", sum);
     printf("Average = %.2f\n", average);
