@@ -105,7 +105,8 @@ Save the following code as `sum.c`.
 
 int main(void)
 {
-    int first, second, sum;
+    int first, second;
+    long long sum;
 
     printf("Enter two integers: ");
 
@@ -115,9 +116,9 @@ int main(void)
         return 1;
     }
 
-    sum = first + second;
+    sum = (long long)first + second;
 
-    printf("Sum = %d\n", sum);
+    printf("Sum = %lld\n", sum);
 
     return 0;
 }
@@ -127,11 +128,12 @@ int main(void)
 
 | Code | Explanation |
 |---|---|
-| `int first, second, sum;` | Declares three integer variables. |
+| `int first, second;` | Declares two integer input variables. |
+| `long long sum;` | Stores the sum in a wider integer type. |
 | `printf(...)` | Asks the user to enter two integers. |
 | `scanf("%d %d", &first, &second)` | Reads two integers and stores them in the variables. |
 | `!= 2` | Checks whether exactly two values were successfully read. |
-| `sum = first + second;` | Adds the two values and stores the result. |
+| `sum = (long long)first + second;` | Converts the first operand to `long long` before addition, helping avoid overflow in the sum of two `int` values. |
 | `printf("Sum = %d\n", sum);` | Displays the calculated sum. |
 | `return 0;` | Indicates successful program completion. |
 
