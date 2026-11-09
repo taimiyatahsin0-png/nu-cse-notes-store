@@ -754,21 +754,27 @@ int result = 10 + 5 * 2;
 = 20
 ```
 
-### Common Operator Precedence
+### Common Operator Precedence (High to Low)
 
 | Priority | Operators | Description |
 |---|---|---|
-| 1 | () | Parentheses |
-| 2 | ++ -- ! | Unary operators |
-| 3 | * / % | Multiplication, Division, Modulus |
-| 4 | + - | Addition, Subtraction |
-| 5 | < <= > >= | Relational |
-| 6 | == != | Equality |
-| 7 | && | Logical AND |
-| 8 | \|\| | Logical OR |
-| 9 | = += -= *= /= | Assignment |
+| 1 | `( )` | Parentheses used for grouping |
+| 2 | Postfix `++ --`; unary `++ -- + - ! ~ * & sizeof` | Postfix and unary operators |
+| 3 | `* / %` | Multiplication, division, modulus |
+| 4 | `+ -` | Addition, subtraction |
+| 5 | `<< >>` | Bitwise shift |
+| 6 | `< <= > >=` | Relational |
+| 7 | `== !=` | Equality |
+| 8 | `&` | Bitwise AND |
+| 9 | `^` | Bitwise XOR |
+| 10 | `|` | Bitwise OR |
+| 11 | `&&` | Logical AND |
+| 12 | `||` | Logical OR |
+| 13 | `?:` | Conditional |
+| 14 | `= += -= *= /= %=` | Assignment |
+| 15 | `,` | Comma |
 
-**Note:** Operators at the same precedence level generally follow their associativity rules. Parentheses can make expressions easier to understand.
+**Note:** This table shows common precedence groups from high to low. Operators in the same group may follow different associativity rules. Parentheses can make expressions easier to understand.
 
 ### Example
 
