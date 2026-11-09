@@ -776,7 +776,7 @@ Structured Programming-এর তিনটি মৌলিক control structure 
 int a = 10;
 int b = 20;
 int sum = a + b;
-printf("%d\\n", sum);
+printf("%d\n", sum);
 ```
 
 ### B. Selection
@@ -786,11 +786,11 @@ printf("%d\\n", sum);
 ```c
 if (marks >= 40)
 {
-    printf("Pass\\n");
+    printf("Pass\n");
 }
 else
 {
-    printf("Fail\\n");
+    printf("Fail\n");
 }
 ```
 
@@ -801,7 +801,7 @@ else
 ```c
 for (int i = 1; i <= 5; i++)
 {
-    printf("%d\\n", i);
+    printf("%d\n", i);
 }
 ```
 
