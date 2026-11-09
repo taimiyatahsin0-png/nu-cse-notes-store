@@ -110,21 +110,21 @@ int main(void)
     int numbers[5];
     int i;
 
-    printf("Enter 5 numbers:\\n");
+    printf("Enter 5 numbers:\n");
 
     for (i = 0; i < 5; i++)
     {
         scanf("%d", &numbers[i]);
     }
 
-    printf("Array elements are:\\n");
+    printf("Array elements are:\n");
 
     for (i = 0; i < 5; i++)
     {
         printf("%d ", numbers[i]);
     }
 
-    printf("\\n");
+    printf("\n");
     return 0;
 }
 ```
@@ -175,7 +175,7 @@ int main(void)
     int i, sum = 0;
     float average;
 
-    printf("Enter 5 numbers:\\n");
+    printf("Enter 5 numbers:\n");
 
     for (i = 0; i < 5; i++)
     {
@@ -185,8 +185,8 @@ int main(void)
 
     average = sum / 5.0;
 
-    printf("Sum = %d\\n", sum);
-    printf("Average = %.2f\\n", average);
+    printf("Sum = %d\n", sum);
+    printf("Average = %.2f\n", average);
 
     return 0;
 }
@@ -235,7 +235,7 @@ int main(void)
     int numbers[5];
     int i, largest, smallest;
 
-    printf("Enter 5 numbers:\\n");
+    printf("Enter 5 numbers:\n");
 
     for (i = 0; i < 5; i++)
     {
@@ -258,8 +258,8 @@ int main(void)
         }
     }
 
-    printf("Largest = %d\\n", largest);
-    printf("Smallest = %d\\n", smallest);
+    printf("Largest = %d\n", largest);
+    printf("Smallest = %d\n", smallest);
 
     return 0;
 }
@@ -305,7 +305,7 @@ int main(void)
     int A[2][2], B[2][2], C[2][2];
     int i, j;
 
-    printf("Enter 4 elements of Matrix A:\\n");
+    printf("Enter 4 elements of Matrix A:\n");
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 2; j++)
@@ -314,7 +314,7 @@ int main(void)
         }
     }
 
-    printf("Enter 4 elements of Matrix B:\\n");
+    printf("Enter 4 elements of Matrix B:\n");
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 2; j++)
@@ -331,14 +331,14 @@ int main(void)
         }
     }
 
-    printf("Sum of the matrices:\\n");
+    printf("Sum of the matrices:\n");
     for (i = 0; i < 2; i++)
     {
         for (j = 0; j < 2; j++)
         {
             printf("%d ", C[i][j]);
         }
-        printf("\\n");
+        printf("\n");
     }
 
     return 0;
@@ -388,10 +388,10 @@ int main(void)
         return 1;
     }
 
-    name[strcspn(name, "\\n")] = '\\0';
+    name[strcspn(name, "\n")] = '\\0';
 
-    printf("Your name is: %s\\n", name);
-    printf("Length = %zu\\n", strlen(name));
+    printf("Your name is: %s\n", name);
+    printf("Length = %zu\n", strlen(name));
 
     return 0;
 }
@@ -409,7 +409,7 @@ Length = 14
 
 - `char name[50]` reserves space for up to 49 characters plus the terminating null character.
 - `fgets()` reads a line and limits how many characters are stored.
-- `strcspn(name, "\\n")` finds the position of the newline character, if present.
+- `strcspn(name, "\n")` finds the position of the newline character, if present.
 - Replacing that newline with `'\\0'` removes it from the stored text.
 - `strlen()` counts characters before the null character.
 
@@ -430,14 +430,14 @@ int main(void)
     char copy[30];
 
     strcpy(copy, first);
-    printf("Copied string: %s\\n", copy);
+    printf("Copied string: %s\n", copy);
 
-    printf("Comparison: %d\\n", strcmp(first, second));
+    printf("Comparison: %d\n", strcmp(first, second));
 
     strcat(first, second);
-    printf("Joined string: %s\\n", first);
+    printf("Joined string: %s\n", first);
 
-    printf("Length: %zu\\n", strlen(first));
+    printf("Length: %zu\n", strlen(first));
 
     return 0;
 }
