@@ -1168,3 +1168,63 @@ In this chapter, we learned:
 
 *Next Chapter: Input, Output and Decision Making in C.*
 
+
+
+---
+
+## NU Previous Questions and Board Question Archive
+
+### Questions appearing in readable NU paper copies
+
+**2019**
+- Define token, keyword, identifier, variable and constant.
+- What is a symbolic constant?
+- Discuss the types of operators in C.
+
+**2020**
+- What is a variable? Explain declaration and initialization.
+- Describe the four basic data types in C.
+- Distinguish between getchar() and scanf().
+- Distinguish between local and global variables.
+
+**2022**
+- What is a token? Describe the different types of tokens.
+- What is a variable? Differentiate between local and global variables.
+- Describe the four basic data types in C and explain how their value ranges can be extended.
+
+### Topic-year references in the student-compiled NU question bank
+
+- Variable: 2010, 2011, 2013, 2014, 2016, 2017, 2020, 2022.
+- Variable declaration and initialization: 2010, 2014, 2017, 2018, 2020.
+- Four basic data types: 2008, 2011, 2014, 2018, 2020, 2022.
+- Tokens / constants / variables / keywords: 2014, 2015, 2019, 2023 (the bank groups some prompts together).
+- Local and global variables: 2008, 2016, 2018, 2022.
+- Operators and expressions: 2011, 2012, 2014, 2016, 2018, 2019, 2022.
+
+### Selected solved answer: Local variable vs global variable
+
+| Local variable | Global variable |
+|---|---|
+| Declared inside a function or block | Declared outside all functions |
+| Scope is limited to its block | Can be accessed by functions after its declaration, subject to scope rules |
+| Automatic local variables have block lifetime | A file-scope object has static storage duration |
+| Not automatically initialized when uninitialized and automatic | Static-storage objects are initialized to zero if no explicit initializer is supplied |
+
+**বাংলায়:** Local variable নির্দিষ্ট function/block-এর ভেতরে ব্যবহার করা যায়। Global variable function-এর বাইরে declare করা হয়। তবে global variable বেশি ব্যবহার করলেই program ভালো হয় না; যেখানে দরকার, সেখানে সীমিত scope রাখাই ভালো।
+
+### Board and question-bank sources
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE SPL Question Bank (510201)](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
+- [2020 paper copy](https://www.scribd.com/document/600047603/2020-NU-Question)
+- [2022 paper copy](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+
+### Extra practice (not verified PYQs)
+
+1. Explain the difference between a constant and a variable with examples.
+2. Write a C program to swap two integers using a temporary variable.
+3. Explain implicit and explicit type conversion with examples.
+
+**Source caution:** Exact year tags come from student-maintained resources. Confirm them against the original paper scan before citing a year in an assignment or exam guide.
