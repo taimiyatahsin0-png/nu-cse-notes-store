@@ -409,7 +409,7 @@ It provides declarations for common string-handling functions such as strlen(), 
 
 ### Selected exam reminder: String in C
 
-**Exam-ready English:** A string in C is a sequence of characters terminated by the null character, written as the escape sequence \\0.
+**Exam-ready English:** A string in C is a sequence of characters terminated by the null character, written as the escape sequence \0.
 
 **বাংলায়:** C-তে string-এর শেষে null character থাকে। তাই ১০টি visible character রাখতে হলে সাধারণত অন্তত ১১ byte জায়গা লাগবে।
 
