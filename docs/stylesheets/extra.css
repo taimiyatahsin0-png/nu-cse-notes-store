@@ -174,3 +174,51 @@ body {
  .cgpa-quick-row span { grid-column:1/-1; }
  .cgpa-semester-panel,.cgpa-saved-section,#cgpa-quick-mode { padding:.75rem; }
 }
+
+
+/* Dashboard cards and calculator layout refinements */
+.md-typeset .grid.cards > ul > li {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--paper);
+  overflow: hidden;
+  transition: border-color .18s ease, box-shadow .18s ease, transform .18s ease;
+}
+.md-typeset .grid.cards > ul > li:hover {
+  border-color: var(--sage);
+  box-shadow: 0 6px 18px rgba(16, 46, 39, .08);
+  transform: translateY(-2px);
+}
+.md-typeset .grid.cards > ul > li > p:last-child { margin-bottom: .25rem; }
+.cgpa-quick-row {
+  grid-template-columns: minmax(0, 1fr) minmax(130px, 180px);
+}
+.cgpa-quick-row input { min-width: 0; }
+.cgpa-input-table select { min-width: 88px; }
+.cgpa-semester-tabs { align-items: stretch; }
+.cgpa-semester-tab { min-height: 42px; }
+.cgpa-mode-tab:focus-visible,
+.cgpa-semester-tab:focus-visible,
+.cgpa-input-table input:focus-visible,
+.cgpa-input-table select:focus-visible,
+.cgpa-quick-row input:focus-visible,
+.cgpa-semester-actions button:focus-visible {
+  outline: 3px solid var(--sage);
+  outline-offset: 2px;
+}
+@media (max-width: 650px) {
+  .cgpa-quick-row {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .cgpa-quick-row span,
+  .cgpa-quick-row input {
+    grid-column: 1;
+  }
+  .cgpa-semester-tabs { gap: .35rem; }
+  .cgpa-semester-tab, .cgpa-mode-tab {
+    padding: .5rem .65rem;
+    font-size: .85rem;
+  }
+  .cgpa-semester-actions button { flex: 1 1 100%; }
+  .cgpa-table-wrap { max-width: 100%; }
+}
