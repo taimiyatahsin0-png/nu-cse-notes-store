@@ -8,14 +8,14 @@ This page reproduces the grade distribution displayed on CSE Buddy's Grade Scale
 |:---:|---:|---:|
 | A+ | 4.00 | 80–100 |
 | A | 3.75 | 75–79 |
-| A− | 3.50 | 70–74 |
+| A- | 3.50 | 70–74 |
 | B+ | 3.25 | 65–69 |
 | B | 3.00 | 60–64 |
-| B− | 2.75 | 55–59 |
+| B- | 2.75 | 55–59 |
 | C+ | 2.50 | 50–54 |
 | C | 2.25 | 45–49 |
 | D | 2.00 | 40–44 |
-| F (Fail) | 0.00 | 0–39 |
+| F(Fail) | 0.00 | 0–39 |
 
 ## GPA / SGPA formula
 
@@ -28,7 +28,7 @@ This page reproduces the grade distribution displayed on CSE Buddy's Grade Scale
 | Course | Credit | Grade | Grade point | Quality points |
 |---|---:|:---:|---:|---:|
 | SPL | 3 | A | 3.75 | 11.25 |
-| Calculus | 3 | A− | 3.50 | 10.50 |
+| Calculus | 3 | A- | 3.50 | 10.50 |
 | Physics | 3 | B+ | 3.25 | 9.75 |
 | **Total** | **9** |  |  | **31.50** |
 
