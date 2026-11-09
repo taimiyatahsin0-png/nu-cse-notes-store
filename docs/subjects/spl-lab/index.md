@@ -33,6 +33,8 @@ Students will regularly solve programming problems to improve their practical pr
 
 ## Practical Notes
 
+- [Standard C Programming Lab Report Format](lab-report-format.md) — suggested template for writing practical reports.
+
 - [Practical 01: Basic Structure of a C Program](01-basic-structure-of-c-program.md) — suggested foundational practical; verify experiment order with your department's current lab manual.
 - [Practical 02: Basic Input and Output Operations](02-basic-input-output-and-addition.md) — suggested exercise on variables, `scanf()`, `printf()`, and arithmetic.
 - [Practical 03: Arithmetic Operations in C](03-arithmetic-operations.md) — suggested practice on arithmetic operators and division-by-zero handling.
