@@ -7,7 +7,7 @@
 
 This course introduces the fundamentals of structured programming using the C programming language.
 
-## Official Syllabus Topics
+## Syllabus Topics (Reference)
 
 ### 1. Programming Fundamentals
 - Overview of Structured Programming Language
@@ -85,12 +85,24 @@ C Programming Language
 
 - [📖 Algorithm, Flowchart and Pseudocode](algorithm-flowchart-pseudocode.md)
 
-### Chapter 03: Input, Output and Control Statements
+### Chapter 03: Input, Output, Decision Making and Looping
 
 [📖 Read Chapter 03](chapter-03.md)
 
+### Chapter 04: Arrays and Strings
 
-*Note: Topics are organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
+[📖 Read Chapter 04](chapter-04-arrays-strings.md)
+
+### Chapter 05: Functions
+
+[📖 Read Chapter 05](chapter-05-functions.md)
+
+### Chapter 06: Advanced Programming Concepts
+
+[📖 Read Chapter 06](chapter-06-advanced-c.md)
+
+
+*Syllabus note: This topic outline is based on the syllabus reference currently recorded in this repository (Session 2017–2018). It is not independently confirmed as the latest applicable NU revision. Check the latest National University notice or your department's approved syllabus before relying on it for examination planning.*
 
 Happy Coding! 💻
 
