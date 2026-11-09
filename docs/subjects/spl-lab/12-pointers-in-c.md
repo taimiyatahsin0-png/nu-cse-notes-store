@@ -210,7 +210,11 @@ int main(void)
     int x, y;
 
     printf("Enter two integers: ");
-    scanf("%d %d", &x, &y);
+    if (scanf("%d %d", &x, &y) != 2)
+    {
+        printf("Invalid input. Enter two integers.\n");
+        return 1;
+    }
 
     swap(&x, &y);
 
