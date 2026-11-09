@@ -19,7 +19,7 @@ After completing this chapter, students will be able to:
 - Solve beginner-level decision problems with complete C programs.
 - Present definitions, differences and program answers in a clear exam format.
 
-> **Syllabus focus:** This chapter focuses on managing input and output, and decision-making/branching in C under NU CSE First Semester SPL (510201). It does not attempt to cover unrelated C topics.
+> **Syllabus focus:** This chapter covers formatted input/output, decision-making/branching and looping in C. The loop section is included because looping is a listed SPL syllabus topic; it is part of this chapter's learning material.
 
 ---
 
@@ -995,7 +995,8 @@ int main(void)
 
 int main(void)
 {
-    int n, i, sum = 0;
+    int n;
+    long long i, sum = 0;
 
     printf("Enter a positive integer: ");
     if (scanf("%d", &n) != 1 || n < 1)
