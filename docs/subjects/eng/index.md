@@ -8,7 +8,7 @@
 **Credits:** 3.0  
 **Marks:** 80  
 **Class Hours:** 45  
-**Semester:** First Year – First Semester
+**Semester:** CSE First Semester
 
 ## Course Overview
 
@@ -108,18 +108,5 @@ Reading Comprehension; Articles; Correct Form of Verbs; Conjunctions; Correct Se
 2. The Craft of Business Letter Writing — Matthew M. Monippally
 3. Advanced Learners' Degree General English — Chowdhury and Hossain
 
-## Study Materials
-
-- Grammar Notes
-- Reading Comprehension Practice
-- Paragraph and Précis Writing
-- Business and Commercial Letters
-- Speaking and Listening Practice
-- Scientific and Analytical Writing
-- Previous Year Questions
-
----
-
 *Based on the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
-Happy Learning! 📚
