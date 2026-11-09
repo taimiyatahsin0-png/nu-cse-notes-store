@@ -845,3 +845,30 @@ For additional explanations, compare these notes with your prescribed textbook a
 ---
 
 *End of Chapter 05.*
+
+---
+
+## 12. NU Previous Questions and Board Question Archive
+
+### Verified-question status
+
+The accessible, year-tagged NU CSE Calculus question compilation (2009–2019) did not provide a readable, attributable question specifically on Rolle's, Lagrange's or Cauchy's Mean Value Theorem. I am not assigning years to theorem questions based only on textbook exercises or unrelated university papers.
+
+### Board-question archive
+
+The NU CSE notes resource lists first-semester Board Question collections for 2006–2018 and 2019:
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE Calculus question collection (2009–2019)](https://www.scribd.com/document/947202575/NU-CSE-1st-Semester-Calculus)
+
+**Verification note:** These are student-maintained collections. A theorem question will be added as a verified PYQ only after its wording and year are readable in an original or reliable paper scan.
+
+### Additional practice (not verified PYQs)
+
+1. State and prove Rolle's Theorem.
+2. State and prove Lagrange's Mean Value Theorem.
+3. State Cauchy's Mean Value Theorem.
+4. Check whether a given function satisfies the conditions of each theorem and find the value of \(c\).
+
+These are syllabus-based practice questions, not confirmed past-paper questions.
