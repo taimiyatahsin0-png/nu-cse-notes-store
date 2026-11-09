@@ -50,7 +50,7 @@
     function updateSemester(semester) {
       const data=readSemester(semester);
       const progress=$('[data-progress="' + semester + '"]');
-      if(progress) progress.textContent=data.selected + " / " + data.courses.length + " grades selected";
+      if(progress) progress.textContent=data.selected + " / " + $(".cgpa-course-row", $('[data-rows="' + semester + '"]')).length + " grades selected";
       setText('[data-sgpa="' + semester + '"]', data.invalid ? "Check entries" : data.gpa===null ? "—" : fmt(data.gpa));
       setText('[data-total-credits="' + semester + '"]',fmt(data.credits));
       setText('[data-quality="' + semester + '"]',fmt(data.quality));
