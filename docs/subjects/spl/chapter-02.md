@@ -134,7 +134,9 @@ const float PI = 3.1416;
 
 ### English Exam Note
 
-A constant is a fixed value that cannot be changed during program execution.
+A constant is a value that is intended to remain unchanged during program execution. In C, a variable declared with the `const` qualifier cannot be modified through that identifier after initialization.
+
+**Important distinction:** A literal such as `7` is a constant value. A declaration such as `const int DAYS = 7;` creates a read-only object; in C, it is not automatically an integer constant expression for every compile-time use.
 
 ### Example
 
@@ -229,12 +231,13 @@ Output may vary depending on the system.
 | %f | float |
 | %lf | double in scanf |
 | %c | char |
-| %s | String |
+| %s | Character string (char array; input with %s stops at whitespace) |
 | %u | unsigned int |
 | %ld | long int |
+| %lld | long long int |
 | %zu | size_t |
 
-**Note:** In `printf()`, `%f` is used to print a floating-point value, including a `double`.
+**Note:** In `printf()`, `%f` is used to print a `double` value (a `float` argument is automatically promoted to `double`). In `scanf()`, use `%f` for `float *` and `%lf` for `double *`.
 
 ### Example
 
@@ -281,7 +284,12 @@ int main()
     int age;
 
     printf("Enter your age: ");
-    scanf("%d", &age);
+
+    if (scanf("%d", &age) != 1)
+    {
+        printf("Invalid input.\\n");
+        return 1;
+    }
 
     printf("Your age is %d", age);
 
@@ -938,19 +946,27 @@ Ans: Type casting is the explicit conversion of a value from one data type to an
 
 ## Program 1: Addition of Two Numbers
 
+The inputs are stored as `int`, while the sum is stored as `long long` to reduce the risk of signed integer overflow when two valid `int` values are added.
+
 ```c
 #include <stdio.h>
 
 int main()
 {
-    int a, b, sum;
+    int a, b;
+    long long sum;
 
-    printf("Enter two numbers: ");
-    scanf("%d %d", &a, &b);
+    printf("Enter two integers: ");
 
-    sum = a + b;
+    if (scanf("%d %d", &a, &b) != 2)
+    {
+        printf("Invalid input.\\n");
+        return 1;
+    }
 
-    printf("Sum = %d", sum);
+    sum = (long long)a + b;
+
+    printf("Sum = %lld\\n", sum);
 
     return 0;
 }
@@ -979,14 +995,25 @@ Area = Length × Width
 
 int main()
 {
-    float length, width, area;
+    double length, width, area;
 
     printf("Enter length and width: ");
-    scanf("%f %f", &length, &width);
+
+    if (scanf("%lf %lf", &length, &width) != 2)
+    {
+        printf("Invalid input.\\n");
+        return 1;
+    }
+
+    if (length < 0.0 || width < 0.0)
+    {
+        printf("Length and width cannot be negative.\\n");
+        return 1;
+    }
 
     area = length * width;
 
-    printf("Area = %.2f", area);
+    printf("Area = %.2f\\n", area);
 
     return 0;
 }
