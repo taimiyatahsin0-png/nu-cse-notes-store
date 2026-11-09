@@ -123,6 +123,10 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 07: Field Effect Transistors (FET)](chapter-07-field-effect-transistors.md)
 
+### Chapter 08: Feedback Techniques and Operational Amplifiers
+
+[📖 Read Chapter 08: Feedback Techniques and Operational Amplifiers](chapter-08-feedback-techniques-and-operational-amplifiers.md)
+
 ## Reference Books
 
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
