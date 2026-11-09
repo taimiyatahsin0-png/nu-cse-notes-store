@@ -12,7 +12,7 @@
 
 This course introduces the fundamental concepts of electrical circuits, AC fundamentals, semiconductor devices, electronic circuits, transistors and operational amplifiers.
 
-## Official Syllabus Topics
+## Syllabus Topics (Reference: Session 2017–2018)
 
 ### 1. AC Fundamentals
 
@@ -143,6 +143,6 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 ---
 
-*Based on the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
+*This topic list is transcribed from a syllabus reference for Session 2017–2018. It is not confirmation of the latest NU revision. Check your current department notice or prescribed syllabus for any updates.*
 
 Happy Learning! ⚡
