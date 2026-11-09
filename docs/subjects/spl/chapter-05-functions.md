@@ -306,7 +306,7 @@ int main(void)
 }
 ~~~
 
-Output: 5! = 120
+The function is intended for inputs from 0 to 20. Negative inputs are invalid, and values above 20 exceed the range of a typical signed 64-bit `long long`.\n\nOutput: 5! = 120
 
 ### Dry Run: factorial(4)
 
