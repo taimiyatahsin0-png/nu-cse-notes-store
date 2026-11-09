@@ -484,3 +484,30 @@ g(x)=\sqrt{x-2}
 **Next chapter:** Limits of Functions.
 
 *Study note: This guide follows the topics listed on the repository's Calculus syllabus page, which cites the NU syllabus effective from Session 2017–2018. Verify the applicable syllabus and your teacher's examination scope for any later updates.*
+
+---
+
+## 11. NU Previous Questions and Board Question Archive
+
+### Verified-question status
+
+The accessible NU CSE Calculus question compilation (2009–2019) does not expose a readable, year-tagged question specifically on the functions-and-graphs topics in its searchable excerpt. Therefore, no item is labelled here as a verified Functions PYQ yet.
+
+### Board-question archive
+
+The NU CSE notes resource lists first-semester Board Question collections for **2006–2018** and **2019**. The original archive files should be checked before individual questions are transcribed into this chapter:
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE Calculus important-question resource](https://drive.google.com/file/d/1wO5R0jGjzcFBuBBq7NoywOV0ldzS49tE/view?usp=sharing)
+
+**Verification note:** These are student-maintained archives, not an official NU question-paper repository. Until the individual paper image and question wording are checked, the links are references—not proof that a particular question appeared in a particular year.
+
+### Chapter-based practice (not verified PYQs)
+
+1. Define a function and explain its domain and range.
+2. Find the domain and range of a given rational or radical function.
+3. Find the composite function (f\circ g) for two given functions.
+4. Explain the vertical line test with a suitable graph.
+
+These are syllabus-based practice questions, not confirmed past-paper questions.
