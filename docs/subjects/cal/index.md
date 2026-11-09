@@ -125,6 +125,16 @@ This course covers the fundamental concepts of Differential Calculus and Integra
 - Practice Exercises
 
 
+## NU Calculus Question Archive
+
+- [NU CSE Calculus question collection (2009–2019)](https://www.scribd.com/document/947202575/NU-CSE-1st-Semester-Calculus)
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE 2019 first-semester question collection](https://www.scribd.com/document/948206995/NU-CSE-1st-Semester-Questions-2019)
+- [2020 NU CSE question-paper copy](https://www.scribd.com/document/600047603/2020-NU-Question)
+
+These are student-uploaded secondary sources, not an official NU-hosted archive. Each chapter separates year-tagged question-bank entries from exact paper-copy transcriptions and from newly written practice questions.
+
 ## NU Exam Answer Standard
 
 These notes use a consistent learning order:
