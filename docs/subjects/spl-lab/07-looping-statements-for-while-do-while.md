@@ -84,6 +84,7 @@ Notice the semicolon after the `while` condition.
 
 int main(void) {
     int n;
+    long long i;
 
     printf("Enter a positive integer: ");
     if (scanf("%d", &n) != 1) {
@@ -96,7 +97,7 @@ int main(void) {
         return 1;
     }
 
-    for (int i = 1; i <= n; i++) {
+    for (i = 1; i <= n; i++) {
         printf("%d ", i);
     }
 
@@ -111,7 +112,7 @@ int main(void) {
 2. The variable `i` starts from 1.
 3. The condition `i <= n` is checked before each iteration.
 4. The loop prints `i`.
-5. The update expression `i++` increases `i) by 1.
+5. The update expression `i++` increases `i by 1.
 6. The loop stops when `i <= n` becomes false.
 
 ### Sample Input and Output
@@ -129,8 +130,8 @@ Enter a positive integer: 5
 #include <stdio.h>
 
 int main(void) {
-    int n, i = 1;
-    long long sum = 0;
+    int n;
+    long long i = 1, sum = 0;
 
     printf("Enter a positive integer: ");
     if (scanf("%d", &n) != 1) {
@@ -159,7 +160,7 @@ int main(void) {
 2. The condition `i <= n` is checked.
 3. The current value of `i` is added to `sum`.
 4. `i++` increases the counter.
-5. When `i) becomes greater than `n`, the loop ends.
+5. When `i` becomes greater than `n`, the loop ends.
 6. The final sum is displayed.
 
 ### Sample Input and Output
@@ -275,7 +276,7 @@ Change the source filename and output name when compiling the other programs. If
 - Using `i < n` when the task requires including `n`.
 - Placing an unnecessary semicolon after a `for` or `while` statement.
 - Forgetting the required semicolon after the `while` condition in a `do-while` loop.
-- Confusing `i++` with `i = i + 1`; both increase `i) by one.
+- Confusing `i++` with `i = i + 1`; both increase `i` by one.
 - Using an unsuitable data type for a large sum.
 
 ## 11. Practice Tasks
