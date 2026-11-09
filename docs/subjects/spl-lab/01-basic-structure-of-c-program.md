@@ -101,9 +101,9 @@ int main(void)
     float price = 12.5f;
     const int DAYS_IN_WEEK = 7;
 
-    printf("Age = %d\\n", age);
-    printf("Price = %.2f\\n", price);
-    printf("Days in a week = %d\\n", DAYS_IN_WEEK);
+    printf("Age = %d\n", age);
+    printf("Price = %.2f\n", price);
+    printf("Days in a week = %d\n", DAYS_IN_WEEK);
 
     return 0;
 }
