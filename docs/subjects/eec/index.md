@@ -129,6 +129,8 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 06: Bipolar Junction Transistors (BJT)](chapter-06-bipolar-junction-transistors.md)
 
+[📝 Chapter 06 Exam Preparation Pack](chapter-06-exam-preparation.md)
+
 ### Chapter 07: Field Effect Transistors (FET)
 
 [📖 Read Chapter 07: Field Effect Transistors (FET)](chapter-07-field-effect-transistors.md)
