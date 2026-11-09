@@ -1,19 +1,19 @@
 # Algorithm, Flowchart and Pseudocode
 
-A Complete Beginner-Friendly Study Note
-
----
-
 ## Learning Objectives
 
-After completing this topic, students will be able to:
+After completing this chapter, students will be able to:
 
-- Explain the concept of problem solving.
-- Define an algorithm and describe its characteristics.
-- Identify standard flowchart symbols.
-- Draw flowcharts for simple programming problems.
-- Define pseudocode and write it correctly.
-- Convert a problem into an algorithm, flowchart and pseudocode.
+1. Understand the concept of problem solving.
+2. Explain the IPO model.
+3. Define an algorithm and identify its characteristics.
+4. Write algorithms for simple problems.
+5. Understand standard flowchart symbols.
+6. Draw flowcharts for different problems.
+7. Understand pseudocode and its basic structures.
+8. Write pseudocode using sequence, selection and iteration.
+9. Perform dry runs and trace program logic.
+10. Differentiate between algorithm, flowchart and pseudocode.
 
 ---
 
@@ -21,95 +21,1311 @@ After completing this topic, students will be able to:
 
 Problem solving is the process of identifying a problem, analyzing it and developing a logical solution.
 
-In computer programming, we should understand the problem before writing the actual program.
+In computer programming, we first understand the problem and then design a solution before writing the actual code.
 
-### Basic Steps of Problem Solving
+### Steps of Problem Solving
 
-1. Identify the problem.
-2. Analyze the problem.
-3. Design a solution.
-4. Write the program.
-5. Test and debug the program.
+1. Problem Definition
+2. Problem Analysis
+3. Solution Design
+4. Algorithm Development
+5. Flowchart or Pseudocode Preparation
+6. Coding
+7. Testing and Debugging
+8. Documentation
 
-### IPO Model
+### Example
+
+Problem: Calculate the sum of two numbers.
+
+- Input: Two numbers A and B.
+- Process: Add A and B.
+- Output: The sum of the two numbers.
+
+---
+
+# 2. IPO Model
 
 IPO stands for Input, Process and Output.
 
-It describes how a computer solves a problem.
+It is a basic model used to understand how a computer solves a problem.
 
 | Component | Meaning | Example |
 |---|---|---|
 | Input | Data given to the computer | A = 10, B = 20 |
-| Process | Operations performed on input | SUM = A + B |
-| Output | Result produced by the computer | SUM = 30 |
+| Process | Operations performed on input data | SUM = A + B |
+| Output | Final result | SUM = 30 |
 
-**Example: Adding Two Numbers**
+### IPO Diagram
 
-- Input: 10 and 20
-- Process: 10 + 20
-- Output: 30
+```text
++-------------+
+|    INPUT    |
+|   A and B   |
++-------------+
+       |
+       v
++-------------+
+|   PROCESS   |
+|  SUM = A+B  |
++-------------+
+       |
+       v
++-------------+
+|   OUTPUT    |
+|   SUM = 30  |
++-------------+
+```
+
+**Important:** Input is the data supplied to a system, process is the operation performed on that data, and output is the result produced.
 
 ---
 
-# 2. Algorithm
+# 3. Algorithm
 
-## Definition
+## 3.1 Definition of Algorithm
 
-An algorithm is a finite sequence of well-defined steps used to solve a particular problem.
+An algorithm is a finite sequence of well-defined and step-by-step instructions used to solve a particular problem.
 
-In simple words, an algorithm is a step-by-step procedure for solving a problem.
+**Exam Definition:**
 
-## Characteristics of an Algorithm
+An algorithm is a finite set of unambiguous instructions arranged in a logical order to solve a specific problem.
 
-A good algorithm has five important characteristics.
+### Example
+
+Algorithm to add two numbers:
+
+1. Start.
+2. Input two numbers A and B.
+3. Calculate SUM = A + B.
+4. Display SUM.
+5. Stop.
+
+## 3.2 Characteristics of an Algorithm
+
+There are five important characteristics of an algorithm.
 
 ### 1. Input
 
 An algorithm may accept zero or more inputs.
 
+Example: Two numbers A and B.
+
 ### 2. Output
 
 An algorithm must produce at least one output.
+
+Example: The sum of two numbers.
 
 ### 3. Definiteness
 
 Every step must be clear, precise and unambiguous.
 
+Example: `SUM = A + B` is a definite instruction.
+
 ### 4. Finiteness
 
 An algorithm must terminate after a finite number of steps.
 
+Example: A loop must eventually stop.
+
 ### 5. Effectiveness
 
-Every step must be simple, practical and executable.
+Every instruction must be simple, practical and executable within a finite amount of time.
 
-## General Structure
+### Summary Table
 
-1. START
-2. Take input.
-3. Perform the required operation.
-4. Display the result.
-5. STOP
+| Characteristic | Explanation |
+|---|---|
+| Input | Zero or more inputs |
+| Output | At least one output |
+| Definiteness | Clear and unambiguous steps |
+| Finiteness | Must terminate |
+| Effectiveness | Steps must be practical and executable |
 
-## Example 1: Algorithm to Add Two Numbers
+## 3.3 General Structure of an Algorithm
+
+```text
+Step 1: Start
+Step 2: Input required data
+Step 3: Perform calculations
+Step 4: Display result
+Step 5: Stop
+```
+
+## 3.4 Solved Algorithm Examples
+
+### Example 1: Addition of Two Numbers
 
 **Problem:** Find the sum of two numbers.
 
 **Algorithm:**
 
-1. START
-2. Declare two variables A and B.
+1. Start.
+2. Declare A, B and SUM.
 3. Input A and B.
 4. Calculate SUM = A + B.
 5. Display SUM.
-6. STOP
+6. Stop.
+
+**Dry Run:**
+
+| A | B | SUM = A + B |
+|---:|---:|---:|
+| 10 | 20 | 30 |
+
+**Output:** 30
+
+### Example 2: Calculate the Area of a Rectangle
+
+**Formula:**
+
+Area = Length × Width
+
+**Algorithm:**
+
+1. Start.
+2. Declare L, W and AREA.
+3. Input length L and width W.
+4. Calculate AREA = L × W.
+5. Display AREA.
+6. Stop.
+
+**Dry Run:**
+
+| Length | Width | Area |
+|---:|---:|---:|
+| 10 | 5 | 50 |
+
+**Output:** 50 square units.
+
+### Example 3: Check Even or Odd Number
+
+**Logic:** A number is even if it is divisible by 2.
+
+**Algorithm:**
+
+1. Start.
+2. Input N.
+3. If N % 2 = 0, display "Even".
+4. Otherwise, display "Odd".
+5. Stop.
+
+**Dry Run:**
+
+| N | N % 2 | Result |
+|---:|---:|---|
+| 8 | 0 | Even |
+| 7 | 1 | Odd |
+
+### Example 4: Find the Largest of Two Numbers
+
+**Algorithm:**
+
+1. Start.
+2. Input A and B.
+3. If A > B, display A as the largest number.
+4. Otherwise, if B > A, display B as the largest number.
+5. Otherwise, display "Both numbers are equal".
+6. Stop.
+
+**Dry Run:**
+
+| A | B | Result |
+|---:|---:|---|
+| 15 | 10 | 15 is largest |
+| 10 | 20 | 20 is largest |
+| 12 | 12 | Both are equal |
+
+### Example 5: Calculate the Average of Three Numbers
+
+**Formula:**
+
+Average = (A + B + C) / 3
+
+**Algorithm:**
+
+1. Start.
+2. Input A, B and C.
+3. Calculate SUM = A + B + C.
+4. Calculate AVG = SUM / 3.
+5. Display AVG.
+6. Stop.
+
+**Dry Run:**
+
+| A | B | C | Average |
+|---:|---:|---:|---:|
+| 60 | 70 | 80 | 70 |
+
+### Example 6: Calculate Simple Interest
+
+**Formula:**
+
+Simple Interest = (P × R × T) / 100
+
+Where:
+- P = Principal amount
+- R = Rate of interest
+- T = Time
+
+**Algorithm:**
+
+1. Start.
+2. Input P, R and T.
+3. Calculate SI = (P × R × T) / 100.
+4. Display SI.
+5. Stop.
+
+**Dry Run:**
+
+| P | R | T | Simple Interest |
+|---:|---:|---:|---:|
+| 1000 | 5 | 2 | 100 |
+
+---
+
+# 4. Flowchart
+
+## 4.1 Definition of Flowchart
+
+A flowchart is a graphical representation of an algorithm using standard symbols connected by arrows to show the sequence of operations.
+
+**Exam Definition:**
+
+A flowchart is a diagrammatic representation of the steps involved in solving a problem or performing a process.
+
+### Why Do We Use Flowcharts?
+
+1. To understand program logic easily.
+2. To represent the steps of a problem visually.
+3. To identify logical errors.
+4. To make communication easier.
+5. To help in program development and documentation.
+
+## 4.2 Standard Flowchart Symbols
+
+A flowchart uses different standard symbols to represent different operations.
+
+| Symbol | Name | Purpose |
+|---|---|---|
+| Oval | Terminal | Start or Stop |
+| Parallelogram | Input/Output | Read input or display output |
+| Rectangle | Process | Calculation or processing |
+| Diamond | Decision | Check a condition |
+| Arrow | Flow Line | Show direction of flow |
+| Circle | Connector | Connect different parts of a flowchart |
+
+### 1. Terminal (Oval)
+
+<pre>
+   ___________
+ /             \
+| START / STOP  |
+ \_____________/
+</pre>
+
+Used to indicate the beginning or ending of a flowchart.
+
+### 2. Input/Output (Parallelogram)
+
+<pre>
+   /-------------/
+  /   INPUT     /
+ /-------------/
+</pre>
+
+Used to accept input or display output.
+
+### 3. Process (Rectangle)
+
+<pre>
+ +-------------+
+ | SUM = A + B |
+ +-------------+
+</pre>
+
+Used for calculations and processing.
+
+### 4. Decision (Diamond)
+
+<pre>
+      /\
+     /  \
+    / A>B\
+    \    /
+     \  /
+      \/
+</pre>
+
+Used to test a condition and select a path such as Yes/No or True/False.
+
+### 5. Flow Line (Arrow)
+
+```text
+      |
+      v
+      |
+```
+
+Shows the direction of the flowchart.
+
+### 6. Connector (Circle)
+
+<pre>
+    ( A )
+</pre>
+
+Used to connect different parts of a flowchart.
+
+## 4.3 Flowchart Rules
+
+1. A flowchart generally starts with a Start symbol.
+2. A flowchart ends with a Stop symbol.
+3. Flow lines show the direction of execution.
+4. Standard symbols should be used.
+5. The flowchart should be simple and easy to understand.
+6. Decision symbols should have clearly labelled branches.
+7. Avoid unnecessary crossing of flow lines.
+
+## 4.4 Solved Flowchart Examples
+
+**Note:** The following text layouts show the logical structure of each flowchart. In an exam, draw the corresponding standard symbols: oval for Start/Stop, parallelogram for Input/Output, rectangle for Process and diamond for Decision.
+
+### Example 1: Addition of Two Numbers
+
+```text
+       ( START )
+           |
+           v
+    / Input A, B /
+           |
+           v
+     [ SUM = A+B ]
+           |
+           v
+     / Display SUM /
+           |
+           v
+        ( STOP )
+```
+
+**Explanation:**
+
+First, the algorithm takes two numbers as input. Then it adds them and displays the result.
+
+### Example 2: Calculate Area of a Rectangle
+
+```text
+       ( START )
+           |
+           v
+     / Input L, W /
+           |
+           v
+    [ AREA = L * W ]
+           |
+           v
+     / Display AREA /
+           |
+           v
+        ( STOP )
+```
+
+### Example 3: Check Even or Odd
+
+```text
+       ( START )
+           |
+           v
+       / Input N /
+           |
+           v
+      < N % 2 == 0? >
+         /       \
+       Yes        No
+        |          |
+        v          v
+  / Display    / Display
+     Even /       Odd /
+        |          |
+        +----+-----+
+             |
+             v
+          ( STOP )
+```
+
+### Example 4: Find the Largest of Two Numbers
+
+```text
+        ( START )
+            |
+            v
+       / Input A, B /
+            |
+            v
+        < A > B? >
+         /      \
+       Yes       No
+        |         |
+        v         v
+   / Display   < A == B? >
+       A /       /     \
+               Yes     No
+                |       |
+                v       v
+           / Display  / Display
+             Equal /    B /
+                |       |
+                +---+---+
+                    |
+                    v
+                 ( STOP )
+```
+
+### Example 5: Check Voting Eligibility
+
+**Assumption:** Minimum voting age is 18 years.
+
+```text
+       ( START )
+           |
+           v
+       / Input AGE /
+           |
+           v
+       < AGE >= 18? >
+          /      \
+        Yes       No
+         |         |
+         v         v
+   / Display    / Display
+   Eligible /  Not Eligible /
+         |         |
+         +----+----+
+              |
+              v
+           ( STOP )
+```
+
+### Example 6: Find the Sum of First N Natural Numbers
+
+**Logic:** Add numbers from 1 to N.
+
+```text
+        ( START )
+            |
+            v
+        / Input N /
+            |
+            v
+       [ SUM = 0, I = 1 ]
+            |
+            v
+        < I <= N? >
+          /     \
+        Yes      No
+         |        |
+         v        v
+   [ SUM=SUM+I ] / Display SUM /
+         |        |
+         v        v
+     [ I = I+1 ] ( STOP )
+         |
+         +-----> Back to condition
+```
+
+**Dry Run:** N = 5
+
+| I | SUM before | SUM after |
+|---:|---:|---:|
+| 1 | 0 | 1 |
+| 2 | 1 | 3 |
+| 3 | 3 | 6 |
+| 4 | 6 | 10 |
+| 5 | 10 | 15 |
+
+**Output:** 15
+
+---
+
+# 5. Pseudocode
+
+## 5.1 Definition of Pseudocode
+
+Pseudocode is an informal way of describing the steps of an algorithm using simple English-like statements and programming logic.
+
+It is not written in the strict syntax of any particular programming language.
+
+**Exam Definition:**
+
+Pseudocode is a structured, language-independent method of representing an algorithm using simple English-like statements.
+
+## 5.2 Features of Pseudocode
+
+1. Easy to read and understand.
+2. Independent of programming languages.
+3. Uses simple English statements.
+4. Helps to develop program logic.
+5. Can be converted into an actual program.
+6. Does not follow strict programming syntax.
+
+## 5.3 Common Pseudocode Keywords
+
+| Keyword | Meaning |
+|---|---|
+| START | Begin the algorithm |
+| STOP | End the algorithm |
+| INPUT / READ | Accept data |
+| OUTPUT / PRINT | Display data |
+| SET | Assign a value |
+| IF | Check a condition |
+| ELSE | Alternative condition |
+| END IF | End conditional block |
+| WHILE | Repeat while a condition is true |
+| FOR | Repeat for a specified range |
+| END WHILE | End while loop |
+| END FOR | End for loop |
+
+## 5.4 Basic Structures of Pseudocode
+
+There are three fundamental control structures.
+
+### 1. Sequence Structure
+
+Instructions are executed one after another in order.
 
 **Example:**
 
-A = 15, B = 25
+```text
+START
+INPUT A, B
+SET SUM = A + B
+OUTPUT SUM
+STOP
+```
 
-SUM = 15 + 25 = 40
+### 2. Selection Structure
+
+Selection is used to make decisions based on conditions.
+
+**Example:**
+
+```text
+START
+INPUT N
+
+IF N > 0 THEN
+    OUTPUT "Positive"
+ELSE
+    OUTPUT "Zero or Negative"
+END IF
+
+STOP
+```
+
+### 3. Iteration Structure
+
+Iteration means repeating a set of instructions using a loop.
+
+**Example using WHILE:**
+
+```text
+START
+SET I = 1
+
+WHILE I <= 5
+    OUTPUT I
+    SET I = I + 1
+END WHILE
+
+STOP
+```
 
 **Output:**
+
 ```text
-Sum = 40
+1
+2
+3
+4
+5
+```
+
+**Example using FOR:**
+
+```text
+START
+
+FOR I = 1 TO 5
+    OUTPUT I
+END FOR
+
+STOP
+```
+
+**Output:**
+
+```text
+1
+2
+3
+4
+5
+```
+
+## 5.5 Solved Pseudocode Examples
+
+### Example 1: Addition of Two Numbers
+
+```text
+START
+
+INPUT A, B
+SET SUM = A + B
+OUTPUT SUM
+
+STOP
+```
+
+### Example 2: Calculate Area of a Circle
+
+**Formula:** Area = π × r × r
+
+```text
+START
+
+INPUT R
+SET PI = 3.1416
+SET AREA = PI * R * R
+OUTPUT AREA
+
+STOP
+```
+
+**Dry Run:** R = 5
+
+Area = 3.1416 × 5 × 5 = 78.54
+
+### Example 3: Check Even or Odd
+
+```text
+START
+
+INPUT N
+
+IF N MOD 2 = 0 THEN
+    OUTPUT "Even"
+ELSE
+    OUTPUT "Odd"
+END IF
+
+STOP
+```
+
+### Example 4: Find the Largest of Three Numbers
+
+```text
+START
+
+INPUT A, B, C
+
+IF A >= B AND A >= C THEN
+    OUTPUT A, "is the largest"
+
+ELSE IF B >= A AND B >= C THEN
+    OUTPUT B, "is the largest"
+
+ELSE
+    OUTPUT C, "is the largest"
+
+END IF
+
+STOP
+```
+
+**Dry Run:** A = 20, B = 15, C = 10
+
+Result: 20 is the largest.
+
+### Example 5: Calculate Factorial of a Number
+
+**Definition:** The factorial of a positive integer N is the product of all positive integers from 1 to N.
+
+For example:
+
+5! = 5 × 4 × 3 × 2 × 1 = 120
+
+Also, 0! = 1.
+
+```text
+START
+
+INPUT N
+
+IF N < 0 THEN
+    OUTPUT "Factorial is not defined for negative numbers"
+
+ELSE
+    SET FACT = 1
+
+    FOR I = 1 TO N
+        SET FACT = FACT * I
+    END FOR
+
+    OUTPUT FACT
+END IF
+
+STOP
+```
+
+**Dry Run:** N = 5
+
+| I | FACT before | FACT after |
+|---:|---:|---:|
+| 1 | 1 | 1 |
+| 2 | 1 | 2 |
+| 3 | 2 | 6 |
+| 4 | 6 | 24 |
+| 5 | 24 | 120 |
+
+**Output:** 120
+
+### Example 6: Find the Sum of First N Natural Numbers
+
+```text
+START
+
+INPUT N
+SET SUM = 0
+SET I = 1
+
+WHILE I <= N
+    SET SUM = SUM + I
+    SET I = I + 1
+END WHILE
+
+OUTPUT SUM
+
+STOP
+```
+
+**Dry Run:** N = 4
+
+| I | SUM before | SUM after |
+|---:|---:|---:|
+| 1 | 0 | 1 |
+| 2 | 1 | 3 |
+| 3 | 3 | 6 |
+| 4 | 6 | 10 |
+
+**Output:** 10
+
+---
+
+# 6. Difference Between Algorithm, Flowchart and Pseudocode
+
+| Basis | Algorithm | Flowchart | Pseudocode |
+|---|---|---|---|
+| Representation | Step-by-step instructions | Graphical representation | English-like statements |
+| Form | Written steps | Symbols and arrows | Structured text |
+| Understanding | Easy | Visual and easy | Easy for programmers |
+| Symbols | Not required | Standard symbols required | No special symbols required |
+| Language | Simple language | Graphical | English-like language |
+| Purpose | Describe solution logic | Visualize program flow | Describe program logic in structured form |
+
+### Important Difference
+
+- Algorithm describes the solution step by step.
+- Flowchart represents the solution graphically.
+- Pseudocode represents the solution using structured English-like statements.
+
+---
+
+# 7. Short Questions and Answers (2 Marks)
+
+### Q1. What is an algorithm?
+
+**Answer:** An algorithm is a finite sequence of well-defined instructions used to solve a particular problem.
+
+### Q2. What is a flowchart?
+
+**Answer:** A flowchart is a graphical representation of an algorithm using standard symbols and arrows.
+
+### Q3. What is pseudocode?
+
+**Answer:** Pseudocode is an informal, language-independent way of representing an algorithm using simple English-like statements.
+
+### Q4. What is IPO?
+
+**Answer:** IPO stands for Input, Process and Output. It describes how data is received, processed and converted into a result.
+
+### Q5. Mention five characteristics of an algorithm.
+
+**Answer:**
+1. Input
+2. Output
+3. Definiteness
+4. Finiteness
+5. Effectiveness
+
+### Q6. What is finiteness?
+
+**Answer:** Finiteness means that an algorithm must terminate after a finite number of steps.
+
+### Q7. What is definiteness?
+
+**Answer:** Definiteness means that every step of an algorithm must be clear, precise and unambiguous.
+
+### Q8. What is a decision symbol?
+
+**Answer:** A diamond-shaped symbol used to represent a condition or decision in a flowchart.
+
+### Q9. What is a terminal symbol?
+
+**Answer:** An oval-shaped symbol used to represent the Start or Stop of a flowchart.
+
+### Q10. What is a process symbol?
+
+**Answer:** A rectangular symbol used to represent calculations or processing operations.
+
+### Q11. What is a flow line?
+
+**Answer:** A flow line is an arrow that shows the direction of execution in a flowchart.
+
+### Q12. What is iteration?
+
+**Answer:** Iteration is the repeated execution of a set of instructions until a specified condition is met.
+
+### Q13. What is selection?
+
+**Answer:** Selection is a control structure that chooses a particular path based on a condition.
+
+### Q14. Is pseudocode a programming language?
+
+**Answer:** No. Pseudocode is not an actual programming language. It is a method of representing program logic.
+
+### Q15. What is a connector in a flowchart?
+
+**Answer:** A connector is a small circle used to connect different parts of a flowchart.
+
+---
+
+# 8. Broad Questions and Answers (5 Marks)
+
+## Q1. Explain the characteristics of an algorithm.
+
+**Answer:**
+
+An algorithm is a finite sequence of well-defined instructions used to solve a particular problem.
+
+The five main characteristics of an algorithm are:
+
+1. **Input:** An algorithm may accept zero or more inputs.
+2. **Output:** An algorithm must produce at least one output.
+3. **Definiteness:** Every instruction must be clear and unambiguous.
+4. **Finiteness:** An algorithm must terminate after a finite number of steps.
+5. **Effectiveness:** Every instruction must be simple and executable.
+
+These characteristics help ensure that an algorithm is clear, correct and practical.
+
+## Q2. Explain the standard symbols used in a flowchart.
+
+**Answer:**
+
+A flowchart is a graphical representation of an algorithm. It uses standard symbols to represent different operations.
+
+The main flowchart symbols are:
+
+1. **Terminal (Oval):** Represents the beginning or end of a flowchart.
+2. **Input/Output (Parallelogram):** Represents input and output operations.
+3. **Process (Rectangle):** Represents calculations and processing.
+4. **Decision (Diamond):** Represents a condition with alternative paths.
+5. **Flow Line (Arrow):** Indicates the direction of execution.
+6. **Connector (Circle):** Connects different parts of a flowchart.
+
+These symbols make the flowchart easy to understand and communicate.
+
+## Q3. Explain the advantages of a flowchart.
+
+**Answer:**
+
+The advantages of a flowchart are:
+
+1. It makes program logic easy to understand.
+2. It provides a visual representation of a problem.
+3. It helps identify logical errors.
+4. It improves communication among programmers.
+5. It helps in program development.
+6. It is useful for documentation and maintenance.
+
+## Q4. Explain the three basic control structures.
+
+**Answer:**
+
+There are three basic control structures in programming:
+
+1. **Sequence:** Instructions are executed one after another.
+2. **Selection:** A decision is made based on a condition using IF-ELSE.
+3. **Iteration:** Instructions are repeated using loops such as FOR and WHILE.
+
+These structures are the foundation of structured programming.
+
+## Q5. Differentiate between algorithm and flowchart.
+
+**Answer:**
+
+An algorithm is a step-by-step written procedure for solving a problem, whereas a flowchart is a graphical representation of that procedure.
+
+| Algorithm | Flowchart |
+|---|---|
+| Uses written instructions | Uses graphical symbols |
+| Easy to write | Requires drawing |
+| Shows logical steps | Shows visual program flow |
+| Does not require standard symbols | Requires standard symbols |
+
+Both are used to design and understand program logic before coding.
+
+## Q6. Explain the advantages of pseudocode.
+
+**Answer:**
+
+The advantages of pseudocode are:
+
+1. It is easy to read and understand.
+2. It is independent of programming languages.
+3. It helps develop program logic.
+4. It makes coding easier.
+5. It helps identify logical mistakes.
+6. It can be converted into an actual program.
+
+---
+
+# 9. Practice Problems with Solutions
+
+## Problem 1: Convert Celsius to Fahrenheit
+
+**Formula:**
+
+F = (C × 9/5) + 32
+
+**Algorithm:**
+
+1. Start.
+2. Input C.
+3. Calculate F = (C × 9/5) + 32.
+4. Display F.
+5. Stop.
+
+**Pseudocode:**
+
+```text
+START
+INPUT C
+SET F = (C * 9 / 5) + 32
+OUTPUT F
+STOP
+```
+
+**Dry Run:** C = 25
+
+F = (25 × 9/5) + 32 = 77°F
+
+## Problem 2: Check Positive, Negative or Zero
+
+**Pseudocode:**
+
+```text
+START
+INPUT N
+
+IF N > 0 THEN
+    OUTPUT "Positive"
+ELSE IF N < 0 THEN
+    OUTPUT "Negative"
+ELSE
+    OUTPUT "Zero"
+END IF
+
+STOP
+```
+
+## Problem 3: Find the Sum of Two Numbers Using Pseudocode
+
+```text
+START
+INPUT A, B
+SET SUM = A + B
+OUTPUT SUM
+STOP
+```
+
+## Problem 4: Display Numbers from 1 to 10
+
+```text
+START
+
+FOR I = 1 TO 10
+    OUTPUT I
+END FOR
+
+STOP
+```
+
+## Problem 5: Check Voting Eligibility
+
+**Assumption:** Minimum voting age is 18.
+
+```text
+START
+INPUT AGE
+
+IF AGE >= 18 THEN
+    OUTPUT "Eligible to vote"
+ELSE
+    OUTPUT "Not eligible to vote"
+END IF
+
+STOP
+```
+
+## Problem 6: Find the Largest of Three Numbers
+
+```text
+START
+INPUT A, B, C
+
+IF A >= B AND A >= C THEN
+    OUTPUT A
+ELSE IF B >= A AND B >= C THEN
+    OUTPUT B
+ELSE
+    OUTPUT C
+END IF
+
+STOP
+```
+
+---
+
+# 10. Multiple Choice Questions (MCQ)
+
+Choose the correct answer.
+
+### 1. What is an algorithm?
+
+A. A programming language  
+B. A finite sequence of instructions  
+C. A computer device  
+D. An operating system  
+
+### 2. Which of the following is a characteristic of an algorithm?
+
+A. Ambiguity  
+B. Infinite execution  
+C. Definiteness  
+D. Unclear instructions  
+
+### 3. Which symbol represents Start and Stop?
+
+A. Rectangle  
+B. Diamond  
+C. Oval  
+D. Parallelogram  
+
+### 4. Which symbol represents a decision?
+
+A. Diamond  
+B. Rectangle  
+C. Oval  
+D. Circle  
+
+### 5. Which symbol represents input and output?
+
+A. Oval  
+B. Parallelogram  
+C. Rectangle  
+D. Diamond  
+
+### 6. Which symbol represents processing?
+
+A. Rectangle  
+B. Diamond  
+C. Circle  
+D. Oval  
+
+### 7. What does IPO stand for?
+
+A. Input, Program, Operation  
+B. Input, Process, Output  
+C. Internet, Process, Output  
+D. Input, Program, Output  
+
+### 8. Which of the following is not a characteristic of an algorithm?
+
+A. Input  
+B. Output  
+C. Finiteness  
+D. Ambiguity  
+
+### 9. What is pseudocode?
+
+A. A machine language  
+B. A programming language  
+C. An English-like representation of an algorithm  
+D. An operating system  
+
+### 10. Which structure is used for decision-making?
+
+A. Sequence  
+B. Selection  
+C. Iteration  
+D. Compilation  
+
+### 11. Which structure is used for repetition?
+
+A. Iteration  
+B. Selection  
+C. Sequence  
+D. Input  
+
+### 12. Which keyword is commonly used to accept data in pseudocode?
+
+A. PRINT  
+B. INPUT  
+C. STOP  
+D. END  
+
+### 13. Which keyword is used to display output?
+
+A. INPUT  
+B. READ  
+C. OUTPUT  
+D. START  
+
+### 14. What is the result of 5! ?
+
+A. 25  
+B. 60  
+C. 100  
+D. 120  
+
+### 15. What is the value of 0! ?
+
+A. 0  
+B. 1  
+C. Undefined  
+D. 10  
+
+### 16. Which operator is commonly used to find the remainder?
+
+A. +  
+B. -  
+C. %  
+D. /  
+
+### 17. What is the output if N = 8 and the condition N % 2 == 0 is checked?
+
+A. Odd  
+B. Even  
+C. Zero  
+D. Negative  
+
+### 18. Which of the following shows the direction of a flowchart?
+
+A. Diamond  
+B. Arrow  
+C. Oval  
+D. Rectangle  
+
+### 19. Which of the following is language-independent?
+
+A. C program  
+B. C++ program  
+C. Pseudocode  
+D. Machine code  
+
+### 20. What must an algorithm produce?
+
+A. At least one output  
+B. At least ten inputs  
+C. An infinite loop  
+D. A programming language  
+
+## MCQ Answer Key
+
+| Question | Answer |
+|---|---|
+| 1 | B |
+| 2 | C |
+| 3 | C |
+| 4 | A |
+| 5 | B |
+| 6 | A |
+| 7 | B |
+| 8 | D |
+| 9 | C |
+| 10 | B |
+| 11 | A |
+| 12 | B |
+| 13 | C |
+| 14 | D |
+| 15 | B |
+| 16 | C |
+| 17 | B |
+| 18 | B |
+| 19 | C |
+| 20 | A |
+
+---
+
+# 11. Quick Revision
+
+| Topic | Remember |
+|---|---|
+| Algorithm | Step-by-step solution |
+| Flowchart | Graphical representation |
+| Pseudocode | English-like representation |
+| IPO | Input, Process, Output |
+| Terminal | Oval |
+| Input/Output | Parallelogram |
+| Process | Rectangle |
+| Decision | Diamond |
+| Flow Line | Arrow |
+| Connector | Circle |
+| Sequence | Step-by-step execution |
+| Selection | Decision-making |
+| Iteration | Repetition |
+| Factorial | Product of positive integers |
+| Even Number | Divisible by 2 |
+| Odd Number | Not divisible by 2 |
+
+## Important Formulas
+
+| Problem | Formula |
+|---|---|
+| Addition | SUM = A + B |
+| Rectangle Area | AREA = L × W |
+| Circle Area | AREA = π × r² |
+| Average | AVG = (A + B + C) / 3 |
+| Simple Interest | SI = (P × R × T) / 100 |
+| Celsius to Fahrenheit | F = (C × 9/5) + 32 |
+| Factorial | N! = N × (N-1) × ... × 1 |
+
+---
+
+# 12. Final Exam Preparation Tips
+
+1. Memorize the definition of Algorithm, Flowchart and Pseudocode.
+2. Learn all five characteristics of an algorithm.
+3. Practice drawing the six standard flowchart symbols.
+4. Practice at least three flowcharts: Addition, Even/Odd and Largest Number.
+5. Understand IF-ELSE, FOR and WHILE structures.
+6. Practice writing pseudocode for factorial and summation.
+7. Learn the differences between Algorithm, Flowchart and Pseudocode.
+8. Practice dry runs using trace tables.
+
+**Final Reminder:** Understand the logic first, then memorize the steps. If you can explain the logic, you will be able to solve similar problems in the examination.
+
+---
+**End of Chapter**
