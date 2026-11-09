@@ -98,7 +98,7 @@ int main(void) {
     }
 
     for (i = 1; i <= n; i++) {
-        printf("%d ", i);
+        printf("%lld ", i);
     }
 
     printf("\n");
