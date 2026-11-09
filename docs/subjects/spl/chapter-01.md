@@ -411,9 +411,19 @@ gcc hello.c -o hello
 
 ### Step 2: Run on Windows
 
+**In Windows Command Prompt (CMD):**
+
 ```bash
 hello.exe
 ```
+
+**In Windows PowerShell:**
+
+```powershell
+.\hello.exe
+```
+
+PowerShell normally requires the `./`-style current-directory prefix (here, ` .\ ` on Windows) when running an executable from the current folder.
 
 ### Step 3: Run on Linux or macOS
 
