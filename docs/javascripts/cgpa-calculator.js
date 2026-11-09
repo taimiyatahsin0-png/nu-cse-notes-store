@@ -36,6 +36,7 @@
     function calculate() {
       let qualityPoints = 0;
       let earnedCredits = 0;
+      let attemptedCredits = 0;
       let completed = 0;
       let failed = 0;
       let invalid = false;
@@ -55,6 +56,7 @@
           return;
         }
         completed += 1;
+        attemptedCredits += credit;
         if (grade === "F") {
           failed += 1;
           return;
@@ -84,13 +86,14 @@
         setText("cgpa-current-gpa", "—");
         setText("cgpa-overall", "—");
         setText("cgpa-earned-credits", earnedCredits.toFixed(2));
+        setText("cgpa-attempted-credits", attemptedCredits.toFixed(2));
         setText("cgpa-quality-points", qualityPoints.toFixed(2));
         root.querySelector("#cgpa-message").textContent =
           "Check the inputs: enter both a valid credit and a grade for each course. Previous CGPA and credits must be entered together.";
         return;
       }
 
-      const currentGpa = earnedCredits > 0 ? qualityPoints / earnedCredits : null;
+      const currentGpa = attemptedCredits > 0 ? qualityPoints / attemptedCredits : null;
       const totalCredits = previousCredits + earnedCredits;
       const totalPoints = (previousCgpa * previousCredits) + qualityPoints;
       const overall = totalCredits > 0 ? totalPoints / totalCredits : null;
@@ -98,12 +101,13 @@
       setText("cgpa-current-gpa", currentGpa === null ? "—" : currentGpa.toFixed(2));
       setText("cgpa-overall", overall === null ? "—" : overall.toFixed(2));
       setText("cgpa-earned-credits", earnedCredits.toFixed(2));
+      setText("cgpa-attempted-credits", attemptedCredits.toFixed(2));
       setText("cgpa-quality-points", qualityPoints.toFixed(2));
 
       let message = completed === 0 && !hasPrevious
         ? "Enter course credits and grades to calculate."
         : "Calculated as a credit-weighted average. This is an unofficial estimate.";
-      if (failed > 0) message += " " + failed + " F-grade course(s) excluded from earned credits.";
+      if (failed > 0) message += " " + failed + " F-grade course(s) counted as attempted credits but not earned credits.";
       if (hasPrevious) message += " Previous result included.";
       root.querySelector("#cgpa-message").textContent = message;
     }
