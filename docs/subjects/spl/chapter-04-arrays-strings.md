@@ -381,3 +381,52 @@ It provides declarations for common string-handling functions such as strlen(), 
 - strcmp(): compare.
 
 **End of Chapter 04**
+
+
+---
+
+## NU Previous Questions and Board Question Archive
+
+### Questions appearing in readable NU paper copies
+
+**2019**
+- What is an array? Write its advantages and disadvantages.
+- Mention string-handling functions and explain them with examples.
+- Write a C program to multiply two matrices.
+
+**2022**
+- What is an array? Discuss its advantages and disadvantages.
+- What is a string? Name four string-handling functions and their actions.
+- Write a C program to check whether a string is a palindrome.
+
+### Topic-year references in the student-compiled NU question bank
+
+- Definition of array: listed across 2007, 2008, 2011, 2012, 2017 and 2019.
+- Array declaration / initialization: 2020 and 2021 topic tags appear in the bank.
+- String definition: 2007, 2009, 2011, 2012, 2013, 2014, 2016, 2018, 2019, 2021 and 2022.
+- String-handling functions: 2007, 2009, 2011, 2012, 2013, 2014, 2016, 2018, 2019, 2020, 2021 and 2022.
+- Palindrome program: 2011 and 2022.
+
+### Selected exam reminder: String in C
+
+**Exam-ready English:** A string in C is a sequence of characters terminated by the null character, written as the escape sequence \\0.
+
+**বাংলায়:** C-তে string-এর শেষে null character থাকে। তাই ১০টি visible character রাখতে হলে সাধারণত অন্তত ১১ byte জায়গা লাগবে।
+
+**Safe input reminder:** A bounded scanf with a width limit reads one word only. Use fgets() for a line that may contain spaces. Never use gets().
+
+### Board and question-bank sources
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE SPL Question Bank (510201)](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
+- [2022 paper copy](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+
+### Extra practice (not verified PYQs)
+
+1. Find the second-largest element in an integer array.
+2. Transpose a matrix.
+3. Count vowels, consonants, digits and spaces in a line of text.
+
+**Source caution:** Question-bank year labels are secondary-source references. Newly written practice tasks are not presented as NU past questions.
