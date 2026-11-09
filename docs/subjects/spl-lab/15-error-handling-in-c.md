@@ -156,6 +156,7 @@ To prevent integer division by zero by checking the divisor before performing di
 
 ```c
 #include <stdio.h>
+#include <limits.h>
 
 int main(void)
 {
