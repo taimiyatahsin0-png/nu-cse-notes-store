@@ -96,6 +96,7 @@ To check whether the user has entered a valid integer.
 
 ```c
 #include <stdio.h>
+#include <limits.h>
 
 int main(void)
 {
@@ -171,6 +172,12 @@ int main(void)
     if (denominator == 0)
     {
         printf("Error: Division by zero is not allowed.\n");
+        return 1;
+    }
+
+    if (numerator == INT_MIN && denominator == -1)
+    {
+        printf("Error: The quotient is outside the int range.\n");
         return 1;
     }
 
@@ -274,13 +281,14 @@ To validate the number of marks and prevent division by zero when calculating an
 int main(void)
 {
     int count, i;
-    float mark, total = 0.0f;
+    float mark;
+    double total = 0.0;
 
     printf("How many marks? ");
 
-    if (scanf("%d", &count) != 1 || count <= 0)
+    if (scanf("%d", &count) != 1 || count <= 0 || count > 1000)
     {
-        printf("Error: Enter a positive number of marks.\n");
+        printf("Error: Enter a number of marks from 1 to 1000.\n");
         return 1;
     }
 
@@ -288,9 +296,9 @@ int main(void)
     {
         printf("Enter mark %d: ", i);
 
-        if (scanf("%f", &mark) != 1)
+        if (scanf("%f", &mark) != 1 || mark < 0.0f || mark > 100.0f)
         {
-            printf("Error: Invalid mark entered.\n");
+            printf("Error: Enter a valid mark from 0 to 100.\n");
             return 1;
         }
 
