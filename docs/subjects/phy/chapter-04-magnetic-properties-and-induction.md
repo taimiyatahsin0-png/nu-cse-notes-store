@@ -2,6 +2,8 @@
 
 **Course:** Physics (510207)
 
+
+> **বাংলায় মূল ধারণা:** সব material magnetic field-এ একইভাবে আচরণ করে না। আবার magnetic flux পরিবর্তন হলে coil-এ induced EMF তৈরি হয়। এই অধ্যায়ে magnetic materials, induction, inductance, hysteresis ও eddy current শিখবে।
 ---
 
 ## 1. Magnetic Dipole
