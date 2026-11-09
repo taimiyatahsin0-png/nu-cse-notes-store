@@ -117,6 +117,8 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 04: Semiconductor Diodes and Special Purpose Diodes](chapter-04-semiconductor-diodes.md)
 
+[📝 Chapter 04 Exam Preparation Pack](chapter-04-exam-preparation.md)
+
 ### Chapter 05: Regulated Power Supply
 
 [📖 Read Chapter 05: Regulated Power Supply](chapter-05-regulated-power-supply.md)
