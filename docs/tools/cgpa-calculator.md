@@ -76,7 +76,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button cgpa-add-course" data-add="1">+ Add course</button>
-          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="1">Save Semester Result</button>
+          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="1">Save to Overall CGPA</button>
           <button type="button" class="md-button cgpa-clear-semester" data-clear="1">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
@@ -136,7 +136,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button cgpa-add-course" data-add="2">+ Add course</button>
-          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="2">Save Semester Result</button>
+          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="2">Save to Overall CGPA</button>
           <button type="button" class="md-button cgpa-clear-semester" data-clear="2">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
@@ -148,7 +148,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       </section>
 <section class="cgpa-semester-panel" data-panel="3" hidden>
         <div class="cgpa-panel-heading">
-          <div><h2>Semester 3</h2><p>Select the final letter grade for each course. Add or remove rows as needed.</p></div>
+          <div><h2>Semester 3</h2><p>Select a grade for each listed subject. Course names, codes and credits follow the CSE Buddy curriculum list.</p></div>
           <span class="cgpa-progress" data-progress="3">0 grades selected</span>
         </div>
         <div class="cgpa-table-wrap">
@@ -202,7 +202,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button cgpa-add-course" data-add="3">+ Add course</button>
-          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="3">Save Semester Result</button>
+          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="3">Save to Overall CGPA</button>
           <button type="button" class="md-button cgpa-clear-semester" data-clear="3">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
@@ -214,7 +214,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       </section>
 <section class="cgpa-semester-panel" data-panel="4" hidden>
         <div class="cgpa-panel-heading">
-          <div><h2>Semester 4</h2><p>Select the final letter grade for each course. Add or remove rows as needed.</p></div>
+          <div><h2>Semester 4</h2><p>Select a grade for each listed subject. Course names, codes and credits follow the CSE Buddy curriculum list.</p></div>
           <span class="cgpa-progress" data-progress="4">0 grades selected</span>
         </div>
         <div class="cgpa-table-wrap">
@@ -268,7 +268,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button cgpa-add-course" data-add="4">+ Add course</button>
-          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="4">Save Semester Result</button>
+          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="4">Save to Overall CGPA</button>
           <button type="button" class="md-button cgpa-clear-semester" data-clear="4">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
@@ -280,7 +280,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       </section>
 <section class="cgpa-semester-panel" data-panel="5" hidden>
         <div class="cgpa-panel-heading">
-          <div><h2>Semester 5</h2><p>Select the final letter grade for each course. Add or remove rows as needed.</p></div>
+          <div><h2>Semester 5</h2><p>Select a grade for each listed subject. Course names, codes and credits follow the CSE Buddy curriculum list.</p></div>
           <span class="cgpa-progress" data-progress="5">0 grades selected</span>
         </div>
         <div class="cgpa-table-wrap">
@@ -334,7 +334,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button cgpa-add-course" data-add="5">+ Add course</button>
-          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="5">Save Semester Result</button>
+          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="5">Save to Overall CGPA</button>
           <button type="button" class="md-button cgpa-clear-semester" data-clear="5">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
@@ -346,7 +346,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       </section>
 <section class="cgpa-semester-panel" data-panel="6" hidden>
         <div class="cgpa-panel-heading">
-          <div><h2>Semester 6</h2><p>Select the final letter grade for each course. Add or remove rows as needed.</p></div>
+          <div><h2>Semester 6</h2><p>Select a grade for each listed subject. Course names, codes and credits follow the CSE Buddy curriculum list.</p></div>
           <span class="cgpa-progress" data-progress="6">0 grades selected</span>
         </div>
         <div class="cgpa-table-wrap">
@@ -400,7 +400,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button cgpa-add-course" data-add="6">+ Add course</button>
-          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="6">Save Semester Result</button>
+          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="6">Save to Overall CGPA</button>
           <button type="button" class="md-button cgpa-clear-semester" data-clear="6">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
@@ -412,7 +412,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       </section>
 <section class="cgpa-semester-panel" data-panel="7" hidden>
         <div class="cgpa-panel-heading">
-          <div><h2>Semester 7</h2><p>Select the final letter grade for each course. Add or remove rows as needed.</p></div>
+          <div><h2>Semester 7</h2><p>Select a grade for each listed subject. Course names, codes and credits follow the CSE Buddy curriculum list.</p></div>
           <span class="cgpa-progress" data-progress="7">0 grades selected</span>
         </div>
         <div class="cgpa-table-wrap">
@@ -472,7 +472,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button cgpa-add-course" data-add="7">+ Add course</button>
-          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="7">Save Semester Result</button>
+          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="7">Save to Overall CGPA</button>
           <button type="button" class="md-button cgpa-clear-semester" data-clear="7">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
@@ -484,7 +484,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       </section>
 <section class="cgpa-semester-panel" data-panel="8" hidden>
         <div class="cgpa-panel-heading">
-          <div><h2>Semester 8</h2><p>Select the final letter grade for each course. Add or remove rows as needed.</p></div>
+          <div><h2>Semester 8</h2><p>Select a grade for each listed subject. Course names, codes and credits follow the CSE Buddy curriculum list.</p></div>
           <span class="cgpa-progress" data-progress="8">0 grades selected</span>
         </div>
         <div class="cgpa-table-wrap">
@@ -532,7 +532,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button cgpa-add-course" data-add="8">+ Add course</button>
-          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="8">Save Semester Result</button>
+          <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="8">Save to Overall CGPA</button>
           <button type="button" class="md-button cgpa-clear-semester" data-clear="8">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
