@@ -123,6 +123,8 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 05: Regulated Power Supply](chapter-05-regulated-power-supply.md)
 
+[📝 Chapter 05 Exam Preparation Pack](chapter-05-exam-preparation.md)
+
 ### Chapter 06: Bipolar Junction Transistors (BJT)
 
 [📖 Read Chapter 06: Bipolar Junction Transistors (BJT)](chapter-06-bipolar-junction-transistors.md)
