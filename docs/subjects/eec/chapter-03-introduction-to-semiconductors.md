@@ -141,15 +141,15 @@ At absolute zero, an ideal intrinsic semiconductor has no thermally generated fr
 
 For an intrinsic semiconductor:
 
-[
+\[
 n = p = n_i
-]
+\]
 
 Where:
 
-- (n) = electron concentration
-- (p) = hole concentration
-- (n_i) = intrinsic carrier concentration
+- \(n\) = electron concentration
+- \(p\) = hole concentration
+- \(n_i\) = intrinsic carrier concentration
 
 The equality means that the number of electrons and holes per unit volume is equal in an intrinsic material at thermal equilibrium. It does not mean that electrons and holes have equal mobility.
 
@@ -254,11 +254,11 @@ Therefore:
 
 In a semiconductor at thermal equilibrium under the usual non-degenerate conditions, the mass-action relation is:
 
-[
+\[
 np = n_i^2
-]
+\]
 
-Here (n), (p), and (n_i) are carrier concentrations. This relation is a useful deeper concept; detailed derivation is beyond the introductory scope of this chapter.
+Here \(n\), \(p\), and \(n_i\) are carrier concentrations. This relation is a useful deeper concept; detailed derivation is beyond the introductory scope of this chapter.
 
 ## 10. Conductivity of a semiconductor
 
