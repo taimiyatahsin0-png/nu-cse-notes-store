@@ -617,7 +617,7 @@ int main(void)
 
     swap(&a, &b);
 
-    printf("After swapping: a = %d, b = %d\\n", a, b);
+    printf("After swapping: a = %d, b = %d\n", a, b);
     return 0;
 }
 ```
@@ -660,7 +660,7 @@ int main(void)
 
     for (i = 0; i < 3; i++)
     {
-        printf("Roll: %d, Name: %s, Marks: %.2f\\n",
+        printf("Roll: %d, Name: %s, Marks: %.2f\n",
                students[i].roll,
                students[i].name,
                students[i].marks);
@@ -689,7 +689,7 @@ int main(void)
         return 1;
     }
 
-    if (fprintf(fp, "A new line was added.\\n") < 0)
+    if (fprintf(fp, "A new line was added.\n") < 0)
     {
         perror("Unable to write to file");
         fclose(fp);
@@ -702,7 +702,7 @@ int main(void)
         return 1;
     }
 
-    printf("Text appended successfully.\\n");
+    printf("Text appended successfully.\n");
     return 0;
 }
 ```
