@@ -260,7 +260,11 @@ int main(void)
     long long result;
 
     printf("Enter two integers: ");
-    scanf("%d %d", &x, &y);
+    if (scanf("%d %d", &x, &y) != 2)
+    {
+        printf("Invalid input. Enter two integers.\n");
+        return 1;
+    }
 
     result = add(x, y);
 
