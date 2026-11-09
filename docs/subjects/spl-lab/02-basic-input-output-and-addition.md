@@ -53,13 +53,13 @@ int main(void)
 
     if (scanf("%d %d", &first, &second) != 2)
     {
-        printf("Invalid input. Please enter two integers.\\n");
+        printf("Invalid input. Please enter two integers.\n");
         return 1;
     }
 
     sum = first + second;
 
-    printf("Sum = %d\\n", sum);
+    printf("Sum = %d\n", sum);
 
     return 0;
 }
@@ -74,7 +74,7 @@ int main(void)
 | `scanf("%d %d", &first, &second)` | Reads two integers and stores them in the variables. |
 | `!= 2` | Checks whether exactly two values were successfully read. |
 | `sum = first + second;` | Adds the two values and stores the result. |
-| `printf("Sum = %d\\n", sum);` | Displays the calculated sum. |
+| `printf("Sum = %d\n", sum);` | Displays the calculated sum. |
 | `return 0;` | Indicates successful program completion. |
 
 **Why use `&` with `scanf()`?**  
@@ -128,7 +128,7 @@ gcc sum.c -o sum
 Run the program:
 
 - **Linux/macOS:** `./sum`
-- **Windows (MinGW/GCC):** `.\\sum.exe`
+- **Windows (MinGW/GCC):** `sum.exe`
 
 ## 11. Result
 
