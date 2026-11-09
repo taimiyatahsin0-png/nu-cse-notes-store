@@ -31,6 +31,10 @@ Students will regularly solve programming problems to improve their practical pr
 - Testing and debugging programs
 - Developing problem-solving skills
 
+## Practical Notes
+
+- [Practical 01: Basic Structure of a C Program](01-basic-structure-of-c-program.md) — suggested foundational practical; verify experiment order with your department's current lab manual.
+
 ## Final Lab Project
 
 At the end of the course, students are expected to develop a simple real-life programming project.
