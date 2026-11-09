@@ -1,20 +1,20 @@
-# 🌿 NU CSE – First Semester
+# 🌿 NU CSE Notes Store
 
 ### Learn • Practice • Grow
 
-A student-friendly study space for First Semester Computer Science and Engineering students of National University, Bangladesh.
+A student-friendly study space for Computer Science and Engineering students of National University, Bangladesh, with a focus on CSE First Semester learning.
 
 ---
 
 ## Student Dashboard
 
-Welcome to your NU CSE First Semester study space. Find subject notes, syllabus references, programming practice and exam preparation in one place.
+Welcome to your NU CSE study space. Find subject notes, syllabus references, programming practice and exam preparation in one place.
 
 <div class="grid cards" markdown>
 
 -   :material-book-open-variant: **Subject Notes**
 
-    Browse organized first-semester notes with Bangla explanations and exam-ready English.
+    Browse organized CSE First Semester notes with Bangla explanations and exam-ready English.
 
     [Open SPL Notes](subjects/spl/index.md)
 
