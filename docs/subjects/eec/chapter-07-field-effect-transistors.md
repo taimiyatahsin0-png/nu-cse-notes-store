@@ -45,7 +45,7 @@ In a typical JFET, the gate-channel junction is reverse biased, so gate current 
 
 FETs are mainly classified into two groups:
 
-\`\`\`text
+```text
               Field Effect Transistor
                        |
              +---------+---------+
@@ -53,7 +53,7 @@ FETs are mainly classified into two groups:
            JFET                MOSFET
      (Junction FET)     (Metal-Oxide-Semiconductor
                               FET)
-\`\`\`
+```
 
 ### 2.1 Junction Field Effect Transistor (JFET)
 
@@ -108,7 +108,7 @@ The two ends of the N-type channel are connected to the source and drain termina
 
 Conceptual structure:
 
-\`\`\`text
+```text
              Drain (D)
                  |
           +-------------+
@@ -117,7 +117,7 @@ Conceptual structure:
           +-------------+
                  |
              Source (S)
-\`\`\`
+```
 
 The gate-channel P-N junction is normally reverse biased during operation.
 
@@ -403,7 +403,7 @@ Self-bias is a common JFET biasing method. A resistor \(R_S\) is connected betwe
 
 Simplified N-channel self-bias circuit:
 
-\`\`\`text
+```text
               +VDD
                 |
                RD
@@ -417,7 +417,7 @@ Simplified N-channel self-bias circuit:
                GND
 
 Gate (G) ── RG ── GND
-\`\`\`
+```
 
 Since gate current is approximately zero:
 
