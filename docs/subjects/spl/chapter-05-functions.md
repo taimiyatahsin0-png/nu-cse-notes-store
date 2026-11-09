@@ -427,7 +427,6 @@ Scope is the region of a program in which an identifier can be accessed.
 **2019**
 - Define user-defined function and library function with examples.
 - What are actual and formal parameters? Explain with an example.
-- Write a program to calculate a series using a function.
 
 **2022**
 - What is a function in C?
