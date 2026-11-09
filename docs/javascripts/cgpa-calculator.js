@@ -2,6 +2,7 @@
   "use strict";
   const gradePoints = {"A+":4,"A":3.75,"A-":3.5,"B+":3.25,"B":3,"B-":2.75,"C+":2.5,"C":2.25,"D":2,"F":0};
   const STORAGE_KEY = "nuCseSemesterCgpaV2";
+  const semesterCredits = [18,16.5,18,16.5,16.5,16.5,18,18];
 
   function init() {
     const root = document.getElementById("semester-cgpa-tool");
@@ -78,22 +79,27 @@
       const item=state.saved[semester];
       if(!item || !Array.isArray(item.courses)) return;
       const body=$('[data-rows="' + semester + '"]');
-      body.innerHTML="";
-      item.courses.forEach(course => {
+      const savedByName = new Map(item.courses.map(course => [course.name, course]));
+      $(".cgpa-course-row",body).forEach(row => {
+        const name=$(".cgpa-course-name",row).value.trim();
+        const saved=savedByName.get(name);
+        if(saved) { $(".cgpa-grade",row).value=saved.grade; savedByName.delete(name); }
+        else if(row.classList.contains("cgpa-fixed-row")) { $(".cgpa-grade",row).value=""; }
+      });
+      savedByName.forEach(course => {
         const row=makeRow();
         $(".cgpa-course-name",row).value=course.name || "";
         $(".cgpa-credit",row).value=course.credit;
         $(".cgpa-grade",row).value=course.grade;
         body.appendChild(row);
       });
-      if(!item.courses.length) body.appendChild(makeRow());
       updateRemoveButtons(body);
       updateSemester(semester);
     }
 
     function updateRemoveButtons(body) {
       const rows=$$(".cgpa-course-row",body);
-      rows.forEach(row => { $(".cgpa-remove",row).disabled=rows.length<=1; });
+      rows.forEach(row => { $(".cgpa-remove",row).disabled=row.classList.contains("cgpa-fixed-row") || rows.length<=1; });
     }
 
     $$(".cgpa-semester-tab").forEach(button => button.addEventListener("click",() => {
@@ -130,7 +136,11 @@
         updateRemoveButtons(body); updateSemester(Number(body.dataset.rows));
       } else if(clear) {
         const n=Number(clear.dataset.clear), body=$('[data-rows="' + n + '"]');
-        body.innerHTML=""; for(let i=0;i<3;i++) body.appendChild(makeRow());
+        $(".cgpa-course-row",body).forEach(row => {
+          if(row.classList.contains("cgpa-fixed-row")) $(".cgpa-grade",row).value="";
+          else row.remove();
+        });
+        if(!body.querySelector(".cgpa-course-row")) for(let i=0;i<3;i++) body.appendChild(makeRow());
         updateRemoveButtons(body); updateSemester(n);
       } else if(save) {
         const n=Number(save.dataset.save), data=updateSemester(n);
@@ -161,21 +171,26 @@
     function updateQuick() {
       let quality=0, credits=0, count=0, invalid=false;
       for(let i=1;i<=8;i++) {
-        const g=$('[data-quick-gpa="' + i + '"]').value.trim();
-        const c=$('[data-quick-credit="' + i + '"]').value.trim();
-        if(!g && !c) continue;
-        if(!g || !c || !Number.isFinite(Number(g)) || Number(g)<0 || Number(g)>4 || !Number.isFinite(Number(c)) || Number(c)<=0) { invalid=true; continue; }
-        quality+=Number(g)*Number(c); credits+=Number(c); count++;
+        const input=$('[data-quick-gpa="' + i + '"]');
+        const g=input.value.trim();
+        if(!g) continue;
+        if(!Number.isFinite(Number(g)) || Number(g)<0 || Number(g)>4) { invalid=true; continue; }
+        quality+=Number(g)*semesterCredits[i-1]; credits+=semesterCredits[i-1]; count++;
       }
       setText("#cgpa-quick-overall",invalid ? "Check entries" : credits ? fmt(quality/credits) : "—");
-      setText("#cgpa-quick-detail",count ? count + " semester(s) · " + fmt(credits) + " total credits" : "Enter semester GPA and credits");
-      setText("#cgpa-quick-message",invalid ? "Enter a GPA from 0.00 to 4.00 and a positive credit value for each semester you include." : "Quick calculation uses the credits you enter for each semester.");
+      setText("#cgpa-quick-detail",count ? count + " semester(s) · " + fmt(credits) + " curriculum credits" : "Enter semester GPA");
+      setText("#cgpa-quick-message",invalid ? "Enter a semester GPA from 0.00 to 4.00." : "Credits are automatically weighted using the CSE Buddy curriculum list.");
+      state.quick = {};
+      for(let i=1;i<=8;i++) state.quick[i]=$('[data-quick-gpa="' + i + '"]').value;
+      saveState();
     }
-    $$(".cgpa-quick-gpa, .cgpa-quick-credit").forEach(input => input.addEventListener("input",updateQuick));
+    $(".cgpa-quick-gpa").forEach(input => input.addEventListener("input",updateQuick));
+    $(".cgpa-quick-gpa").forEach(input => { input.value=(state.quick && state.quick[input.dataset.quickGpa]) || ""; });
     $(".cgpa-clear-quick").addEventListener("click",() => {
-      $$(".cgpa-quick-gpa, .cgpa-quick-credit").forEach(input => input.value="");
+      $(".cgpa-quick-gpa").forEach(input => input.value="");
       updateQuick();
     });
+    updateQuick();
 
     updateSavedSummary();
     for(let i=1;i<=8;i++) { updateRemoveButtons($('[data-rows="' + i + '"]')); updateSemester(i); }
