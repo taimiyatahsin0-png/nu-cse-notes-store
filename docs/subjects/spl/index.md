@@ -83,6 +83,10 @@ C Programming Language
 [📖 Read Chapter 02](chapter-02.md)
 
 [📥 Download Chapter 02 PDF](SPL-Chapter-02.pdf)
+
+### Chapter 03: Input, Output and Control Statements
+
+[📖 Read Chapter 03](chapter-03.md)
 *Note: Topics are organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
 Happy Coding! 💻
