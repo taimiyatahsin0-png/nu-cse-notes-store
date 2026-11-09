@@ -720,7 +720,7 @@ A beginner-friendly way to remember the structure is:
 
 int main(void)
 {
-    printf("Hello, C programming!\\n");
+    printf("Hello, C programming!\n");
     return 0;
 }
 ~~~
