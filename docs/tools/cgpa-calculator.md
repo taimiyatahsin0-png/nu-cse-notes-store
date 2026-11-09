@@ -50,6 +50,7 @@ Estimate your semester GPA and cumulative CGPA using course credits and NU-style
   <div class="cgpa-results" aria-live="polite">
     <div class="cgpa-result-card"><span>Current GPA</span><strong id="cgpa-current-gpa">—</strong><small>Based on courses entered above</small></div>
     <div class="cgpa-result-card"><span>Updated CGPA</span><strong id="cgpa-overall">—</strong><small>Includes previous result, if entered</small></div>
+    <div class="cgpa-result-card"><span>Attempted credits</span><strong id="cgpa-attempted-credits">0.00</strong><small>Includes graded F courses</small></div>
     <div class="cgpa-result-card"><span>Earned credits</span><strong id="cgpa-earned-credits">0.00</strong><small>F-grade credits excluded</small></div>
     <div class="cgpa-result-card"><span>Quality points</span><strong id="cgpa-quality-points">0.00</strong><small>Credit × grade point</small></div>
   </div>
@@ -71,7 +72,7 @@ For an updated cumulative result:
 \text{CGPA} = \frac{(\text{Previous CGPA} \times \text{Previous Earned Credits}) + \text{New Quality Points}}{\text{Previous Earned Credits} + \text{New Earned Credits}}
 \]
 
-**Important:** Under the NU Honours grading rules referenced here, an F course earns no credit and is excluded from the earned-credit denominator. If you later improve an F, use the improved result according to the rule applicable to your programme. Do not count the same course twice.
+**Important:** The 2025 NU Honours regulation example counts an F-grade course in the year-GPA denominator (attempted credits), while the student earns no credit for that course. The calculator therefore counts F as 0 grade points in current GPA, but does not add its credit to earned credits used for the provisional cumulative calculation. When an F is later passed, follow the applicable programme rule and do not count the same course twice.
 
 ## Before relying on the result
 
@@ -79,7 +80,7 @@ For an updated cumulative result:
 - Enter the final letter grade for each course, not only the final-exam marks.
 - Non-credit courses should not be entered.
 - This is an unofficial estimate. The result published by NU is authoritative.
-- Professional Honours programme-specific rules and any later regulation take priority over this general calculator.
+- **Important limitation:** the 2025 Revised Honours Regulation may not govern your Professional Honours CSE programme. This is a provisional general NU Honours model, not a confirmed Professional Honours calculator. Confirm the exact GPA/CGPA rules and credit denominator from your programme handbook or department before relying on it.
 
 [View the NU grade scale](grade-scale.md)
 
