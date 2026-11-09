@@ -6,7 +6,7 @@
 **Marks:** 80  
 **Credits:** 3.0  
 **Class Hours:** 45  
-**Semester:** First Year – First Semester
+**Semester:** CSE First Semester
 
 ## Course Overview
 
@@ -153,17 +153,5 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
 2. Electronic Devices and Circuit Theory — Robert L. Boylestad and Louis Nashelsky
 
-## Study Materials
-
-- Chapter-wise Notes
-- Circuit Diagrams
-- Important Formulas
-- Solved Numerical Problems
-- Practical Applications
-- Previous Year Questions
-
----
-
 *This topic list is transcribed from a syllabus reference for Session 2017–2018. It is not confirmation of the latest NU revision. Check your current department notice or prescribed syllabus for any updates.*
 
-Happy Learning! ⚡
