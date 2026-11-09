@@ -423,7 +423,7 @@ hello.exe
 .\hello.exe
 ```
 
-PowerShell normally requires the `./`-style current-directory prefix (here, ` .\ ` on Windows) when running an executable from the current folder.
+PowerShell uses the current-folder prefix `.` followed by a backslash to run an executable from this folder.
 
 ### Step 3: Run on Linux or macOS
 
