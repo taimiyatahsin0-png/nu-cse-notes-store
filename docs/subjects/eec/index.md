@@ -105,6 +105,8 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 02: Network Theorems](chapter-02-network-theorems.md)
 
+[📝 Chapter 02 Exam Preparation Pack](chapter-02-exam-preparation.md)
+
 ### Chapter 03: Introduction to Semiconductors
 
 [📖 Read Chapter 03: Introduction to Semiconductors](chapter-03-introduction-to-semiconductors.md)
