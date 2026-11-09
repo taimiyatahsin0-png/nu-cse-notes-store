@@ -40,6 +40,7 @@ Students will regularly solve programming problems to improve their practical pr
 - [Practical 05: Decision Making Using if, if-else, and Nested if](05-decision-making-if-else.md) — suggested practice on conditional statements.
 - [Practical 06: Switch Statement and Menu-Driven Program](06-switch-statement-menu-driven.md) — suggested practice on `switch`, `case`, `break`, and `default`.
 - [Practical 07: Looping Statements in C (for, while, and do-while)](07-looping-statements-for-while-do-while.md) — suggested practice on the three basic loop structures.
+- [Practical 08: Nested Loops and Pattern Printing in C](08-nested-loops-pattern-printing.md) — suggested practice on nested loops, star patterns, number patterns, and multiplication tables.
 
 ## Final Lab Project
 
