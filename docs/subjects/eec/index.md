@@ -141,6 +141,8 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 08: Feedback Techniques and Operational Amplifiers](chapter-08-feedback-techniques-and-operational-amplifiers.md)
 
+[📝 Chapter 08 Exam Preparation Pack](chapter-08-exam-preparation.md)
+
 ## Reference Books
 
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
