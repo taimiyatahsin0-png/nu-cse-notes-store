@@ -109,10 +109,9 @@ This course covers the fundamental concepts of Differential Calculus and Integra
 - [Chapter 01: Functions and Their Graphs](chapter-01-functions-and-their-graphs.md)
 - [Chapter 02: Limits of Functions](chapter-02-limits-of-functions.md)
 - [Chapter 03: Continuity of Functions](chapter-03-continuity-of-functions.md)
+- [Chapter 04: Differentiation](chapter-04-differentiation.md)
 
 ### Beginner Reference
-- [Mathematical Symbols & Notation for Beginners](mathematical-symbols-and-notation-for-beginners.md)
-
 - [Mathematical Symbols & Notation for Beginners](mathematical-symbols-and-notation-for-beginners.md)
 - Topic-wise Notes
 - Important Formulas
