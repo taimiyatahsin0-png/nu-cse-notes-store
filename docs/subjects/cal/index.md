@@ -6,7 +6,7 @@
 **Credits:** 3.0  
 **Marks:** 80  
 **Class Hours:** 45  
-**Semester:** First Year – First Semester
+**Semester:** CSE First Semester
 
 ## Course Overview
 
@@ -103,7 +103,7 @@ This course covers the fundamental concepts of Differential Calculus and Integra
 2. Integral Calculus — Dr. Abdul Matin
 3. A Text Book on Differential Calculus — Mohammad, Bhattacharjee and Latif
 
-## Study Materials
+## Chapter-wise Learning Resources
 
 ### Chapters
 - [Chapter 01: Functions and Their Graphs](chapter-01-functions-and-their-graphs.md)
@@ -159,7 +159,7 @@ These notes use a consistent learning order:
 
 ### Syllabus reference
 
-[NU CSE First-Year Syllabus copy (effective Session 2017–2018; hosted by DIIT)](https://diit.edu.bd/media/resource/Computer_Science_and_Engineering_1st_Year_Pub_Date_15092019.pdf)
+**Syllabus reference:** B.Sc. Honours in Computer Science and Engineering, National University, Bangladesh (effective from Session 2017–2018).
 
 The repository follows this published syllabus copy. It is not a guarantee that NU has not issued a later revision; check your department's currently approved syllabus and teacher's scope.
 
@@ -167,5 +167,4 @@ The repository follows this published syllabus copy. It is not a guarantee that 
 
 *Based on the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
-Happy Learning! 📚
 
