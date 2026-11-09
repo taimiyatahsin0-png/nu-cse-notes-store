@@ -443,6 +443,43 @@ Important regions can be identified:
 
 They help us understand how a transistor responds to input changes, identify its operating region and choose a suitable operating point for amplifier or switching circuits.
 
+### 9.3 Common-base input characteristic
+
+The CB input characteristic shows the relationship between emitter current \(I_E\) and emitter-base voltage \(V_{EB}\) for a fixed collector-base voltage \(V_{CB}\).
+
+- Horizontal axis: emitter-base voltage \(V_{EB}\) (polarity notation may vary by textbook).
+- Vertical axis: emitter current \(I_E\).
+- It resembles a forward-biased diode characteristic because the emitter-base junction is forward biased in normal active operation.
+- The input resistance is relatively low.
+
+### 9.4 Common-base output characteristic
+
+The CB output characteristic shows the relationship between collector current \(I_C\) and collector-base voltage \(V_{CB}\) for different fixed values of emitter current \(I_E\).
+
+- Horizontal axis: collector-base voltage \(V_{CB}\).
+- Vertical axis: collector current \(I_C\).
+- In the active region, collector current changes only slightly with collector-base voltage for a fixed emitter current.
+- Each curve corresponds to a different emitter-current value.
+
+### 9.5 Common-collector characteristics
+
+The CC configuration uses the collector as the common terminal.
+
+- **Input characteristic:** base current \(I_B\) versus base-collector voltage \(V_{BC}\), for a fixed emitter-collector voltage \(V_{EC}\).
+- **Output characteristic:** emitter current \(I_E\) versus emitter-collector voltage \(V_{EC}\), for different fixed base-current values \(I_B\).
+- The output characteristic is useful for understanding the emitter current delivered to a load.
+- The CC configuration has high input resistance and low output resistance, so it is commonly used as a buffer.
+
+### Quick comparison of characteristic graphs
+
+| Configuration | Input characteristic | Output characteristic |
+|---|---|---|
+| CB | \(I_E\) versus \(V_{EB}\), at fixed \(V_{CB}\) | \(I_C\) versus \(V_{CB}\), at fixed \(I_E\) |
+| CE | \(I_B\) versus \(V_{BE}\), at fixed \(V_{CE}\) | \(I_C\) versus \(V_{CE}\), at fixed \(I_B\) |
+| CC | \(I_B\) versus \(V_{BC}\), at fixed \(V_{EC}\) | \(I_E\) versus \(V_{EC}\), at fixed \(I_B\) |
+
+**Note:** Voltage polarity labels and graph direction can differ between NPN/PNP devices and textbook conventions. In an exam, follow the terminal polarity and axes used in the question or prescribed text.
+
 ## 10. DC load line
 
 A **DC load line** is a straight line drawn on a transistor's output-characteristic graph to show all possible combinations of collector current \(I_C\) and collector-emitter voltage \(V_{CE}\) allowed by the external DC supply and collector resistance.
