@@ -1166,3 +1166,35 @@ f(9)=3,\qquad f'(x)=\frac1{2\sqrt{x}},\qquad f'(9)=\frac16.
 ---
 
 *Prepared as a beginner-friendly learning resource for NU CSE Calculus (510205), following the listed syllabus topics based on the 2017–2018 syllabus. Check for later syllabus revisions and your teacher's current examination scope.*
+
+---
+
+## 20. NU Previous Questions and Board Question Archive
+
+### Questions identifiable in the NU CSE Calculus question bank
+
+**Q1.** State and explain Leibniz's theorem.
+
+**Years listed:** 2010, 2011, 2013, 2014, 2015, 2016 and 2018.
+
+This is a recurring higher-derivative topic in the student-compiled NU CSE question bank. The question is listed here in concise form; use the original paper for the exact wording and marks.
+
+The 2009–2019 Calculus compilation also includes a 2019 group of differentiation problems (including explicit, implicit and parametric differentiation), but the mathematical expressions are corrupted in the accessible text extraction. They are not reproduced here to avoid changing the question accidentally.
+
+### Board-question archive
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE Calculus question collection (2009–2019)](https://www.scribd.com/document/947202575/NU-CSE-1st-Semester-Calculus)
+
+**Verification note:** The year list is from a student-compiled question bank. The original board-paper scans should be used to verify exact wording and marks.
+
+### Additional practice (not verified PYQs)
+
+1. State and prove Leibniz's theorem.
+2. Find the second and third derivatives of a given polynomial.
+3. Differentiate a function defined implicitly.
+4. Find \(dy/dx\) for a parametric curve.
+5. Solve a basic related-rates problem.
+
+These are practice questions, not confirmed past-paper questions.
