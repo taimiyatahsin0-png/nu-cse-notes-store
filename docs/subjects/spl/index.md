@@ -83,10 +83,14 @@ C Programming Language
 
 [📥 Download Chapter 02 PDF](SPL-Chapter-02.pdf)
 
+- [📖 Algorithm, Flowchart and Pseudocode](algorithm-flowchart-pseudocode.md)
+
 ### Chapter 03: Input, Output and Control Statements
 
 [📖 Read Chapter 03](chapter-03.md)
+
+
 *Note: Topics are organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
-- [📖 Algorithm, Flowchart and Pseudocode](algorithm-flowchart-pseudocode.md)
+
 Happy Coding! 💻
 
