@@ -106,10 +106,10 @@ int main(void)
     int number = 10;
     int *ptr = &number;
 
-    printf("Value of number = %d\\n", number);
-    printf("Address of number = %p\\n", (void *)&number);
-    printf("Value stored in ptr = %p\\n", (void *)ptr);
-    printf("Value accessed through ptr = %d\\n", *ptr);
+    printf("Value of number = %d\n", number);
+    printf("Address of number = %p\n", (void *)&number);
+    printf("Value stored in ptr = %p\n", (void *)ptr);
+    printf("Value accessed through ptr = %d\n", *ptr);
 
     return 0;
 }
@@ -155,11 +155,11 @@ int main(void)
     int number = 10;
     int *ptr = &number;
 
-    printf("Before change = %d\\n", number);
+    printf("Before change = %d\n", number);
 
     *ptr = 50;
 
-    printf("After change = %d\\n", number);
+    printf("After change = %d\n", number);
 
     return 0;
 }
@@ -214,7 +214,7 @@ int main(void)
 
     swap(&x, &y);
 
-    printf("After swapping: x = %d, y = %d\\n", x, y);
+    printf("After swapping: x = %d, y = %d\n", x, y);
 
     return 0;
 }
@@ -280,14 +280,14 @@ int main(void)
     int *ptr = numbers;
     int i;
 
-    printf("Array elements using pointer:\\n");
+    printf("Array elements using pointer:\n");
 
     for (i = 0; i < 5; i++)
     {
         printf("%d ", *(ptr + i));
     }
 
-    printf("\\n");
+    printf("\n");
     return 0;
 }
 ```
@@ -335,7 +335,7 @@ int main(void)
         sum = sum + *(ptr + i);
     }
 
-    printf("Sum = %d\\n", sum);
+    printf("Sum = %d\n", sum);
 
     return 0;
 }
