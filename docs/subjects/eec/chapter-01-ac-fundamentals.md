@@ -91,9 +91,9 @@ An AC generator is an electrical machine that converts mechanical energy into el
 
 The induced EMF is proportional to the rate of change of magnetic flux linkage.
 
-[
+\[
 e=-N\frac{d\Phi}{dt}
-]
+\]
 
 Where:
 
@@ -114,15 +114,15 @@ Where:
 
 একটি sinusoidal voltage-এর সমীকরণ:
 
-[
+\[
 v(t)=V_m\sin(\omega t+\phi)
-]
+\]
 
 একইভাবে current:
 
-[
+\[
 i(t)=I_m\sin(\omega t+\phi)
-]
+\]
 
 Where:
 
@@ -136,9 +136,9 @@ Where:
 
 যদি initial phase angle শূন্য হয়, তাহলে:
 
-[
+\[
 v(t)=V_m\sin(\omega t)
-]
+\]
 
 ## 3.2 Important Parts of a Sine Wave
 
@@ -149,9 +149,9 @@ v(t)=V_m\sin(\omega t)
 
 For a symmetrical sine wave:
 
-[
+\[
 V_{pp}=2V_m
-]
+\]
 
 ## 3.3 Amplitude or Peak Value
 
@@ -179,19 +179,19 @@ Waveform-এর zero reference level থেকে সর্বোচ্চ ম�
 
 Time period এবং frequency-এর সম্পর্ক:
 
-[
+\[
 f=\frac{1}{T}
 \qquad
 T=\frac{1}{f}
-]
+\]
 
 ## 3.6 Angular Frequency (ω)
 
 Angular frequency হলো প্রতি সেকেন্ডে phase angle পরিবর্তনের হার।
 
-[
+\[
 \omega=2\pi f=\frac{2\pi}{T}
-]
+\]
 
 **Unit:** rad/s
 
@@ -219,24 +219,24 @@ Average value হলো নির্দিষ্ট সময় বা interval-�
 
 একটি সম্পূর্ণ sinusoidal cycle-এর average value শূন্য, কারণ positive এবং negative half-cycle পরস্পরকে cancel করে।
 
-[
+\[
 V_{avg}=0
 \quad \text{(over one complete cycle)}
-]
+\]
 
 কিন্তু একটি half-cycle-এর average value:
 
-[
+\[
 V_{avg}=\frac{2V_m}{\pi}
 \approx 0.637V_m
-]
+\]
 
 একইভাবে:
 
-[
+\[
 I_{avg}=\frac{2I_m}{\pi}
 \approx 0.637I_m
-]
+\]
 
 **Important:** অনেক textbook-এ average value বলতে sinusoidal waveform-এর half-cycle average বা full-wave rectified average বোঝানো হয়। প্রশ্নে কোনটি চাওয়া হয়েছে তা খেয়াল করতে হবে।
 
@@ -264,17 +264,17 @@ The RMS value of an alternating quantity is the equivalent DC value that produce
 
 Sinusoidal voltage-এর জন্য:
 
-[
+\[
 V_{rms}=\frac{V_m}{\sqrt{2}}
 \approx 0.707V_m
-]
+\]
 
 Sinusoidal current-এর জন্য:
 
-[
+\[
 I_{rms}=\frac{I_m}{\sqrt{2}}
 \approx 0.707I_m
-]
+\]
 
 ## 5.3 Solved Example: RMS Voltage
 
@@ -282,22 +282,22 @@ I_{rms}=\frac{I_m}{\sqrt{2}}
 
 **Given:**
 
-[
+\[
 V_m=100\text{ V}
-]
+\]
 
 **Formula:**
 
-[
+\[
 V_{rms}=\frac{V_m}{\sqrt{2}}
-]
+\]
 
 **Calculation:**
 
-[
+\[
 V_{rms}=\frac{100}{1.414}
 \approx 70.71\text{ V}
-]
+\]
 
 **Answer:** The RMS voltage is approximately **70.71 V**.
 
@@ -319,20 +319,20 @@ Sinusoidal waveform-এর ক্ষেত্রে average value বলতে �
 
 Form factor is the ratio of the RMS value to the average rectified value of an alternating quantity.
 
-[
+\[
 \text{Form Factor}
 =
 \frac{\text{RMS Value}}{\text{Average Rectified Value}}
-]
+\]
 
 For a sinusoidal waveform:
 
-[
+\[
 \text{Form Factor}
 =
 \frac{0.707V_m}{0.637V_m}
 \approx 1.11
-]
+\]
 
 **Therefore, the form factor of a sinusoidal waveform is approximately 1.11.**
 
@@ -342,28 +342,28 @@ For a sinusoidal waveform:
 
 **Given:**
 
-[
+\[
 V_{rms}=220\text{ V}
 \qquad
 \text{Form Factor}=1.11
-]
+\]
 
 **Formula:**
 
-[
+\[
 \text{Form Factor}
 =
 \frac{V_{rms}}{V_{avg,rect}}
-]
+\]
 
 So,
 
-[
+\[
 V_{avg,rect}
 =
 \frac{220}{1.11}
 \approx 198.20\text{ V}
-]
+\]
 
 **Answer:** The average rectified value is approximately **198.20 V**.
 
@@ -387,9 +387,9 @@ Resistance হলো কোনো উপাদানের current প্রব�
 
 Ohm's law:
 
-[
+\[
 V=IR
-]
+\]
 
 ## 7.2 Inductance (L)
 
@@ -403,9 +403,9 @@ Inductor সাধারণত coil দিয়ে তৈরি হয়। এর �
 
 Inductive reactance:
 
-[
+\[
 X_L=2\pi fL
-]
+\]
 
 Where:
 
@@ -427,9 +427,9 @@ Capacitor বৈদ্যুতিক charge এবং energy electric field-এ
 
 Capacitive reactance:
 
-[
+\[
 X_C=\frac{1}{2\pi fC}
-]
+\]
 
 Where:
 
@@ -461,9 +461,9 @@ Series circuit-এ সব component-এর মধ্য দিয়ে একই c
 
 Impedance হলো AC circuit-এ total opposition to current। এটি resistance এবং reactance-এর সম্মিলিত প্রভাব প্রকাশ করে।
 
-[
+\[
 Z=\sqrt{R^2+(X_L-X_C)^2}
-]
+\]
 
 Where:
 
@@ -474,9 +474,9 @@ Where:
 
 Circuit current:
 
-[
+\[
 I=\frac{V}{Z}
-]
+\]
 
 ## 8.3 Solved Example: Series RLC Impedance
 
@@ -484,27 +484,27 @@ I=\frac{V}{Z}
 
 **Given:**
 
-[
+\[
 R=30\ \Omega,\quad X_L=50\ \Omega,\quad X_C=10\ \Omega
-]
+\]
 
 **Formula:**
 
-[
+\[
 Z=\sqrt{R^2+(X_L-X_C)^2}
-]
+\]
 
 **Calculation:**
 
-[
+\[
 Z=\sqrt{30^2+(50-10)^2}
-]
+\]
 
-[
+\[
 Z=\sqrt{900+1600}
 =\sqrt{2500}
 =50\ \Omega
-]
+\]
 
 **Answer:** The impedance is **50 Ω**.
 
@@ -520,9 +520,9 @@ Series RLC circuit-এ এমন একটি নির্দিষ্ট freque
 
 অর্থাৎ:
 
-[
+\[
 X_L=X_C
-]
+\]
 
 এই অবস্থাকে Series Resonance বলে।
 
@@ -530,9 +530,9 @@ X_L=X_C
 
 Resonant frequency-এর সূত্র:
 
-[
+\[
 f_r=\frac{1}{2\pi\sqrt{LC}}
-]
+\]
 
 Where:
 
@@ -557,29 +557,29 @@ Resonance অবস্থায়:
 
 **Given:**
 
-[
+\[
 L=0.1\text{ H}
-]
+\]
 
-[
+\[
 C=100\times10^{-6}\text{ F}=0.0001\text{ F}
-]
+\]
 
 **Formula:**
 
-[
+\[
 f_r=\frac{1}{2\pi\sqrt{LC}}
-]
+\]
 
 **Calculation:**
 
-[
+\[
 f_r=\frac{1}{2\pi\sqrt{0.1\times0.0001}}
-]
+\]
 
-[
+\[
 f_r\approx 50.33\text{ Hz}
-]
+\]
 
 **Answer:** The resonant frequency is approximately **50.33 Hz**.
 
@@ -593,15 +593,15 @@ f_r\approx 50.33\text{ Hz}
 
 Ideal parallel LC circuit-এর ক্ষেত্রে resonance condition:
 
-[
+\[
 X_L=X_C
-]
+\]
 
 এবং resonant frequency:
 
-[
+\[
 f_r=\frac{1}{2\pi\sqrt{LC}}
-]
+\]
 
 ## 10.2 Characteristics of Ideal Parallel Resonance
 
