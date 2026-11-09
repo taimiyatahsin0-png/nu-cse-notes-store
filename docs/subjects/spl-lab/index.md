@@ -46,6 +46,8 @@ Students will regularly solve programming problems to improve their practical pr
 - [Practical 11: Structure and Union in C](11-structure-and-union.md) — suggested practice on structure variables, arrays of structures, function parameters, unions, and memory sharing.
 - [Practical 12: Pointers in C](12-pointers-in-c.md) — suggested practice on pointer declaration, addresses, dereferencing, arrays, and function arguments.
 - [Practical 13: File Management in C](13-file-management-in-c.md) — suggested practice on creating, writing, reading, and appending text files.
+- [Practical 14: Header Files, Preprocessor and Library Functions](14-header-files-preprocessor-library-functions.md) — suggested practice on header inclusion, macros, and standard library functions.
+- [Practical 15: Error Handling in C](15-error-handling-in-c.md) — suggested practice on input validation, runtime checks, file errors, and debugging.
 
 ## Final Lab Project
 
