@@ -472,7 +472,7 @@ Compile and run each program separately.
 1. Accessing an invalid index, such as `numbers[5]` in an array of size 5.
 2. Forgetting that array indexing starts at 0.
 3. Using `i <= 5` instead of `i < 5` for a five-element array.
-4. Forgetting to initialize a running total such as `sum).
+4. Forgetting to initialize a running total such as `sum`.
 5. Using integer division when a fractional average is expected.
 6. Forgetting that a C string needs space for its terminating `'\0'`.
 7. Using `scanf("%s", ...)` when the input contains spaces.
