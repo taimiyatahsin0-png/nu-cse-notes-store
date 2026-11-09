@@ -1215,3 +1215,59 @@ In this chapter, we learned:
 
 *Next Chapter: Arrays and Strings in C.*
 
+
+
+---
+
+## NU Previous Questions and Board Question Archive
+
+### Questions appearing in readable NU paper copies
+
+**2019**
+- Define loop and looping process. Explain entry-controlled and exit-controlled loops.
+- Differentiate between while and do...while.
+- Write the general form / flowchart of an else-if ladder, switch and for loop.
+- Write a C program to find the factorial of an integer.
+
+**2022**
+- Explain the differences between ++y and y++.
+- Describe the general form and flowchart of if...else, for and switch.
+- Write a C program to find the smallest number among three numbers.
+- Trace the values of variables in a given C code segment.
+
+### Topic-year references in the student-compiled NU question bank
+
+- Loop and looping process: 2015, 2016, 2018, 2020, 2021.
+- Entry-controlled and exit-controlled loops: 2017, 2018, 2019, 2020, 2021.
+- while vs do...while: 2008, 2016, 2019.
+- General form / flowchart of for: 2012, 2013, 2014, 2016, 2017, 2018, 2019, 2020, 2022.
+- Factorial program: 2019.
+- break and continue: 2012, 2015, 2016, 2020.
+- ++y vs y++: 2022.
+- if / if-else forms: 2008, 2011, 2017, 2020, 2022.
+
+### Selected solved answer: Entry-controlled vs exit-controlled loop
+
+| Entry-controlled loop | Exit-controlled loop |
+|---|---|
+| Condition is checked before the loop body | Condition is checked after the loop body |
+| May execute zero times | Executes at least once |
+| for and while | do...while |
+
+**বাংলায়:** while loop-এ শুরুতেই condition false হলে body একবারও চলবে না। do...while-এ আগে body চলে, তারপর condition check হয়—তাই অন্তত একবার execute হয়।
+
+### Board and question-bank sources
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE SPL Question Bank (510201)](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
+- [2022 paper copy](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+
+### Extra practice (not verified PYQs)
+
+1. Write a program to calculate the sum of the first n natural numbers using for.
+2. Write a program to count the digits of an integer using while.
+3. Explain why break and continue are not interchangeable.
+
+**Source caution:** The year labels in the topic list are from a student-compiled question bank. The practice questions above are newly written for revision, not past-paper claims.
