@@ -144,7 +144,7 @@ If compilation succeeds, run the program:
   ```
 - **Windows (MinGW/GCC):**
   ```bash
-  .\\hello.exe
+  .\hello.exe
   ```
 
 If you use an IDE, create a C source file, enter the program, and use its compile/run command.
@@ -192,7 +192,16 @@ A semicolon terminates most C statements.
 **Q6. Is C case-sensitive?**  
 Yes. Uppercase and lowercase letters are treated as different in identifiers.
 
-**Q7. What is a variable?**  \nA variable is a named storage location whose value can change during program execution.\n\n**Q8. What is a constant?**  \nA constant is a value that the program is not intended to modify. The `const` keyword can be used to declare an object that cannot be modified through that identifier.\n\n**Q9. Name four basic C data types.**  \n`int`, `char`, `float`, and `double`.\n\n**Q10. What does `return 0;` mean in `main()`?**  
+**Q7. What is a variable?**  
+A variable is a named storage location whose value can change during program execution.
+
+**Q8. What is a constant?**  
+A constant is a value that the program is not intended to modify. The `const` keyword can be used to declare an object that cannot be modified through that identifier.
+
+**Q9. Name four basic C data types.**  
+`int`, `char`, `float`, and `double`.
+
+**Q10. What does `return 0;` mean in `main()`?**  
 It reports successful termination to the host environment.
 
 ## 14. Common mistakes
