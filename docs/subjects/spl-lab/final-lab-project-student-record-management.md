@@ -81,6 +81,7 @@ Save the following program as `student_record.c`.
 
 #define FILE_NAME "students.dat"
 #define TEMP_FILE "students.tmp"
+#define BACKUP_FILE "students.bak"
 
 struct Student
 {
@@ -426,18 +427,33 @@ void delete_student(void)
     }
 
     /*
-       Replace the original file only after the temporary file is complete.
-       If renaming fails, the temporary file is kept for recovery.
+       Move the original file to a backup before installing the new file.
+       If installing the new file fails, attempt to restore the backup.
     */
-    if (remove(FILE_NAME) != 0)
+    if (rename(FILE_NAME, BACKUP_FILE) != 0)
     {
-        printf("Could not replace the original file. Temporary data is kept.\n");
+        printf("Could not create a backup. Original data was not replaced.\n");
         return;
     }
 
     if (rename(TEMP_FILE, FILE_NAME) != 0)
     {
-        printf("Could not rename the temporary file. Check students.tmp.\n");
+        printf("Could not install the updated file. Attempting to restore backup.\n");
+
+        if (rename(BACKUP_FILE, FILE_NAME) != 0)
+        {
+            printf("Restore failed. Keep students.bak and students.tmp for recovery.\n");
+        }
+        else
+        {
+            printf("Original data was restored.\n");
+        }
+        return;
+    }
+
+    if (remove(BACKUP_FILE) != 0)
+    {
+        printf("Record deleted, but students.bak could not be removed.\n");
         return;
     }
 
