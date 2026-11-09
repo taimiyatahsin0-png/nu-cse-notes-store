@@ -57,7 +57,7 @@ A mean value theorem guarantees that, under certain conditions, at least one int
 
 ### 1.3 Secant and tangent lines
 
-<AsyncImage query="calculus mean value theorem secant line tangent line curve diagram labeled a b c" aspectRatio="16:9" fit="contain"/>
+*Visual guide: imagine a smooth curve, the secant joining its endpoints, and a parallel tangent at an interior point.*
 
 - A **secant line** intersects a curve at two points.
 - A **tangent line** touches the curve locally at a point and gives its instantaneous slope.
@@ -112,7 +112,7 @@ f'(c)=0
 
 **মূল কথা:** দুই প্রান্তের উচ্চতা সমান হলে, শর্তগুলো পূরণ সাপেক্ষে মাঝখানে অন্তত একটি জায়গায় tangent-এর slope শূন্য হবে।
 
-<AsyncImage query="Rolle theorem smooth curve equal endpoint heights horizontal tangent c diagram calculus" aspectRatio="16:9" fit="contain"/>
+*Visual guide: imagine a smooth curve whose two endpoints have equal heights and whose tangent is horizontal at an interior point.*
 
 ### 2.3 Geometrical meaning
 
@@ -272,7 +272,7 @@ Rolle's Theorem-এ দুই endpoint-এর function value সমান হত
 f'(c)=\frac{f(b)-f(a)}{b-a}
 \]
 
-<AsyncImage query="Lagrange mean value theorem secant and parallel tangent line at c curve diagram" aspectRatio="16:9" fit="contain"/>
+*Visual guide: imagine a secant through the two endpoints and a parallel tangent touching the curve between them.*
 
 ### 3.3 Geometrical meaning
 
