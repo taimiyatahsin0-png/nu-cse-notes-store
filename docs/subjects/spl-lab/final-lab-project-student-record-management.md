@@ -78,6 +78,9 @@ Save the following program as `student_record.c`.
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#include <ctype.h>
+#include <errno.h>
+#include <limits.h>
 
 #define FILE_NAME "students.dat"
 #define TEMP_FILE "students.tmp"
@@ -90,12 +93,36 @@ struct Student
     float gpa;
 };
 
-/* Read a line and remove its trailing newline, if present. */
+/*
+   Read a line, remove its newline, and reject overlong input.
+   End the program cleanly if standard input is closed (EOF).
+*/
 void read_line(char text[], int size)
 {
-    if (fgets(text, size, stdin) != NULL)
+    size_t length;
+    int ch;
+
+    if (fgets(text, size, stdin) == NULL)
     {
-        text[strcspn(text, "\n")] = '\0';
+        printf("\nInput ended. Program will exit.\n");
+        exit(EXIT_FAILURE);
+    }
+
+    length = strlen(text);
+
+    if (length > 0 && text[length - 1] == '\n')
+    {
+        text[length - 1] = '\0';
+    }
+    else if (!feof(stdin))
+    {
+        while ((ch = getchar()) != '\n' && ch != EOF)
+        {
+            /* Discard the rest of the overlong input line. */
+        }
+
+        text[0] = '\0';
+        printf("Input is too long. Please try again.\n");
     }
 }
 
@@ -103,17 +130,26 @@ void read_line(char text[], int size)
 int read_int(const char prompt[])
 {
     char line[100];
-    int value;
-    char extra;
+    char *endptr;
+    long value;
 
     while (1)
     {
         printf("%s", prompt);
         read_line(line, sizeof(line));
 
-        if (sscanf(line, "%d %c", &value, &extra) == 1)
+        errno = 0;
+        value = strtol(line, &endptr, 10);
+
+        while (isspace((unsigned char)*endptr))
         {
-            return value;
+            endptr++;
+        }
+
+        if (endptr != line && *endptr == '\0' &&
+            errno != ERANGE && value >= INT_MIN && value <= INT_MAX)
+        {
+            return (int)value;
         }
 
         printf("Invalid input. Please enter an integer.\n");
@@ -124,16 +160,24 @@ int read_int(const char prompt[])
 float read_gpa(void)
 {
     char line[100];
+    char *endptr;
     float value;
-    char extra;
 
     while (1)
     {
         printf("Enter GPA (0.00 - 4.00): ");
         read_line(line, sizeof(line));
 
-        if (sscanf(line, "%f %c", &value, &extra) == 1 &&
-            value >= 0.0f && value <= 4.0f)
+        errno = 0;
+        value = strtof(line, &endptr);
+
+        while (isspace((unsigned char)*endptr))
+        {
+            endptr++;
+        }
+
+        if (endptr != line && *endptr == '\0' &&
+            errno != ERANGE && value >= 0.0f && value <= 4.0f)
         {
             return value;
         }
@@ -211,14 +255,20 @@ void add_student(void)
 
     if (fwrite(&student, sizeof(struct Student), 1, fp) == 1)
     {
-        printf("Student record added successfully.\n");
+        if (fclose(fp) == 0)
+        {
+            printf("Student record added successfully.\n");
+        }
+        else
+        {
+            printf("A file error occurred while closing the data file.\n");
+        }
     }
     else
     {
         printf("Could not write the student record.\n");
+        fclose(fp);
     }
-
-    fclose(fp);
 }
 
 /* Display every saved student record. */
@@ -433,6 +483,7 @@ void delete_student(void)
     if (rename(FILE_NAME, BACKUP_FILE) != 0)
     {
         printf("Could not create a backup. Original data was not replaced.\n");
+        remove(TEMP_FILE);
         return;
     }
 
