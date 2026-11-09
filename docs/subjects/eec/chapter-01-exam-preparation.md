@@ -490,3 +490,120 @@ Before the exam, make sure you can:
 **Recommended study sequence:** Read the matching Chapter 01 notes → learn the definitions → practise both derivations → solve the six worked examples yourself → attempt the self-test → revise mistakes.
 
 **Next:** Chapter 02 — Network Theorems Exam Preparation Pack.
+
+
+---
+
+## 11. NU Previous Questions and Board Question Archive
+
+The archive below separates readable past-paper prompts from student-compiled year tags. The 2022 question-paper copy contains a readable AC Fundamentals question set; the 2019 copy contains a readable coil / impedance problem. Student-uploaded copies are not official NU-hosted scans.
+
+### A. Readable NU question set — 2022
+
+1. Define alternating current and phase.
+2. Derive the average value of an alternating current.
+3. Explain resonance and show the resonant-frequency formula for a series RLC circuit.
+4. A coil with \(L=50\text{ mH}\) and \(R=10\ \Omega\) is connected in series with \(C=25\ \mu\text{F}\) across a \(200\text{ V}\) AC supply. Find resonant frequency, current at resonance and Q-factor.
+
+**Solution to the numerical question**
+
+\[
+L=0.05\text{ H},\quad C=25\times10^{-6}\text{ F}
+\]
+
+\[
+R=10\ \Omega,\quad V=200\text{ V}
+\]
+
+Resonant frequency:
+
+\[
+f_r=\frac{1}{2\pi\sqrt{LC}}
+=\frac{1}{2\pi\sqrt{0.05(25\times10^{-6})}}
+\]
+
+\[
+\boxed{f_r\approx142.35\text{ Hz}}
+\]
+
+At resonance, \(Z=R\):
+
+\[
+I_r=\frac{V}{R}=\frac{200}{10}
+\]
+
+\[
+\boxed{I_r=20\text{ A}}
+\]
+
+Q-factor:
+
+\[
+Q=\frac{2\pi f_rL}{R}
+=\frac{2\pi(142.35)(0.05)}{10}
+\]
+
+\[
+\boxed{Q\approx4.47}
+\]
+
+*The extracted question text reads the coil resistance as 10 Ω. Verify this value against the original scan before using the solution if your copy differs.*
+
+### B. Readable NU question — 2019
+
+A coil draws \(6\text{ A}\) from a \(24\text{ V}\) DC supply. The same current requires \(30\text{ V}\) at \(50\text{ Hz}\) AC. Find the impedance and power factor.
+
+\[
+R=\frac{V_{DC}}{I}=\frac{24}{6}=4\ \Omega
+\]
+
+\[
+Z=\frac{V_{AC}}{I}=\frac{30}{6}=5\ \Omega
+\]
+
+\[
+\cos\phi=\frac{R}{Z}=\frac45
+\]
+
+\[
+\boxed{Z=5\ \Omega,\quad \text{power factor}=0.8\text{ lagging}}
+\]
+
+The same 2019 paper copy also asks candidates to define impedance, find series-RLC impedance, define power factor and Q-factor, and explain the voltage-current phase relation in an RL circuit.
+
+### C. Other year tags in the student-compiled question bank
+
+| Topic | Listed year(s) |
+|---|---|
+| AC generator; frequency | 2018 |
+| Phase | 2018, 2022 |
+| Form factor | 2021 |
+| Average value | 2019 |
+| RMS value | 2019, 2021 |
+| Alternating current | 2022 |
+| Power factor and Q-factor of a coil | 2019 |
+| Series RLC impedance | 2019, 2021 |
+| Principle of AC generator | 2018, 2021 |
+| Phase-difference equation | 2018 |
+| Derive average value | 2022 |
+| AC through R, L and C | 2019 |
+
+**Caution:** These additional year labels come from a student-maintained question bank and should be treated as leads, not independently authenticated official year records.
+
+### D. Board-question archive links
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [EEC 510203 question bank](https://www.scribd.com/document/948205368/862105744-National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 NU CSE first-semester paper collection](https://www.scribd.com/document/948206995/NU-CSE-1st-Semester-Questions-2019)
+- [2022 NU CSE first-semester paper collection](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+
+### E. Additional practice (not verified PYQs)
+
+1. Derive the RMS value of a sinusoidal voltage.
+2. Explain the phase relationship of voltage and current in pure R, L and C circuits.
+3. Derive the impedance expression of a series RLC circuit.
+4. Explain Q-factor and its relation to bandwidth.
+5. Explain series and parallel resonance with suitable diagrams.
+
+These are practice questions based on the syllabus, not verified past-paper questions.
