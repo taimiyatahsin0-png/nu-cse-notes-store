@@ -2,6 +2,8 @@
 
 **Course:** Physics (510207)
 
+
+> **বাংলায় মূল ধারণা:** Current চললে magnetic field তৈরি হয়। আবার কোনো moving charge বা current-carrying wire magnetic field-এর মধ্যে থাকলে তার ওপর force কাজ করতে পারে। Direction বের করতে right-hand rule ও Fleming's rules কাজে লাগে।
 ---
 
 ## 1. Magnetic Field
