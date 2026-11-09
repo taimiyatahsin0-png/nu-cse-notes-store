@@ -430,3 +430,98 @@ It provides declarations for common string-handling functions such as strlen(), 
 3. Count vowels, consonants, digits and spaces in a line of text.
 
 **Source caution:** Question-bank year labels are secondary-source references. Newly written practice tasks are not presented as NU past questions.
+
+
+---
+
+## Solved Board-Style Program: Check Whether a String Is a Palindrome
+
+**Problem:** Read a word and check whether it reads the same from left to right and right to left.
+
+**বাংলায় Logic:** প্রথম character-কে শেষ character-এর সঙ্গে, দ্বিতীয়টিকে শেষ থেকে দ্বিতীয়টির সঙ্গে তুলনা করব। কোনো pair না মিললে palindrome নয়। সব pair মিলে গেলে palindrome।
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+    char text[100];
+    int left, right;
+    int isPalindrome = 1;
+
+    printf("Enter a word: ");
+    if (scanf("%99s", text) != 1)
+        return 1;
+
+    left = 0;
+    right = (int)strlen(text) - 1;
+
+    while (left < right)
+    {
+        if (text[left] != text[right])
+        {
+            isPalindrome = 0;
+            break;
+        }
+
+        left++;
+        right--;
+    }
+
+    if (isPalindrome)
+        printf("Palindrome\\n");
+    else
+        printf("Not a palindrome\\n");
+
+    return 0;
+}
+```
+
+Sample input: `level`  
+Output: `Palindrome`
+
+### Dry Run: `level`
+
+| Comparison | Left character | Right character | Result |
+|---:|---|---|---|
+| 1 | l | l | Match |
+| 2 | e | e | Match |
+| Stop | l | l | Middle reached |
+
+**Note:** This beginner version reads one word and performs a case-sensitive comparison. Therefore, `Level` and a sentence containing spaces are not treated as the same palindrome as `level`. Handling spaces and letter case requires additional preprocessing.
+
+## Solved Program: Reverse an Array
+
+**Logic:** প্রথম ও শেষ element swap করব, তারপর দ্বিতীয় ও শেষ থেকে দ্বিতীয় element swap করব। মাঝখানে পৌঁছালে কাজ শেষ।
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a[5] = {10, 20, 30, 40, 50};
+    int left = 0, right = 4, temp;
+    int i;
+
+    while (left < right)
+    {
+        temp = a[left];
+        a[left] = a[right];
+        a[right] = temp;
+
+        left++;
+        right--;
+    }
+
+    for (i = 0; i < 5; i++)
+        printf("%d ", a[i]);
+
+    printf("\\n");
+    return 0;
+}
+```
+
+Output: `50 40 30 20 10`
+
+**Exam point:** Reversing an array in this way uses constant extra space because it swaps elements inside the original array.
