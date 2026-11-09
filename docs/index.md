@@ -2,74 +2,89 @@
 
 ### Learn • Practice • Grow
 
-A free learning platform for Computer Science and Engineering students of National University, Bangladesh.
+A student-friendly study space for Computer Science and Engineering students of National University, Bangladesh.
 
 ---
 
-## Welcome, Future Computer Scientist! 
+## Student Dashboard
 
-Your learning journey starts here.
+Welcome! Use this page as your starting point for semester notes, syllabus references, programming practice and exam preparation.
 
-Explore organized academic resources, subject-wise notes, programming materials and exam preparation resources.
+<div class="grid cards" markdown>
 
----
+-   :material-book-open-variant: **Subject Notes**
 
-## Explore Your Learning Resources
+    Browse organized first-semester notes with Bangla explanations and exam-ready English.
 
-### 📚 Academic Syllabus
+    [Open SPL Notes](subjects/spl/index.md)
 
-Explore semester-wise course information and syllabus.
+-   :material-calculator-variant: **CGPA Calculator**
 
-[Explore Academic Syllabus](syllabus/index.md)
+    Estimate semester GPA and cumulative CGPA using course credits and grade points.
 
-### 📖 Subject Notes
+    [Calculate CGPA](tools/cgpa-calculator.md)
 
-Find study materials for your CSE subjects.
+-   :material-format-list-numbered: **NU Grade Scale**
 
-[Explore First Semester Subjects](subjects/spl/index.md)
+    Check marks ranges, letter grades and grade points.
 
-### 💻 Programming Practice
+    [View Grade Scale](tools/grade-scale.md)
 
-Learn programming concepts and develop your coding skills.
+-   :material-code-braces: **Programming Hub**
 
-[Start Learning](subjects/spl/index.md)
+    Follow the C learning path and practice problem-solving step by step.
 
-### 🎯 Exam Preparation
+    [Open Programming Hub](tools/programming-hub.md)
 
-Prepare for examinations with organized learning resources.
+-   :material-file-document-multiple: **PYQ Library**
 
-[Browse Resources](syllabus/index.md)
+    Find available past-paper copies and question-bank resources, with source labels.
 
----
+    [Browse PYQs](tools/pyq-library.md)
 
-## Student Tools
+-   :material-school: **Academic Syllabus**
 
-- [CGPA Calculator](tools/cgpa-calculator.md) — estimate GPA and cumulative CGPA.
-- [NU Grade Scale](tools/grade-scale.md) — check marks ranges and grade points.
+    Review the recorded first-semester course list and syllabus references.
+
+    [Open Syllabus](syllabus/index.md)
+
+</div>
 
 ---
 
 ## First Semester Subjects
 
-| Subject | Course Code |
-|---|---:|
-| Structured Programming Language | 510201 |
-| Structured Programming Language Lab | 510202 |
-| Electrical and Electronic Circuit | 510203 |
-| Electrical and Electronic Circuit Lab | 510204 |
-| Calculus | 510205 |
-| Physics | 510207 |
-| English | 510209 |
+| Subject | Course Code | Credits |
+|---|---:|---:|
+| Structured Programming Language | 510201 | 3.0 |
+| Structured Programming Language Lab | 510202 | 1.5 |
+| Electrical and Electronic Circuit | 510203 | 3.0 |
+| Electrical and Electronic Circuit Lab | 510204 | 1.5 |
+| Calculus | 510205 | 3.0 |
+| Physics | 510207 | 3.0 |
+| English | 510209 | 3.0 |
+| **Total recorded in this syllabus copy** |  | **18.0** |
+
+*Credit values are copied from the syllabus reference currently stored in this repository (effective Session 2017–2018). Confirm the approved syllabus for your own programme and session.*
+
+---
+
+## How to use this site
+
+1. Start with the relevant subject syllabus.
+2. Study the Bangla explanation before memorizing the English exam answer.
+3. Work through the examples and dry runs.
+4. Use practice questions to test your understanding.
+5. Use the CGPA calculator only as an estimate; your official NU result is authoritative.
 
 ---
 
 ## Our Mission
 
-To make CSE learning accessible, organized and understandable for National University students.
+To make CSE learning more understandable, organized and accessible for National University students.
 
 **Learn at your own pace. Build your skills. Keep growing.**
 
 ---
 
 Made with 💚 for the NU CSE learning community.
-
