@@ -73,10 +73,10 @@ int main(void)
     char grade = 'A';
     const int PASS_MARK = 40;
 
-    printf("Age = %d\\n", age);
-    printf("Height = %.2f\\n", height);
-    printf("Grade = %c\\n", grade);
-    printf("Pass mark = %d\\n", PASS_MARK);
+    printf("Age = %d\n", age);
+    printf("Height = %.2f\n", height);
+    printf("Grade = %c\n", grade);
+    printf("Pass mark = %d\n", PASS_MARK);
 
     return 0;
 }
