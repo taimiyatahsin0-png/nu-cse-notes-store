@@ -287,7 +287,10 @@ count একবার initialize হয় এবং function call-এর মাঝ
 
 long long factorial(int n)
 {
-    if (n <= 1)
+    if (n < 0 || n > 20)
+        return -1;  // Invalid input or value outside typical signed 64-bit range
+
+    if (n == 0 || n == 1)
         return 1;
 
     return n * factorial(n - 1);
@@ -297,8 +300,8 @@ int main(void)
 {
     int n = 5;
 
-    if (n < 0)
-        printf("Factorial is not defined for negative integers.\n");
+    if (n < 0 || n > 20)
+        printf("Enter an integer from 0 to 20.\n");
     else
         printf("%d! = %lld\n", n, factorial(n));
 
