@@ -42,6 +42,13 @@ Prepare for examinations with organized learning resources.
 
 ---
 
+## Student Tools
+
+- [CGPA Calculator](tools/cgpa-calculator.md) — estimate GPA and cumulative CGPA.
+- [NU Grade Scale](tools/grade-scale.md) — check marks ranges and grade points.
+
+---
+
 ## First Semester Subjects
 
 | Subject | Course Code |
