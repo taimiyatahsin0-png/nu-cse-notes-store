@@ -372,15 +372,15 @@ void showNumber(void)
 {
     int localNumber = 20;
 
-    printf("Global = %d\\n", globalNumber);
-    printf("Local = %d\\n", localNumber);
+    printf("Global = %d\n", globalNumber);
+    printf("Local = %d\n", localNumber);
 }
 
 int main(void)
 {
     showNumber();
 
-    printf("Global in main = %d\\n", globalNumber);
+    printf("Global in main = %d\n", globalNumber);
 
     return 0;
 }
@@ -409,7 +409,7 @@ void countCalls(void)
     static int count = 0;
     count++;
 
-    printf("Function called %d time(s).\\n", count);
+    printf("Function called %d time(s).\n", count);
 }
 
 int main(void)
@@ -475,11 +475,11 @@ int main(void)
 
     if (scanf("%d", &n) != 1 || n < 0 || n > 20)
     {
-        printf("Invalid input. Enter an integer from 0 to 20.\\n");
+        printf("Invalid input. Enter an integer from 0 to 20.\n");
         return 1;
     }
 
-    printf("Factorial = %llu\\n", factorial(n));
+    printf("Factorial = %llu\n", factorial(n));
 
     return 0;
 }
@@ -565,7 +565,7 @@ Compile and run each program separately.
 9. What are the four common categories of user-defined functions?
 10. What is meant by pass by value?
 11. Can a `void` function return a value?
-12. What is the role of the `main()` function?
+12. What is the role of the `main()` function?\n13. What is the difference between local scope and global scope?\n14. What is a static local variable?\n15. What is recursion? Why is a base case necessary?\n16. What is the basic purpose of `extern`?
 
 ---
 
