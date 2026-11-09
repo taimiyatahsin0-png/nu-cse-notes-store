@@ -119,6 +119,10 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 06: Bipolar Junction Transistors (BJT)](chapter-06-bipolar-junction-transistors.md)
 
+### Chapter 07: Field Effect Transistors (FET)
+
+[📖 Read Chapter 07: Field Effect Transistors (FET)](chapter-07-field-effect-transistors.md)
+
 ## Reference Books
 
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
