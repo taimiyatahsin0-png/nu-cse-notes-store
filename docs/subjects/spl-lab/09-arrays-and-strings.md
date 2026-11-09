@@ -184,7 +184,11 @@ int main(void)
 
     for (i = 0; i < 5; i++)
     {
-        scanf("%d", &numbers[i]);
+        if (scanf("%d", &numbers[i]) != 1)
+        {
+            printf("Invalid input. Enter integers only.\n");
+            return 1;
+        }
         sum = sum + numbers[i];
     }
 
@@ -244,7 +248,11 @@ int main(void)
 
     for (i = 0; i < 5; i++)
     {
-        scanf("%d", &numbers[i]);
+        if (scanf("%d", &numbers[i]) != 1)
+        {
+            printf("Invalid input. Enter integers only.\n");
+            return 1;
+        }
     }
 
     largest = numbers[0];
@@ -307,7 +315,8 @@ Smallest = 5
 
 int main(void)
 {
-    int A[2][2], B[2][2], C[2][2];
+    int A[2][2], B[2][2];
+    long long C[2][2];
     int i, j;
 
     printf("Enter 4 elements of Matrix A:\n");
@@ -340,7 +349,7 @@ int main(void)
     {
         for (j = 0; j < 2; j++)
         {
-            C[i][j] = A[i][j] + B[i][j];
+            C[i][j] = (long long)A[i][j] + B[i][j];
         }
     }
 
@@ -349,7 +358,7 @@ int main(void)
     {
         for (j = 0; j < 2; j++)
         {
-            printf("%d ", C[i][j]);
+            printf("%lld ", C[i][j]);
         }
         printf("\n");
     }
