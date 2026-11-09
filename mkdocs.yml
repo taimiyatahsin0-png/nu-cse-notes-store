@@ -18,6 +18,9 @@ nav:
   - Home: index.md
   - Academic Syllabus:
       - Syllabus Overview: syllabus/index.md
+  - Student Tools:
+      - CGPA Calculator: tools/cgpa-calculator.md
+      - Grade Scale: tools/grade-scale.md
   - First Semester:
       - SPL (510201): subjects/spl/index.md
       - SPL Lab (510202): subjects/spl-lab/index.md
@@ -35,6 +38,7 @@ markdown_extensions:
       generic: true
   
 extra_javascript:
+  - javascripts/cgpa-calculator.js
   - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
