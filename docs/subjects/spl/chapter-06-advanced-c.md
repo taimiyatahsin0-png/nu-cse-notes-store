@@ -593,3 +593,118 @@ else
 3. Explain why a null pointer must not be dereferenced.
 
 **Source caution:** These are student-uploaded / student-compiled copies. The year tags are revision clues, not proof of an official NU archive record.
+
+
+---
+
+## Solved Board-Style Program: Swap Two Numbers Using Pointers
+
+**বাংলায় Logic:** Function-এ দুইটি variable-এর address পাঠাব। Pointer দিয়ে সেই address-এর value access করে temporary variable ব্যবহার করে swap করব।
+
+```c
+#include <stdio.h>
+
+void swap(int *x, int *y)
+{
+    int temp = *x;
+    *x = *y;
+    *y = temp;
+}
+
+int main(void)
+{
+    int a = 10, b = 20;
+
+    swap(&a, &b);
+
+    printf("After swapping: a = %d, b = %d\\n", a, b);
+    return 0;
+}
+```
+
+Output: `After swapping: a = 20, b = 10`
+
+### Dry Run
+
+| Step | a | b | temp |
+|---|---:|---:|---:|
+| Initial | 10 | 20 | — |
+| temp = *x | 10 | 20 | 10 |
+| *x = *y | 20 | 20 | 10 |
+| *y = temp | 20 | 10 | 10 |
+
+**Exam explanation:** The addresses of the variables are passed to the function. The pointer parameters access and modify the original variables.
+
+## Solved Program: Store and Display Multiple Student Records
+
+This example combines a structure with an array. It uses fixed sample data so the focus stays on structure declaration, array indexing and member access.
+
+```c
+#include <stdio.h>
+
+struct Student
+{
+    int roll;
+    char name[30];
+    float marks;
+};
+
+int main(void)
+{
+    struct Student students[3] = {
+        {1, "Amina", 85.5f},
+        {2, "Rafi", 78.0f},
+        {3, "Nila", 91.0f}
+    };
+    int i;
+
+    for (i = 0; i < 3; i++)
+    {
+        printf("Roll: %d, Name: %s, Marks: %.2f\\n",
+               students[i].roll,
+               students[i].name,
+               students[i].marks);
+    }
+
+    return 0;
+}
+```
+
+**মনে রাখবে:** `students[i]` একটি structure object; `.roll`, `.name` ও `.marks` দিয়ে তার member access করা হয়।
+
+## Solved Program: Append Text to a File
+
+**Problem:** Open an existing text file in append mode and add a new line at its end. If the file does not exist, append mode creates it.
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    FILE *fp = fopen("notes.txt", "a");
+
+    if (fp == NULL)
+    {
+        perror("Unable to open file");
+        return 1;
+    }
+
+    if (fprintf(fp, "A new line was added.\\n") < 0)
+    {
+        perror("Unable to write to file");
+        fclose(fp);
+        return 1;
+    }
+
+    if (fclose(fp) == EOF)
+    {
+        perror("Unable to close file");
+        return 1;
+    }
+
+    printf("Text appended successfully.\\n");
+    return 0;
+}
+```
+
+**Important:** `"a"` mode writes at the end of the file. It does not erase the existing content; `"w"` mode would truncate an existing file.
