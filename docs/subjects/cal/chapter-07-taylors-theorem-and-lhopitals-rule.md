@@ -670,3 +670,30 @@ Useful source pages:
 ---
 
 *Prepared as original study notes aligned with the listed NU CSE Calculus (510205) syllabus. Verified past-paper questions will be added only when their wording, year and source can be checked.*
+
+---
+
+## 15. NU Previous Questions and Board Question Archive
+
+### Question identifiable in the NU CSE question bank
+
+The NU CSE 1st Semester question bank includes an item asking students to **evaluate a limit using L'Hospital's Rule**, tagged **NU CSE 2010**.
+
+**Important limitation:** The mathematical expression is corrupted in the accessible text extraction. It is not reconstructed here because even a small OCR error can change the problem and its answer. Check the original question-bank scan before solving or quoting the exact expression.
+
+### Board-question archive
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE Calculus question bank (1st semester)](https://www.scribd.com/document/948205368/862105744-National-University-CSE-Question-Bank-1st-First-Semester)
+
+**Verification note:** The 2010 topic/year tag is visible in a student-compiled question-bank excerpt. It is not a substitute for the original paper scan.
+
+### Additional practice (not verified PYQs)
+
+1. State Taylor's Theorem with Lagrange's form of remainder.
+2. Expand \(e^x\) or \(\sin x\) by Maclaurin's series.
+3. Evaluate a \(0/0\) limit using L'Hospital's Rule.
+4. Convert a \(0\times\infty\) form into a quotient before applying the rule.
+
+These are syllabus-based practice questions, not confirmed past-paper questions.
