@@ -99,6 +99,10 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 01: AC Fundamentals](chapter-01-ac-fundamentals.md)
 
+### Chapter 02: Network Theorems
+
+[📖 Read Chapter 02: Network Theorems](chapter-02-network-theorems.md)
+
 ## Reference Books
 
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
