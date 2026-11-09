@@ -53,17 +53,17 @@ Electric charge behaves in the same way in an ordinary lumped circuit. Charge do
 
 **Kirchhoff's Current Law states that the algebraic sum of currents at any node is zero.**
 
-[
+\[
 \sum I=0
-]
+\]
 
 A common way to write it is:
 
-[
+\[
 \text{Total current entering}
 =
 \text{Total current leaving}
-]
+\]
 
 ## 2.2 Example
 
@@ -71,13 +71,13 @@ Suppose 5 A and 2 A enter a node, while current (I) leaves it.
 
 Using KCL:
 
-[
+\[
 5+2-I=0
-]
+\]
 
-[
+\[
 I=7\text{ A}
-]
+\]
 
 **Answer:** 7 A leaves the node.
 
@@ -85,13 +85,13 @@ I=7\text{ A}
 
 At a node, 8 A leaves and 3 A enters. Another current (I) also enters.
 
-[
+\[
 I+3=8
-]
+\]
 
-[
+\[
 I=5\text{ A}
-]
+\]
 
 **Answer:** The unknown current is 5 A entering the node.
 
@@ -121,25 +121,25 @@ KVL expresses this energy balance.
 
 **Kirchhoff's Voltage Law states that the algebraic sum of all voltages around any closed loop is zero.**
 
-[
+\[
 \sum V=0
-]
+\]
 
 In simple terms:
 
-[
+\[
 \text{Sum of voltage rises}
 =
 \text{Sum of voltage drops}
-]
+\]
 
 ## 3.2 Understanding voltage rise and drop
 
 For a resistor, use Ohm's law:
 
-[
+\[
 V=IR
-]
+\]
 
 If you travel through a resistor in the direction of current, the potential normally drops by (IR). If you travel against the current, it rises by (IR).
 
@@ -155,33 +155,33 @@ Assume clockwise current (I).
 
 **Step 2: Apply KVL.**
 
-[
+\[
 +12-2I-4I=0
-]
+\]
 
 **Step 3: Solve.**
 
-[
+\[
 12-6I=0
-]
+\]
 
-[
+\[
 I=\frac{12}{6}=2\text{ A}
-]
+\]
 
 **Step 4: Check the voltage drops.**
 
-[
+\[
 V_1=IR_1=2\times2=4\text{ V}
-]
+\]
 
-[
+\[
 V_2=IR_2=2\times4=8\text{ V}
-]
+\]
 
-[
+\[
 4+8=12\text{ V}
-]
+\]
 
 The voltage drops add up to the battery voltage, so the result satisfies KVL.
 
@@ -243,27 +243,27 @@ Turn off the 6 V ideal voltage source by replacing it with a short circuit.
 
 The 3 Ω and 6 Ω resistors are then in parallel:
 
-[
+\[
 R_p=\frac{3\times6}{3+6}=2\ \Omega
-]
+\]
 
 This 2 Ω equivalent is in series with the 6 Ω resistor connected to the 12 V source.
 
-[
+\[
 I_{source1}=\frac{12}{6+2}=1.5\text{ A}
-]
+\]
 
 The voltage across the parallel network is:
 
-[
+\[
 V_1=1.5\times2=3\text{ V}
-]
+\]
 
 The contribution through the 6 Ω load is:
 
-[
+\[
 I_{L1}=\frac{3}{6}=0.5\text{ A}
-]
+\]
 
 ### Step 2: Consider the 6 V source alone
 
@@ -271,39 +271,39 @@ Turn off the 12 V ideal voltage source by replacing it with a short circuit.
 
 The 6 Ω source-side resistor and 6 Ω load are in parallel:
 
-[
+\[
 R_p=\frac{6\times6}{6+6}=3\ \Omega
-]
+\]
 
 This is in series with the 3 Ω resistor connected to the 6 V source.
 
-[
+\[
 I_{source2}=\frac{6}{3+3}=1\text{ A}
-]
+\]
 
 The voltage across the parallel network is:
 
-[
+\[
 V_2=1\times3=3\text{ V}
-]
+\]
 
 The contribution through the 6 Ω load is:
 
-[
+\[
 I_{L2}=\frac{3}{6}=0.5\text{ A}
-]
+\]
 
 ### Step 3: Add the contributions
 
 Both contributions flow downward through the load, so:
 
-[
+\[
 I_L=I_{L1}+I_{L2}
-]
+\]
 
-[
+\[
 I_L=0.5+0.5=1\text{ A}
-]
+\]
 
 **Answer:** The load current is 1 A downward.
 
@@ -365,13 +365,13 @@ The open-circuit voltage across A and B is the voltage across the 6 Ω resistor.
 
 The two resistors form a voltage divider:
 
-[
+\[
 V_{th}=12\times\frac{6}{4+6}
-]
+\]
 
-[
+\[
 V_{th}=7.2\text{ V}
-]
+\]
 
 ### Step 2: Find Thevenin resistance
 
@@ -379,25 +379,25 @@ Deactivate the ideal 12 V source by replacing it with a short circuit.
 
 Looking into A and B, the 4 Ω and 6 Ω resistors are in parallel:
 
-[
+\[
 R_{th}=\frac{4\times6}{4+6}
-]
+\]
 
-[
+\[
 R_{th}=2.4\ \Omega
-]
+\]
 
 ### Step 3: Reconnect the load
 
-[
+\[
 I_L=\frac{V_{th}}{R_{th}+R_L}
-]
+\]
 
-[
+\[
 I_L=\frac{7.2}{2.4+3}
 =\frac{7.2}{5.4}
 =1.333\text{ A}
-]
+\]
 
 **Answer:**
 
@@ -439,50 +439,50 @@ The Norton equivalent consists of:
 
 For a linear network with the same terminal conditions:
 
-[
+\[
 R_N=R_{th}
-]
+\]
 
 and
 
-[
+\[
 I_N=\frac{V_{th}}{R_{th}}
-]
+\]
 
 ## 7.4 Worked example using the previous circuit
 
 From the Thevenin example:
 
-[
+\[
 V_{th}=7.2\text{ V}
 \qquad
 R_{th}=2.4\ \Omega
-]
+\]
 
 Therefore:
 
-[
+\[
 R_N=R_{th}=2.4\ \Omega
-]
+\]
 
-[
+\[
 I_N=\frac{V_{th}}{R_{th}}
 =\frac{7.2}{2.4}
 =3\text{ A}
-]
+\]
 
 **Answer:** The Norton equivalent is a 3 A current source in parallel with 2.4 Ω.
 
 If (R_L=3\ \Omega), the load current can be found using the current-divider rule:
 
-[
+\[
 I_L=I_N\times\frac{R_N}{R_N+R_L}
-]
+\]
 
-[
+\[
 I_L=3\times\frac{2.4}{2.4+3}
 =1.333\text{ A}
-]
+\]
 
 The load current matches the Thevenin result, as it should.
 
@@ -496,17 +496,17 @@ Norton's Theorem states that any linear bilateral two-terminal network can be re
 
 These are two different ways of representing the same linear two-terminal network.
 
-[
+\[
 R_{th}=R_N
-]
+\]
 
-[
+\[
 V_{th}=I_NR_N
-]
+\]
 
-[
+\[
 I_N=\frac{V_{th}}{R_{th}}
-]
+\]
 
 | Thevenin equivalent | Norton equivalent |
 |---|---|
@@ -531,42 +531,42 @@ For a linear DC network represented by a Thevenin equivalent, maximum power is d
 
 **The Maximum Power Transfer Theorem states that maximum power is delivered to a load in a linear DC network when the load resistance is equal to the Thevenin resistance of the source network.**
 
-[
+\[
 R_L=R_{th}
-]
+\]
 
 ## 9.3 Maximum power formula
 
 For a Thevenin equivalent with voltage (V_{th}), series resistance (R_{th}), and load (R_L):
 
-[
+\[
 P_L=I^2R_L
-]
+\]
 
 Since:
 
-[
+\[
 I=\frac{V_{th}}{R_{th}+R_L}
-]
+\]
 
 Then:
 
-[
+\[
 P_L=
 \frac{V_{th}^2R_L}{(R_{th}+R_L)^2}
-]
+\]
 
 At maximum power:
 
-[
+\[
 R_L=R_{th}
-]
+\]
 
 So:
 
-[
+\[
 P_{max}=\frac{V_{th}^2}{4R_{th}}
-]
+\]
 
 ## 9.4 Worked example
 
@@ -577,29 +577,29 @@ A network has a Thevenin voltage of 20 V and a Thevenin resistance of 5 Ω. Find
 
 **Given:**
 
-[
+\[
 V_{th}=20\text{ V}
 \qquad
 R_{th}=5\ \Omega
-]
+\]
 
 **Step 1: Find the load resistance.**
 
-[
+\[
 R_L=R_{th}=5\ \Omega
-]
+\]
 
 **Step 2: Find maximum power.**
 
-[
+\[
 P_{max}=\frac{V_{th}^2}{4R_{th}}
-]
+\]
 
-[
+\[
 P_{max}=\frac{20^2}{4\times5}
 =\frac{400}{20}
 =20\text{ W}
-]
+\]
 
 **Answer:** Maximum power is delivered when the load is 5 Ω, and that maximum power is 20 W.
 
@@ -611,9 +611,9 @@ So maximum power transfer does **not** mean maximum efficiency. In power systems
 
 For AC circuits with complex impedances, the maximum-power condition is conjugate matching:
 
-[
+\[
 Z_L=Z_{th}^{*}
-]
+\]
 
 This is an extension; the basic DC resistive condition is (R_L=R_{th}).
 
@@ -621,9 +621,9 @@ This is an extension; the basic DC resistive condition is (R_L=R_{th}).
 
 The Maximum Power Transfer Theorem states that a load receives maximum power from a linear DC network when the load resistance is equal to the Thevenin resistance of the network as viewed from the load terminals. Under this condition, the maximum load power is:
 
-[
+\[
 P_{max}=\frac{V_{th}^2}{4R_{th}}
-]
+\]
 
 ---
 
