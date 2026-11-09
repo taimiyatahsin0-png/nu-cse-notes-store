@@ -71,7 +71,8 @@ int main(void)
     for (i = 0; i < 5; i++)
     {
         printf("Enter mark %d: ", i + 1);
-        if (scanf("%d", &marks[i]) != 1)\n            return 1;
+        if (scanf("%d", &marks[i]) != 1)
+            return 1;
     }
 
     printf("Marks: ");
@@ -94,7 +95,8 @@ int main(void)
 int main(void)
 {
     int a[5];
-    int i;\n    long long sum = 0;
+    int i;
+    long long sum = 0;
     double average;
 
     for (i = 0; i < 5; i++)
