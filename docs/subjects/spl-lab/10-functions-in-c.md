@@ -137,7 +137,11 @@ int main(void)
     int x, y;
 
     printf("Enter two integers: ");
-    scanf("%d %d", &x, &y);
+    if (scanf("%d %d", &x, &y) != 2)
+    {
+        printf("Invalid input. Enter two integers.\n");
+        return 1;
+    }
 
     displaySum(x, y);
 
@@ -146,8 +150,8 @@ int main(void)
 
 void displaySum(int a, int b)
 {
-    int sum = a + b;
-    printf("Sum = %d\n", sum);
+    long long sum = (long long)a + b;
+    printf("Sum = %lld\n", sum);
 }
 ```
 
@@ -187,27 +191,31 @@ To calculate and return the square of a number.
 ```c
 #include <stdio.h>
 
-int getSquare(void);
+long long getSquare(void);
 
 int main(void)
 {
-    int result;
+    long long result;
 
     result = getSquare();
 
-    printf("Square = %d\n", result);
+    printf("Square = %lld\n", result);
 
     return 0;
 }
 
-int getSquare(void)
+long long getSquare(void)
 {
     int number;
 
     printf("Enter an integer: ");
-    scanf("%d", &number);
+    if (scanf("%d", &number) != 1)
+    {
+        printf("Invalid input.\n");
+        return 0;
+    }
 
-    return number * number;
+    return (long long)number * number;
 }
 ```
 
@@ -244,25 +252,26 @@ To add two integers using a function that receives arguments and returns the res
 ```c
 #include <stdio.h>
 
-int add(int a, int b);
+long long add(int a, int b);
 
 int main(void)
 {
-    int x, y, result;
+    int x, y;
+    long long result;
 
     printf("Enter two integers: ");
     scanf("%d %d", &x, &y);
 
     result = add(x, y);
 
-    printf("Sum = %d\n", result);
+    printf("Sum = %lld\n", result);
 
     return 0;
 }
 
-int add(int a, int b)
+long long add(int a, int b)
 {
-    return a + b;
+    return (long long)a + b;
 }
 ```
 
