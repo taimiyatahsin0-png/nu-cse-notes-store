@@ -53,14 +53,9 @@ This course introduces the fundamentals of structured programming using the C pr
 
 C Programming Language
 
-## Study Materials
+## Learning Resources
 
-- Class Notes
-- Topic-wise Explanations
-- C Programming Examples
-- Solved Problems
-- Practice Questions
-- Previous Year Questions
+Chapter-wise explanations, C programming examples, solved problems and practice questions are organized below.
 
 ## Reference Books
 
@@ -106,7 +101,6 @@ C Programming Language
 
 *Syllabus note: This topic outline is based on the syllabus reference currently recorded in this repository (Session 2017–2018). It is not independently confirmed as the latest applicable NU revision. Check the latest National University notice or your department's approved syllabus before relying on it for examination planning.*
 
-Happy Coding! 💻
 
 
 
@@ -140,6 +134,6 @@ Happy Coding! 💻
 
 ### Syllabus reference
 
-[NU CSE First-Year Syllabus copy (effective Session 2017–2018; hosted by DIIT)](https://diit.edu.bd/media/resource/Computer_Science_and_Engineering_1st_Year_Pub_Date_15092019.pdf)
+**Syllabus reference:** B.Sc. Honours in Computer Science and Engineering, National University, Bangladesh (effective from Session 2017–2018).
 
 Confirm the current syllabus and teacher's scope before the examination.
