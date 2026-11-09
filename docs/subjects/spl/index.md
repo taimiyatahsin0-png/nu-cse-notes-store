@@ -1,4 +1,3 @@
-
 # Structured Programming Language (SPL)
 
 **Course Code:** 510201  
