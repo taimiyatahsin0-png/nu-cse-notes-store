@@ -114,7 +114,11 @@ int main(void)
 
     for (i = 0; i < 5; i++)
     {
-        scanf("%d", &numbers[i]);
+        if (scanf("%d", &numbers[i]) != 1)
+        {
+            printf("Invalid input. Enter integers only.\n");
+            return 1;
+        }
     }
 
     printf("Array elements are:\n");
@@ -311,7 +315,11 @@ int main(void)
     {
         for (j = 0; j < 2; j++)
         {
-            scanf("%d", &A[i][j]);
+            if (scanf("%d", &A[i][j]) != 1)
+            {
+                printf("Invalid input. Enter integers only.\n");
+                return 1;
+            }
         }
     }
 
@@ -320,7 +328,11 @@ int main(void)
     {
         for (j = 0; j < 2; j++)
         {
-            scanf("%d", &B[i][j]);
+            if (scanf("%d", &B[i][j]) != 1)
+            {
+                printf("Invalid input. Enter integers only.\n");
+                return 1;
+            }
         }
     }
 
