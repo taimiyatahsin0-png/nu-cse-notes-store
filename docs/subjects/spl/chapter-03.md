@@ -1,4 +1,4 @@
-# Chapter 03: Input, Output and Control Statements
+# Chapter 03: Input, Output, Decision Making and Looping
 
 **Course Name:** Structured Programming Language  
 **Course Code:** 510201  
@@ -1212,5 +1212,5 @@ In this chapter, we learned:
 
 **End of Chapter 03**
 
-*This chapter also covers looping statements in C.*
+*Next Chapter: Arrays and Strings in C.*
 
