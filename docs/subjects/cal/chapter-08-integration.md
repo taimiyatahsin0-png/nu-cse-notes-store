@@ -617,6 +617,9 @@ S_n=\sum_{i=1}^{n}f(x_i^*)\Delta x
 
 এটাই Riemann sum-এর মূল ধারণা।
 
+
+**Signed area note:** A definite integral gives signed (net) area. If the graph is below the \(x\)-axis, that part contributes a negative value. For total geometric area, split the interval at axis crossings and integrate \(|f(x)|\).
+
 ### Example 9: Find the area under \(f(x)=x\) from 0 to 1 using a right-endpoint Riemann sum.
 
 Interval: \([0,1]\)
