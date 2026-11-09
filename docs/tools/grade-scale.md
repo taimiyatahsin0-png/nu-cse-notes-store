@@ -24,7 +24,7 @@ This page summarizes the commonly published National University 4.00 grading sca
 A credit-weighted result gives more weight to a course with more credits.
 
 \[
-\text{GPA} = \frac{\sum(\text{Credit} \times \text{Grade Point})}{\sum(\text{Earned Credits})}
+\text{GPA} = \frac{\sum(\text{Credit} \times \text{Grade Point})}{\sum(\text{Attempted Credits})}
 \]
 
 For example:
