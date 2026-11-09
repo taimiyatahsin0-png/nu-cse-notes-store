@@ -2,6 +2,8 @@
 
 **Course:** Physics (510207)
 
+
+> **বাংলায় মূল ধারণা:** Electric current মানে charge-এর প্রবাহ। Circuit-এ battery বা source charge-কে energy দেয়, আর resistor সেই energy-কে heat বা অন্য form-এ রূপান্তর করে। Circuit laws দিয়ে current ও voltage হিসাব করা হয়।
 ---
 
 ## 1. Electric Current
