@@ -576,6 +576,8 @@ f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^n
 এই অধ্যায়ের জন্য NU CSE Calculus (510205)-এর একটি 2020 question-paper scan এবং NU CSE notes-এর question-bank resource শনাক্ত করা গেছে। কিন্তু উন্মুক্ত scan-এর পাঠযোগ্য অংশ থেকে Taylor's Theorem, Taylor Series বা L'Hospital's Rule-এর নির্দিষ্ট প্রশ্ন ও উপ-প্রশ্ন নিশ্চিতভাবে উদ্ধার করা যায়নি। তাই কোনো প্রশ্নকে এখানে **“2020 NU Previous Question”** বলে ভুলভাবে চিহ্নিত করা হয়নি।
 
 Useful source pages:
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
 - The student-compiled NU CSE question bank also lists a limit problem using L'Hospital's Rule for 2010. The expression is OCR-corrupted, so it is not reconstructed here.
 - [NU CSE 1st Semester Notes — Calculus and Board Questions resources](https://sigmakib.github.io/nu-cse-notes/nu-cse-1st-semester-notes.html)
 - [2020 NU CSE Question Paper scan on Scribd](https://www.scribd.com/document/600047603/2020-NU-Question)
