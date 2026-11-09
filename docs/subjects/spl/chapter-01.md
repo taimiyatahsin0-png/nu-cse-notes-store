@@ -744,3 +744,99 @@ int main(void)
 3. Write a short C program that prints two lines of text.
 
 **Source caution:** These are secondary uploads. Do not treat an unverified practice question or a question-bank year tag as an official NU paper transcription.
+
+
+---
+
+# 13. Structured Programming
+
+## 13.1 What is Structured Programming?
+
+### সহজ বাংলায়
+
+Structured Programming হলো এমন একটি পদ্ধতি যেখানে বড় সমস্যাকে ছোট, সহজে বোঝা ও পরীক্ষা করা যায় এমন অংশে ভাগ করে সমাধান করা হয়। এতে Program-এর কাজের ধারা পরিষ্কার থাকে এবং অপ্রয়োজনীয় জটিলতা কমে।
+
+Structured Programming-এর তিনটি মৌলিক control structure হলো:
+
+1. **Sequence:** নির্দেশনাগুলো একটির পর একটি নির্দিষ্ট ক্রমে execute হয়।
+2. **Selection:** কোনো condition-এর ফল অনুযায়ী একাধিক পথের মধ্যে একটি বেছে নেওয়া হয়। যেমন: `if`, `if-else`, `switch`।
+3. **Iteration:** কোনো condition বা নির্দিষ্ট সংখ্যকবারের জন্য নির্দেশনা পুনরাবৃত্তি করা হয়। যেমন: `for`, `while`, `do-while`।
+
+### English Exam Answer
+
+**Definition:** Structured programming is a programming approach that organizes a program into clear, logical blocks and uses sequence, selection and iteration to control the flow of execution.
+
+## 13.2 Three Basic Control Structures
+
+### A. Sequence
+
+বাংলায়: Statements তাদের লেখা ক্রম অনুযায়ী একের পর এক execute হয়।
+
+```c
+int a = 10;
+int b = 20;
+int sum = a + b;
+printf("%d\\n", sum);
+```
+
+### B. Selection
+
+বাংলায়: Condition সত্য না মিথ্যা, তার ওপর নির্ভর করে কোন statement চলবে তা নির্ধারিত হয়।
+
+```c
+if (marks >= 40)
+{
+    printf("Pass\\n");
+}
+else
+{
+    printf("Fail\\n");
+}
+```
+
+### C. Iteration
+
+বাংলায়: একই কাজ বারবার করার জন্য loop ব্যবহার করা হয়।
+
+```c
+for (int i = 1; i <= 5; i++)
+{
+    printf("%d\\n", i);
+}
+```
+
+## 13.3 Advantages of Structured Programming
+
+1. **Readability:** Code পড়া ও বোঝা সহজ হয়।
+2. **Modularity:** বড় সমস্যাকে ছোট ছোট অংশে ভাগ করা যায়।
+3. **Testing:** আলাদা অংশ পরীক্ষা করা সহজ হয়।
+4. **Debugging:** ভুল খুঁজে বের করা সহজ হয়।
+5. **Maintenance:** ভবিষ্যতে Code পরিবর্তন ও উন্নত করা সহজ হয়।
+
+## 13.4 Short Exam Questions
+
+**Q1. Name the three basic control structures of structured programming.**
+
+**Answer:** Sequence, selection and iteration.
+
+**Q2. Which control structure is used for decision-making?**
+
+**Answer:** Selection is used for decision-making based on a condition.
+
+**Q3. Which control structure is used to repeat statements?**
+
+**Answer:** Iteration is used to repeat a block of statements.
+
+**Q4. Mention two advantages of structured programming.**
+
+**Answer:** It improves code readability and makes testing, debugging and maintenance easier.
+
+## 13.5 Quick Revision
+
+| Structure | Purpose | C examples |
+|---|---|---|
+| Sequence | Execute statements in order | Ordinary statements |
+| Selection | Choose a path by condition | `if`, `if-else`, `switch` |
+| Iteration | Repeat statements | `for`, `while`, `do-while` |
+
+**Remember:** Understand the problem first, divide it into logical steps, and then choose the appropriate control structure.
