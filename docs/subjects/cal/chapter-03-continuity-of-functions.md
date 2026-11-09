@@ -750,3 +750,33 @@ f(c)=0.
 ---
 
 *Prepared as a beginner-friendly study resource for NU CSE Calculus (510205). This follows the listed NU syllabus topics based on the 2017–2018 syllabus; verify any later revisions and your teacher's current examination scope.*
+
+---
+
+## 14. NU Previous Questions and Board Question Archive
+
+### Questions identifiable in the NU CSE Calculus compilation
+
+**Q1.** Define continuity and differentiability of a function.
+
+**Years shown in the compilation:** 2011, 2013 and 2014.
+
+**Q2.** A piecewise-defined function is given. Discuss whether it is continuous and differentiable at the specified joining point.
+
+**Years shown:** 2011 and 2017. The formula is damaged in the accessible text extraction, so it is not reconstructed here. Use the original scan before attempting the exact numerical version.
+
+### Board-question archive
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE Calculus question collection (2009–2019)](https://www.scribd.com/document/947202575/NU-CSE-1st-Semester-Calculus)
+
+**Verification note:** The year tags above come from a student-compiled question collection, not an official NU-hosted paper archive. Exact piecewise expressions must be checked against the original paper image.
+
+### Additional practice (not verified PYQs)
+
+1. Test continuity of a piecewise function at its joining point.
+2. Determine whether a continuous function is differentiable at a corner.
+3. Identify removable, jump and infinite discontinuities from graphs.
+
+These are syllabus-based practice questions, not confirmed past-paper questions.
