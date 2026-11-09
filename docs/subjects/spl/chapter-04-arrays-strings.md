@@ -109,7 +109,7 @@ int main(void)
 
     average = (double)sum / 5.0;
 
-    printf("Sum = %d\n", sum);
+    printf("Sum = %lld\n", sum);
     printf("Average = %.2f\n", average);
     return 0;
 }
