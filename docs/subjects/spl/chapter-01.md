@@ -840,3 +840,77 @@ for (int i = 1; i <= 5; i++)
 | Iteration | Repeat statements | `for`, `while`, `do-while` |
 
 **Remember:** Understand the problem first, divide it into logical steps, and then choose the appropriate control structure.
+
+---
+
+# 14. Practical Revision: Program Syntax and Structure
+
+## 14.1 Important Symbols in C
+
+| Symbol | Name | Purpose |
+|---|---|---|
+| `#` | Hash | Begins a preprocessor directive |
+| `;` | Semicolon | Terminates most statements |
+| `{ }` | Curly braces | Enclose a block of code |
+| `( )` | Parentheses | Used in function declarations, calls and expressions |
+| `//` | Single-line comment | Starts a comment on one line |
+| `/* */` | Block comment | Encloses a comment that may span multiple lines |
+| `" "` | Double quotation marks | Enclose string literals |
+
+**Remember:** A preprocessor directive such as `#include <stdio.h>` does not end with a semicolon. A function definition header such as `int main(void)` is not itself an executable statement and does not end with a semicolon.
+
+## 14.2 Syntax vs Structure
+
+| Syntax | Structure |
+|---|---|
+| Syntax means the rules for writing valid statements. | Structure means the organization of the different parts of a program. |
+| It focuses on how an instruction is written. | It focuses on how program components are arranged. |
+| Example: `printf("Hello");` | Example: header inclusion followed by a function definition. |
+
+## 14.3 Dry Run: A Simple Addition Program
+
+### Program
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int a = 10;
+    int b = 20;
+    int sum = a + b;
+
+    printf("Sum = %d\\n", sum);
+    return 0;
+}
+```
+
+### Trace Table
+
+| Step | Statement / operation | Value or action |
+|---:|---|---|
+| 1 | Enter `main()` | Program execution begins |
+| 2 | `int a = 10;` | `a = 10` |
+| 3 | `int b = 20;` | `b = 20` |
+| 4 | `sum = a + b` | `sum = 30` |
+| 5 | `printf()` | Displays `Sum = 30` |
+| 6 | `return 0;` | Program terminates successfully |
+
+**Output**
+
+```text
+Sum = 30
+```
+
+## 14.4 Final Exam Checklist
+
+- [ ] Define programming, program and programming language.
+- [ ] Describe the origin and important features of C.
+- [ ] Differentiate compiler, interpreter and assembler.
+- [ ] Draw or write the general structure of a C program.
+- [ ] Explain each line of a simple C program.
+- [ ] Identify header files, comments, statements and function blocks.
+- [ ] Compile and run a simple C program.
+- [ ] Trace a short program and write its output.
+
+**Chapter 01 revision note:** The general six-section description is a teaching convention, not a compulsory template for every C program. The exact components used depend on the program's requirements.
