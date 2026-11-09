@@ -416,3 +416,69 @@ Scope is the region of a program in which an identifier can be accessed.
 - Recursion requires a base case.
 
 **End of Chapter 05**
+
+
+---
+
+## NU Previous Questions and Board Question Archive
+
+### Questions appearing in readable NU paper copies
+
+**2019**
+- Define user-defined function and library function with examples.
+- What are actual and formal parameters? Explain with an example.
+- Explain call by value and call by reference.
+- Write a program to calculate a series using a function.
+
+**2022**
+- What is a function in C?
+- Differentiate between actual and formal parameters.
+- Explain storage classes in C.
+
+### Topic-year references in the student-compiled NU question bank
+
+- User-defined function: 2008, 2009, 2014, 2019.
+- Library function: 2009, 2018, 2019.
+- Actual and formal parameters: 2011, 2016, 2018, 2019, 2022.
+- Recursion: 2010, 2013, 2016, 2018, 2020, 2021.
+- Function definition: 2009, 2011, 2018, 2020, 2022.
+- Call by value / call by reference: 2009, 2011, 2012, 2014, 2015, 2017, 2018, 2020, 2021.
+
+### Important correction for C: call by reference wording
+
+Some NU question papers use the phrase **call by reference**. In standard C, arguments are passed by value. A function can modify the caller's object by receiving its address through a pointer; this is commonly described in textbooks as reference-style parameter passing, but it is not a separate built-in call-by-reference mechanism in C.
+
+~~~c
+#include <stdio.h>
+
+void changeValue(int *p)
+{
+    *p = 50;
+}
+
+int main(void)
+{
+    int x = 10;
+    changeValue(&x);
+    printf("%d\\n", x);  /* 50 */
+    return 0;
+}
+~~~
+
+**বাংলায়:** x-এর value copy করে পাঠানো হয়নি; &x অর্থাৎ address-এর value পাঠানো হয়েছে। Function pointer দিয়ে original x-কে access করে পরিবর্তন করেছে। তবুও C-তে pointer argument-টিও value হিসেবেই pass হয়।
+
+### Board and question-bank sources
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE SPL Question Bank (510201)](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
+- [2022 paper copy](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+
+### Extra practice (not verified PYQs)
+
+1. Write a recursive function to find the factorial of a non-negative integer.
+2. Write a function that returns the greatest of three integers.
+3. Trace a recursive function and show each call in a small table.
+
+**Source caution:** These year labels are taken from a student-compiled question bank and student-uploaded paper copies. They are not an official NU-hosted database.
