@@ -1,11 +1,11 @@
 
-# NU CSE – First Semester Syllabus
+# NU CSE First Semester Syllabus
 
 Welcome to the academic syllabus section of NU CSE Notes Store.
 
 This section covers the currently followed First Semester syllabus for the B.Sc. Honours in Computer Science and Engineering (CSE) under National University, Bangladesh.
 
-## First Year – First Semester
+## CSE First Semester Course Information
 
 ### Course Information
 
@@ -29,18 +29,6 @@ This section covers the currently followed First Semester syllabus for the B.Sc.
 - [Calculus](../subjects/cal/index.md)
 - [Physics](../subjects/phy/index.md)
 - [English](../subjects/eng/index.md)
-
-## Other Semesters
-
-Detailed syllabus pages will be added after verifying the relevant NU syllabus documents.
-
-- First Year – Second Semester: Coming Soon
-- Second Year – First Semester: Coming Soon
-- Second Year – Second Semester: Coming Soon
-- Third Year – First Semester: Coming Soon
-- Third Year – Second Semester: Coming Soon
-- Fourth Year – First Semester: Coming Soon
-- Fourth Year – Second Semester: Coming Soon
 
 ---
 
