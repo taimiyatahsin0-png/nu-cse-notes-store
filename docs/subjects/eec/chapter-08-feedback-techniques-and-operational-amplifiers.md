@@ -314,6 +314,52 @@ In current-shunt feedback:
 
 These are standard idealized feedback-topology trends. Actual values depend on circuit implementation and loading.
 
+### 4.5 Negative voltage feedback: gain and characteristics
+
+In negative voltage feedback, a fraction of the output **voltage** is sampled and returned in opposition to the input. The feedback factor is:
+
+\[
+\beta_v=\frac{V_f}{V_o}
+\]
+
+For an amplifier with open-loop voltage gain \(A_v\), the closed-loop voltage gain is:
+
+\[
+\boxed{A_{vf}=\frac{A_v}{1+A_v\beta_v}}
+\]
+
+**Main characteristics:**
+
+- Closed-loop voltage gain is lower than open-loop gain.
+- Gain becomes less sensitive to changes in the amplifier when loop gain is sufficiently large.
+- Voltage sampling tends to reduce output resistance.
+- If the feedback is mixed in series at the input (voltage-series feedback), input resistance tends to increase.
+- Properly designed negative feedback can reduce distortion and increase bandwidth.
+
+### 4.6 Negative current feedback: gain and characteristics
+
+In negative current feedback, a fraction of the output **current** is sampled and returned in opposition to the input. Define the current feedback factor as:
+
+\[
+\beta_i=\frac{I_f}{I_o}
+\]
+
+For an amplifier with open-loop current gain \(A_i\), the closed-loop current gain is:
+
+\[
+\boxed{A_{if}=\frac{A_i}{1+A_i\beta_i}}
+\]
+
+**Main characteristics:**
+
+- Closed-loop current gain is lower than open-loop current gain.
+- Gain becomes less sensitive to changes in the amplifier when loop gain is sufficiently large.
+- Current sampling tends to increase output resistance.
+- If the feedback is mixed in series at the input (current-series feedback), input resistance tends to increase.
+- Properly designed negative feedback can improve linearity and control the amplifier's response.
+
+**Remember:** Voltage feedback samples output voltage; current feedback samples output current. The input mixing method (series or shunt) determines the input-resistance trend. These gain equations use the same negative-feedback form, but the open-loop gain and feedback factor must refer to the same signal type.
+
 ## 5. Other effects of negative feedback
 
 For a properly designed negative-feedback amplifier:
