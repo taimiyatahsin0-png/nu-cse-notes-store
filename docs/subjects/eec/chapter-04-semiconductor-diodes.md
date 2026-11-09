@@ -31,12 +31,12 @@ A diode is commonly used to control the direction of current. In its normal forw
 
 Simplified symbol:
 
-\`\`\`text
+```text
 Anode (P)       Cathode (N)
    A  ──────|>|────── K
                  |
           diode symbol
-\`\`\`
+```
 
 The vertical bar marks the cathode side. Always check the symbol carefully when identifying the diode terminals.
 
@@ -87,12 +87,12 @@ A diode is **forward biased** when:
 
 Simplified connection:
 
-\`\`\`text
+```text
       + supply                         - supply
          |                                 |
          └──────── Anode ──|>|── Cathode ──┘
                          Diode
-\`\`\`
+```
 
 **What happens?**
 
@@ -113,12 +113,12 @@ A diode is **reverse biased** when:
 
 Simplified connection:
 
-\`\`\`text
+```text
       - supply                         + supply
          |                                 |
          └──────── Anode ──|>|── Cathode ──┘
                          Diode
-\`\`\`
+```
 
 **What happens?**
 
@@ -279,11 +279,11 @@ The colour of the emitted light depends mainly on the semiconductor material and
 
 The LED symbol resembles an ordinary diode symbol, with two small arrows pointing outward to represent emitted light.
 
-\`\`\`text
+```text
              ↗  ↗
 Anode ──────|>|────── Cathode
              light
-\`\`\`
+```
 
 ### Important characteristics
 
@@ -360,11 +360,11 @@ This nearly constant voltage behaviour makes it useful as a voltage reference or
 
 The Zener diode symbol resembles an ordinary diode symbol, but its cathode bar is bent.
 
-\`\`\`text
+```text
 Anode ──────|<|────── Cathode
               bent
            cathode bar
-\`\`\`
+```
 
 This is a text reminder only; use the standard circuit symbol in a formal circuit diagram.
 
@@ -394,7 +394,7 @@ The Zener diode holds the output voltage approximately constant, provided it rem
 
 Simplified circuit:
 
-\`\`\`text
+```text
        Rs
 Vin ──/\\/\\/───┬──── Vout
               |
@@ -406,7 +406,7 @@ Vin ──/\\/\\/───┬──── Vout
 
        Load is connected from Vout to GND
        in parallel with the Zener diode.
-\`\`\`
+```
 
 ### How regulation works
 
