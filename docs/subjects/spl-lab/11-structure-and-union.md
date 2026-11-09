@@ -127,13 +127,25 @@ int main(void)
     struct Student student;
 
     printf("Enter student ID: ");
-    scanf("%d", &student.id);
+    if (scanf("%d", &student.id) != 1)
+    {
+        printf("Invalid ID.\n");
+        return 1;
+    }
 
     printf("Enter GPA: ");
-    scanf("%f", &student.gpa);
+    if (scanf("%f", &student.gpa) != 1)
+    {
+        printf("Invalid GPA.\n");
+        return 1;
+    }
 
     printf("Enter a one-word name: ");
-    scanf("%49s", student.name);
+    if (scanf("%49s", student.name) != 1)
+    {
+        printf("Invalid name input.\n");
+        return 1;
+    }
 
     printf("\nStudent Information\n");
     printf("ID: %d\n", student.id);
@@ -199,7 +211,11 @@ int main(void)
     for (i = 0; i < 3; i++)
     {
         printf("Enter ID and marks for student %d: ", i + 1);
-        scanf("%d %f", &students[i].id, &students[i].marks);
+        if (scanf("%d %f", &students[i].id, &students[i].marks) != 2)
+        {
+            printf("Invalid student data.\n");
+            return 1;
+        }
     }
 
     printf("\nStudent Records\n");
@@ -270,7 +286,11 @@ int main(void)
     struct Book book;
 
     printf("Enter book ID and price: ");
-    scanf("%d %f", &book.id, &book.price);
+    if (scanf("%d %f", &book.id, &book.price) != 2)
+    {
+        printf("Invalid book data.\n");
+        return 1;
+    }
 
     displayBook(book);
 
