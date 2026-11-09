@@ -112,6 +112,7 @@ This course covers the fundamental concepts of Differential Calculus and Integra
 - [Chapter 04: Differentiation](chapter-04-differentiation.md)
 - [Chapter 05: Mean Value Theorems](chapter-05-mean-value-theorems.md)
 - [Chapter 06: Applications of Derivatives](chapter-06-applications-of-derivatives.md)
+- [Chapter 07: Taylor's Theorem and Indeterminate Forms](chapter-07-taylors-theorem-and-lhopitals-rule.md)
 
 ### Beginner Reference
 - [Mathematical Symbols & Notation for Beginners](mathematical-symbols-and-notation-for-beginners.md)
