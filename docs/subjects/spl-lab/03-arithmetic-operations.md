@@ -43,7 +43,7 @@ Arithmetic operators perform mathematical operations on operands.
 
 **Floating-point division:** If at least one operand is converted to a floating-point type, the result can contain a fractional part. For example, `(double)7 / 2` produces `3.5`.
 
-**Modulus:** The `%` operator gives the remainder after integer division. It is used with integer operands.
+**Modulus:** The `%` operator gives the remainder after integer division. It is used with integer operands. One special case, `INT_MIN % -1`, cannot be represented as an `int` and has undefined behavior, so the program checks for it before using `%`.
 
 **Division by zero:** A divisor must not be zero. The program checks this before performing division and modulus.
 
@@ -53,6 +53,7 @@ Save the following source code as `arithmetic.c`.
 
 ```c
 #include <stdio.h>
+#include <limits.h>
 
 int main(void)
 {
@@ -78,7 +79,15 @@ int main(void)
     if (second != 0)
     {
         printf("Division = %.2f\n", (double)first / second);
-        printf("Remainder = %d\n", first % second);
+
+        if (first == INT_MIN && second == -1)
+        {
+            printf("Remainder is not representable for this integer pair.\n");
+        }
+        else
+        {
+            printf("Remainder = %d\n", first % second);
+        }
     }
     else
     {
@@ -99,7 +108,7 @@ int main(void)
 | `!= 2` | Checks whether both input values were successfully read. |
 | `(long long)first + second` | Converts the first operand to `long long` before addition. |
 | `(double)first / second` | Converts the first operand to `double` to perform floating-point division. |
-| `first % second` | Calculates the remainder after integer division. |
+| `first % second` | Calculates the remainder after integer division. The special pair `INT_MIN` and `-1` is checked separately because its remainder operation is not representable in `int`. |
 | `second != 0` | Ensures that division and modulus are not attempted with a zero divisor. |
 | `%lld` | Prints a `long long` integer. |
 | `%.2f` | Prints a floating-point result with two digits after the decimal point. |
