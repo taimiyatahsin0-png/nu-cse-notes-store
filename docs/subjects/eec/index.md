@@ -103,6 +103,10 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 02: Network Theorems](chapter-02-network-theorems.md)
 
+### Chapter 03: Introduction to Semiconductors
+
+[📖 Read Chapter 03: Introduction to Semiconductors](chapter-03-introduction-to-semiconductors.md)
+
 ## Reference Books
 
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
