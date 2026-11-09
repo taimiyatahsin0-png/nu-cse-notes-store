@@ -115,6 +115,11 @@ This course covers the fundamental concepts of Differential Calculus and Integra
 - [Chapter 07: Taylor's Theorem and Indeterminate Forms](chapter-07-taylors-theorem-and-lhopitals-rule.md)
 - [Chapter 08: Integration](chapter-08-integration.md)
 
+- [Chapter 09: Fundamental Theorems and Reduction](chapter-09-fundamental-theorems-and-reduction.md)
+- [Chapter 10: Applications of Integration](chapter-10-applications-of-integration.md)
+- [Chapter 11: Improper Integrals, Gamma and Beta Functions](chapter-11-improper-integrals-gamma-beta-functions.md)
+- [Chapter 12: Polar Coordinates](chapter-12-polar-coordinates.md)
+
 ### Beginner Reference
 - [Mathematical Symbols & Notation for Beginners](mathematical-symbols-and-notation-for-beginners.md)
 - Topic-wise Notes
@@ -150,7 +155,7 @@ These notes use a consistent learning order:
 
 - Chapters 01–07: Differential Calculus — notes available.
 - Chapter 08: Integration — introductory techniques and Riemann sums.
-- Chapters 09–12: Fundamental Theorems and Reduction, Applications of Integration, Improper Integrals / Gamma and Beta Functions, and Polar Coordinates — to be prepared next in the order of the syllabus.
+- Chapters 09–12: Fundamental Theorems and Reduction, Applications of Integration, Improper Integrals / Gamma and Beta Functions, and Polar Coordinates — notes now added.
 
 ### Syllabus reference
 
