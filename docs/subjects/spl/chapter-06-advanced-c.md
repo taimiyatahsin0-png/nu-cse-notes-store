@@ -459,3 +459,137 @@ Error handling is the process of detecting, reporting and responding to errors t
 - Error types: syntax, runtime and logical.
 
 **End of Chapter 06**
+
+
+---
+
+## 11. Supplementary Topic: Dynamic Memory Allocation
+
+Dynamic memory allocation means requesting memory while a program is running. The NU student question bank includes questions on malloc() and calloc(). The topic is useful for pointer practice; confirm whether your current teacher includes it in the examinable scope because it is not separately named in the 2017–2018 SPL syllabus outline.
+
+### Main functions
+
+| Function | Purpose |
+|---|---|
+| malloc(size) | Allocates a block of bytes; contents are uninitialized |
+| calloc(n, size) | Allocates space for an array of n elements and initializes all bytes to zero |
+| realloc(ptr, new_size) | Resizes an existing allocated block |
+| free(ptr) | Releases dynamically allocated memory |
+
+All four are declared in stdlib.h.
+
+### Example: Allocate an integer array
+
+~~~c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+    int n = 5;
+    int *a = malloc((size_t)n * sizeof *a);
+
+    if (a == NULL)
+    {
+        printf("Memory allocation failed.\\n");
+        return 1;
+    }
+
+    for (int i = 0; i < n; i++)
+        a[i] = (i + 1) * 10;
+
+    for (int i = 0; i < n; i++)
+        printf("%d ", a[i]);
+
+    free(a);
+    a = NULL;
+
+    return 0;
+}
+~~~
+
+Output:
+
+~~~text
+10 20 30 40 50
+~~~
+
+**Safety notes**
+- Always check whether allocation returned NULL.
+- Release allocated memory with free() when it is no longer needed.
+- Do not access memory after it has been freed.
+- Do not call free() twice on the same allocation.
+- For realloc(), use a temporary pointer so the original allocation is not lost if resizing fails.
+
+### Safe realloc() pattern
+
+~~~c
+int *temp = realloc(a, (size_t)new_n * sizeof *a);
+if (temp != NULL)
+{
+    a = temp;
+}
+else
+{
+    /* a is still valid; handle the allocation failure */
+}
+~~~
+
+---
+
+## NU Previous Questions and Board Question Archive
+
+### Questions appearing in readable NU paper copies
+
+**2019**
+- Define pointer and discuss its merits / demerits with respect to arrays.
+- Define structure and union; distinguish between them.
+- What is a file? Describe file opening modes.
+- Write a C program to append the contents of one file to another.
+
+**2022**
+- Distinguish between structure and union.
+- Write a C program to exchange two variables using pointers.
+- Explain the significance of EOF and basic file operations.
+
+**2023**
+- What is a preprocessor directive? Explain #include and #define.
+- Explain call by value and call by reference.
+- Differentiate a variable and a symbolic constant.
+
+### Topic-year references in the student-compiled NU question bank
+
+- Pointer: listed for 2007–2013, 2015, 2017, 2019–2022.
+- Structure and union: 2008, 2013, 2019, 2021, 2022.
+- Difference between structure and union: 2009, 2010, 2012, 2013, 2016–2019, 2022.
+- File and file modes: 2007, 2011, 2015, 2017, 2019, 2021, 2022.
+- Append one file to another: 2015, 2018, 2019.
+- EOF: 2014, 2020, 2022.
+- Dynamic memory allocation (malloc() / calloc()): 2010, 2012, 2014, 2020.
+
+### Selected exam answer: Structure vs Union
+
+| Structure | Union |
+|---|---|
+| Each member has its own storage | Members share the same storage |
+| Multiple members can hold values at the same time | Writing one member may overwrite the representation used by another |
+| Size depends on members and padding | Size is sufficient for the largest member, including alignment |
+
+**বাংলায়:** Structure-এ roll, name, marks আলাদা জায়গায় রাখা যায়। Union-এ member-গুলো একই memory share করে, তাই একই সময়ে সব member-এ আলাদা value ধরে রাখার জন্য union ব্যবহার করা হয় না।
+
+### Board and question-bank sources
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE SPL Question Bank (510201)](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
+- [2022 paper copy](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+- [2023 SPL paper copy](https://de.scribd.com/document/802418334/SPL-Board-Question)
+
+### Extra practice (not verified PYQs)
+
+1. Write a C program to store and display records of three students using an array of structures.
+2. Write a program to copy the contents of one text file into another.
+3. Explain why a null pointer must not be dereferenced.
+
+**Source caution:** These are student-uploaded / student-compiled copies. The year tags are revision clues, not proof of an official NU archive record.
