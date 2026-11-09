@@ -1,6 +1,6 @@
 # NU Grade Scale
 
-This page summarizes the commonly published National University 4.00 grading scale for Honours programmes. Always confirm that the regulation applies to your programme and session.
+This page summarizes the commonly published National University 4.00 grading scale for Honours programmes. Always confirm that the regulation applies to your programme and session. The 2025 Revised Honours Regulation may not govern Professional Honours CSE.
 
 ## Grade and marks range
 
@@ -51,7 +51,7 @@ For example:
 | 2.00–2.49 | Lower range; review eligibility requirements for each opportunity |
 | Below 2.00 | Check programme rules and academic standing carefully |
 
-The interpretation bands above are planning guidance, not official NU class divisions. The 2025 Honours regulation states a minimum CGPA of 2.00 for the Honours degree and a 3.75–4.00 band for Honours with Distinction; confirm how these clauses apply to your specific Professional Honours programme.
+The interpretation bands above are planning guidance, not official NU class divisions. The 2025 Honours regulation states a minimum CGPA of 2.00 for the Honours degree and a 3.75–4.00 band for Honours with Distinction; confirm how these clauses apply to your specific Professional Honours programme. In the regulation example, yearly GPA uses attempted credits (including an F course at 0 points), while F does not earn credit. The cumulative calculation and repeat/improvement rules must be checked against the regulation that applies to your programme.
 
 ## Common mistakes
 
