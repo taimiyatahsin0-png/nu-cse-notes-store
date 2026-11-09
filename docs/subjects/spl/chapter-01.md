@@ -663,3 +663,84 @@ In this chapter, we learned:
 
 *Educational resource for National University CSE students.*
 
+
+
+---
+
+## 12. NU Previous Questions and Board Question Archive
+
+### Questions appearing in readable NU paper copies
+
+These prompts are from student-uploaded copies of NU CSE first-semester SPL examinations. Check the original paper scan if exact wording matters.
+
+**2019**
+- What is structured programming language? Write its characteristics.
+- Define algorithm and flowchart. Describe the symbols used in a flowchart.
+- What is a preprocessor directive and header file? Give examples.
+
+**2020**
+- What is structured programming language? Write its salient features.
+- Describe the basic structure of a C program.
+- Define flowchart and draw one to find the largest among three numbers.
+
+**2022**
+- Define structured programming language and discuss the basic structure of a C program.
+- Define algorithm, flowchart and pseudocode.
+- Explain the purpose of header files.
+
+**2023**
+- Explain different control structures used in structured programming.
+- What is a preprocessor directive? Explain the use of #include and #define.
+
+### Repeated topic tags in the student question bank
+
+- Definition of structured programming language: 2018, 2019, 2020, 2021, 2022.
+- Salient features of C: 2010, 2012, 2020.
+- Basic structure of a C program: 2007, 2008, 2012, 2016, 2020, 2022.
+- Steps of executing a C program: 2010, 2013.
+- Algorithm and flowchart: 2019, 2020, 2022.
+- Preprocessor directive and header file: 2019, 2021, 2022.
+
+These are year tags from a student-compiled bank, not an official NU database.
+
+### Selected exam answer: Basic structure of a C program
+
+A beginner-friendly way to remember the structure is:
+
+1. Documentation / comments
+2. Preprocessor directives
+3. Global declarations and function prototypes (if needed)
+4. main() function
+5. User-defined function definitions (if needed)
+
+**Exam-ready English:** A C program generally consists of documentation, preprocessor directives, global declarations, the main() function and user-defined function definitions. The exact sections depend on the program.
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, C programming!\\n");
+    return 0;
+}
+~~~
+
+**বাংলায়:** #include <stdio.h> দিয়ে input-output function-এর declaration পাওয়া যায়। Program execution শুরু হয় main() থেকে। printf() output দেখায় এবং return 0 সফলভাবে শেষ হওয়ার ইঙ্গিত দেয়।
+
+### Board and source links
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE SPL Question Bank (510201)](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
+- [2020 paper copy](https://www.scribd.com/document/600047603/2020-NU-Question)
+- [2022 paper copy](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+- [2023 SPL paper copy](https://de.scribd.com/document/802418334/SPL-Board-Question)
+
+### Extra practice (not verified PYQs)
+
+1. Explain the difference between a compiler and an interpreter.
+2. Write the steps involved in compiling and executing a C program.
+3. Write a short C program that prints two lines of text.
+
+**Source caution:** These are secondary uploads. Do not treat an unverified practice question or a question-bank year tag as an official NU paper transcription.
