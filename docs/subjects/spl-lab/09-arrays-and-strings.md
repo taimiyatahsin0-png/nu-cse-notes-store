@@ -69,7 +69,7 @@ This array has 2 rows and 3 columns.
 
 ### 3.4 What is a String?
 
-A **string** in C is a character array that ends with the null character `'\\0'`. The null character marks the end of the string.
+A **string** in C is a character array that ends with the null character `'\0'`. The null character marks the end of the string.
 
 Example:
 
@@ -83,7 +83,7 @@ Useful string functions are declared in the `<string.h>` header:
 
 | Function | Purpose |
 |---|---|
-| `strlen(str)` | Returns the string length, excluding `'\\0'` |
+| `strlen(str)` | Returns the string length, excluding `'\0'` |
 | `strcpy(dest, src)` | Copies one string into another |
 | `strcmp(a, b)` | Compares two strings |
 | `strcat(dest, src)` | Appends one string to another |
@@ -389,7 +389,7 @@ int main(void)
         return 1;
     }
 
-    name[strcspn(name, "\n")] = '\\0';
+    name[strcspn(name, "\n")] = '\0';
 
     printf("Your name is: %s\n", name);
     printf("Length = %zu\n", strlen(name));
@@ -411,7 +411,7 @@ Length = 14
 - `char name[50]` reserves space for up to 49 characters plus the terminating null character.
 - `fgets()` reads a line and limits how many characters are stored.
 - `strcspn(name, "\n")` finds the position of the newline character, if present.
-- Replacing that newline with `'\\0'` removes it from the stored text.
+- Replacing that newline with `'\0'` removes it from the stored text.
 - `strlen()` counts characters before the null character.
 
 **Input note:** `scanf("%s", name)` reads only up to the first whitespace. Use `fgets()` when the input may contain spaces.
@@ -474,7 +474,7 @@ Compile and run each program separately.
 3. Using `i <= 5` instead of `i < 5` for a five-element array.
 4. Forgetting to initialize a running total such as `sum).
 5. Using integer division when a fractional average is expected.
-6. Forgetting that a C string needs space for its terminating `'\\0'`.
+6. Forgetting that a C string needs space for its terminating `'\0'`.
 7. Using `scanf("%s", ...)` when the input contains spaces.
 8. Calling `strcpy()` or `strcat()` when the destination array is too small.
 
@@ -496,7 +496,7 @@ Try these yourself before checking a solution:
 3. How do you declare a one-dimensional array?
 4. What is a two-dimensional array?
 5. What is a string in C?
-6. What is the purpose of the null character `'\\0'`?
+6. What is the purpose of the null character `'\0'`?
 7. Which header file contains `strlen()` and `strcpy()`?
 8. What does `strlen()` return?
 9. What is the difference between `scanf("%s", name)` and `fgets()`?
