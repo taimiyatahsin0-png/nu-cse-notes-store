@@ -143,6 +143,11 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📝 Chapter 08 Exam Preparation Pack](chapter-08-exam-preparation.md)
 
+
+### Supplementary Topics
+
+[📖 Solar Cell, Clipper and Clamper Circuits](supplementary-solar-cell-clipper-clamper.md) — additional revision notes; confirm current course scope with your teacher.
+
 ## Reference Books
 
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
