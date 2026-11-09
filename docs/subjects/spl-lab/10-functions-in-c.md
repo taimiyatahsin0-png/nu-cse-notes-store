@@ -93,7 +93,7 @@ int main(void)
 
 void greet(void)
 {
-    printf("Welcome to C programming!\\n");
+    printf("Welcome to C programming!\n");
 }
 ```
 
@@ -147,7 +147,7 @@ int main(void)
 void displaySum(int a, int b)
 {
     int sum = a + b;
-    printf("Sum = %d\\n", sum);
+    printf("Sum = %d\n", sum);
 }
 ```
 
@@ -195,7 +195,7 @@ int main(void)
 
     result = getSquare();
 
-    printf("Square = %d\\n", result);
+    printf("Square = %d\n", result);
 
     return 0;
 }
@@ -255,7 +255,7 @@ int main(void)
 
     result = add(x, y);
 
-    printf("Sum = %d\\n", result);
+    printf("Sum = %d\n", result);
 
     return 0;
 }
@@ -324,7 +324,7 @@ int main(void)
 
     changeValue(x);
 
-    printf("Value in main = %d\\n", x);
+    printf("Value in main = %d\n", x);
 
     return 0;
 }
@@ -332,7 +332,7 @@ int main(void)
 void changeValue(int number)
 {
     number = 50;
-    printf("Value inside function = %d\\n", number);
+    printf("Value inside function = %d\n", number);
 }
 ```
 
