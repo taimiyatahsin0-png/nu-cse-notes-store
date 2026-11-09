@@ -1329,3 +1329,70 @@ D. A programming language
 
 ---
 **End of Chapter**
+
+
+---
+
+## 13. NU Previous Questions and Board Question Archive
+
+### Questions appearing in readable NU paper copies
+
+The following prompts are transcribed from student-uploaded copies of NU CSE first-semester SPL papers. The year and wording are readable in those copies, but the uploads are not official NU-hosted scans.
+
+**2019**
+- Define algorithm and flowchart. Describe the symbols used in a flowchart.
+- Write an algorithm to calculate the area and circumference of a circle.
+
+**2020**
+- Define flowchart. Draw a flowchart to find the largest value among three numbers.
+- Write an algorithm to calculate the area and perimeter of a rectangle.
+
+**2022**
+- Define algorithm, flowchart and pseudocode.
+- Write an algorithm and flowchart to convert Fahrenheit to Celsius.
+- Write a program to calculate the area and perimeter of a circle.
+
+### Year tags in the student-compiled NU question bank
+
+- Algorithm and flowchart: listed for 2019, 2020 and 2022.
+- Pseudocode: listed for 2022.
+- Flowchart for largest of three numbers: listed for 2020.
+- Fahrenheit-to-Celsius algorithm/flowchart: listed for 2022.
+
+These year tags are useful for revision, but should be checked against the original paper image.
+
+### Board / question-bank sources
+
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+- [NU CSE SPL Question Bank — Subject Code 510201](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 NU CSE first-semester paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
+- [2020 NU CSE first-semester paper copy](https://www.scribd.com/document/600047603/2020-NU-Question)
+- [2022 NU CSE first-semester paper copy](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+
+### Selected solved answer: Fahrenheit to Celsius algorithm
+
+**Question (listed in the 2022 paper copy):** Write an algorithm to convert Fahrenheit temperature into Celsius.
+
+Formula:
+
+\[
+C=\frac{5}{9}(F-32)
+\]
+
+**Algorithm**
+1. Start.
+2. Read Fahrenheit temperature \(F\).
+3. Calculate \(C=(F-32)\times5/9\).
+4. Display \(C\).
+5. Stop.
+
+**বাংলায় বুঝে নাও:** প্রথমে Fahrenheit input নেবে, 32 বিয়োগ করবে, তারপর 5/9 দিয়ে গুণ করবে। হিসাবের ধাপ ঠিক রাখলে একই logic দিয়ে C program-ও লেখা যাবে।
+
+### Extra practice (not verified PYQs)
+
+1. Draw a flowchart to find the average of three numbers.
+2. Write pseudocode to determine whether a number is even or odd.
+3. Write an algorithm to find the largest of three distinct numbers.
+
+**Source caution:** Paper copies and question banks are student-uploaded secondary sources. A year is attached only where the source visibly lists it; an exercise created for practice is never labelled as a past question.
