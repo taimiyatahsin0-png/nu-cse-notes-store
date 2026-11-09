@@ -771,10 +771,10 @@ int result = 10 + 5 * 2;
 | 11 | `&&` | Logical AND |
 | 12 | `||` | Logical OR |
 | 13 | `?:` | Conditional |
-| 14 | `= += -= *= /= %=` | Assignment |
+| 14 | `= += -= *= /= %= <<= >>= &= ^= |=` | Assignment |
 | 15 | `,` | Comma |
 
-**Note:** This table shows common precedence groups from high to low. Operators in the same group may follow different associativity rules. Parentheses can be used to group expressions and override the usual precedence order.
+**Note:** This table shows common precedence groups from high to low. Some symbols have more than one role: `*` can mean multiplication or pointer dereference, and `&` can mean bitwise AND or address-of. Their role depends on context. Operators in the same group may follow different associativity rules. Parentheses can be used to group expressions and override the usual precedence order.
 
 ### Example
 
