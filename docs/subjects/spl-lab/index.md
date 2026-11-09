@@ -45,6 +45,7 @@ Students will regularly solve programming problems to improve their practical pr
 - [Practical 10: Functions in C](10-functions-in-c.md) — suggested practice on function prototypes, definitions, calls, arguments, return values, and pass by value.
 - [Practical 11: Structure and Union in C](11-structure-and-union.md) — suggested practice on structure variables, arrays of structures, function parameters, unions, and memory sharing.
 - [Practical 12: Pointers in C](12-pointers-in-c.md) — suggested practice on pointer declaration, addresses, dereferencing, arrays, and function arguments.
+- [Practical 13: File Management in C](13-file-management-in-c.md) — suggested practice on creating, writing, reading, and appending text files.
 
 ## Final Lab Project
 
