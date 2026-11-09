@@ -108,3 +108,38 @@ C Programming Language
 
 Happy Coding! 💻
 
+
+
+---
+
+## NU Previous Questions, Board Archives and Answer Standard
+
+### Question resources
+
+- [NU CSE SPL Question Bank (Subject Code 510201)](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
+- [2019 NU CSE first-semester paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
+- [2020 NU CSE first-semester paper copy](https://www.scribd.com/document/600047603/2020-NU-Question)
+- [2022 NU CSE first-semester paper copy](https://www.scribd.com/document/860333722/1st-semester-2022-questions)
+- [2023 SPL paper copy](https://de.scribd.com/document/802418334/SPL-Board-Question)
+- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
+- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
+
+**Source rule:** Paper copies and question banks above are student-uploaded secondary sources, not an official NU-hosted archive. A year is shown only when it is visible in a paper copy or explicitly listed in the question bank. Unverified practice questions are labelled separately.
+
+## NU Exam Answer Standard
+
+1. **Theory answer:** definition → explanation / key points → syntax or diagram where relevant → short example.
+2. **Difference question:** use a clear comparison table and compare the same features on both sides.
+3. **C program:** state the logic or algorithm briefly, write complete compilable code, show sample output, and explain tricky lines.
+4. **Trace / output question:** make a variable trace table and update values in execution order.
+5. **Flowchart:** use standard symbols, label Yes/No branches and keep the flow direction clear.
+
+**Teaching style:** Bangla-first explanation, then concise exam-ready English. New terms are defined before use. Code examples use standard C (C11-compatible where possible), avoid unsafe functions such as gets(), and explain input validation and edge cases.
+
+**Exam note:** Old paper copies often show 3 hours, 80 marks and “answer any four”; this is historical paper information, not a promise that every future examination will use the same format.
+
+### Syllabus reference
+
+[NU CSE First-Year Syllabus copy (effective Session 2017–2018; hosted by DIIT)](https://diit.edu.bd/media/resource/Computer_Science_and_Engineering_1st_Year_Pub_Date_15092019.pdf)
+
+Confirm the current syllabus and teacher's scope before the examination.
