@@ -38,7 +38,65 @@ A C program can receive data from the user and display a result.
 
 For an integer variable, the `%d` format specifier is used with `scanf()` and `printf()`. The address operator (`&`) is used in `scanf()` to pass the address of each variable.
 
-## 5. Program
+### 4.1 Common Data Types and Format Specifiers
+
+| Data type | Typical use | `printf()` format |
+|---|---|---|
+| `int` | Whole numbers | `%d` |
+| `float` | Decimal values | `%f` |
+| `double` | Decimal values with typically greater precision | `%f` |
+| `char` | A single character | `%c` |
+
+For `scanf()`, use `%f` for a `float` and `%lf` for a `double`. The exact size and range of numeric types can vary by implementation.
+
+### 4.2 Declaring a Constant
+
+Example:
+
+```c
+const int PASS_MARK = 40;
+```
+
+The identifier `PASS_MARK` cannot be used to modify that object after initialization. Constants help make program values easier to understand and maintain.
+
+## 5. Short example: Different Data Types and a Constant
+
+Before the addition program, study this small example:
+
+```c
+#include <stdio.h>
+
+int main(void)
+{
+    int age = 20;
+    float height = 1.60f;
+    char grade = 'A';
+    const int PASS_MARK = 40;
+
+    printf("Age = %d\\n", age);
+    printf("Height = %.2f\\n", height);
+    printf("Grade = %c\\n", grade);
+    printf("Pass mark = %d\\n", PASS_MARK);
+
+    return 0;
+}
+```
+
+### Sample output
+
+```text
+Age = 20
+Height = 1.60
+Grade = A
+Pass mark = 40
+```
+
+**Key points:**
+- `age` is an `int`, `height` is a `float`, and `grade` is a `char`.
+- `PASS_MARK` is declared with `const`.
+- `%.2f` displays two digits after the decimal point.
+
+## 6. Program
 
 Save the following code as `sum.c`.
 
@@ -65,7 +123,7 @@ int main(void)
 }
 ```
 
-## 6. Code explanation
+## 7. Code explanation
 
 | Code | Explanation |
 |---|---|
@@ -80,7 +138,7 @@ int main(void)
 **Why use `&` with `scanf()`?**  
 `scanf()` needs the memory address where it should store each input value. The address-of operator (`&`) provides that address for ordinary variables such as `first` and `second`.
 
-## 7. Algorithm
+## 8. Algorithm
 
 1. Start.
 2. Declare three integer variables: `first`, `second`, and `sum`.
@@ -91,7 +149,7 @@ int main(void)
 7. Display the sum.
 8. Stop.
 
-## 8. Sample input and output
+## 9. Sample input and output
 
 **Example 1**
 
@@ -107,7 +165,7 @@ Enter two integers: -5 9
 Sum = 4
 ```
 
-## 9. Dry run
+## 10. Dry run
 
 Suppose the user enters `12` and `8`.
 
@@ -117,7 +175,7 @@ Suppose the user enters `12` and `8`.
 | Calculation | 12 | 8 | 12 + 8 |
 | Output | 12 | 8 | 20 |
 
-## 10. Compilation and execution
+## 11. Compilation and execution
 
 Compile with GCC:
 
@@ -130,18 +188,18 @@ Run the program:
 - **Linux/macOS:** `./sum`
 - **Windows (MinGW/GCC):** `sum.exe`
 
-## 11. Result
+## 12. Result
 
 The program accepts two integers, calculates their sum, and displays the result when valid input is provided.
 
-## 12. Practice tasks
+## 13. Practice tasks
 
 1. Modify the program to subtract the second integer from the first.
 2. Modify it to multiply two integers.
 3. Accept three integers and display their sum.
 4. Accept two floating-point numbers and display their sum using the appropriate data type and format specifier.
 
-## 13. Viva questions
+## 14. Viva questions
 
 **Q1. What is a variable?**  
 A variable is a named storage location used to hold a value that may change during program execution.
@@ -164,7 +222,7 @@ It returns the number of input items successfully assigned (or a negative value 
 **Q7. Which operator performs addition in C?**  
 The plus operator (`+`).
 
-## 14. Common mistakes
+## 15. Common mistakes
 
 - Forgetting `&` before ordinary variable names in `scanf()`.
 - Using `%f` instead of `%d` for an `int`.
