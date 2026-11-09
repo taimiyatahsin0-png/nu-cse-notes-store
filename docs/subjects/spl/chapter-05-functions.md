@@ -460,7 +460,7 @@ int main(void)
 {
     int x = 10;
     changeValue(&x);
-    printf("%d\\n", x);  /* 50 */
+    printf("%d\n", x);  /* 50 */
     return 0;
 }
 ~~~
