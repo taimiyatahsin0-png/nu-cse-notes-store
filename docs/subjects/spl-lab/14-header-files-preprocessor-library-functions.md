@@ -74,7 +74,7 @@ Example:
 
 ```c
 #define PI 3.14159
-#define SQUARE(x) ((x) * (x))
+#define SQUARE(x) ((long long)(x) * (x))
 ```
 
 Use parentheses in function-like macros to avoid unexpected results caused by operator precedence.
@@ -125,7 +125,7 @@ int main(void)
         return 1;
     }
 
-    printf("Square = %d\n", SQUARE(number));
+    printf("Square = %lld\n", SQUARE(number));
 
     return 0;
 }
@@ -140,8 +140,8 @@ Square = 36
 
 ### Explanation
 
-- `#define SQUARE(x) ((x) * (x))` defines a function-like macro.
-- Before compilation, the preprocessor replaces `SQUARE(number)` with `((number) * (number))`.
+- `#define SQUARE(x) ((long long)(x) * (x))` defines a function-like macro.
+- Before compilation, the preprocessor replaces `SQUARE(number)` with `((long long)(number) * (number))`.
 - Parentheses protect the expression from common precedence problems.
 
 ## 5. Program 2: Use Mathematical Library Functions
