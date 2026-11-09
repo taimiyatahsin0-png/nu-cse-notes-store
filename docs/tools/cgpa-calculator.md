@@ -63,7 +63,7 @@ Estimate your semester GPA and cumulative CGPA using course credits and NU-style
 For passed courses, the calculator uses a credit-weighted average:
 
 \[
-\text{GPA} = \frac{\sum(\text{Course Credit} \times \text{Grade Point})}{\sum(\text{Earned Credits})}
+\text{GPA} = \frac{\sum(\text{Course Credit} \times \text{Grade Point})}{\sum(\text{Attempted Credits})}
 \]
 
 For an updated cumulative result:
