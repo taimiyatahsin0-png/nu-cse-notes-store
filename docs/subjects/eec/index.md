@@ -107,6 +107,10 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 [📖 Read Chapter 03: Introduction to Semiconductors](chapter-03-introduction-to-semiconductors.md)
 
+### Chapter 04: Semiconductor Diodes and Special Purpose Diodes
+
+[📖 Read Chapter 04: Semiconductor Diodes and Special Purpose Diodes](chapter-04-semiconductor-diodes.md)
+
 ## Reference Books
 
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
