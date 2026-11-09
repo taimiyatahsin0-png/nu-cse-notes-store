@@ -576,6 +576,7 @@ f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^n
 এই অধ্যায়ের জন্য NU CSE Calculus (510205)-এর একটি 2020 question-paper scan এবং NU CSE notes-এর question-bank resource শনাক্ত করা গেছে। কিন্তু উন্মুক্ত scan-এর পাঠযোগ্য অংশ থেকে Taylor's Theorem, Taylor Series বা L'Hospital's Rule-এর নির্দিষ্ট প্রশ্ন ও উপ-প্রশ্ন নিশ্চিতভাবে উদ্ধার করা যায়নি। তাই কোনো প্রশ্নকে এখানে **“2020 NU Previous Question”** বলে ভুলভাবে চিহ্নিত করা হয়নি।
 
 Useful source pages:
+- The student-compiled NU CSE question bank also lists a limit problem using L'Hospital's Rule for 2010. The expression is OCR-corrupted, so it is not reconstructed here.
 - [NU CSE 1st Semester Notes — Calculus and Board Questions resources](https://sigmakib.github.io/nu-cse-notes/nu-cse-1st-semester-notes.html)
 - [2020 NU CSE Question Paper scan on Scribd](https://www.scribd.com/document/600047603/2020-NU-Question)
 - [NU CSE 1st Semester syllabus and course outline](https://nucsebd.wordpress.com/all-semester/)
@@ -671,29 +672,3 @@ Useful source pages:
 
 *Prepared as original study notes aligned with the listed NU CSE Calculus (510205) syllabus. Verified past-paper questions will be added only when their wording, year and source can be checked.*
 
----
-
-## 15. NU Previous Questions and Board Question Archive
-
-### Question identifiable in the NU CSE question bank
-
-The NU CSE 1st Semester question bank includes an item asking students to **evaluate a limit using L'Hospital's Rule**, tagged **NU CSE 2010**.
-
-**Important limitation:** The mathematical expression is corrupted in the accessible text extraction. It is not reconstructed here because even a small OCR error can change the problem and its answer. Check the original question-bank scan before solving or quoting the exact expression.
-
-### Board-question archive
-
-- [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
-- [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
-- [NU CSE Calculus question bank (1st semester)](https://www.scribd.com/document/948205368/862105744-National-University-CSE-Question-Bank-1st-First-Semester)
-
-**Verification note:** The 2010 topic/year tag is visible in a student-compiled question-bank excerpt. It is not a substitute for the original paper scan.
-
-### Additional practice (not verified PYQs)
-
-1. State Taylor's Theorem with Lagrange's form of remainder.
-2. Expand \(e^x\) or \(\sin x\) by Maclaurin's series.
-3. Evaluate a \(0/0\) limit using L'Hospital's Rule.
-4. Convert a \(0\times\infty\) form into a quotient before applying the rule.
-
-These are syllabus-based practice questions, not confirmed past-paper questions.
