@@ -57,17 +57,5 @@ At the end of the course, students are expected to develop a simple real-life pr
 
 - [Final Lab Project: Student Record Management System in C](final-lab-project-student-record-management.md) — a guided menu-driven project combining structures, functions, pointers, and file handling.
 
-## Study Materials
-
-- C Programming Lab Notes
-- Programming Exercises
-- Lab Reports
-- Practical Examples
-- Project Documentation
-- Previous Lab Questions
-
----
-
 *This page is organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
-Happy Coding! 💻
