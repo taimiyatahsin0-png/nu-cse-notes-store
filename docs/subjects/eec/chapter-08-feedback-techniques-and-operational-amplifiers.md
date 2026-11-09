@@ -34,12 +34,12 @@ An amplifier can use feedback in a similar way. A fraction of its output voltage
 
 ### Basic feedback block diagram
 
-\`\`\`text
+```text
 Input ──► [ Summing point ] ──► [ Amplifier A ] ──► Output
                  ▲                                  |
                  |                                  |
                  └──────── [ Feedback β ] ◄─────────┘
-\`\`\`
+```
 
 Where:
 
@@ -409,7 +409,7 @@ It also has:
 
 ### Basic op-amp symbol
 
-\`\`\`text
+```text
              +V supply
                  |
              .-------.
@@ -419,7 +419,7 @@ It also has:
              '-------'
                  |
              -V supply
-\`\`\`
+```
 
 The output is approximately:
 
@@ -485,14 +485,14 @@ An **inverting amplifier** produces an output that is opposite in polarity (180�
 - Feedback resistor \(R_f\) connects output to the inverting terminal.
 - Non-inverting terminal is grounded.
 
-\`\`\`text
+```text
  Vin ── Rin ──●────(−)\
               |        \____ Vout
               └── Rf ──/ 
                        (+)
                         |
                        GND
-\`\`\`
+```
 
 For an ideal op-amp:
 
