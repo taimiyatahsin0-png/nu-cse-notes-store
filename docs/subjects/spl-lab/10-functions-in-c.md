@@ -76,7 +76,7 @@ A function that does not return a value uses the return type `void`.
 1. Start.
 2. Call the `greet()` function from `main()`.
 3. The function displays a greeting.
-4. Return to `main()) and stop.
+4. Return to `main()` and stop.
 
 ### C Program
 
@@ -234,7 +234,7 @@ To add two integers using a function that receives arguments and returns the res
 
 1. Start.
 2. Read two integers in `main()`.
-3. Call `add()) with the two integers.
+3. Call `add()` with the two integers.
 4. The function adds the values and returns the sum.
 5. Store and display the returned value.
 6. Stop.
@@ -343,9 +343,179 @@ Value inside function = 50
 Value in main = 10
 ```
 
-**Why?** The parameter `number` receives a copy of `x). Assigning 50 to `number` does not modify `x`.
+**Why?** The parameter `number` receives a copy of `x`. Assigning 50 to `number` does not modify `x`.
 
-## 10. Common Mistakes
+## 10. Scope Rules in C
+
+**Scope** means the part of a program where a name (such as a variable) can be accessed.
+
+### 10.1 Local Scope
+
+A variable declared inside a function or block is generally local to that function or block. It cannot be used directly outside its scope.
+
+### 10.2 Global Scope
+
+A variable declared outside all functions has file scope from its declaration to the end of that source file. Functions in that file can access it, subject to declaration and linkage rules.
+
+### 10.3 Block Scope
+
+A variable declared inside a pair of braces `{ }` has block scope. It is accessible only from its declaration to the end of that block.
+
+### Example: Local and Global Variables
+
+```c
+#include <stdio.h>
+
+int globalNumber = 100;
+
+void showNumber(void)
+{
+    int localNumber = 20;
+
+    printf("Global = %d\\n", globalNumber);
+    printf("Local = %d\\n", localNumber);
+}
+
+int main(void)
+{
+    showNumber();
+
+    printf("Global in main = %d\\n", globalNumber);
+
+    return 0;
+}
+```
+
+**Remember:** `localNumber` is declared inside `showNumber()`, so `main()` cannot access it directly. `globalNumber` is declared outside the functions and can be accessed by both functions in this file.
+
+## 11. Storage Classes in C
+
+A **storage class** gives information about a variable's scope, lifetime, and linkage. At this level, focus on these common storage-class specifiers:
+
+| Storage class | Basic idea |
+|---|---|
+| `auto` | Default storage class for ordinary local variables; block scope and automatic lifetime. |
+| `register` | Suggests that a frequently used local variable may be kept in a CPU register. The compiler may ignore the suggestion. |
+| `static` | A local static variable keeps its value between function calls. A file-scope static name has internal linkage. |
+| `extern` | Declares an object or function that is defined elsewhere; commonly used to refer to a global variable defined in another source file. |
+
+### Example: Static Local Variable
+
+```c
+#include <stdio.h>
+
+void countCalls(void)
+{
+    static int count = 0;
+    count++;
+
+    printf("Function called %d time(s).\\n", count);
+}
+
+int main(void)
+{
+    countCalls();
+    countCalls();
+    countCalls();
+
+    return 0;
+}
+```
+
+### Sample Output
+
+```text
+Function called 1 time(s).
+Function called 2 time(s).
+Function called 3 time(s).
+```
+
+**Explanation:** The local variable `count` is initialized only once. Because it is `static`, its value remains available between calls to `countCalls()`.
+
+> **Beginner note:** Do not confuse scope with lifetime. Scope tells where a name can be used in the source code; lifetime tells how long the object's storage exists during program execution.
+
+## 12. Recursion in C
+
+**Recursion** is a process in which a function calls itself to solve a smaller version of the same problem.
+
+A recursive function needs:
+1. **Base case:** A condition that stops further recursive calls.
+2. **Recursive case:** A call to the same function with a smaller or simpler input.
+
+### Program: Factorial Using Recursion
+
+The factorial of a positive integer is:
+
+`n! = n × (n - 1) × ... × 1`
+
+Also, `0! = 1`.
+
+### Algorithm
+
+1. Start.
+2. Read a non-negative integer `n`.
+3. If `n` is negative, display an error message.
+4. Otherwise, call `factorial(n)`.
+5. If `n` is 0 or 1, return 1 (base case).
+6. Otherwise, return `n * factorial(n - 1)`.
+7. Display the result and stop.
+
+### C Program
+
+```c
+#include <stdio.h>
+
+unsigned long long factorial(int n);
+
+int main(void)
+{
+    int n;
+
+    printf("Enter a non-negative integer (0 to 20): ");
+
+    if (scanf("%d", &n) != 1 || n < 0 || n > 20)
+    {
+        printf("Invalid input. Enter an integer from 0 to 20.\\n");
+        return 1;
+    }
+
+    printf("Factorial = %llu\\n", factorial(n));
+
+    return 0;
+}
+
+unsigned long long factorial(int n)
+{
+    if (n == 0 || n == 1)
+    {
+        return 1;
+    }
+
+    return (unsigned long long)n * factorial(n - 1);
+}
+```
+
+### Sample Output
+
+```text
+Enter a non-negative integer (0 to 20): 5
+Factorial = 120
+```
+
+### Dry Run for `factorial(4)`
+
+| Call | What happens |
+|---|---|
+| `factorial(4)` | Returns `4 * factorial(3)` |
+| `factorial(3)` | Returns `3 * factorial(2)` |
+| `factorial(2)` | Returns `2 * factorial(1)` |
+| `factorial(1)` | Base case returns `1` |
+
+The returned values move back up the calls: `2 × 1 = 2`, `3 × 2 = 6`, and `4 × 6 = 24`.
+
+**Important:** Without a correct base case, recursive calls may continue until the program runs out of stack space. The example limits input to 0–20 to keep the result within the range of a typical `unsigned long long`.
+
+## 13. Common Mistakes
 
 1. Calling a function with a different number of arguments than its declaration requires.
 2. Using a return type that does not match the returned value.
@@ -355,7 +525,7 @@ Value in main = 10
 6. Forgetting that a function's local variables are not automatically available in `main()`.
 7. Assuming that changing a normal parameter changes the original argument variable.
 
-## 11. How to Compile and Run
+## 14. How to Compile and Run
 
 If GCC is installed, save a program in a file such as `functions.c`, then run:
 
@@ -373,7 +543,7 @@ functions.exe
 
 Compile and run each program separately.
 
-## 12. Practice Tasks
+## 15. Practice Tasks
 
 1. Write a function that checks whether an integer is even or odd.
 2. Write a function that returns the larger of two integers.
@@ -382,7 +552,7 @@ Compile and run each program separately.
 5. Write separate functions for addition, subtraction, multiplication, and division.
 6. Write a function that takes a number and returns the sum of its digits.
 
-## 13. Viva Questions
+## 16. Viva Questions
 
 1. What is a function in C?
 2. Why do we use functions?
