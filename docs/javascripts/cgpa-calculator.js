@@ -28,12 +28,13 @@
         const grade=$(".cgpa-grade",row).value;
         const credit=Number(raw);
         if(!raw || !Number.isFinite(credit) || credit<=0 || credit>30){invalid=true;return;}
+        credits+=credit;
         if(!grade)return;
-        selected++;credits+=credit;quality+=credit*gradePoints[grade];
+        selected++;quality+=credit*gradePoints[grade];
         courses.push({name,credit,grade});
       });
       const complete=rows.length>0 && selected===rows.length && !invalid;
-      return {quality:complete?quality:0,credits:complete?credits:0,selected,total:rows.length,invalid,complete,courses,gpa:complete?quality/credits:null};
+      return {quality,credits,selected,total:rows.length,invalid,complete,courses,gpa:complete?quality/credits:null};
     }
     function updateSemester(semester) {
       const data=readSemester(semester);
