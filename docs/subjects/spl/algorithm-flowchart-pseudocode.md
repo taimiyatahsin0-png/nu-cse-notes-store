@@ -1396,3 +1396,115 @@ C=\frac{5}{9}(F-32)
 3. Write an algorithm to find the largest of three distinct numbers.
 
 **Source caution:** Paper copies and question banks are student-uploaded secondary sources. A year is attached only where the source visibly lists it; an exercise created for practice is never labelled as a past question.
+
+
+---
+
+# 13. Bangla-First Concept Review
+
+এই অংশটি Algorithm, Flowchart ও Pseudocode-এর মূল ধারণাগুলো দ্রুত বুঝে নেওয়ার জন্য।
+
+## 13.1 Algorithm — সহজ বাংলায়
+
+Algorithm হলো কোনো নির্দিষ্ট সমস্যা সমাধানের জন্য সাজানো, স্পষ্ট ও সীমিত সংখ্যক ধাপ। অর্থাৎ, Code লেখার আগে কী কী কাজ কোন ক্রমে করতে হবে, সেটি লিখে নেওয়াই Algorithm তৈরি করা।
+
+**উদাহরণ: দুটি সংখ্যা যোগ করা**
+
+1. Start
+2. A ও B ইনপুট নাও।
+3. SUM = A + B হিসাব করো।
+4. SUM দেখাও।
+5. Stop
+
+**মনে রাখবে:** Algorithm কোনো Programming Language নয়। এটি সমাধানের Logic বা ধাপ প্রকাশ করে।
+
+## 13.2 Algorithm-এর পাঁচটি বৈশিষ্ট্য — সহজ ভাষায়
+
+| বৈশিষ্ট্য | সহজ ব্যাখ্যা |
+|---|---|
+| Input | প্রয়োজনীয় তথ্য গ্রহণ করতে পারে; input না-ও থাকতে পারে |
+| Output | অন্তত একটি ফলাফল তৈরি করতে হবে |
+| Definiteness | প্রতিটি ধাপ পরিষ্কার ও দ্ব্যর্থহীন হতে হবে |
+| Finiteness | সীমিত সংখ্যক ধাপের পর শেষ হতে হবে |
+| Effectiveness | প্রতিটি ধাপ বাস্তবায়নযোগ্য হতে হবে |
+
+**English exam definition:** An algorithm is a finite sequence of well-defined and effective instructions that produces an output for a given problem.
+
+## 13.3 Flowchart — সহজ বাংলায়
+
+Flowchart হলো Algorithm-এর ধাপগুলোকে নির্দিষ্ট চিহ্ন (symbol) ও arrow দিয়ে ছবির মতো সাজিয়ে দেখানো। কোন কাজের পরে কোন কাজ হবে এবং কোথায় সিদ্ধান্ত নেওয়া হবে, তা সহজে বোঝা যায়।
+
+| Symbol | নাম | কী বোঝায় |
+|---|---|---|
+| Oval | Terminal | Start বা Stop |
+| Rectangle | Process | হিসাব বা Processing |
+| Parallelogram | Input/Output | তথ্য নেওয়া বা ফল দেখানো |
+| Diamond | Decision | শর্ত যাচাই; Yes/No পথ |
+| Arrow | Flow line | কাজের প্রবাহের দিক |
+| Circle | Connector | Flowchart-এর দুই অংশ যুক্ত করা |
+
+## 13.4 Pseudocode — সহজ বাংলায়
+
+Pseudocode হলো সাধারণ English-এর মতো শব্দ ও Programming Logic ব্যবহার করে Algorithm লেখা। এটি C, C++ বা Python-এর নির্দিষ্ট Syntax মানতে বাধ্য নয়।
+
+**Example:**
+
+```text
+START
+INPUT A, B
+SET SUM = A + B
+OUTPUT SUM
+STOP
+```
+
+## 13.5 Algorithm, Flowchart ও Pseudocode-এর পার্থক্য
+
+| বিষয় | Algorithm | Flowchart | Pseudocode |
+|---|---|---|---|
+| প্রকাশের ধরন | ধাপে ধাপে লেখা | চিত্র ও Symbol | Structured text |
+| মূল উদ্দেশ্য | Logic-এর ধাপ নির্ধারণ | Logic দৃশ্যমান করা | Coding-এর আগে Logic লেখা |
+| বিশেষ Symbol | প্রয়োজন নেই | Standard symbol লাগে | নির্দিষ্ট symbol লাগে না |
+| Language dependency | সাধারণ ভাষায় লেখা যায় | Graphical | Language-independent |
+
+## 13.6 Solved Example: Largest of Two Numbers
+
+**Problem:** দুটি সংখ্যার মধ্যে বড় সংখ্যাটি বের করো।
+
+**Logic (বাংলায়):** প্রথমে A ও B ইনপুট নিতে হবে। A যদি B-এর চেয়ে বড় হয়, A দেখাবে। নইলে B বড় হলে B দেখাবে। দুইটি সমান হলে Equal দেখাবে।
+
+**Pseudocode:**
+
+```text
+START
+INPUT A, B
+
+IF A > B THEN
+    OUTPUT A
+ELSE IF B > A THEN
+    OUTPUT B
+ELSE
+    OUTPUT "Both are equal"
+END IF
+
+STOP
+```
+
+**Dry Run:** A = 25, B = 15
+
+| ধাপ | পরীক্ষা / কাজ | ফল |
+|---|---|---|
+| 1 | A = 25, B = 15 | Input নেওয়া হলো |
+| 2 | A > B | True |
+| 3 | OUTPUT A | 25 |
+
+**Output:** 25
+
+## 13.7 Important Exam Reminder
+
+- Algorithm লিখলে Start, Input, Process, Output ও Stop-এর ধাপগুলো যুক্তিসংগতভাবে সাজাবে।
+- Flowchart আঁকলে Start/Stop-এর জন্য Oval, Process-এর জন্য Rectangle, Input/Output-এর জন্য Parallelogram এবং Decision-এর জন্য Diamond ব্যবহার করবে।
+- Decision-এর দুইটি branch-এ Yes/No বা True/False লিখবে।
+- Pseudocode-এ indentation ব্যবহার করবে, যাতে logic সহজে বোঝা যায়।
+- Dry run করার সময় প্রতিটি ধাপে variable-এর value লিখে রাখবে।
+
+**Practice questions in this file are learning exercises unless a question is separately identified with a traceable paper source.**
