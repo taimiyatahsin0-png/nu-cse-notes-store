@@ -13,7 +13,7 @@
 
 This course covers fundamental concepts of electricity and magnetism, including electrostatics, electric fields, electric circuits, electrical measurements and magnetic properties of matter.
 
-# Official Syllabus Topics
+# Syllabus Topics (Reference: Session 2017–2018)
 
 ## 1. Charge, Electric Field and Gauss's Law
 
