@@ -265,6 +265,8 @@ For an ideal long solenoid, \(B=\mu_0nI\).
 
 ### Answer check
 
+4. Fleming's left-hand rule gives the force/motion direction for a motor; Fleming's right-hand rule gives the induced current direction for a generator.
+
 1. \(0.03N\).
 2. \(0.4N\).
 3. \(2.0\times10^{-5}T\).
