@@ -238,7 +238,7 @@ int main(void)
     {
         for (j = 0; j < 2; j++)
             printf("%d ", product[i][j]);
-        printf("\\n");
+        printf("\n");
     }
 
     return 0;
@@ -552,7 +552,7 @@ int main(void)
             evenCount++;
     }
 
-    printf("Even elements = %d\\n", evenCount);
+    printf("Even elements = %d\n", evenCount);
     return 0;
 }
 ~~~
