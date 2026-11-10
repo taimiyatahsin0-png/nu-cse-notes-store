@@ -642,8 +642,8 @@ Useful source pages:
 4. (0/0,\infty/\infty,0\times\infty,\infty-\infty,0^0,1^\infty,\infty^0)।
 5. When the quotient has (0/0) or (\infty/\infty) form and the required conditions hold.
 6. (P_2(x)=1+x+x^2)।
-7. (1+x+x^2/2!+x^3/3!\)।
-8. (x-x^3/3!+x^5/5!\)।
+7. (1+x+x^2/2!+x^3/3!)।
+8. (x-x^3/3!+x^5/5!)।
 9. (1)।
 10. (2)।
 11. (1/2)।
