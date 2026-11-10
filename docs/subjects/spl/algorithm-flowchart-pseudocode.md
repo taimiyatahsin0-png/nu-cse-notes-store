@@ -1328,9 +1328,6 @@ D. A programming language
 **Final Reminder:** Understand the logic first, then memorize the steps. If you can explain the logic, you will be able to solve similar problems in the examination.
 
 ---
-**End of Chapter**
-
-
 ---
 
 ## 13. NU Previous Questions and Board Question Archive
@@ -1508,3 +1505,7 @@ STOP
 - Dry run করার সময় প্রতিটি ধাপে variable-এর value লিখে রাখবে।
 
 **Practice questions in this file are learning exercises unless a question is separately identified with a traceable paper source.**
+
+---
+
+**End of Algorithm, Flowchart and Pseudocode Notes**
