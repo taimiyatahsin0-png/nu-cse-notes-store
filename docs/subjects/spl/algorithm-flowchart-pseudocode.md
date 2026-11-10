@@ -750,13 +750,11 @@ Result: 20 is the largest.
 
 ### Example 5: Calculate Factorial of a Number
 
-**Definition:** The factorial of a positive integer N is the product of all positive integers from 1 to N.
+**Definition:** The factorial of a non-negative integer N is the product of all positive integers from 1 to N. By definition, 0! = 1.
 
 For example:
 
-5! = 5 × 4 × 3 × 2 × 1 = 120
-
-Also, 0! = 1.
+5! = 5 × 4 × 3 × 2 × 1 = 120.
 
 ```text
 START
