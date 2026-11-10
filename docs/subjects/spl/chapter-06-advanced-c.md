@@ -777,7 +777,7 @@ int main(void)
     if (failed)
         return 1;
 
-    printf("File contents appended successfully.\\n");
+    printf("File contents appended successfully.\n");
     return 0;
 }
 ~~~
