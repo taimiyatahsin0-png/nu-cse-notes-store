@@ -880,7 +880,7 @@ int main(void)
     int b = 20;
     int sum = a + b;
 
-    printf("Sum = %d\\n", sum);
+    printf("Sum = %d\n", sum);
     return 0;
 }
 ```
