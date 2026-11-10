@@ -914,3 +914,7 @@ Sum = 30
 - [ ] Trace a short program and write its output.
 
 **Chapter 01 revision note:** The general six-section description is a teaching convention, not a compulsory template for every C program. The exact components used depend on the program's requirements.
+
+---
+
+**End of Chapter 01**
