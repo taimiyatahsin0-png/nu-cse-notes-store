@@ -228,11 +228,11 @@ A reduction formula expresses an integral with a given power or parameter in ter
 
 ### Answer check
 
-1. \(52/5\).
+1. \(84/5\).
 2. \(0\).
 3. \(3x^2\sqrt{1+x^6}\).
 4. \(2\ln(1+2x)-\ln(1+x)\).
-5. \(8\).
+5. \(10\).
 
 ---
 
