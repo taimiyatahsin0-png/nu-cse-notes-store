@@ -37,9 +37,9 @@ Function-এর ক্ষেত্রে কোনো নির্দিষ্�
 
 A function (f(x)) is said to be continuous at (x=a) if:
 
-[
+\[
 lim_{x\to a}f(x)=f(a).
-]
+\]
 
 For this equality to hold, both sides must be defined.
 
@@ -49,27 +49,27 @@ A function (f) is continuous at (x=a) if all three conditions are satisfied:
 
 **Condition 1: Function value exists**
 
-[
+\[
 f(a)\text{ is defined.}
-]
+\]
 
 **Condition 2: Limit exists**
 
-[
+\[
 \lim_{x\to a}f(x)\text{ exists.}
-]
+\]
 
 That means the left-hand and right-hand limits exist and are equal:
 
-[
+\[
 \lim_{x\to a^-}f(x)=\lim_{x\to a^+}f(x).
-]
+\]
 
 **Condition 3: Limit equals function value**
 
-[
+\[
 \lim_{x\to a}f(x)=f(a).
-]
+\]
 
 **মনে রাখবে:** তিনটি শর্তের যেকোনো একটি ব্যর্থ হলে function-টি ওই বিন্দুতে discontinuous বা অসতত।
 
@@ -79,34 +79,34 @@ That means the left-hand and right-hand limits exist and are equal:
 
 Check whether:
 
-[
+\[
 f(x)=x^2+1
-]
+\]
 
 is continuous at (x=2).
 
 **Step 1: Find the function value.**
 
-[
+\[
 f(2)=2^2+1=5
-]
+\]
 
 **Step 2: Find the limit.**
 
-[
+\[
 \begin{aligned}
 \lim_{x\to2}f(x)
 &=\lim_{x\to2}(x^2+1)\\
 &=2^2+1\\
 &=5
 \end{aligned}
-]
+\]
 
 **Step 3: Compare.**
 
-[
+\[
 \lim_{x\to2}f(x)=f(2)=5
-]
+\]
 
 **Conclusion:** The function is continuous at (x=2).
 
@@ -114,23 +114,23 @@ f(2)=2^2+1=5
 
 Consider:
 
-[
+\[
 f(x)=\frac{x^2-4}{x-2},\qquad x\ne2.
-]
+\]
 
 Check continuity at (x=2).
 
 Factorize:
 
-[
+\[
 f(x)=\frac{(x-2)(x+2)}{x-2}=x+2,\qquad x\ne2.
-]
+\]
 
 Therefore:
 
-[
+\[
 \lim_{x\to2}f(x)=4.
-]
+\]
 
 But (f(2)) is not defined because the original denominator becomes zero.
 
@@ -140,35 +140,35 @@ But (f(2)) is not defined because the original denominator becomes zero.
 
 Let:
 
-[
+\[
 f(x)=
 \begin{cases}
 x+1,&x\ne2,\\
 10,&x=2.
 \end{cases}
-]
+\]
 
 Check continuity at (x=2).
 
 **Step 1: Function value**
 
-[
+\[
 f(2)=10.
-]
+\]
 
 **Step 2: Limit**
 
 For (x\ne2), (f(x)=x+1). So:
 
-[
+\[
 \lim_{x\to2}f(x)=2+1=3.
-]
+\]
 
 **Step 3: Compare**
 
-[
+\[
 3\ne10.
-]
+\]
 
 **Conclusion:** The function is discontinuous at (x=2).
 
@@ -180,9 +180,9 @@ A function is continuous on an interval if it is continuous at every point insid
 
 A function is continuous on ((a,b)) if it is continuous at every point (c) such that:
 
-[
+\[
 a<c<b.
-]
+\]
 
 The interval ((a,b)) does not include its endpoints.
 
@@ -196,15 +196,15 @@ A function is continuous on ([a,b]) if:
 
 The endpoint conditions are:
 
-[
+\[
 \lim_{x\to a^+}f(x)=f(a)
-]
+\]
 
 and
 
-[
+\[
 \lim_{x\to b^-}f(x)=f(b).
-]
+\]
 
 **Notation reminder:** A square bracket ([,]) includes an endpoint; a round bracket ((,)) excludes it.
 
@@ -214,9 +214,9 @@ and
 
 A function is right-continuous at (x=a) if:
 
-[
+\[
 \boxed{\lim_{x\to a^+}f(x)=f(a)}
-]
+\]
 
 Read: The limit as x approaches a from the right equals the function value at a.
 
@@ -224,9 +224,9 @@ Read: The limit as x approaches a from the right equals the function value at a.
 
 A function is left-continuous at (x=a) if:
 
-[
+\[
 \boxed{\lim_{x\to a^-}f(x)=f(a)}
-]
+\]
 
 Read: The limit as x approaches a from the left equals the function value at a.
 
@@ -234,33 +234,33 @@ Read: The limit as x approaches a from the left equals the function value at a.
 
 Let:
 
-[
+\[
 f(x)=
 \begin{cases}
 x+1,&x<2,\\
 3,&x\geq2.
 \end{cases}
-]
+\]
 
 Check continuity at (x=2).
 
 **Function value:**
 
-[
+\[
 f(2)=3.
-]
+\]
 
 **Left-hand limit:**
 
-[
+\[
 \lim_{x\to2^-}f(x)=2+1=3.
-]
+\]
 
 **Right-hand limit:**
 
-[
+\[
 \lim_{x\to2^+}f(x)=3.
-]
+\]
 
 Both one-sided limits equal the function value. Therefore, the function is continuous at (x=2).
 
@@ -274,21 +274,21 @@ The two-sided limit exists, but the function value is missing or is not equal to
 
 Example:
 
-[
+\[
 f(x)=\frac{x^2-1}{x-1},\qquad x\ne1.
-]
+\]
 
 For (x\ne1):
 
-[
+\[
 f(x)=x+1.
-]
+\]
 
 Thus:
 
-[
+\[
 \lim_{x\to1}f(x)=2.
-]
+\]
 
 But the original function is undefined at (x=1). This is a removable discontinuity because defining (f(1)=2) would make the function continuous there.
 
@@ -298,25 +298,25 @@ The left-hand and right-hand limits both exist but are different.
 
 Example:
 
-[
+\[
 f(x)=
 \begin{cases}
 1,&x<0,\\
 2,&x\geq0.
 \end{cases}
-]
+\]
 
 Then:
 
-[
+\[
 \lim_{x\to0^-}f(x)=1
-]
+\]
 
 and
 
-[
+\[
 \lim_{x\to0^+}f(x)=2.
-]
+\]
 
 Since (1\ne2), there is a jump discontinuity at (x=0).
 
@@ -326,15 +326,15 @@ The function becomes unbounded near a point.
 
 Example:
 
-[
+\[
 f(x)=\frac1{x^2}.
-]
+\]
 
 As (x) approaches zero from either side:
 
-[
+\[
 \lim_{x\to0}\frac1{x^2}=+\infty.
-]
+\]
 
 The function has an infinite discontinuity at (x=0).
 
@@ -365,39 +365,39 @@ These rules allow us to establish continuity without calculating a limit from th
 
 Let:
 
-[
+\[
 f(x)=x^2+1,\qquad g(x)=3x-2.
-]
+\]
 
 Both are polynomial functions, so both are continuous for every real number.
 
 Therefore, their sum and product are also continuous for every real number:
 
-[
+\[
 f(x)+g(x)=x^2+3x-1
-]
+\]
 
 and
 
-[
+\[
 f(x)g(x)=(x^2+1)(3x-2).
-]
+\]
 
 ### Example 6: Quotient
 
 Consider:
 
-[
+\[
 h(x)=\frac{x+1}{x-3}.
-]
+\]
 
 The numerator and denominator are continuous everywhere. A quotient of continuous functions is continuous wherever the denominator is non-zero.
 
 Since the denominator is zero at (x=3), (h) is continuous for:
 
-[
+\[
 x\ne3.
-]
+\]
 
 It is discontinuous at (x=3).
 
@@ -405,9 +405,9 @@ It is discontinuous at (x=3).
 
 A closed and bounded interval has the form:
 
-[
+\[
 [a,b],\qquad a\leq b.
-]
+\]
 
 - **Closed:** Both endpoints are included.
 - **Bounded:** The interval has finite endpoints; it does not extend indefinitely.
@@ -422,10 +422,10 @@ When a function is continuous on a closed and bounded interval, important theore
 
 In other words, there exist real numbers (m) and (M) such that:
 
-[
+\[
 m\leq f(x)\leq M
 \quad\text{for every }x\in[a,b].
-]
+\]
 
 ### 8.2 Extreme Value Theorem
 
@@ -435,21 +435,21 @@ m\leq f(x)\leq M
 
 **Example:**
 
-[
+\[
 f(x)=x^2,\qquad -2\leq x\leq3.
-]
+\]
 
 The minimum value is:
 
-[
+\[
 f(0)=0.
-]
+\]
 
 The maximum value is:
 
-[
+\[
 f(3)=9.
-]
+\]
 
 Therefore:
 
@@ -460,9 +460,9 @@ Therefore:
 
 **Statement:** If (f) is continuous on ([a,b]), then for every value (N) between (f(a)) and (f(b)), there exists at least one (c\in[a,b]) such that:
 
-[
+\[
 f(c)=N.
-]
+\]
 
 **সহজ বাংলা:** একটি continuous function যদি এক প্রান্তে ২ এবং অন্য প্রান্তে ৮ হয়, তাহলে মাঝখানের প্রতিটি মান—যেমন ৩, ৪, ৫, ৬, ৭—অন্তত একবার গ্রহণ করবে।
 
@@ -470,9 +470,9 @@ f(c)=N.
 
 Show that:
 
-[
+\[
 f(x)=x^2-4
-]
+\]
 
 has a root between (1) and (3).
 
@@ -482,19 +482,19 @@ Since (f(x)) is a polynomial, it is continuous on ([1,3]).
 
 **Step 2: Calculate endpoint values.**
 
-[
+\[
 f(1)=1^2-4=-3
-]
+\]
 
-[
+\[
 f(3)=3^2-4=5
-]
+\]
 
 **Step 3: Check the signs.**
 
-[
+\[
 f(1)<0,\qquad f(3)>0.
-]
+\]
 
 Zero lies between (-3) and (5).
 
@@ -502,9 +502,9 @@ Zero lies between (-3) and (5).
 
 Since (f) is continuous on ([1,3]), there exists at least one (c\in(1,3)) such that:
 
-[
+\[
 f(c)=0.
-]
+\]
 
 In fact, (c=2), because (2^2-4=0).
 
@@ -516,9 +516,9 @@ In fact, (c=2), because (2^2-4=0).
 
 A function (f(x)) is continuous at (x=a) if:
 
-[
+\[
 \lim_{x\to a}f(x)=f(a).
-]
+\]
 
 ### Three Conditions
 
@@ -577,40 +577,40 @@ Try these yourself before checking the answer key.
 
 **Problem 2.** Check continuity at (x=2):
 
-[
+\[
 f(x)=
 \begin{cases}
 x^2,&x\ne2,\\
 7,&x=2.
 \end{cases}
-]
+\]
 
 **Problem 3.** Find the value of (k) that makes the following function continuous at (x=1):
 
-[
+\[
 f(x)=
 \begin{cases}
 x+2,&x<1,\\
 k,&x=1,\\
 3x,&x>1.
 \end{cases}
-]
+\]
 
 **Problem 4.** Identify the type of discontinuity at (x=0):
 
-[
+\[
 f(x)=
 \begin{cases}
 -1,&x<0,\\
 1,&x\geq0.
 \end{cases}
-]
+\]
 
 **Problem 5.** Determine where the function is continuous:
 
-[
+\[
 f(x)=\frac{x^2+1}{x-4}.
-]
+\]
 
 **Problem 6.** Find the absolute maximum and minimum of (f(x)=x^2-2x) on ([0,3]).
 
@@ -634,25 +634,25 @@ f(x)=\frac{x^2+1}{x-4}.
 
 **Problem 1**
 
-[
+\[
 f(1)=3(1)+2=5
-]
+\]
 
-[
+\[
 \lim_{x\to1}(3x+2)=5
-]
+\]
 
 Since the limit equals the function value, (f) is continuous at (x=1).
 
 **Problem 2**
 
-[
+\[
 f(2)=7
-]
+\]
 
-[
+\[
 \lim_{x\to2}f(x)=\lim_{x\to2}x^2=4
-]
+\]
 
 Since (4\ne7), the function is discontinuous at (x=2).
 
@@ -660,26 +660,26 @@ Since (4\ne7), the function is discontinuous at (x=2).
 
 For continuity, the left-hand limit, right-hand limit and function value must be equal.
 
-[
+\[
 \lim_{x\to1^-}f(x)=1+2=3
-]
+\]
 
-[
+\[
 \lim_{x\to1^+}f(x)=3(1)=3
-]
+\]
 
 Therefore:
 
-[
+\[
 \boxed{k=3}
-]
+\]
 
 **Problem 4**
 
-[
+\[
 \lim_{x\to0^-}f(x)=-1,\qquad
 \lim_{x\to0^+}f(x)=1
-]
+\]
 
 The one-sided limits are unequal. Therefore, it is a **jump discontinuity**.
 
@@ -687,29 +687,29 @@ The one-sided limits are unequal. Therefore, it is a **jump discontinuity**.
 
 The denominator must not be zero:
 
-[
+\[
 x-4\ne0\implies x\ne4.
-]
+\]
 
 Therefore, the function is continuous for all real (x) except (x=4).
 
 **Problem 6**
 
-[
+\[
 f(x)=x^2-2x=(x-1)^2-1.
-]
+\]
 
 At the critical point (x=1):
 
-[
+\[
 f(1)=-1.
-]
+\]
 
 Check the endpoints:
 
-[
+\[
 f(0)=0,\qquad f(3)=3.
-]
+\]
 
 Therefore:
 
@@ -720,19 +720,19 @@ Therefore:
 
 The function (f(x)=x^3-2) is a polynomial, so it is continuous on ([1,2]).
 
-[
+\[
 f(1)=1-2=-1
-]
+\]
 
-[
+\[
 f(2)=8-2=6
-]
+\]
 
 Since zero lies between (-1) and (6), the Intermediate Value Theorem guarantees at least one (c\in(1,2)) such that:
 
-[
+\[
 f(c)=0.
-]
+\]
 
 ---
 
