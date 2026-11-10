@@ -7,7 +7,9 @@
 
 This course introduces the fundamentals of structured programming using the C programming language.
 
-## Syllabus Topics (Reference)
+## Syllabus topics (reference)
+
+The outline below follows the syllabus reference recorded in this repository (Session 2017–2018). Confirm the applicable version with your department before examination planning.
 
 ### 1. Programming Fundamentals
 - Overview of Structured Programming Language
@@ -49,66 +51,36 @@ This course introduces the fundamentals of structured programming using the C pr
 - Library Functions
 - Error Handling
 
-## Reference Language
+## Reference language
 
-C Programming Language
+C Programming Language.
 
-## Learning Resources
+## Chapter-wise notes
 
-Chapter-wise explanations, C programming examples, solved problems and practice questions are organized below.
-
-## Reference Books
-
-1. Schaum's Outline of Theory and Problems of Programming with C — B. S. Gottfried
-2. Teach Yourself C — Herbert Schildt
-
----
-
-## Chapter-wise Notes
-
-### Foundation: Problem Solving
-
+### Foundation: Problem solving
 - [📖 Algorithm, Flowchart and Pseudocode](algorithm-flowchart-pseudocode.md)
 
 ### Chapter 01: Introduction to C Programming
-
-[📖 Read Chapter 01](chapter-01.md)
-
-[📥 Download Chapter 01 PDF](SPL-Chapter-01.pdf)
+- [📖 Read Chapter 01](chapter-01.md)
+- [📥 Download Chapter 01 PDF](SPL-Chapter-01.pdf)
 
 ### Chapter 02: Variables, Data Types and Operators
-
-[📖 Read Chapter 02](chapter-02.md)
-
-[📥 Download Chapter 02 PDF](SPL-Chapter-02.pdf)
+- [📖 Read Chapter 02](chapter-02.md)
+- [📥 Download Chapter 02 PDF](SPL-Chapter-02.pdf)
 
 ### Chapter 03: Input, Output, Decision Making and Looping
-
-[📖 Read Chapter 03](chapter-03.md)
+- [📖 Read Chapter 03](chapter-03.md)
 
 ### Chapter 04: Arrays and Strings
-
-[📖 Read Chapter 04](chapter-04-arrays-strings.md)
+- [📖 Read Chapter 04](chapter-04-arrays-strings.md)
 
 ### Chapter 05: Functions
-
-[📖 Read Chapter 05](chapter-05-functions.md)
+- [📖 Read Chapter 05](chapter-05-functions.md)
 
 ### Chapter 06: Advanced Programming Concepts
+- [📖 Read Chapter 06](chapter-06-advanced-c.md)
 
-[📖 Read Chapter 06](chapter-06-advanced-c.md)
-
-
-*Syllabus note: This topic outline is based on the syllabus reference currently recorded in this repository (Session 2017–2018). It is not independently confirmed as the latest applicable NU revision. Check the latest National University notice or your department's approved syllabus before relying on it for examination planning.*
-
-
-
-
----
-
-## NU Previous Questions, Board Archives and Answer Standard
-
-### Question resources
+## Question resources
 
 - [NU CSE SPL Question Bank (Subject Code 510201)](https://www.scribd.com/document/862105744/National-University-CSE-Question-Bank-1st-First-Semester)
 - [2019 NU CSE first-semester paper copy](https://www.scribd.com/document/600047294/2019-NU-Question)
@@ -118,22 +90,25 @@ Chapter-wise explanations, C programming examples, solved problems and practice 
 - [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
 - [NU CSE Board Questions (2019)](https://drive.google.com/file/d/1QZpZoqjEJS5aYXNjSYdwW5bXy66aPi9-/view?usp=sharing)
 
-**Source rule:** Paper copies and question banks above are student-uploaded secondary sources, not an official NU-hosted archive. A year is shown only when it is visible in a paper copy or explicitly listed in the question bank. Unverified practice questions are labelled separately.
+**Source rule:** The paper copies and question banks above are student-uploaded secondary sources, not an official NU-hosted archive. Treat their contents as reference material and verify the year and paper details from the document itself. Newly written exercises in chapter notes are practice questions, not verified past questions.
 
-## NU Exam Answer Standard
+## NU exam answer standard
 
-1. **Theory answer:** definition → explanation / key points → syntax or diagram where relevant → short example.
-2. **Difference question:** use a clear comparison table and compare the same features on both sides.
-3. **C program:** state the logic or algorithm briefly, write complete compilable code, show sample output, and explain tricky lines.
-4. **Trace / output question:** make a variable trace table and update values in execution order.
-5. **Flowchart:** use standard symbols, label Yes/No branches and keep the flow direction clear.
+1. **Theory:** definition → explanation/key points → syntax or diagram where relevant → short example.
+2. **Difference:** use a comparison table and compare the same features on both sides.
+3. **C program:** state the logic or algorithm, write complete code, show sample output and explain important lines.
+4. **Trace/output:** use a variable trace table and update values in execution order.
+5. **Flowchart:** use standard symbols, label Yes/No branches and keep the flow clear.
 
-**Teaching style:** Bangla-first explanation, then concise exam-ready English. New terms are defined before use. Code examples use standard C (C11-compatible where possible), avoid unsafe functions such as gets(), and explain input validation and edge cases.
+## Teaching approach
 
-**Exam note:** Old paper copies often show 3 hours, 80 marks and “answer any four”; this is historical paper information, not a promise that every future examination will use the same format.
+Notes are designed to be beginner-friendly: simple Bangla explanations first, followed by standard English exam terminology and answers. C examples aim to use standard, portable syntax and explain common mistakes.
 
-### Syllabus reference
+## Reference books
 
-**Syllabus reference:** B.Sc. Honours in Computer Science and Engineering, National University, Bangladesh (effective from Session 2017–2018).
+1. Schaum's Outline of Theory and Problems of Programming with C — B. S. Gottfried
+2. Teach Yourself C — Herbert Schildt
 
-Confirm the current syllabus and teacher's scope before the examination.
+---
+
+*Academic reference: B.Sc. Honours in Computer Science and Engineering, National University, Bangladesh (effective from Session 2017–2018). Check for later revisions and follow your department's current instructions.*
