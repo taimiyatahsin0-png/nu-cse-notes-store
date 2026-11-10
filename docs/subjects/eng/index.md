@@ -86,6 +86,8 @@ The following grammatical aspects may be taught:
 
 These pages provide Bangla-first explanations, standard English exam terminology, examples and practice answers for the topics in your reported English midterm scope.
 
+**[Open the complete English Midterm Exam Preparation Guide](midterm-exam-preparation.md)** — one place for all nine topics, original practice questions, answer keys and model writing samples.
+
 - [01. Reading Comprehension](01-reading-comprehension.md)
 - [02. Articles](02-articles.md)
 - [03. Correct Form of Verbs](03-correct-form-of-verbs.md)
