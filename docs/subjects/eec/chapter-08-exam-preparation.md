@@ -428,6 +428,18 @@ A_f=\frac{50}{0.5}
 
 This is an ideal block-model result. Real circuits are limited by supply voltage, nonlinear behaviour and stability conditions.
 
+### Positive-feedback formula: validity check
+
+The ideal block-model expression is:
+
+\[
+A_f=\frac{A}{1-A\beta}
+\]
+
+This algebraic expression must not be treated as a guarantee that a real amplifier will produce a stable, finite output. As the loop gain \(A\beta\) approaches 1, the denominator approaches zero and the predicted gain becomes very large. In a real circuit, output limits, nonlinear behaviour and the loop's phase response matter; the circuit may saturate or oscillate instead of providing the calculated linear gain.
+
+For an ordinary stable linear-amplifier calculation, check that the problem's feedback arrangement and operating assumptions actually support the model. Do not use the positive-feedback formula blindly when \(A\beta\geq1\).
+
 ## 8. Negative voltage feedback and negative current feedback
 
 ### Negative voltage feedback
