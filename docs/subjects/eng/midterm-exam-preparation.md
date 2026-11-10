@@ -362,3 +362,106 @@ A Customer
 ---
 
 *This is an original revision guide based on the midterm topics previously provided for practice. It does not claim to reproduce an official NU question paper or guarantee the exact format of an upcoming examination. Follow your teacher's instructions and any updated course outline.*
+
+
+---
+
+## 11. Mixed Grammar Drill: 30 Original Questions
+
+এই অংশে Articles, Verb Forms, Subject–Verb Agreement, Conjunctions, Gerunds, Infinitives, Participles, Conditionals এবং Sentence Correction একসঙ্গে practice করবে। প্রথমে নিজে solve করবে, তারপর answer key দেখবে।
+
+### A. Fill in the blanks
+
+1. He is ___ European researcher.
+2. She has been studying English ___ three years.
+3. Neither the teacher nor the students ___ ready. (is/are)
+4. If she ___ harder, she would have passed. (study)
+5. The news ___ surprising. (is/are)
+6. I look forward to ___ from you. (hear)
+7. The book ___ by my friend yesterday. (write)
+8. ___ he was tired, he completed the assignment. (Although/Because)
+9. You must ___ your identity card. (bring)
+10. The man ___ near the gate is our teacher. (stand)
+
+### B. Choose the correct option
+
+11. Each of the candidates (has/have) submitted an application.
+12. She is interested in (learn/to learn) cybersecurity.
+13. I would rather (stay/to stay) at home.
+14. No sooner had the bell rung (when/than) the students entered.
+15. He is one of the students who (work/works) hard.
+16. The number of applicants (is/are) increasing.
+17. A number of students (is/are) absent today.
+18. Unless you (study/will study), you may fail.
+19. I prefer reading (than/to) watching television.
+20. The furniture (is/are) expensive.
+
+### C. Correct the sentences
+
+21. She does not knows the answer.
+22. He has completed the work yesterday.
+23. Despite of the rain, we continued playing.
+24. One of my classmates are a good programmer.
+25. I am accustomed to wake up early.
+26. The teacher asked that why I was late.
+27. He is more wiser than his brother.
+28. If I would know the answer, I would tell you.
+29. The sceneries of the village are beautiful.
+30. She is capable to solve the problem.
+
+### Answer key with short explanations
+
+| No. | Correct answer | Reason |
+|---:|---|---|
+| 1 | a | European begins with a /y/ consonant sound. |
+| 2 | for | Three years is a duration. |
+| 3 | are | With neither...nor, the verb commonly agrees with the nearer subject: students. |
+| 4 | had studied | Third conditional: if + past perfect, would have + V3. |
+| 5 | is | News is an uncountable singular noun. |
+| 6 | hearing | Look forward to + gerund; here to is a preposition. |
+| 7 | was written | Past simple passive: was/were + V3. |
+| 8 | Although | It introduces contrast. |
+| 9 | bring | Must + base verb. |
+| 10 | standing | Present participle describes the man. |
+| 11 | has | Each is singular. |
+| 12 | learning | Interested in + gerund. |
+| 13 | stay | Would rather + base verb. |
+| 14 | than | Fixed pair: no sooner...than. |
+| 15 | work | Who refers to students, the plural antecedent. |
+| 16 | is | The number of + plural noun takes a singular verb. |
+| 17 | are | A number of + plural noun takes a plural verb. |
+| 18 | study | Unless-clause normally uses present simple for a future condition. |
+| 19 | to | Prefer A to B. |
+| 20 | is | Furniture is uncountable and singular. |
+| 21 | She does not know the answer. | Does + base verb. |
+| 22 | He completed the work yesterday. | Use past simple with a finished past-time marker. |
+| 23 | Despite the rain, we continued playing. | Despite is not followed by of. |
+| 24 | One of my classmates is a good programmer. | One is the subject. |
+| 25 | I am accustomed to waking up early. | Be accustomed to + gerund/noun. |
+| 26 | The teacher asked why I was late. | Remove the unnecessary that and use statement word order in an indirect question. |
+| 27 | He is wiser than his brother. | Do not use more with the comparative form wiser. |
+| 28 | If I knew the answer, I would tell you. | Second conditional: if + past simple, would + base verb. |
+| 29 | The scenery of the village is beautiful. | Scenery is normally uncountable. |
+| 30 | She is capable of solving the problem. | Capable takes of + gerund. |
+
+**Grammar note:** In some structures, usage can vary by dialect or style. For examination writing, follow the standard patterns taught by your course teacher; where a question gives a specific structure, follow that instruction.
+
+### Self-check
+
+- 27–30 correct: Excellent control; review only the explanations you missed.
+- 22–26 correct: Good progress; revise the relevant rule groups.
+- 16–21 correct: Practise subject–verb agreement, verb patterns and conditionals again.
+- 0–15 correct: Relearn the core rules first, then attempt this drill again.
+
+*This score guide is an informal practice indicator, not an official grading scale.*
+
+## 12. Writing Practice: Independent Attempt
+
+Write your own answer before reading the model samples above.
+
+1. **Paragraph:** Write 120–150 words on “The Importance of Cybersecurity Awareness for Students”.
+2. **Summary:** Summarise the practice passage in Section 7 in about one-third of its original length, if your teacher has not specified another limit.
+3. **Business letter:** Write to your department asking for the class routine and examination schedule.
+4. **Complaint letter:** Write to an internet service provider about repeated service interruptions. Include dates, account reference and the solution you request.
+
+**Final self-review:** Is the purpose clear? Are the facts relevant? Are sentences grammatically complete? Is the tone suitable for the task? Have you checked spelling and punctuation?
