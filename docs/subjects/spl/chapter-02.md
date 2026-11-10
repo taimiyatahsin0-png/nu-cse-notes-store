@@ -1164,11 +1164,7 @@ In this chapter, we learned:
 
 ---
 
-**End of Chapter 02**
-
 *Next Chapter: Input, Output and Decision Making in C.*
-
-
 
 ---
 
@@ -1374,3 +1370,6 @@ int b = x++; /* use first, then increment */
 - [ ] Differentiate integer division and floating-point division.
 - [ ] Write and dry-run a simple arithmetic C program.
 
+---
+
+**End of Chapter 02**
