@@ -544,7 +544,7 @@ Largest = 42
 
 ## Program 4: Assign a Grade from Marks (`else-if` Ladder)
 
-এখানে 0–100 range-এর মধ্যে marks ধরে grade দেওয়া হয়। প্রতিটি range-এর upper boundary নিচের range থেকে এক কম হওয়ায় overlap হয় না।
+এই উদাহরণে 0–100 marks-এর জন্য repository-র [Grade Scale reference](../../tools/grade-scale.md)-এ দেখানো grade bands ব্যবহার করা হয়েছে। এটি CSE Buddy-র প্রকাশিত distribution থেকে নেওয়া একটি third-party reference; তোমার 2025–26 session-এ প্রযোজ্য NU regulation হিসেবে ধরে নিও না। পরীক্ষায় নিজের department/NU-র নিশ্চিত করা grade scale অনুসরণ করবে।
 
 ```c
 #include <stdio.h>
@@ -562,29 +562,44 @@ int main()
     }
     else if (marks >= 80)
     {
-        printf("Grade: A+\n");
+        printf("Grade: A+\\n");
+    }
+    else if (marks >= 75)
+    {
+        printf("Grade: A\\n");
     }
     else if (marks >= 70)
     {
-        printf("Grade: A\n");
+        printf("Grade: A-\\n");
+    }
+    else if (marks >= 65)
+    {
+        printf("Grade: B+\\n");
     }
     else if (marks >= 60)
     {
-        printf("Grade: A-\n");
+        printf("Grade: B\\n");
+    }
+    else if (marks >= 55)
+    {
+        printf("Grade: B-\\n");
     }
     else if (marks >= 50)
     {
-        printf("Grade: B\n");
+        printf("Grade: C+\\n");
+    }
+    else if (marks >= 45)
+    {
+        printf("Grade: C\\n");
     }
     else if (marks >= 40)
     {
-        printf("Grade: C\n");
+        printf("Grade: D\\n");
     }
     else
     {
-        printf("Grade: F\n");
+        printf("Grade: F\\n");
     }
-
     return 0;
 }
 ```
@@ -611,12 +626,14 @@ Grade: A
 5. `scanf("%d", &marks);` — integer marks পড়ে।
 6. `if (marks < 0 || marks > 100)` — range-এর বাইরে কি না দেখে; `||`-এর যেকোনো পাশ সত্য হলেই invalid।
 7. `printf("Invalid marks\n");` — অবৈধ input জানায়।
-8. পরের `else if (marks >= 80)` — valid marks হলে 80 বা বেশি কি না দেখে; হলে A+।
-9. পরের `else if`-গুলো — আগের range-এ না পড়লে পর্যায়ক্রমে 70, 60, 50 এবং 40-এর cutoff পরীক্ষা করে।
+8. পরের `else if`-গুলো — valid marks-এর জন্য 80, 75, 70, 65, 60, 55, 50, 45 এবং 40-এর cutoff ক্রমানুসারে পরীক্ষা করে।
+9. যে প্রথম condition সত্য হয়, সেই grade print হয়; তাই বড় cutoff আগে রাখা হয়েছে।
 10. শেষ `else` — 40-এর কম valid marks-এর জন্য F দেয়।
 11. `return 0;` — Program শেষ করে।
 
-**পরীক্ষা করে দেখো:** 100 → A+, 80 → A+, 79 → A, 40 → C, 39 → F, 101 → Invalid marks।
+**Boundary test:** 100 → A+, 80 → A+, 79 → A, 75 → A, 74 → A-, 70 → A-, 69 → B+, 65 → B+, 64 → B, 60 → B, 59 → B-, 55 → B-, 54 → C+, 50 → C+, 49 → C, 45 → C, 44 → D, 40 → D, 39 → F, 101 → Invalid marks.
+
+**সতর্কতা:** এই bands শুধু linked third-party reference-এর সঙ্গে মিলিয়ে example হিসেবে ব্যবহার করা হয়েছে; official NU grade regulation হিসেবে নয়।
 
 ---
 
@@ -1211,7 +1228,7 @@ In this chapter, we learned:
 
 ---
 
-**End of Chapter 03**
+**End of core chapter notes**
 
 *Next Chapter: Arrays and Strings in C.*
 
@@ -1271,3 +1288,8 @@ In this chapter, we learned:
 3. Explain why break and continue are not interchangeable.
 
 **Source caution:** The year labels in the topic list are from a student-compiled question bank. The practice questions above are newly written for revision, not past-paper claims.
+
+
+---
+
+**End of Chapter 03 — including the supplementary question archive.**
