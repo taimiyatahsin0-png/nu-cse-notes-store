@@ -415,9 +415,6 @@ Scope is the region of a program in which an identifier can be accessed.
 - static local retains its value between calls.
 - Recursion requires a base case.
 
-**End of Chapter 05**
-
-
 ---
 
 ## NU Previous Questions and Board Question Archive
@@ -483,3 +480,7 @@ int main(void)
 3. Trace a recursive function and show each call in a small table.
 
 **Source caution:** These year labels are taken from a student-compiled question bank and student-uploaded paper copies. They are not an official NU-hosted database.
+
+---
+
+**End of Chapter 05**
