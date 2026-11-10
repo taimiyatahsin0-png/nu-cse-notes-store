@@ -260,6 +260,8 @@ The time constant is \(\tau=RC\), the time required for a charging capacitor to 
 
 ### Answer check
 
+4. KCL applies at a junction and expresses conservation of charge; KVL applies around a closed loop and expresses conservation of energy.
+
 1. \(3A\).
 2. \(2\Omega\).
 3. \(0.6kWh\).
