@@ -212,6 +212,7 @@ For a non-negative continuous function \(f\) on \([a,b]\), the area under the cu
 1. \(6\).
 2. \(1/6\).
 3. \(4\pi/3\).
+4. Washer method: \(V=\pi\int_a^b[R(x)^2-r(x)^2]dx\), where \(R(x)\) is the outer radius and \(r(x)\) is the inner radius.
 5. \(\sqrt{10}\).
 
 ---
