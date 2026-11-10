@@ -153,5 +153,10 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 1. A Textbook of Electrical Technology, Volume I — B. L. Theraja and A. K. Theraja
 2. Electronic Devices and Circuit Theory — Robert L. Boylestad and Louis Nashelsky
 
-*This topic list is transcribed from a syllabus reference for Session 2017–2018. It is not confirmation of the latest NU revision. Check your current department notice or prescribed syllabus for any updates.*
+## Academic References
+
+- [B.Sc. CSE syllabus reference hosted by BIST (PDF)](https://bist.ac.bd/storage/1645259906_Computer%20Science%20and%20Engineering%201st%20Year_Pub_Date_15092019.pdf) — see Electrical and Electronic Circuit (510203), PDF pages 3–4.
+- [National University official syllabus portal](https://www.nu.ac.bd/syllabus.php) — check for published syllabus updates.
+
+The eight core topic groups above match the cited Session 2017–2018 course outline. The supplementary Solar Cell, Clipper and Clamper page is separately labelled and should not be assumed to be examinable. This reference does not establish that no later revision applies to Session 2025–26; confirm the current scope with your department.
 
