@@ -1,56 +1,52 @@
 # 🌿 NU CSE Notes Store
 
-A focused learning and practice hub for National University CSE First Semester students.
+A free, organized learning space for first-semester CSE students of National University, Bangladesh.
 
----
-
-## Dashboard
-
-Access course-wise learning notes, syllabus information, programming practice, question resources and academic tools.
+Learn concepts in simple Bangla, connect them with standard English terminology, and practise step by step.
 
 <div class="grid cards" markdown>
 
 -   :material-book-open-variant: **Subject Notes**
 
-    Read course-wise notes with Bangla explanations and exam-ready English.
+    Chapter-wise notes, examples and exam preparation materials.
 
-    [Open SPL Notes](subjects/spl/index.md)
+    [Explore SPL](subjects/spl/index.md)
 
 -   :material-calculator-variant: **CGPA Calculator**
 
     Estimate semester GPA and cumulative CGPA using course credits and grade points.
 
-    [Calculate CGPA](tools/cgpa-calculator.md)
+    [Open calculator](tools/cgpa-calculator.md)
 
 -   :material-format-list-numbered: **NU Grade Scale**
 
-    Check marks ranges, letter grades and grade points.
+    Review marks ranges, letter grades and grade points.
 
-    [View Grade Scale](tools/grade-scale.md)
+    [View grade scale](tools/grade-scale.md)
 
 -   :material-code-braces: **Programming Hub**
 
-    Follow the C learning path and practice problem-solving step by step.
+    Follow the C learning path and practise problem-solving.
 
     [Open Programming Hub](tools/programming-hub.md)
 
--   :material-file-document-multiple: **PYQ Library**
+-   :material-file-document-multiple: **Question Resources**
 
-    Find available past-paper copies and question-bank resources, with source labels.
+    Browse available question-bank and past-paper references with source labels.
 
-    [Browse PYQs](tools/pyq-library.md)
+    [Browse question resources](tools/pyq-library.md)
 
 -   :material-school: **Academic Syllabus**
 
     Review the recorded first-semester course list and syllabus references.
 
-    [Open Syllabus](syllabus/index.md)
+    [Open syllabus](syllabus/index.md)
 
 </div>
 
 ---
 
-## First Semester Subjects
+## First-semester subjects
 
 | Subject | Course Code | Credits |
 |---|---:|---:|
@@ -61,28 +57,24 @@ Access course-wise learning notes, syllabus information, programming practice, q
 | Calculus | 510205 | 3.0 |
 | Physics | 510207 | 3.0 |
 | English | 510209 | 3.0 |
-| **Total recorded in this syllabus copy** |  | **18.0** |
+| **Total in the recorded syllabus reference** |  | **18.0** |
 
-*Syllabus reference: NU CSE First Semester, effective from Session 2017–2018 (the syllabus currently followed for this course, as confirmed for this site).*
+## How to study with this site
+
+1. Start with the relevant subject and chapter.
+2. Understand the Bangla explanation before learning the English exam answer.
+3. Work through examples, formulas and code traces.
+4. Attempt practice questions without looking at the answers first.
+5. Keep a separate list of mistakes and revise it regularly.
+
+## Academic reference note
+
+The course list and several topic outlines are organized using the NU CSE syllabus reference effective from Session 2017–2018. This repository does not independently establish that this is the latest revision. Confirm the applicable syllabus and examination scope with your department.
+
+Question-bank links and student-uploaded papers are secondary sources unless an official source is explicitly identified. Practice questions written for this site are not presented as verified past questions.
 
 ---
-
-## How to use this site
-
-1. Start with the relevant subject syllabus.
-2. Study the Bangla explanation before memorizing the English exam answer.
-3. Work through the examples and dry runs.
-4. Use practice questions to test your understanding.
-5. Use the CGPA calculator only as an estimate; your official NU result is authoritative.
-
----
-
-## Our Mission
-
-To make CSE learning more understandable, organized and accessible for National University students.
 
 **Learn at your own pace. Build your skills. Keep growing.**
 
----
-
-
+*An independent student learning resource; not an official National University website.*
