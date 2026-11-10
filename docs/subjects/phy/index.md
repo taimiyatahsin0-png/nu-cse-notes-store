@@ -81,10 +81,13 @@ This course covers fundamental concepts of electricity and magnetism, including 
 ## Chapter-wise Notes
 
 - [Chapter 01: Electrostatics and Capacitance](chapter-01-electrostatics-and-capacitance.md)
+- [Chapter 01 Exam Preparation Pack](chapter-01-exam-preparation.md)
 - [Chapter 02: Electric Current, Circuits and Measurements](chapter-02-electric-current-and-circuits.md)
+- [Chapter 02 Exam Preparation Pack](chapter-02-exam-preparation.md)
 - [Chapter 03: Magnetic Fields and Force on Current](chapter-03-magnetic-fields-and-force.md)
 - [Chapter 03 Exam Preparation Pack](chapter-03-exam-preparation.md)
 - [Chapter 04: Magnetic Properties of Matter and Induction](chapter-04-magnetic-properties-and-induction.md)
+- [Chapter 04 Exam Preparation Pack](chapter-04-exam-preparation.md)
 
 ## Study Approach
 
