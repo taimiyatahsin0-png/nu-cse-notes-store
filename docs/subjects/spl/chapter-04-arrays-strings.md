@@ -211,6 +211,48 @@ Output:
 10 12
 ~~~
 
+### Program: Multiply Two 2×2 Matrices
+
+**Logic:** প্রথম matrix-এর প্রতিটি row-এর সঙ্গে দ্বিতীয় matrix-এর প্রতিটি column গুণ করে যোগ করতে হয়। তাই তিনটি nested loop লাগে: row, column এবং common dimension-এর জন্য।
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int a[2][2] = {{1, 2}, {3, 4}};
+    int b[2][2] = {{5, 6}, {7, 8}};
+    int product[2][2] = {{0, 0}, {0, 0}};
+    int i, j, k;
+
+    for (i = 0; i < 2; i++)
+    {
+        for (j = 0; j < 2; j++)
+        {
+            for (k = 0; k < 2; k++)
+                product[i][j] += a[i][k] * b[k][j];
+        }
+    }
+
+    for (i = 0; i < 2; i++)
+    {
+        for (j = 0; j < 2; j++)
+            printf("%d ", product[i][j]);
+        printf("\\n");
+    }
+
+    return 0;
+}
+~~~
+
+Output:
+~~~text
+19 22
+43 50
+~~~
+
+**একটি cell-এর হিসাব:** product[0][0] = (1 × 5) + (2 × 7) = 19।
+
 ## 7. Character Array and String
 
 C-তে String হলো character-এর sequence, যার শেষে null character '\0' থাকে। C-তে আলাদা built-in string data type নেই; character array দিয়ে string রাখা হয়।
@@ -380,9 +422,6 @@ It provides declarations for common string-handling functions such as strlen(), 
 - strcat(): concatenate.
 - strcmp(): compare.
 
-**End of Chapter 04**
-
-
 ---
 
 ## NU Previous Questions and Board Question Archive
@@ -491,6 +530,36 @@ Output: `Palindrome`
 
 **Note:** This beginner version reads one word and performs a case-sensitive comparison. Therefore, `Level` and a sentence containing spaces are not treated as the same palindrome as `level`. Handling spaces and letter case requires additional preprocessing.
 
+## Solved Program: Count Even Elements in an Array
+
+**Logic:** প্রতিটি element পরীক্ষা করব। ২ দিয়ে ভাগ করলে remainder 0 হলে সেটি even; তখন counter এক বাড়বে।
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    int a[10];
+    int i, evenCount = 0;
+
+    for (i = 0; i < 10; i++)
+    {
+        printf("Enter number %d: ", i + 1);
+        if (scanf("%d", &a[i]) != 1)
+            return 1;
+
+        if (a[i] % 2 == 0)
+            evenCount++;
+    }
+
+    printf("Even elements = %d\\n", evenCount);
+    return 0;
+}
+~~~
+
+Sample input: 1 2 3 4 5 6 7 8 9 10  
+Output: Even elements = 5
+
 ## Solved Program: Reverse an Array
 
 **Logic:** প্রথম ও শেষ element swap করব, তারপর দ্বিতীয় ও শেষ থেকে দ্বিতীয় element swap করব। মাঝখানে পৌঁছালে কাজ শেষ।
@@ -525,3 +594,7 @@ int main(void)
 Output: `50 40 30 20 10`
 
 **Exam point:** Reversing an array in this way uses constant extra space because it swaps elements inside the original array.
+
+---
+
+**End of Chapter 04**
