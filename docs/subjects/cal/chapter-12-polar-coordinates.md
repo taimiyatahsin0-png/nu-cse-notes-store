@@ -217,7 +217,7 @@ Polar coordinates represent a point by its directed distance \(r\) from a fixed 
 2. \((2,2\sqrt3)\).
 3. \(9\pi\).
 4. \(2\pi\).
-5. \(-1\).
+5. \(1\).
 
 ---
 
