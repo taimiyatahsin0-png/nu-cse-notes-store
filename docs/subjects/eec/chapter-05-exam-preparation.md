@@ -500,6 +500,19 @@ P_Z=V_ZI_Z
 | \(R_L\) | Load resistance | Ω |
 | \(P_Z\) | Zener power | W |
 
+## 12.1 Formula assumptions and common exam traps
+
+The rectifier formulas in this pack use **ideal diodes, a sinusoidal input and a resistive load** unless a question states otherwise.
+
+- In the half-wave formula, \(V_m\) is the peak value of the applied secondary voltage.
+- In a bridge rectifier, use the peak voltage across the **complete secondary winding**. Two diodes conduct in each half-cycle, so a practical bridge has approximately two forward diode drops in its conducting path.
+- In a centre-tapped full-wave rectifier, the usual \(V_{DC}=2V_m/\pi\) formula uses \(V_m\) as the peak voltage across **one half of the secondary**. Do not use the full end-to-end secondary peak as though it were the half-winding peak.
+- The capacitor-filter relation \(V_{r(pp)}\approx I_L/(f_rC)\) is an approximation for relatively small ripple and a reasonably constant load current. It is not an exact waveform equation.
+- The load-regulation percentage in this pack uses full-load voltage in the denominator: \((V_{NL}-V_{FL})/V_{FL}\times100\). If a question gives a different definition, follow the question's stated convention.
+- A Zener regulator is regulating only if the calculated Zener current stays within its specified minimum and maximum limits and its power rating is not exceeded.
+
+**Exam technique:** Write what the symbol \(V_m\) refers to before substituting a value. This prevents the common centre-tapped versus bridge-rectifier peak-voltage mistake.
+
 ## 13. Exam-ready short questions and answers
 
 1. **What is a regulated power supply?** A circuit that provides nearly constant DC output despite reasonable changes in input or load.
