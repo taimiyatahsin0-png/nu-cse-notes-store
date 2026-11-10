@@ -1,9 +1,12 @@
 site_name: NU CSE Notes Store
-site_description: CSE Notes, Programming Practice and Exam Preparation for National University Students
+site_description: Free, bilingual CSE notes, programming practice and exam preparation resources for National University students.
 site_url: https://taimiyatahsin0-png.github.io/nu-cse-notes-store/
+repo_url: https://github.com/taimiyatahsin0-png/nu-cse-notes-store
+repo_name: taimiyatahsin0-png/nu-cse-notes-store
 
 theme:
   name: material
+  language: en
   palette:
     - scheme: default
       primary: green
@@ -11,7 +14,12 @@ theme:
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
     - search.suggest
+    - search.highlight
+    - search.share
     - content.code.copy
 
 nav:
@@ -43,7 +51,7 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
-  
+
 extra_javascript:
   - javascripts/cgpa-calculator.js
   - javascripts/mathjax.js
@@ -52,3 +60,4 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
 
+copyright: Independent student learning resource. Not affiliated with National University, Bangladesh.
