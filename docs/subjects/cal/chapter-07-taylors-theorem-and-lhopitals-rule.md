@@ -18,9 +18,9 @@
 
 ধরা যাক, (f(x))-এর (a) বিন্দুতে function value এবং derivatives জানা আছে। তাহলে (a)-এর কাছাকাছি (x)-এর জন্য আমরা লিখতে পারি:
 
-[
+\[
 f(x)\approx f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\cdots
-]
+\]
 
 এখানে:
 - (f(a)) = (a) বিন্দুতে function-এর value।
@@ -37,9 +37,9 @@ f(x)\approx f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\cdots
 
 কোনো ধনাত্মক পূর্ণসংখ্যার factorial হলো সেই সংখ্যা থেকে 1 পর্যন্ত সব ধনাত্মক পূর্ণসংখ্যার গুণফল।
 
-[
+\[
 n!=n(n-1)(n-2)\cdots 3\times2\times1
-]
+\]
 
 Examples:
 
@@ -58,15 +58,15 @@ Examples:
 
 কোনো function (f(x))-এর (x=a) বিন্দুকে কেন্দ্র করে (n)-তম degree-এর Taylor polynomial হলো:
 
-[
+\[
 P_n(x)=f(a)+\frac{f'(a)}{1!}(x-a)+\frac{f''(a)}{2!}(x-a)^2+\cdots+\frac{f^{(n)}(a)}{n!}(x-a)^n
-]
+\]
 
 সংক্ষিপ্ত summation form:
 
-[
+\[
 P_n(x)=\sum_{k=0}^{n}\frac{f^{(k)}(a)}{k!}(x-a)^k
-]
+\]
 
 এখানে (f^{(k)}(a)) মানে (k)-তম derivative-কে (x=a)-তে evaluate করা। (f^{(0)}(a)=f(a))।
 
@@ -74,39 +74,39 @@ P_n(x)=\sum_{k=0}^{n}\frac{f^{(k)}(a)}{k!}(x-a)^k
 
 **Step 1: Function লিখি**
 
-[
+\[
 f(x)=x^2+2x+1
-]
+\]
 
 **Step 2: Derivatives বের করি**
 
-[
+\[
 f'(x)=2x+2
-]
+\]
 
-[
+\[
 f''(x)=2
-]
+\]
 
 **Step 3: (x=0) বসাই**
 
-[
+\[
 f(0)=1,\quad f'(0)=2,\quad f''(0)=2
-]
+\]
 
 **Step 4: Taylor formula-তে বসাই**
 
-[
+\[
 P_2(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^2
-]
+\]
 
-[
+\[
 =1+2x+\frac{2}{2}x^2
-]
+\]
 
-[
+\[
 \boxed{P_2(x)=1+2x+x^2}
-]
+\]
 
 এই উদাহরণে function নিজেই degree 2 polynomial, তাই Taylor polynomial function-টির সঙ্গে পুরোপুরি মিলে গেছে।
 
@@ -118,30 +118,30 @@ P_2(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^2
 
 **Taylor's Theorem:** If a function (f(x)) has continuous derivatives up to order (n+1) on an interval containing (a) and (x), then there exists a number (c) between (a) and (x) such that
 
-[
+\[
 f(x)=f(a)+\frac{f'(a)}{1!}(x-a)+\cdots+
 \frac{f^{(n)}(a)}{n!}(x-a)^n+R_n(x)
-]
+\]
 
 where the Lagrange form of the remainder is
 
-[
+\[
 \boxed{R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}}
-]
+\]
 
 এখানে (R_n(x)) হলো remainder বা error term—অর্থাৎ Taylor polynomial দিয়ে approximation করলে যে অংশটি বাদ পড়ে যায়।
 
 ### Lagrange form of remainder
 
-[
+\[
 R_n(x)=\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}
-]
+\]
 
 ### Cauchy's form of remainder
 
-[
+\[
 R_n(x)=\frac{f^{(n+1)}(c)}{n!}(x-c)^n(x-a)
-]
+\]
 
 এখানেও (c), (a) ও (x)-এর মাঝের একটি সংখ্যা। দুইটি remainder form-ই Taylor's Theorem-এর অংশ; প্রশ্নে যে form চাওয়া হবে সেটি লিখবে।
 
@@ -158,17 +158,17 @@ R_n(x)=\frac{f^{(n+1)}(c)}{n!}(x-c)^n(x-a)
 
 Taylor polynomial-এ (n)-এর পরিবর্তে অসীম সংখ্যক term বিবেচনা করলে Taylor series পাওয়া যায়:
 
-[
+\[
 \boxed{
 f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(a)}{n!}(x-a)^n
 }
-]
+\]
 
 Expanded form:
 
-[
+\[
 f(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\cdots
-]
+\]
 
 **Important:** Taylor series লেখা গেলেই সব (x)-এর জন্য series-টি function-এর সমান হবে—এমন নয়। যে interval-এ series converges এবং function-টির সমান হয়, সেই validity অবশ্যই বিবেচনা করতে হবে।
 
@@ -176,29 +176,29 @@ f(x)=f(a)+f'(a)(x-a)+\frac{f''(a)}{2!}(x-a)^2+\cdots
 
 ধাপে ধাপে:
 
-[
+\[
 f(x)=e^x
-]
+\]
 
 এর প্রতিটি derivative-ই (e^x):
 
-[
+\[
 f'(x)=e^x,\
 f''(x)=e^x,\
 f'''(x)=e^x
-]
+\]
 
 (x=0) বসালে প্রতিটি derivative-এর value 1:
 
-[
+\[
 f(0)=f'(0)=f''(0)=\cdots=1
-]
+\]
 
 তাই,
 
-[
+\[
 e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\frac{x^4}{4!}+\cdots
-]
+\]
 
 এটি সব real (x)-এর জন্য converges।
 
@@ -214,11 +214,11 @@ A Maclaurin series is a Taylor series expanded about the point (x=0).
 
 General formula:
 
-[
+\[
 \boxed{
 f(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^2+\cdots
 }
-]
+\]
 
 ### Common Maclaurin expansions
 
@@ -226,41 +226,41 @@ f(x)=f(0)+f'(0)x+\frac{f''(0)}{2!}x^2+\cdots
 
 **1. Exponential function**
 
-[
+\[
 \boxed{e^x=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+\cdots}
-]
+\]
 
 Validity: সব real (x)।
 
 **2. Sine function**
 
-[
+\[
 \boxed{\sin x=x-\frac{x^3}{3!}+\frac{x^5}{5!}-\frac{x^7}{7!}+\cdots}
-]
+\]
 
 Validity: সব real (x)।
 
 **3. Cosine function**
 
-[
+\[
 \boxed{\cos x=1-\frac{x^2}{2!}+\frac{x^4}{4!}-\frac{x^6}{6!}+\cdots}
-]
+\]
 
 Validity: সব real (x)।
 
 **4. Geometric series**
 
-[
+\[
 \boxed{\frac{1}{1-x}=1+x+x^2+x^3+\cdots}
-]
+\]
 
 Validity: (|x|<1)।
 
 **5. Logarithmic function**
 
-[
+\[
 \boxed{\ln(1+x)=x-\frac{x^2}{2}+\frac{x^3}{3}-\frac{x^4}{4}+\cdots}
-]
+\]
 
 Validity: (-1<x\leq1)।
 
@@ -296,21 +296,21 @@ Validity: (-1<x\leq1)।
 
 ### Example: Why is (0/0) indeterminate?
 
-[
+\[
 \lim_{x\to0}\frac{x}{x}=1
-]
+\]
 
 কিন্তু,
 
-[
+\[
 \lim_{x\to0}\frac{x^2}{x}=0
-]
+\]
 
 আবার,
 
-[
+\[
 \lim_{x\to0}\frac{x}{x^2}
-]
+\]
 
 এর দুই পাশের limit আলাদা হতে পারে বা অসীমের দিকে যেতে পারে। অর্থাৎ (0/0) form দেখেই answer 0 বা 1 বলা যাবে না।
 
@@ -331,20 +331,20 @@ Validity: (-1<x\leq1)।
 
 **L'Hospital's Rule:** Suppose (f) and (g) are differentiable in a deleted neighbourhood of (a), with (g'(x)\neq0), and the quotient (f(x)/g(x)) gives the indeterminate form (0/0) or (\infty/\infty) as (x\to a). If
 
-[
+\[
 \lim_{x\to a}\frac{f'(x)}{g'(x)}=L
-]
+\]
 
 exists (finite or infinite), then
 
-[
+\[
 \boxed{
 \lim_{x\to a}\frac{f(x)}{g(x)}
 =
 \lim_{x\to a}\frac{f'(x)}{g'(x)}
 =L
 }
-]
+\]
 
 উপযুক্ত one-sided limit বা (x\to\infty)-এর ক্ষেত্রেও rule-টি ব্যবহার করা যায়, যদি প্রয়োজনীয় conditions পূরণ হয়।
 
@@ -356,89 +356,89 @@ exists (finite or infinite), then
 
 ### Example 3: Evaluate
 
-[
+\[
 \lim_{x\to0}\frac{e^x-1}{x}
-]
+\]
 
 **Step 1: Direct substitution**
 
-[
+\[
 =\frac{e^0-1}{0}=\frac00
-]
+\]
 
 এটি indeterminate form।
 
 **Step 2: Differentiate numerator and denominator separately**
 
-[
+\[
 \frac{d}{dx}(e^x-1)=e^x
-]
+\]
 
-[
+\[
 \frac{d}{dx}(x)=1
-]
+\]
 
 **Step 3: New limit**
 
-[
+\[
 \lim_{x\to0}\frac{e^x}{1}=1
-]
+\]
 
-[
+\[
 \boxed{1}
-]
+\]
 
 ### Example 4: Evaluate
 
-[
+\[
 \lim_{x\to0}\frac{\ln(1+x)}{x}
-]
+\]
 
 Direct substitution:
 
-[
+\[
 =\frac{\ln1}{0}=\frac00
-]
+\]
 
 Apply L'Hospital's Rule:
 
-[
+\[
 =\lim_{x\to0}\frac{1/(1+x)}{1}
-]
+\]
 
-[
+\[
 =\frac{1}{1+0}
-]
+\]
 
-[
+\[
 \boxed{1}
-]
+\]
 
 ### Example 5: Repeated application
 
-[
+\[
 \lim_{x\to0}\frac{\ln(1+x)-x}{x^2}
-]
+\]
 
 Direct substitution gives (0/0)।
 
 First application:
 
-[
+\[
 =\lim_{x\to0}\frac{\frac1{1+x}-1}{2x}
-]
+\]
 
 এখনও (0/0)। তাই আবার apply করি।
 
 Second application:
 
-[
+\[
 =\lim_{x\to0}\frac{-1/(1+x)^2}{2}
-]
+\]
 
-[
+\[
 \boxed{-\frac12}
-]
+\]
 
 **মনে রাখবে:** প্রতিবার rule প্রয়োগের আগে নতুন quotient-টি আবার (0/0) বা (\infty/\infty) হচ্ছে কি না যাচাই করতে হবে।
 
@@ -450,78 +450,78 @@ L'Hospital's Rule সরাসরি শুধু (0/0) ও (\infty/\infty) quot
 
 ### A. (0\times\infty)
 
-[
+\[
 \lim_{x\to0^+}x\ln x
-]
+\]
 
 এখানে (x\to0^+) এবং (\ln x\to-\infty), তাই form (0\times(-\infty))।
 
 Quotient-এ লিখি:
 
-[
+\[
 =\lim_{x\to0^+}\frac{\ln x}{1/x}
-]
+\]
 
 এখন form (-\infty/\infty)। L'Hospital:
 
-[
+\[
 =\lim_{x\to0^+}\frac{1/x}{-1/x^2}
 =\lim_{x\to0^+}(-x)=0
-]
+\]
 
-[
+\[
 \boxed{0}
-]
+\]
 
 ### B. (\infty-\infty)
 
-[
+\[
 \lim_{x\to\infty}(\sqrt{x^2+x}-x)
-]
+\]
 
 Conjugate দিয়ে rationalize করি:
 
-[
+\[
 =\lim_{x\to\infty}
 \frac{(x^2+x)-x^2}{\sqrt{x^2+x}+x}
-]
+\]
 
-[
+\[
 =\lim_{x\to\infty}
 \frac{x}{\sqrt{x^2+x}+x}
-]
+\]
 
 উপর-নিচে (x) দিয়ে ভাগ করি ((x>0)):
 
-[
+\[
 =\lim_{x\to\infty}
 \frac{1}{\sqrt{1+1/x}+1}
 =\boxed{\frac12}
-]
+\]
 
 ### C. (1^\infty)
 
 ধরা যাক,
 
-[
+\[
 y=\lim_{x\to0}(1+x)^{1/x}
-]
+\]
 
 Logarithm নিলে,
 
-[
+\[
 \ln y=\lim_{x\to0}\frac{\ln(1+x)}{x}
-]
+\]
 
 আগের উদাহরণ অনুযায়ী limit (=1)। তাই,
 
-[
+\[
 \ln y=1\Rightarrow y=e
-]
+\]
 
-[
+\[
 \boxed{e}
-]
+\]
 
 ---
 
@@ -541,29 +541,29 @@ Logarithm নিলে,
 
 ### Taylor polynomial
 
-[
+\[
 P_n(x)=\sum_{k=0}^{n}\frac{f^{(k)}(a)}{k!}(x-a)^k
-]
+\]
 
 ### Taylor's Theorem with Lagrange remainder
 
-[
+\[
 f(x)=P_n(x)+\frac{f^{(n+1)}(c)}{(n+1)!}(x-a)^{n+1}
-]
+\]
 
 ### Maclaurin series
 
-[
+\[
 f(x)=\sum_{n=0}^{\infty}\frac{f^{(n)}(0)}{n!}x^n
-]
+\]
 
 ### L'Hospital's Rule
 
-[
+\[
 \lim_{x\to a}\frac{f(x)}{g(x)}
 =
 \lim_{x\to a}\frac{f'(x)}{g'(x)}
-]
+\]
 
 শুধু (0/0) অথবা (\infty/\infty) form এবং প্রয়োজনীয় conditions পূরণ হলে।
 
