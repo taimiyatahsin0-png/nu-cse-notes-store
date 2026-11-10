@@ -175,6 +175,63 @@ Potential energy:
 \boxed{U=-\vec\mu\cdot\vec B=-\mu B\cos\theta}
 \]
 
+### 11.1 Understanding Torque and Potential Energy
+
+**সহজ বাংলায়:** একটি current loop-কে ছোট compass needle-এর মতো ভাবতে পারো। Magnetic field-এর মধ্যে loop-টি এমনভাবে ঘুরতে চায়, যাতে তার magnetic dipole moment \(\vec\mu\) field \(\vec B\)-এর একই দিকে align হয়।
+
+- \(\theta\) হলো loop-এর **area vector (normal)** এবং magnetic field-এর মধ্যবর্তী angle; loop-এর সমতলের সঙ্গে angle নয়।
+- \(\theta=0^\circ\): torque শূন্য, potential energy সর্বনিম্ন \((-\mu B)\)। এটি stable equilibrium।
+- \(\theta=90^\circ\): torque সর্বোচ্চ \((\tau_{max}=\mu B)\), potential energy শূন্য।
+- \(\theta=180^\circ\): torque শূন্য, potential energy সর্বোচ্চ \((+\mu B)\)। এটি unstable equilibrium।
+
+**মনে রাখবে:** Torque loop-কে ঘোরানোর tendency বোঝায়; potential energy field-এর তুলনায় loop-এর orientation-এর energy বোঝায়।
+
+### 11.2 Solved Example: Torque and Potential Energy
+
+**Problem:** A 20-turn coil has area \(0.01\,m^2\), current \(2\,A\), and is placed in a uniform magnetic field of \(0.5\,T\). Find (a) its magnetic dipole moment, (b) maximum torque, and (c) potential energy when the angle between its area vector and the field is \(60^\circ\).
+
+**Step 1 — Given values**
+
+\[
+N=20,\quad A=0.01\,m^2,\quad I=2\,A,\quad B=0.5\,T
+\]
+
+**Step 2 — Magnetic dipole moment**
+
+\[
+\mu=NIA=20\times2\times0.01
+=\boxed{0.4\,A\,m^2}
+\]
+
+**Step 3 — Maximum torque**
+
+Maximum torque occurs at \(\theta=90^\circ\):
+
+\[
+\tau_{max}=\mu B=0.4\times0.5
+=\boxed{0.2\,N\,m}
+\]
+
+**Step 4 — Potential energy at \(60^\circ\)**
+
+\[
+U=-\mu B\cos60^\circ
+\]
+
+\[
+U=-(0.4)(0.5)(0.5)
+=\boxed{-0.1\,J}
+\]
+
+**Answer:** Magnetic dipole moment = \(0.4\,A\,m^2\), maximum torque = \(0.2\,N\,m\), and potential energy at \(60^\circ\) = \(-0.1\,J\).
+
+**Extra concept — Work done by an external agent:** If the loop is rotated slowly from \(0^\circ\) to \(60^\circ\), the external work is the change in potential energy:
+
+\[
+W_{ext}=\Delta U=U_{60^\circ}-U_{0^\circ}
+=-0.1-(-0.2)=\boxed{0.1\,J}
+\]
+
 ## 12. Common Mistakes
 
 1. Magnetic force formula-তে sine বাদ দেওয়া।
