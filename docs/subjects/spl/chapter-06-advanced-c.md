@@ -234,8 +234,18 @@ int main(void)
         return 1;
     }
 
-    fprintf(fp, "Roll: 101\nName: Nadia\n");
-    fclose(fp);
+    if (fprintf(fp, "Roll: 101\nName: Nadia\n") < 0)
+    {
+        perror("Unable to write to file");
+        fclose(fp);
+        return 1;
+    }
+
+    if (fclose(fp) == EOF)
+    {
+        perror("Unable to close file");
+        return 1;
+    }
 
     printf("Data written successfully.\n");
     return 0;
@@ -457,9 +467,6 @@ Error handling is the process of detecting, reporting and responding to errors t
 - #include: include a header.
 - #define: define a macro.
 - Error types: syntax, runtime and logical.
-
-**End of Chapter 06**
-
 
 ---
 
@@ -708,3 +715,76 @@ int main(void)
 ```
 
 **Important:** `"a"` mode writes at the end of the file. It does not erase the existing content; `"w"` mode would truncate an existing file.
+
+## Solved Board-Style Program: Append One File to Another
+
+**Problem:** Read the contents of a source text file and append them to the end of a destination text file.
+
+**বাংলায় Logic:** Source file read mode-এ এবং destination file append mode-এ খুলব। Source থেকে এক character করে EOF না আসা পর্যন্ত পড়ব এবং destination-এ লিখব। শেষে read/write error check করে দুই file বন্ধ করব।
+
+~~~c
+#include <stdio.h>
+
+int main(void)
+{
+    FILE *source = fopen("source.txt", "r");
+    FILE *destination;
+    int ch;
+    int failed = 0;
+
+    if (source == NULL)
+    {
+        perror("Unable to open source file");
+        return 1;
+    }
+
+    destination = fopen("destination.txt", "a");
+    if (destination == NULL)
+    {
+        perror("Unable to open destination file");
+        fclose(source);
+        return 1;
+    }
+
+    while ((ch = fgetc(source)) != EOF)
+    {
+        if (fputc(ch, destination) == EOF)
+        {
+            perror("Write error");
+            failed = 1;
+            break;
+        }
+    }
+
+    if (ferror(source))
+    {
+        perror("Read error");
+        failed = 1;
+    }
+
+    if (fclose(source) == EOF)
+    {
+        perror("Unable to close source file");
+        failed = 1;
+    }
+
+    if (fclose(destination) == EOF)
+    {
+        perror("Unable to close destination file");
+        failed = 1;
+    }
+
+    if (failed)
+        return 1;
+
+    printf("File contents appended successfully.\\n");
+    return 0;
+}
+~~~
+
+**Important:** Destination file আগে থেকে থাকলে তার পুরোনো content থাকবে এবং নতুন content শেষে যোগ হবে। Destination না থাকলে append mode সেটি তৈরি করবে।
+
+
+---
+
+**End of Chapter 06**
