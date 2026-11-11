@@ -85,8 +85,33 @@
   }
   function setupBackup(){
     const exp=$("#site-export-data"),imp=$("#site-import-data"),status=$("#site-backup-status");if(!exp||!imp)return;
-    exp.addEventListener("click",()=>{const data={};BACKUP_KEYS.forEach(k=>{const v=localStorage.getItem(k);if(v!==null)data[k]=v;});const blob=new Blob([JSON.stringify({schemaVersion:1,site:"NU CSE Notes Store",exportedAt:new Date().toISOString(),data},null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="nu-cse-notes-store-backup-"+new Date().toISOString().slice(0,10)+".json";a.click();URL.revokeObjectURL(url);status.textContent="Backup exported. Keep the JSON file somewhere safe.";});
-    imp.addEventListener("change",async()=>{const file=imp.files?.[0];if(!file)return;try{const p=JSON.parse(await file.text());if(p.schemaVersion!==1||!p.data||typeof p.data!=="object")throw new Error("Unsupported backup format.");if(!confirm("Import this backup? Matching local app data will be replaced."))return;BACKUP_KEYS.forEach(k=>{if(Object.prototype.hasOwnProperty.call(p.data,k))localStorage.setItem(k,String(p.data[k]));});status.textContent="Backup imported. Reloading...";location.reload();}catch(e){status.textContent="Could not import backup: "+e.message;}finally{imp.value="";}});
+    exp.addEventListener("click",()=>{try{const data={};BACKUP_KEYS.forEach(k=>{const v=localStorage.getItem(k);if(v!==null)data[k]=v;});const blob=new Blob([JSON.stringify({schemaVersion:1,site:"NU CSE Notes Store",exportedAt:new Date().toISOString(),data},null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="nu-cse-notes-store-backup-"+new Date().toISOString().slice(0,10)+".json";document.body.appendChild(a);a.click();a.remove();window.setTimeout(()=>URL.revokeObjectURL(url),1000);status.textContent="Backup exported. Keep the JSON file somewhere safe.";}catch(e){status.textContent="Could not export backup: "+e.message;}});
+    imp.addEventListener("change",async()=>{const file=imp.files?.[0];if(!file)return;try{
+      if(file.size>2*1024*1024)throw new Error("Backup file is larger than the 2 MB limit.");
+      const p=JSON.parse(await file.text());
+      if(p.schemaVersion!==1||p.site!=="NU CSE Notes Store"||!p.data||typeof p.data!=="object"||Array.isArray(p.data))throw new Error("Unsupported backup format.");
+      const allowed=new Set(BACKUP_KEYS),incoming={};
+      for(const [key,value] of Object.entries(p.data)){
+        if(!allowed.has(key)||typeof value!=="string")throw new Error("Backup contains an unsupported key or invalid value.");
+        if(key==="__palette"){if(value!=="default"&&value!=="slate")throw new Error("Invalid theme preference.");incoming[key]=value;continue;}
+        const parsed=JSON.parse(value);
+        if(key==="nuCseSemesterCgpaV2"){
+          if(!parsed||typeof parsed!=="object"||Array.isArray(parsed))throw new Error("Invalid CGPA backup data.");
+          for(const part of ["saved","drafts","quick"])if(parsed[part]!==undefined&&(!parsed[part]||typeof parsed[part]!=="object"||Array.isArray(parsed[part])))throw new Error("Invalid CGPA "+part+" data.");
+        }else if(key===BOOKMARK_KEY){
+          if(!Array.isArray(parsed)||parsed.some(item=>!item||typeof item!=="object"||typeof item.url!=="string"||!safeURL(item.url)||typeof item.title!=="string"))throw new Error("Invalid bookmark data.");
+        }else if(key===RECENT_KEY){
+          if(!Array.isArray(parsed)||parsed.some(term=>typeof term!=="string"||term.length>200))throw new Error("Invalid recent-search data.");
+        }
+        incoming[key]=value;
+      }
+      if(!Object.keys(incoming).length)throw new Error("The backup contains no supported app data.");
+      if(!confirm("Import this backup? Matching local app data will be replaced."))return;
+      const previous={};BACKUP_KEYS.forEach(k=>previous[k]=localStorage.getItem(k));
+      try{Object.entries(incoming).forEach(([k,v])=>localStorage.setItem(k,v));}
+      catch(writeError){BACKUP_KEYS.forEach(k=>{if(previous[k]===null)localStorage.removeItem(k);else localStorage.setItem(k,previous[k]);});throw writeError;}
+      status.textContent="Backup imported. Reloading...";location.reload();
+    }catch(e){status.textContent="Could not import backup: "+e.message;}finally{imp.value="";}});
   }
   function setupPWA(){
     const m=document.createElement("link");m.rel="manifest";m.href=new URL("manifest.webmanifest",BASE).href;document.head.appendChild(m);
