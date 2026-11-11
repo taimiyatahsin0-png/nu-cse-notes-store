@@ -1,10 +1,9 @@
 # Chapter 02: Network Theorems — Exam Preparation Pack
 
-**Course:** Electrical and Electronic Circuit (EEC)  
-**Course Code:** 510203  
-**Chapter:** Network Theorems  
-**Purpose:** Revision, derivation practice and numerical preparation  
-**Language:** Bangla explanations with standard English exam terminology
+**Course:** Electrical and Electronic Circuit (EEC)
+**Course Code:** 510203
+**Chapter:** Network Theorems
+**Purpose:** Revision, derivation practice and numerical preparation
 
 > **Study note:** This pack is based on the Chapter 02 notes in this repository. It is a learning and practice resource, not a prediction of actual examination questions. Confirm the current syllabus and teacher's instructions with your department.
 
@@ -36,15 +35,11 @@
 | Load | The element or circuit receiving electrical power |
 | Linear circuit | A circuit whose response obeys linearity and superposition |
 
-**বাংলায় মনে রাখো:** Node হলো junction, Branch হলো junction-গুলোর মাঝের পথ, আর Loop হলো বন্ধ পথ। KCL node-এ current balance করে; KVL closed loop-এ voltage balance করে।
-
 ---
 
 ## 3. Kirchhoff's Current Law (KCL)
 
 ### Definition
-
-**বাংলা:** কোনো node-এ প্রবেশকারী মোট current এবং node থেকে বের হওয়া মোট current সমান। অর্থাৎ node-এ current-এর algebraic sum শূন্য।
 
 **English exam answer:** Kirchhoff's Current Law states that the algebraic sum of all currents at a node in an electrical network is zero. Therefore, the total current entering a node is equal to the total current leaving it.
 
@@ -56,17 +51,12 @@ KCL is based on the **conservation of electric charge**.
 
 ### Sign convention
 
-একটি sign convention বেছে নাও। যেমন:
-
 - Entering current = positive
 - Leaving current = negative
 
-তাহলে:
 \[
 \sum I_{\text{entering}}-\sum I_{\text{leaving}}=0
 \]
-
-অন্য sign convention-ও ব্যবহার করা যায়, তবে পুরো অঙ্কে একই convention রাখতে হবে।
 
 ### Solved numerical 1
 
@@ -115,8 +105,6 @@ I+3-8=0
 
 ### Definition
 
-**বাংলা:** কোনো closed loop বরাবর সব voltage rise এবং voltage drop-এর algebraic sum শূন্য।
-
 **English exam answer:** Kirchhoff's Voltage Law states that the algebraic sum of all potential differences around any closed loop of an electrical network is zero.
 
 \[
@@ -126,11 +114,6 @@ I+3-8=0
 KVL is based on the **conservation of energy**.
 
 ### Voltage rise and voltage drop
-
-- Source-এর negative terminal থেকে positive terminal-এর দিকে গেলে voltage rise হয়।
-- Source-এর positive terminal থেকে negative terminal-এর দিকে গেলে voltage drop হয়।
-- Resistor-এর মধ্য দিয়ে current-এর direction-এ গেলে potential drop হয়: \(IR\)।
-- Resistor-এর মধ্য দিয়ে current-এর বিপরীত direction-এ গেলে potential rise হয়: \(IR\)।
 
 ### Solved numerical
 
@@ -184,29 +167,16 @@ V_2=IR_2=2\times4=8\text{ V}
 
 ### Statement
 
-**বাংলা:** একাধিক independent source-যুক্ত linear circuit-এ কোনো element-এর মোট voltage বা current পাওয়া যায় প্রতিটি independent source একবারে একটি করে active রেখে পাওয়া contribution-গুলোর algebraic sum থেকে।
-
 **English exam answer:** The Superposition Theorem states that in a linear circuit containing multiple independent sources, the voltage or current in any element is the algebraic sum of the contributions produced by each independent source acting alone.
 
 ### Source deactivation rules
-
-একটি independent source-এর contribution বের করার সময় অন্য independent source-গুলো deactivate করতে হবে:
 
 | Source being deactivated | Replace it with |
 |---|---|
 | Ideal independent voltage source | Short circuit |
 | Ideal independent current source | Open circuit |
 
-**Dependent sources remain active.** এগুলো deactivate করা যাবে না।
-
 ### Steps
-
-1. যে branch-এর voltage বা current বের করতে হবে, সেটি নির্ধারণ করো।
-2. একটি independent source active রাখো।
-3. অন্য independent voltage source short এবং independent current source open করো।
-4. নির্দিষ্ট branch-এর contribution বের করো।
-5. প্রতিটি independent source-এর জন্য একই কাজ করো।
-6. সব contribution sign ও direction মেনে algebraically যোগ করো।
 
 ### Solved numerical
 
@@ -288,8 +258,6 @@ I_L=0.5+0.5
 
 ### Statement
 
-**বাংলা:** কোনো linear bilateral two-terminal network-কে load terminal থেকে দেখলে একটি equivalent ideal voltage source \(V_{th}\) এবং তার সঙ্গে series-এ একটি resistance \(R_{th}\) দিয়ে প্রকাশ করা যায়।
-
 **English exam answer:** Thevenin's Theorem states that any linear bilateral two-terminal network can be replaced, as viewed from its load terminals, by an equivalent ideal voltage source \(V_{th}\) in series with an equivalent resistance \(R_{th}\).
 
 ### Thevenin equivalent circuit
@@ -355,8 +323,6 @@ I_L=\frac{7.2}{2.4+3}
 ## 7. Norton's Theorem
 
 ### Statement
-
-**বাংলা:** কোনো linear bilateral two-terminal network-কে load terminal থেকে দেখলে একটি equivalent ideal current source \(I_N\) এবং তার সঙ্গে parallel-এ একটি resistance \(R_N\) দিয়ে প্রকাশ করা যায়।
 
 **English exam answer:** Norton's Theorem states that any linear bilateral two-terminal network can be replaced by an equivalent ideal current source \(I_N\) in parallel with an equivalent resistance \(R_N\).
 
@@ -441,8 +407,6 @@ Thevenin and Norton equivalents represent the same linear two-terminal network.
 ## 9. Maximum Power Transfer Theorem
 
 ### Statement
-
-**বাংলা:** একটি linear DC resistive network-এর Thevenin equivalent resistance-এর সমান load resistance হলে load-এ maximum power transfer হয়।
 
 **English exam answer:** The Maximum Power Transfer Theorem states that maximum power is delivered to a load in a linear DC network when the load resistance is equal to the Thevenin resistance of the source network.
 
@@ -543,43 +507,43 @@ For introductory DC resistive problems, use \(R_L=R_{th}\).
 
 ## 11. Short questions and answers
 
-1. **What is KCL?**  
+1. **What is KCL?**
    The algebraic sum of currents at a node is zero.
 
-2. **Which principle is KCL based on?**  
+2. **Which principle is KCL based on?**
    Conservation of electric charge.
 
-3. **What is KVL?**  
+3. **What is KVL?**
    The algebraic sum of voltages around a closed loop is zero.
 
-4. **Which principle is KVL based on?**  
+4. **Which principle is KVL based on?**
    Conservation of energy.
 
-5. **What is a linear circuit?**  
+5. **What is a linear circuit?**
    A circuit whose response obeys linearity and superposition.
 
-6. **Can superposition be applied directly to power?**  
+6. **Can superposition be applied directly to power?**
    No. It is applied to voltage and current, not directly to power.
 
-7. **How is an ideal voltage source deactivated?**  
+7. **How is an ideal voltage source deactivated?**
    Replace it with a short circuit.
 
-8. **How is an ideal current source deactivated?**  
+8. **How is an ideal current source deactivated?**
    Replace it with an open circuit.
 
-9. **What is Thevenin voltage?**  
+9. **What is Thevenin voltage?**
    The open-circuit voltage across the output terminals.
 
-10. **What is Norton current?**  
+10. **What is Norton current?**
     The short-circuit current between the output terminals.
 
-11. **What is the relation between Thevenin and Norton resistance?**  
+11. **What is the relation between Thevenin and Norton resistance?**
     \(R_{th}=R_N\).
 
-12. **State the maximum power transfer condition for a DC resistive network.**  
+12. **State the maximum power transfer condition for a DC resistive network.**
     \(R_L=R_{th}\).
 
-13. **Does maximum power transfer mean maximum efficiency?**  
+13. **Does maximum power transfer mean maximum efficiency?**
     No. In the simple resistive case, efficiency is 50% at maximum power transfer.
 
 ---
