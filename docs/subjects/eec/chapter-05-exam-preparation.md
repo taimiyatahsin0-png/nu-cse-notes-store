@@ -1,8 +1,7 @@
 # Chapter 05: Regulated Power Supply — Exam Preparation Pack
 
-**Course:** Electrical and Electronic Circuit (EEC)  
-**Course Code:** 510203  
-**Language:** Bangla explanations with standard English exam terminology
+**Course:** Electrical and Electronic Circuit (EEC)
+**Course Code:** 510203
 
 > This pack follows the Chapter 05 notes currently recorded in this repository. Rectifier formulas assume ideal diodes and resistive loads unless stated otherwise. Confirm your current syllabus with your department.
 
@@ -62,8 +61,6 @@ Voltage regulator
    v
 Stable DC output
 ~~~
-
-বাংলায় মনে রাখো: Transformer voltage adjust করে → Rectifier AC-কে pulsating DC করে → Filter ripple কমায় → Regulator output voltage স্থির রাখে।
 
 Some modern supplies use switching converters rather than a traditional transformer-and-linear-regulator arrangement. The diagram above is the basic linear supply model.
 
