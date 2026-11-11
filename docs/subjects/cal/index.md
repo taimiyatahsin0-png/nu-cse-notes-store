@@ -170,3 +170,9 @@ The repository follows this published syllabus copy. It is not a guarantee that 
 
 *Based on the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
+
+
+## My PDF Notes
+
+Your personal PDF notes for this subject will appear here. [Browse the All PDFs Library](../../tools/pdf-library.md) to find available files or learn where to upload new ones.
+
