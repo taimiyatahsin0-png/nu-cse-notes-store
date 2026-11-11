@@ -12,6 +12,10 @@
 
 This course covers the fundamental concepts of Differential Calculus and Integral Calculus, including functions, limits, continuity, differentiation, integration and their applications.
 
+## Exam revision
+
+[Open the Calculus Exam Revision Guide](exam-revision-guide.md) — key definitions, limit laws, derivative and integral formulas, theorem conditions, and common university-exam problem types.
+
 # Syllabus Topics (Reference: Session 2017–2018)
 
 ## Part A: Differential Calculus
