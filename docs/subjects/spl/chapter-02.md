@@ -16,7 +16,7 @@ After completing this chapter, students will be able to:
 
 ## 1. What is a Variable?
 
-### English Exam Note
+### Definition and Exam Notes
 
 **Definition:**
 
