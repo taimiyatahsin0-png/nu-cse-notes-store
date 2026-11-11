@@ -1,7 +1,7 @@
 # Chapter 03: Introduction to Semiconductors
 
-> **Course:** Electrical and Electronic Circuit (EEC)  
-> **Course Code:** 510203  
+> **Course:** Electrical and Electronic Circuit (EEC)
+> **Course Code:** 510203
 > **Topic group:** Introduction to Semiconductors
 
 This chapter builds the foundation for understanding diodes, transistors and many electronic devices. The central idea is simple: a semiconductor is a material whose ability to conduct electricity can be controlled.
@@ -281,68 +281,68 @@ This equation tells us that conductivity depends on both the number of carriers 
 
 ## 11. Quick concept checks
 
-**Q1. Why is silicon widely used in semiconductor devices?**  
+**Q1. Why is silicon widely used in semiconductor devices?**
 Silicon is abundant, has useful semiconductor properties, and forms a stable oxide layer that is valuable in device fabrication.
 
-**Q2. What is a hole?**  
+**Q2. What is a hole?**
 A hole is the absence of an electron in a covalent bond or valence-band state. It behaves as a positive charge carrier.
 
-**Q3. What is an intrinsic semiconductor?**  
+**Q3. What is an intrinsic semiconductor?**
 A pure semiconductor without intentionally added impurity atoms.
 
-**Q4. What is an extrinsic semiconductor?**  
+**Q4. What is an extrinsic semiconductor?**
 A semiconductor whose conductivity is modified by controlled impurity doping.
 
-**Q5. Which impurity produces N-type material?**  
+**Q5. Which impurity produces N-type material?**
 A pentavalent donor impurity such as phosphorus, arsenic or antimony.
 
-**Q6. Which impurity produces P-type material?**  
+**Q6. Which impurity produces P-type material?**
 A trivalent acceptor impurity such as boron, aluminium or gallium.
 
-**Q7. Are N-type and P-type materials electrically charged overall?**  
+**Q7. Are N-type and P-type materials electrically charged overall?**
 No. Each is electrically neutral overall; the names describe the majority mobile carriers.
 
 ## 12. Common mistakes to avoid
 
-1. **Mistake:** A hole is a proton.  
+1. **Mistake:** A hole is a proton.
    **Correction:** A hole is an electron vacancy that behaves as a positive carrier.
 
-2. **Mistake:** N-type material has a net negative charge.  
+2. **Mistake:** N-type material has a net negative charge.
    **Correction:** It is neutral overall; electrons are simply its majority mobile carriers.
 
-3. **Mistake:** P-type material has a net positive charge.  
+3. **Mistake:** P-type material has a net positive charge.
    **Correction:** It is neutral overall; holes are its majority mobile carriers.
 
-4. **Mistake:** Pentavalent doping creates P-type material.  
+4. **Mistake:** Pentavalent doping creates P-type material.
    **Correction:** Pentavalent donor doping creates N-type material.
 
-5. **Mistake:** Trivalent doping creates N-type material.  
+5. **Mistake:** Trivalent doping creates N-type material.
    **Correction:** Trivalent acceptor doping creates P-type material.
 
-6. **Mistake:** Only electrons carry current in semiconductors.  
+6. **Mistake:** Only electrons carry current in semiconductors.
    **Correction:** Both electrons and holes contribute to current.
 
-7. **Mistake:** Doping means adding a large amount of impurity.  
+7. **Mistake:** Doping means adding a large amount of impurity.
    **Correction:** Doping uses a very small, controlled concentration of impurity atoms.
 
 ## 13. Exam-ready short answers
 
-**1. Define semiconductor.**  
+**1. Define semiconductor.**
 A semiconductor is a material whose electrical conductivity lies between that of a conductor and an insulator and can be controlled by temperature, light or impurity doping.
 
-**2. Define intrinsic semiconductor.**  
+**2. Define intrinsic semiconductor.**
 An intrinsic semiconductor is a pure semiconductor in which no impurity is intentionally added. At thermal equilibrium, its electron and hole concentrations are equal.
 
-**3. Define extrinsic semiconductor.**  
+**3. Define extrinsic semiconductor.**
 An extrinsic semiconductor is a semiconductor whose conductivity is modified by adding a controlled amount of impurity atoms through a process called doping.
 
-**4. What is doping?**  
+**4. What is doping?**
 Doping is the controlled process of adding a small quantity of suitable impurity atoms to a pure semiconductor to change its electrical conductivity.
 
-**5. What are majority and minority carriers?**  
+**5. What are majority and minority carriers?**
 The charge carriers present in greater concentration are called majority carriers, while those present in smaller concentration are called minority carriers.
 
-**6. What is an electron-hole pair?**  
+**6. What is an electron-hole pair?**
 When a valence electron gains sufficient energy and becomes free, it leaves behind a hole. The free electron and the hole together are called an electron-hole pair.
 
 ## 14. Descriptive questions for practice
