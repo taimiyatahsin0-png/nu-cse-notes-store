@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 09: input and output characteristics of a bjt (cb/ce) using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 A bipolar junction transistor has emitter, base and collector terminals. In common-emitter (CE), the emitter is common to input and output; in common-base (CB), the base is common. Input characteristics relate input current to input voltage at constant output voltage/current condition; output characteristics relate output current to output voltage for fixed input-current steps.
 
 ## 3. Apparatus
