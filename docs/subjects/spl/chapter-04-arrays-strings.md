@@ -1,7 +1,7 @@
 # Chapter 04: Arrays and Strings in C
 
-**Course:** Structured Programming Language (SPL)  
-**Course Code:** 510201  
+**Course:** Structured Programming Language (SPL)
+**Course Code:** 510201
 **Level:** Beginner
 
 ## Learning Objectives
@@ -13,11 +13,7 @@
 
 ---
 
-# Part A: Understand in Bangla
-
 ## 1. What is an Array?
-
-ধরো, তোমার ৫ জন শিক্ষার্থীর marks রাখতে হবে। আলাদা variable mark1, mark2, mark3 লিখতে পারো। কিন্তু ৫০ বা ১০০ জন হলে কাজটি অগোছালো হবে। একই data type-এর অনেকগুলো value একটি নামের অধীনে রাখার জন্য Array ব্যবহার করা হয়।
 
 **English Exam Definition:** An array is a collection of elements of the same data type stored in contiguous memory locations and accessed using a common name and an index.
 
@@ -35,8 +31,6 @@ Example:
 int marks[5];
 ~~~
 
-এখানে marks array-তে ৫টি integer রাখা যাবে। C array-এর index শূন্য (0) থেকে শুরু হয়। marks[5]-এর valid index হলো 0, 1, 2, 3, 4। marks[5] valid নয়; এটি array-এর বাইরে access এবং undefined behavior ঘটাতে পারে।
-
 ### Initialization
 
 ~~~c
@@ -44,8 +38,6 @@ int numbers[5] = {10, 20, 30, 40, 50};
 int values[] = {2, 4, 6};
 int data[5] = {1, 2}; /* remaining elements become 0 */
 ~~~
-
-Initializer-এ বাকি element না দিলে সেগুলো zero হয়। কিন্তু uninitialized local array-এর element-এর value indeterminate; ব্যবহার করার আগে value assign করতে হবে।
 
 ### Access and Update
 
@@ -57,8 +49,6 @@ numbers[1] = 25;
 ~~~
 
 ## 3. Traversing an Array with a Loop
-
-একটি loop দিয়ে array-এর সব element একে একে পড়া বা দেখানো যায়।
 
 ~~~c
 #include <stdio.h>
@@ -84,8 +74,6 @@ int main(void)
     return 0;
 }
 ~~~
-
-**মনে রাখবে:** array-এর size 5 হলে loop condition সাধারণত i < 5, i <= 5 নয়।
 
 ## 4. Solved Program: Sum and Average
 
@@ -115,7 +103,7 @@ int main(void)
 }
 ~~~
 
-Sample input: 10 20 30 40 50  
+Sample input: 10 20 30 40 50
 Output:
 ~~~text
 Sum = 150
@@ -156,11 +144,7 @@ int main(void)
 
 Output: Largest = 45
 
-প্রথম element-কে প্রাথমিক largest ধরা হয়েছে। এরপর বাকি element-এর সঙ্গে তুলনা করা হয়েছে।
-
 ## 6. Two-Dimensional Array
-
-দুই মাত্রার array-কে row ও column-সহ একটি table-এর মতো ভাবতে পারো।
 
 ~~~c
 int matrix[2][3] = {
@@ -173,8 +157,6 @@ int matrix[2][3] = {
 |---|---:|---:|---:|
 | Row 0 | 1 | 2 | 3 |
 | Row 1 | 4 | 5 | 6 |
-
-matrix[1][2]-এর value 6।
 
 ### Program: Add Two 2×2 Matrices
 
@@ -213,8 +195,6 @@ Output:
 
 ### Program: Multiply Two 2×2 Matrices
 
-**Logic:** প্রথম matrix-এর প্রতিটি row-এর সঙ্গে দ্বিতীয় matrix-এর প্রতিটি column গুণ করে যোগ করতে হয়। তাই তিনটি nested loop লাগে: row, column এবং common dimension-এর জন্য।
-
 ~~~c
 #include <stdio.h>
 
@@ -251,11 +231,7 @@ Output:
 43 50
 ~~~
 
-**একটি cell-এর হিসাব:** product[0][0] = (1 × 5) + (2 × 7) = 19।
-
 ## 7. Character Array and String
-
-C-তে String হলো character-এর sequence, যার শেষে null character '\0' থাকে। C-তে আলাদা built-in string data type নেই; character array দিয়ে string রাখা হয়।
 
 **English Exam Definition:** A string in C is a sequence of characters terminated by the null character ('\0').
 
@@ -263,21 +239,13 @@ C-তে String হলো character-এর sequence, যার শেষে null
 char name[6] = "Rahat";
 ~~~
 
-এখানে ৫টি letter এবং শেষের '\0'-এর জন্য মোট ৬টি জায়গা প্রয়োজন।
-
 ### String Input and Output
-
-একটি শব্দ পড়তে:
 
 ~~~c
 char name[30];
 scanf("%29s", name);
 printf("%s\n", name);
 ~~~
-
-%s whitespace (space, tab, newline) পর্যন্ত পড়ে। Width limit ব্যবহার করলে buffer overflow-এর ঝুঁকি কমে।
-
-একাধিক শব্দসহ একটি line পড়তে fgets() ব্যবহার করো:
 
 ~~~c
 #include <stdio.h>
@@ -294,20 +262,14 @@ int main(void)
 }
 ~~~
 
-fgets() buffer-এর সীমা মেনে input পড়ে; জায়গা থাকলে newline-ও সংরক্ষণ করতে পারে। gets() ব্যবহার করবে না—এটি বিপজ্জনক এবং আধুনিক C standard থেকে বাদ।
-
 ## 8. Common String Functions
 
-string.h header-এ কয়েকটি প্রচলিত string function আছে।
-
-| Function | কাজ |
+| Function | — |
 |---|---|
-| strlen(s) | '\0' বাদে string-এর length দেয় |
-| strcpy(dest, src) | source string destination-এ copy করে |
-| strcat(dest, src) | destination-এর শেষে source যোগ করে |
-| strcmp(a, b) | দুই string তুলনা করে |
-
-**গুরুত্বপূর্ণ:** strcpy() ও strcat() ব্যবহারের আগে destination array-তে পর্যাপ্ত জায়গা নিশ্চিত করতে হবে। strcmp() সমান হলে 0, প্রথম string ছোট হলে negative এবং বড় হলে positive value দেয়।
+| strlen(s) | — |
+| strcpy(dest, src) | — |
+| strcat(dest, src) | — |
+| strcmp(a, b) | — |
 
 ### Program: String Length
 
@@ -349,8 +311,8 @@ int main(void)
 
 | One-dimensional array | Two-dimensional array |
 |---|---|
-| একটি index ব্যবহার করে | দুটি index ব্যবহার করে |
-| List-এর মতো | Table বা matrix-এর মতো |
+| — | — |
+| — | — |
 | int a[5]; | int a[2][3]; |
 | a[2] | a[1][2] |
 
@@ -358,19 +320,19 @@ int main(void)
 
 # Part B: English Exam Notes
 
-**Q1. Define an array.**  
+**Q1. Define an array.**
 An array is a collection of elements of the same data type stored in contiguous memory locations and accessed using a common name and index.
 
-**Q2. What is an array index?**  
+**Q2. What is an array index?**
 An array index is the integer position used to access an element. In C, array indexing starts at zero.
 
-**Q3. What is a two-dimensional array?**  
+**Q3. What is a two-dimensional array?**
 A two-dimensional array is an array organized in rows and columns and accessed using two indices.
 
-**Q4. What is a string in C?**  
+**Q4. What is a string in C?**
 A string is a sequence of characters terminated by the null character ('\0').
 
-**Q5. Why is string.h used?**  
+**Q5. Why is string.h used?**
 It provides declarations for common string-handling functions such as strlen(), strcpy(), strcat() and strcmp().
 
 ## Short Questions (2 Marks)
@@ -450,8 +412,6 @@ It provides declarations for common string-handling functions such as strlen(), 
 
 **Exam-ready English:** A string in C is a sequence of characters terminated by the null character, written as the escape sequence \0.
 
-**বাংলায়:** C-তে string-এর শেষে null character থাকে। তাই ১০টি visible character রাখতে হলে সাধারণত অন্তত ১১ byte জায়গা লাগবে।
-
 **Safe input reminder:** A bounded scanf with a width limit reads one word only. Use fgets() for a line that may contain spaces. Never use gets().
 
 ### Board and question-bank sources
@@ -470,14 +430,11 @@ It provides declarations for common string-handling functions such as strlen(), 
 
 **Source caution:** Question-bank year labels are secondary-source references. Newly written practice tasks are not presented as NU past questions.
 
-
 ---
 
 ## Solved Board-Style Program: Check Whether a String Is a Palindrome
 
 **Problem:** Read a word and check whether it reads the same from left to right and right to left.
-
-**বাংলায় Logic:** প্রথম character-কে শেষ character-এর সঙ্গে, দ্বিতীয়টিকে শেষ থেকে দ্বিতীয়টির সঙ্গে তুলনা করব। কোনো pair না মিললে palindrome নয়। সব pair মিলে গেলে palindrome।
 
 ```c
 #include <stdio.h>
@@ -517,7 +474,7 @@ int main(void)
 }
 ```
 
-Sample input: `level`  
+Sample input: `level`
 Output: `Palindrome`
 
 ### Dry Run: `level`
@@ -531,8 +488,6 @@ Output: `Palindrome`
 **Note:** This beginner version reads one word and performs a case-sensitive comparison. Therefore, `Level` and a sentence containing spaces are not treated as the same palindrome as `level`. Handling spaces and letter case requires additional preprocessing.
 
 ## Solved Program: Count Even Elements in an Array
-
-**Logic:** প্রতিটি element পরীক্ষা করব। ২ দিয়ে ভাগ করলে remainder 0 হলে সেটি even; তখন counter এক বাড়বে।
 
 ~~~c
 #include <stdio.h>
@@ -557,12 +512,10 @@ int main(void)
 }
 ~~~
 
-Sample input: 1 2 3 4 5 6 7 8 9 10  
+Sample input: 1 2 3 4 5 6 7 8 9 10
 Output: Even elements = 5
 
 ## Solved Program: Reverse an Array
-
-**Logic:** প্রথম ও শেষ element swap করব, তারপর দ্বিতীয় ও শেষ থেকে দ্বিতীয় element swap করব। মাঝখানে পৌঁছালে কাজ শেষ।
 
 ```c
 #include <stdio.h>
