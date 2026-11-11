@@ -36,6 +36,24 @@ Study concise, English-only CSE notes focused on key definitions, core concepts,
 
     [Browse question resources](tools/pyq-library.md)
 
+-   :material-library: **Smart Notes Library**
+
+    Search and filter subject notes, chapter guides, lab materials and revision resources.
+
+    [Browse the library](tools/notes-library.md)
+
+-   :material-function-variant: **Formula Sheets**
+
+    Quick-reference formulas for Calculus, Physics and Electrical and Electronic Circuits.
+
+    [Explore formulas](tools/formula-sheets.md)
+
+-   :material-bookmark: **My Library**
+
+    Save useful pages, revisit bookmarks and back up your local study data.
+
+    [Open My Library](tools/bookmarks.md)
+
 -   :material-school: **Academic Syllabus**
 
     Review the recorded first-semester course list and syllabus references.
@@ -58,6 +76,12 @@ Study concise, English-only CSE notes focused on key definitions, core concepts,
 | Physics | 510207 | 3.0 |
 | English | 510209 | 3.0 |
 | **Total in the recorded syllabus reference** |  | **18.0** |
+
+## Search, save and study offline
+
+Use the site-wide search in the header or press **Ctrl + K** to find topics across the published notes. Bookmark useful pages to keep a personal reading list on this device. You can also switch between light and dark themes and install the site as an app on supported browsers.
+
+For offline access, open important pages while connected to the internet first. [Read the offline access guide](offline.md).
 
 ## How to study with this site
 
