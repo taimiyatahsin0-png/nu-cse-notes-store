@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<rect width="512" height="512" rx="112" fill="#173f35"/>
+<path d="M256 390c-85-54-140-124-140-205 0-45 29-78 72-78 34 0 56 20 68 50 12-30 34-50 68-50 43 0 72 33 72 78 0 81-55 151-140 205Z" fill="#dce9dc"/>
+<path d="M256 390V205m0 75c-31-31-62-44-94-47m94 15c28-31 57-45 91-49" fill="none" stroke="#8ca995" stroke-width="14" stroke-linecap="round"/>
+<text x="256" y="465" font-family="Arial,sans-serif" font-size="44" font-weight="700" text-anchor="middle" fill="#fffef9">CSE</text></svg>
