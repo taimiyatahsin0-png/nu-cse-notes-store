@@ -9,7 +9,7 @@ A free, chapter-wise learning and practice website for first-semester CSE studen
 
 - Subject-wise notes for SPL, SPL Lab, EEC, EEC Lab, Calculus, Physics and English.
 - Concise, English-only, exam-focused notes with standard definitions, key concepts, formulas, derivations, solved problems and practice questions.
-- Beginner-friendly examples, worked problems, formulas and C programming practice.
+- Focused worked examples, formula sheets, C programming practice and exam revision checklists.
 - Code explanations with logic, sample output and dry-run tables where appropriate.
 - Student tools including a CGPA calculator, grade scale, programming hub and question-resource library.
 
