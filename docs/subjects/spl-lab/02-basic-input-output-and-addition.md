@@ -1,7 +1,7 @@
 # Practical 02: Basic Input and Output Operations
 
-> **Status:** Suggested practice practical  
-> **Related theory topics:** Variables, data types, arithmetic operators, input and output  
+> **Status:** Suggested practice practical
+> **Related theory topics:** Variables, data types, arithmetic operators, input and output
 > **Lab course:** 510202 – Structured Programming Language Lab
 
 !!! note "Syllabus and experiment-order note"
@@ -137,7 +137,7 @@ int main(void)
 | `printf("Sum = %d\n", sum);` | Displays the calculated sum. |
 | `return 0;` | Indicates successful program completion. |
 
-**Why use `&` with `scanf()`?**  
+**Why use `&` with `scanf()`?**
 `scanf()` needs the memory address where it should store each input value. The address-of operator (`&`) provides that address for ordinary variables such as `first` and `second`.
 
 ## 8. Algorithm
@@ -203,25 +203,25 @@ The program accepts two integers, calculates their sum, and displays the result 
 
 ## 14. Viva questions
 
-**Q1. What is a variable?**  
+**Q1. What is a variable?**
 A variable is a named storage location used to hold a value that may change during program execution.
 
-**Q2. What is the purpose of `scanf()`?**  
+**Q2. What is the purpose of `scanf()`?**
 It reads formatted input from the standard input stream.
 
-**Q3. What is the purpose of `printf()`?**  
+**Q3. What is the purpose of `printf()`?**
 It displays formatted output on the standard output stream.
 
-**Q4. Why is `&` used in `scanf()`?**  
+**Q4. Why is `&` used in `scanf()`?**
 It supplies the address of a variable so that `scanf()` can store the input value there.
 
-**Q5. What does `%d` represent?**  
+**Q5. What does `%d` represent?**
 It is the format specifier for an `int` value.
 
-**Q6. What does `scanf()` return?**  
+**Q6. What does `scanf()` return?**
 It returns the number of input items successfully assigned (or a negative value if an input failure occurs before the first conversion).
 
-**Q7. Which operator performs addition in C?**  
+**Q7. Which operator performs addition in C?**
 The plus operator (`+`).
 
 ## 15. Common mistakes
