@@ -1,7 +1,7 @@
 # Chapter 02: Network Theorems
 
-**Course:** Electrical and Electronic Circuit (EEC)  
-**Course Code:** 510203  
+**Course:** Electrical and Electronic Circuit (EEC)
+**Course Code:** 510203
 **Level:** Beginner to Intermediate
 
 ---
@@ -661,43 +661,43 @@ P_{max}=\frac{V_{th}^2}{4R_{th}}
 
 # 12. Short questions for revision
 
-**Q1. What is KCL?**  
+**Q1. What is KCL?**
 KCL states that the algebraic sum of currents at a node is zero.
 
-**Q2. What physical principle is KCL based on?**  
+**Q2. What physical principle is KCL based on?**
 Conservation of electric charge.
 
-**Q3. What is KVL?**  
+**Q3. What is KVL?**
 KVL states that the algebraic sum of voltages around a closed loop is zero.
 
-**Q4. What physical principle is KVL based on?**  
+**Q4. What physical principle is KVL based on?**
 Conservation of energy.
 
-**Q5. What is a linear circuit?**  
+**Q5. What is a linear circuit?**
 A circuit whose voltage-current relationships obey linearity and superposition.
 
-**Q6. Can superposition be applied directly to power?**  
+**Q6. Can superposition be applied directly to power?**
 No. It is applied to voltage and current, not directly to power.
 
-**Q7. What happens to an ideal voltage source when it is deactivated?**  
+**Q7. What happens to an ideal voltage source when it is deactivated?**
 It is replaced by a short circuit.
 
-**Q8. What happens to an ideal current source when it is deactivated?**  
+**Q8. What happens to an ideal current source when it is deactivated?**
 It is replaced by an open circuit.
 
-**Q9. What is Thevenin voltage?**  
+**Q9. What is Thevenin voltage?**
 The open-circuit voltage across the output terminals.
 
-**Q10. What is Norton current?**  
+**Q10. What is Norton current?**
 The short-circuit current between the output terminals.
 
-**Q11. What is the relationship between Thevenin and Norton resistance?**  
+**Q11. What is the relationship between Thevenin and Norton resistance?**
 (R_{th}=R_N).
 
-**Q12. State the maximum power transfer condition for a DC resistive circuit.**  
+**Q12. State the maximum power transfer condition for a DC resistive circuit.**
 (R_L=R_{th}).
 
-**Q13. Does maximum power transfer mean maximum efficiency?**  
+**Q13. Does maximum power transfer mean maximum efficiency?**
 No. In the simple resistive case, the efficiency at maximum power transfer is 50%.
 
 ---
