@@ -1,7 +1,7 @@
 # Chapter 07: Field Effect Transistors (FET)
 
-> **Course:** Electrical and Electronic Circuit (EEC)  
-> **Course Code:** 510203  
+> **Course:** Electrical and Electronic Circuit (EEC)
+> **Course Code:** 510203
 > **Topic group:** Field Effect Transistors (FET)
 
 A Field Effect Transistor (FET) is a semiconductor device in which an electric field controls the flow of current through a channel. FETs are widely used in switching, amplification and integrated circuits.
@@ -530,66 +530,66 @@ For an amplifier, the Q-point should be chosen in the appropriate constant-curre
 
 ## 12. Common mistakes to avoid
 
-1. **Mistake:** A FET has emitter, base and collector terminals.  
+1. **Mistake:** A FET has emitter, base and collector terminals.
    **Correction:** A FET has gate, source and drain terminals (and often a body/substrate terminal).
 
-2. **Mistake:** FET operation is controlled by a large gate current.  
+2. **Mistake:** FET operation is controlled by a large gate current.
    **Correction:** FET operation is controlled mainly by gate voltage and its electric field.
 
-3. **Mistake:** JFET and MOSFET have identical gate structures.  
+3. **Mistake:** JFET and MOSFET have identical gate structures.
    **Correction:** JFET uses a gate-channel P-N junction; MOSFET uses an insulated gate.
 
-4. **Mistake:** N-channel JFET normally uses a positive gate-to-source voltage.  
+4. **Mistake:** N-channel JFET normally uses a positive gate-to-source voltage.
    **Correction:** Its gate is normally at zero or negative voltage relative to the source in the usual arrangement.
 
-5. **Mistake:** Pinch-off means JFET drain current is zero.  
+5. **Mistake:** Pinch-off means JFET drain current is zero.
    **Correction:** Pinch-off marks the onset of the approximately constant-current region; cutoff is where current becomes approximately zero.
 
-6. **Mistake:** MOSFET saturation and BJT saturation mean the same thing.  
+6. **Mistake:** MOSFET saturation and BJT saturation mean the same thing.
    **Correction:** They describe different operating conditions. MOSFET saturation is commonly used for amplification; BJT saturation is commonly used for a fully ON switch.
 
-7. **Mistake:** Every MOSFET has no channel at zero gate voltage.  
+7. **Mistake:** Every MOSFET has no channel at zero gate voltage.
    **Correction:** Enhancement MOSFETs normally do not; depletion MOSFETs have a conducting channel at zero gate voltage.
 
-8. **Mistake:** A MOSFET gate can tolerate any voltage.  
+8. **Mistake:** A MOSFET gate can tolerate any voltage.
    **Correction:** Gate voltage is limited by the device ratings, and the gate is vulnerable to electrostatic discharge.
 
 ## 13. Exam-ready short answers
 
-**1. What is a FET?**  
+**1. What is a FET?**
 A FET is a voltage-controlled semiconductor device in which an electric field controls current through a channel between source and drain.
 
-**2. Name the terminals of a FET.**  
+**2. Name the terminals of a FET.**
 Gate, source and drain.
 
-**3. What are the two main types of FET?**  
+**3. What are the two main types of FET?**
 JFET and MOSFET.
 
-**4. Why is a FET called a unipolar device?**  
+**4. Why is a FET called a unipolar device?**
 Because conduction in its channel is mainly due to one type of majority carrier.
 
-**5. What is a JFET?**  
+**5. What is a JFET?**
 A JFET is a FET in which a reverse-biased gate-channel P-N junction controls the channel current.
 
-**6. What is pinch-off in a JFET?**  
+**6. What is pinch-off in a JFET?**
 It is the condition at which the channel becomes sufficiently constricted near the drain that drain current becomes approximately constant for a fixed gate voltage.
 
-**7. What is \(I_{DSS}\)?**  
+**7. What is \(I_{DSS}\)?**
 It is the JFET drain current at \(V_{GS}=0\) under the specified saturation condition.
 
-**8. What is \(V_{GS(off)}\)?**  
+**8. What is \(V_{GS(off)}\)?**
 It is the gate-to-source voltage at which JFET drain current becomes approximately zero under the stated conditions.
 
-**9. What is a MOSFET?**  
+**9. What is a MOSFET?**
 A MOSFET is a field-effect transistor with an insulated gate separated from the semiconductor by a thin insulating layer.
 
-**10. Name the two operating modes of MOSFET.**  
+**10. Name the two operating modes of MOSFET.**
 Enhancement mode and depletion mode.
 
-**11. What is self-bias in a JFET?**  
+**11. What is self-bias in a JFET?**
 Self-bias is a method in which a source resistor develops the source voltage and automatically establishes a suitable gate-to-source voltage.
 
-**12. What is the JFET Q-point?**  
+**12. What is the JFET Q-point?**
 It is the no-signal DC operating point, usually specified by \(I_{DQ}\) and \(V_{DSQ}\).
 
 ## 14. Descriptive questions for practice
