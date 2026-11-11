@@ -270,3 +270,63 @@ body {
   .cgpa-top-actions button { width:100%; }
   .cgpa-input-table { min-width:760px; }
 }
+
+
+/* Dark theme palette */
+[data-md-color-scheme="slate"] {
+  --forest: #b5d1bd; --forest-dark: #d4e5d8; --sage: #7ea88d; --cream: #171d1a;
+  --paper: #202925; --ink: #e1e9e3; --muted: #a5b4aa; --line: #39463e;
+  --md-default-bg-color: var(--cream); --md-default-fg-color: var(--ink);
+  --md-primary-fg-color: #234b3b; --md-primary-fg-color--dark: #173629; --md-accent-fg-color: #9bc9a8;
+}
+[data-md-color-scheme="slate"] body,[data-md-color-scheme="slate"] .md-main,[data-md-color-scheme="slate"] .md-content { background:var(--cream); }
+[data-md-color-scheme="slate"] .md-typeset h1,[data-md-color-scheme="slate"] .md-typeset h2,[data-md-color-scheme="slate"] .md-typeset h3,[data-md-color-scheme="slate"] .cgpa-result-card strong,[data-md-color-scheme="slate"] .cgpa-semester-summary strong,[data-md-color-scheme="slate"] .cgpa-overall-card strong { color:var(--forest-dark); }
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th { background:#294b3b; }
+
+/* CGPA planner and what-if simulator */
+.cgpa-advanced-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; margin:1.25rem 0; }
+.cgpa-advanced-panel { min-width:0; padding:1rem; border:1px solid var(--line); border-radius:14px; background:var(--paper); }
+.cgpa-advanced-panel h2 { margin-top:0; }
+.cgpa-advanced-fields { display:grid; gap:.75rem; }
+.cgpa-advanced-fields label,.cgpa-sim-semester-label { display:grid; gap:.35rem; font-weight:650; }
+.cgpa-advanced-fields input,.cgpa-sim-semester-label select,.cgpa-sim-course-row select,.library-controls input,.library-controls select { box-sizing:border-box; width:100%; min-width:0; padding:.65rem .75rem; border:1px solid var(--line); border-radius:9px; background:var(--md-default-bg-color); color:var(--md-default-fg-color); }
+.cgpa-advanced-result { display:grid; gap:.3rem; margin-top:1rem; padding:1rem; border:1px solid var(--line); border-radius:10px; background:var(--md-default-bg-color); }
+.cgpa-advanced-result span,.cgpa-advanced-result small,.cgpa-sim-results span { color:var(--muted); }
+.cgpa-advanced-result strong { font-size:1.8rem; color:var(--forest-dark); font-variant-numeric:tabular-nums; }
+.cgpa-sim-course-list { display:grid; gap:.55rem; margin:1rem 0; }
+.cgpa-sim-course-row { display:grid; grid-template-columns:minmax(0,1fr) minmax(95px,125px); gap:.6rem; align-items:center; padding:.55rem; border:1px solid var(--line); border-radius:9px; }
+.cgpa-sim-course-row span { min-width:0; overflow-wrap:anywhere; }
+.cgpa-sim-results { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.6rem; }
+.cgpa-sim-results>div { display:grid; gap:.2rem; padding:.8rem; border:1px solid var(--line); border-radius:9px; background:var(--md-default-bg-color); }
+.cgpa-sim-results strong { font-size:1.45rem; color:var(--forest-dark); }
+
+/* Smart Notes Library */
+.library-controls { display:grid; gap:.75rem; margin:1rem 0 1.25rem; padding:1rem; border:1px solid var(--line); border-radius:12px; background:var(--paper); }
+.library-filter-row { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; }
+.library-filter-row label { display:grid; gap:.35rem; font-weight:650; }
+#library-count { margin:0; color:var(--muted); font-size:.9rem; }
+.library-tags { display:block; margin:.3rem 0; color:var(--muted); font-size:.85rem; }
+.notes-library-grid li[hidden] { display:none !important; }
+.library-empty { margin:1rem 0; padding:1rem; border:1px dashed var(--line); border-radius:10px; color:var(--muted); }
+.personal-library-panel { margin:1rem 0; padding:1rem; border:1px solid var(--line); border-radius:12px; background:var(--paper); }
+.personal-library-panel h2 { margin-top:0; }
+.library-action-row { display:flex; flex-wrap:wrap; gap:.6rem; align-items:center; }
+.site-bookmark-page-row { display:flex; justify-content:space-between; align-items:center; gap:.75rem; padding:.55rem 0; border-bottom:1px solid var(--line); }
+
+/* Global search, bookmarks and install controls */
+.site-utility { position:fixed; z-index:20; right:1rem; bottom:1rem; display:flex; flex-wrap:wrap; justify-content:flex-end; gap:.45rem; max-width:min(94vw,520px); }
+.site-utility-button { border:1px solid var(--line); border-radius:999px; padding:.55rem .8rem; background:var(--paper); color:var(--md-default-fg-color); box-shadow:0 3px 14px rgba(0,0,0,.12); cursor:pointer; font:inherit; font-size:.82rem; font-weight:650; }
+.site-utility-button:hover,.site-utility-button[aria-pressed="true"] { border-color:var(--sage); background:var(--md-default-bg-color); }
+.site-utility-panel { position:absolute; right:0; bottom:calc(100% + .5rem); width:min(360px,92vw); max-height:55vh; overflow:auto; padding:1rem; border:1px solid var(--line); border-radius:14px; background:var(--paper); color:var(--md-default-fg-color); box-shadow:0 8px 30px rgba(0,0,0,.2); }
+.site-utility-panel-heading { display:flex; align-items:center; justify-content:space-between; gap:.5rem; }
+.site-utility-panel-heading button,.site-bookmark-item button { border:1px solid var(--line); border-radius:7px; padding:.25rem .55rem; background:transparent; color:inherit; cursor:pointer; }
+.site-bookmark-item { display:flex; align-items:center; justify-content:space-between; gap:.5rem; padding:.5rem 0; border-bottom:1px solid var(--line); }
+.site-bookmark-item a { min-width:0; overflow-wrap:anywhere; }
+@media(max-width:760px) { .cgpa-advanced-grid { grid-template-columns:1fr; } .library-filter-row { grid-template-columns:1fr; } }
+@media(max-width:480px) {
+ .site-utility { right:.5rem; bottom:.5rem; max-width:calc(100vw - 1rem); gap:.3rem; }
+ .site-utility-button { padding:.48rem .62rem; font-size:.75rem; }
+ .site-utility-button span { display:none; }
+ .site-utility-panel { max-height:48vh; }
+ .site-bookmark-page-row { align-items:flex-start; flex-direction:column; }
+}
