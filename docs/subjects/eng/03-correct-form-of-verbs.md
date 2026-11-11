@@ -1,8 +1,5 @@
 # Correct Form of Verbs
 
-## সহজ বাংলায় ধারণা
-Verb-এর form subject, tense, voice, infinitive/gerund pattern এবং conditional structure অনুযায়ী বদলায়। শুধু time word দেখে উত্তর দেবে না; পুরো sentence-এর structure দেখবে।
-
 ## Core rules and method
 **Subject–verb agreement:** He works; They work.
 
