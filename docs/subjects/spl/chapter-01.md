@@ -7,7 +7,7 @@
 
 ---
 
-# Learning Objectives
+## Learning Objectives
 
 After completing this chapter, students will be able to:
 
@@ -21,13 +21,9 @@ After completing this chapter, students will be able to:
 
 ---
 
-# 1. Introduction to Programming
+## 1. Introduction to Programming
 
 ## 1.1 What is Programming?
-
-### বাংলা ব্যাখ্যা
-
-Programming হলো কম্পিউটারকে নির্দিষ্ট কোনো কাজ করানোর জন্য ধাপে ধাপে নির্দেশনা তৈরি করার প্রক্রিয়া।
 
 ধরো, তুমি কম্পিউটারকে দুটি সংখ্যা যোগ করতে বলবে। তাহলে কম্পিউটারকে কয়েকটি নির্দেশনা দিতে হবে:
 
@@ -54,10 +50,6 @@ A program can be written to add two numbers, calculate the average of marks or d
 
 ## 1.2 What is a Program?
 
-### বাংলা ব্যাখ্যা
-
-Program হলো কম্পিউটারকে কোনো নির্দিষ্ট কাজ করানোর জন্য লেখা একগুচ্ছ নির্দেশনার সমষ্টি।
-
 যেমন, দুটি সংখ্যা যোগ করার জন্য লেখা C Code একটি Program।
 
 ### English Exam Answer
@@ -69,10 +61,6 @@ A program is a set of instructions written in a programming language to perform 
 ---
 
 ## 1.3 What is a Programming Language?
-
-### বাংলা ব্যাখ্যা
-
-Programming Language হলো এমন একটি আনুষ্ঠানিক ভাষা যার মাধ্যমে প্রোগ্রামার কম্পিউটারকে বিভিন্ন কাজের নির্দেশনা দেয়।
 
 যেমন:
 
@@ -94,10 +82,6 @@ A programming language is a formal language used by programmers to write instruc
 
 ## 2.1 What is C Language?
 
-### বাংলা ব্যাখ্যা
-
-C একটি General-purpose এবং Procedural Programming Language।
-
 এটি দিয়ে বিভিন্ন ধরনের Software, Operating System-এর অংশ, Compiler এবং Embedded System তৈরি করা যায়।
 
 C Language শেখার মাধ্যমে Programming-এর মৌলিক ধারণা, Logic Building এবং Problem Solving দক্ষতা তৈরি হয়।
@@ -113,10 +97,6 @@ It is widely used for system programming, embedded systems and application devel
 ---
 
 ## 2.2 History of C Language
-
-### বাংলা ব্যাখ্যা
-
-C Language তৈরি করেন Dennis Ritchie। তিনি Bell Laboratories-এ কাজ করার সময় প্রায় ১৯৭২ সালে C তৈরি করেন।
 
 C Language-এর আগে B এবং BCPL-এর মতো Programming Language ব্যবহৃত হতো। C Language এসব পূর্ববর্তী ভাষার ধারণা থেকে প্রভাবিত হয়ে তৈরি হয়।
 
@@ -135,10 +115,6 @@ C Language-এর আগে B এবং BCPL-এর মতো Programming Langua
 ---
 
 ## 2.3 Features of C Language
-
-### বাংলা ব্যাখ্যা
-
-C Language-এর কিছু গুরুত্বপূর্ণ বৈশিষ্ট্য রয়েছে, যেগুলোর কারণে এটি এখনো Programming শেখা ও Software Development-এর ক্ষেত্রে গুরুত্বপূর্ণ।
 
 ### 1. Simple
 
@@ -185,10 +161,6 @@ The important features of C language are given below:
 
 ## 3.1 Why Do We Need a Language Translator?
 
-### বাংলা ব্যাখ্যা
-
-প্রোগ্রামার সাধারণত C-এর মতো High-Level Language ব্যবহার করে Program লেখে। কিন্তু Computer শেষ পর্যন্ত Machine Instructions অনুসরণ করে।
-
 তাই Source Code-কে কম্পিউটারের উপযোগী নিম্নস্তরের কোডে রূপান্তর করতে Language Translator প্রয়োজন হয়।
 
 প্রধানত তিন ধরনের Language Translator রয়েছে:
@@ -213,10 +185,6 @@ The three main types of language translators are:
 
 ## 3.2 What is a Compiler?
 
-### বাংলা ব্যাখ্যা
-
-Compiler হলো এমন একটি Software যা একটি Source Program-কে অনুবাদ করে Object Code বা অন্য কোনো নিম্নস্তরের কোড তৈরি করে।
-
 C Language-এ GCC একটি বহুল ব্যবহৃত Compiler।
 
 সহজভাবে:
@@ -234,10 +202,6 @@ A compiler is a language translator that translates source code written in a hig
 ---
 
 ## 3.3 What is an Interpreter?
-
-### বাংলা ব্যাখ্যা
-
-Interpreter হলো এমন একটি Software যা Program-এর নির্দেশনা ধাপে ধাপে বিশ্লেষণ ও Execute করে।
 
 সাধারণত Interpreter আলাদা Executable File তৈরি না করেই Code চালায়।
 
@@ -267,10 +231,6 @@ An interpreter is a language processor that translates and executes program inst
 ---
 
 ## 3.5 What is an Assembler?
-
-### বাংলা ব্যাখ্যা
-
-Assembler হলো এমন একটি Translator যা Assembly Language-এ লেখা Program-কে Machine Code-এ রূপান্তর করে।
 
 ### English Exam Answer
 
@@ -352,10 +312,6 @@ int main()
 /* User-defined Functions */
 ```
 
-### বাংলা ব্যাখ্যা
-
-**1. Documentation Section:** এখানে Program সম্পর্কে Comment বা বিবরণ লেখা হয়।
-
 **2. Link or Preprocessor Section:** এখানে প্রয়োজনীয় Header File যুক্ত করা হয়।
 
 **3. Global Declaration Section:** এখানে Global Variable এবং Function Declaration রাখা যায়।
@@ -394,10 +350,6 @@ Each section has a specific purpose in organizing and executing the program.
 ---
 
 # 6. How to Compile and Run a C Program
-
-### বাংলা ব্যাখ্যা
-
-C Program চালানোর আগে সাধারণত Source Code Compile করতে হয়।
 
 ধরো, তোমার Program-এর নাম `hello.c` এবং তোমার কম্পিউটারে GCC Compiler ইনস্টল করা আছে।
 
@@ -663,8 +615,6 @@ In this chapter, we learned:
 
 *Educational resource for National University CSE students.*
 
-
-
 ---
 
 ## 12. NU Previous Questions and Board Question Archive
@@ -744,7 +694,6 @@ int main(void)
 3. Write a short C program that prints two lines of text.
 
 **Source caution:** These are secondary uploads. Do not treat an unverified practice question or a question-bank year tag as an official NU paper transcription.
-
 
 ---
 
