@@ -10,7 +10,7 @@
     let courseCredits=0,courseQuality=0;
     for(const course of x.courses){
       const credit=Number(course?.credit),grade=course?.grade||course?.retakeGrade||course?.originalGrade;
-      if(!Number.isFinite(credit)||credit<=0||credit>30||!Object.prototype.hasOwnProperty.call(points,grade))return false;
+      if(typeof course?.name!=="string"||!course.name.trim()||!Number.isFinite(credit)||credit<=0||credit>30||!Object.prototype.hasOwnProperty.call(points,grade))return false;
       courseCredits+=credit;courseQuality+=credit*points[grade];
     }
     return Math.abs(courseCredits-credits)<=0.001&&Math.abs(courseQuality-quality)<=0.001;
@@ -35,7 +35,7 @@
       }
       source=usedSaved&&usedQuick?"saved and Quick CGPA entries":usedSaved?"saved course results":"Quick CGPA entries";
       const t=Number(target.value),r=Number(remaining.value),out=$("#cgpa-required-average",wrap),detail=$("#cgpa-target-detail",wrap);
-      if(!count||!remaining.value||!Number.isFinite(t)||t<0||t>4||!Number.isFinite(r)||r<=0){out.textContent="—";detail.textContent=!count?"Save a semester result or enter valid GPA and credits in Quick CGPA first.":"Enter a target from 0.00 to 4.00 and a positive remaining credit total.";return;}
+      if(!count||!remaining.value||!Number.isFinite(t)||t<0||t>4||!Number.isFinite(r)||r<=0||r>200){out.textContent="—";detail.textContent=!count?"Save a semester result or enter valid GPA and credits in Quick CGPA first.":"Enter a target from 0.00 to 4.00 and a positive remaining credit total.";return;}
       const required=(t*(credits+r)-quality)/r;
       if(required>4){out.textContent="Above 4.00";detail.textContent="This target is not mathematically reachable with the remaining credits entered. Check your target and credit total.";}
       else if(required<=0){out.textContent="0.00 or higher";detail.textContent="Your current quality points already meet or exceed this target.";}
