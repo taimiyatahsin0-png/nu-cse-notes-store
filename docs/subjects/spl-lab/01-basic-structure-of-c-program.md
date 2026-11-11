@@ -1,7 +1,7 @@
 # Practical 01: Basic Structure of a C Program
 
-> **Status:** Suggested foundational practical  
-> **Related theory course:** 510201 – Structured Programming Language  
+> **Status:** Suggested foundational practical
+> **Related theory course:** 510201 – Structured Programming Language
 > **Lab course:** 510202 – Structured Programming Language Lab
 
 !!! note "Syllabus and experiment-order note"
@@ -174,34 +174,34 @@ Institution: Your Institution
 
 ## 13. Viva questions
 
-**Q1. What is a compiler?**  
+**Q1. What is a compiler?**
 A compiler translates source code written in a programming language into a form that can be executed by the computer.
 
-**Q2. What is the purpose of `#include <stdio.h>`?**  
+**Q2. What is the purpose of `#include <stdio.h>`?**
 It makes the declarations of standard input/output functions such as `printf()` available to the program.
 
-**Q3. Where does execution begin in a standard hosted C program?**  
+**Q3. Where does execution begin in a standard hosted C program?**
 Execution begins in the `main()` function.
 
-**Q4. What is the purpose of `printf()`?**  
+**Q4. What is the purpose of `printf()`?**
 It prints formatted output to the standard output stream.
 
-**Q5. Why is a semicolon used?**  
+**Q5. Why is a semicolon used?**
 A semicolon terminates most C statements.
 
-**Q6. Is C case-sensitive?**  
+**Q6. Is C case-sensitive?**
 Yes. Uppercase and lowercase letters are treated as different in identifiers.
 
-**Q7. What is a variable?**  
+**Q7. What is a variable?**
 A variable is a named storage location whose value can change during program execution.
 
-**Q8. What is a constant?**  
+**Q8. What is a constant?**
 A constant is a value that the program is not intended to modify. The `const` keyword can be used to declare an object that cannot be modified through that identifier.
 
-**Q9. Name four basic C data types.**  
+**Q9. Name four basic C data types.**
 `int`, `char`, `float`, and `double`.
 
-**Q10. What does `return 0;` mean in `main()`?**  
+**Q10. What does `return 0;` mean in `main()`?**
 It reports successful termination to the host environment.
 
 ## 14. Common mistakes
