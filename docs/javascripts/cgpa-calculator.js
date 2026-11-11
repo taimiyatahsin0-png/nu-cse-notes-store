@@ -139,7 +139,7 @@
         }
         if(validSaved(state.saved[n])&&!window.confirm("Replace the previously saved Semester "+n+" result with these grades?"))return;
         state.saved[n]={gpa:data.gpa,credits:data.credits,quality:data.quality,courses:data.courses};
-        delete state.drafts[n];saveState();updateSavedSummary();
+        delete state.drafts[n];saveState();updateSavedSummary();window.dispatchEvent(new CustomEvent("nu-cse-cgpa-saved-updated"));
         setText('[data-message="'+n+'"]',"Semester "+n+" result saved. The cumulative CGPA has been updated.");
       }
     });
@@ -156,7 +156,7 @@
     });
     $(".cgpa-reset-all").addEventListener("click",()=>{
       if(!window.confirm("Delete all saved semester results from this browser? This cannot be undone."))return;
-      state.saved={};state.drafts={};saveState();updateSavedSummary();
+      state.saved={};state.drafts={};saveState();updateSavedSummary();window.dispatchEvent(new CustomEvent("nu-cse-cgpa-saved-updated"));
       for(let i=1;i<=8;i++){
         const body=$('[data-rows="'+i+'"]');
         $(".cgpa-grade,.cgpa-retake-grade",body).forEach(select=>select.value="");
