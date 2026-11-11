@@ -1,7 +1,7 @@
 # English Midterm Exam Preparation
 
-**Course:** English (510209)  
-**Level:** CSE First Semester  
+**Course:** English (510209)
+**Level:** CSE First Semester
 **Scope:** Reading Comprehension, Articles, Correct Form of Verbs, Conjunctions, Correct Sentences, Paragraph Writing, Summary Writing, Business Letter and Complaint Letter.
 
 > **Study order:** Understand the concept in Bangla, learn the standard English form, practise independently and compare your answer with the key. All questions here are original practice, not verified NU previous-year questions.
@@ -10,16 +10,7 @@
 
 ## 1. Reading Comprehension
 
-### সহজ বাংলায়
-Reading comprehension মানে passage পড়ে তার মূল বক্তব্য, নির্দিষ্ট তথ্য, শব্দের অর্থ এবং implied meaning বুঝে প্রশ্নের উত্তর দেওয়া। Passage-এর বাইরে নিজের মতামত যোগ করবে না।
-
 ### Step-by-step method
-1. Title ও passage দ্রুত পড়ে topic বোঝো।
-2. প্রশ্নগুলো পড়ে keyword চিহ্নিত করো।
-3. Passage-এ keyword বা তার synonym খুঁজে বের করো।
-4. সংশ্লিষ্ট বাক্যের আগে-পরে পড়ে context বোঝো।
-5. প্রশ্ন যতটুকু চায়, ততটুকুই উত্তর দাও।
-6. Inference-এর ক্ষেত্রে passage থেকে প্রমাণ পাওয়া যায় কি না যাচাই করো।
 
 ### Original practice passage
 Technology has changed the way students learn. Online libraries, educational videos and digital classrooms allow learners to access information from many places. However, having access to information does not automatically mean that a student understands it. Students need to compare sources, identify reliable information and practise what they learn. They should also take breaks and maintain a balance between screen time and other activities. Technology becomes most useful when learners use it thoughtfully and responsibly.
@@ -44,16 +35,13 @@ Technology has changed the way students learn. Online libraries, educational vid
 
 ## 2. Articles: A, An and The
 
-### সহজ বাংলায়
-Article noun-এর আগে বসে। A/An সাধারণত অনির্দিষ্ট singular countable noun-এর আগে বসে; The নির্দিষ্ট বা পরিচিত noun বোঝায়। Article নির্বাচন spelling নয়, প্রথম sound অনুযায়ী হবে।
-
 ### Rules
 
 | Article | Use | Examples |
 |---|---|---|
-| A | Consonant sound-এর আগে | a book, a university, a European country |
-| An | Vowel sound-এর আগে | an apple, an hour, an honest person |
-| The | নির্দিষ্ট বা আগে উল্লেখ করা noun | the book on the table |
+| A | — | a book, a university, a European country |
+| An | — | an apple, an hour, an honest person |
+| The | — | the book on the table |
 | The | Unique object / superlative | the sun, the best student |
 | No article | General plural or uncountable noun | Books are useful. Water is essential. |
 
@@ -87,9 +75,6 @@ Article noun-এর আগে বসে। A/An সাধারণত অনি�
 
 ## 3. Correct Form of Verbs
 
-### সহজ বাংলায়
-Verb-এর সঠিক form নির্ভর করে subject, tense, auxiliary verb, voice এবং sentence structure-এর ওপর। Blank পূরণের আগে subject ও time expression চিহ্নিত করবে।
-
 ### Core rules
 
 | Rule | Structure | Example |
@@ -105,12 +90,6 @@ Verb-এর সঠিক form নির্ভর করে subject, tense, auxil
 | Infinitive | to + V1 | She wants to learn. |
 
 **Special reminders**
-- Did-এর পরে base verb: did not go, not did not went.
-- Can, should, must-এর পরে V1: can speak.
-- Has/have/had-এর পরে perfect construction-এ V3।
-- Preposition-এর পরে verb এলে সাধারণত gerund: interested in learning.
-- If I were you একটি standard hypothetical expression.
-- Since starting point বোঝায়; for duration বোঝায়.
 
 ### Practice: Use the correct form
 1. She usually (go) to college by bus.
@@ -142,9 +121,6 @@ Verb-এর সঠিক form নির্ভর করে subject, tense, auxil
 
 ## 4. Conjunctions
 
-### সহজ বাংলায়
-Conjunction এমন word যা word, phrase বা clause যুক্ত করে। Blank-এর আগে-পরে meaning দেখে বুঝবে addition, contrast, reason, result, choice নাকি condition বোঝানো হয়েছে।
-
 ### Main types
 - **Coordinating:** for, and, nor, but, or, yet, so.
 - **Subordinating:** because, although, if, when, while, unless, before, after.
@@ -152,14 +128,14 @@ Conjunction এমন word যা word, phrase বা clause যুক্ত ক
 
 | Conjunction | Meaning / use | Example |
 |---|---|---|
-| because | কারণ | I stayed home because I was ill. |
-| although | যদিও | Although it rained, we played. |
-| but | কিন্তু | He is poor, but honest. |
-| so | তাই / ফলাফল | It was late, so we left. |
-| unless | যদি না | You cannot pass unless you study. |
-| while | যখন / contrast | She read while I wrote. |
-| either...or | দুটির একটি | Either Rafi or Sami will lead. |
-| neither...nor | কোনোটিই নয় | Neither tea nor coffee is available. |
+| because | — | I stayed home because I was ill. |
+| although | — | Although it rained, we played. |
+| but | — | He is poor, but honest. |
+| so | — | It was late, so we left. |
+| unless | — | You cannot pass unless you study. |
+| while | — | She read while I wrote. |
+| either...or | — | Either Rafi or Sami will lead. |
+| neither...nor | — | Neither tea nor coffee is available. |
 
 ### Practice
 1. I stayed at home ___ I was ill.
@@ -186,9 +162,6 @@ Conjunction এমন word যা word, phrase বা clause যুক্ত ক
 ---
 
 ## 5. Correct Sentences
-
-### সহজ বাংলায়
-Sentence correction-এ ভুল grammar, tense, word order, article, preposition, number, pronoun বা parallel structure ঠিক করতে হয়। প্রথমে subject ও main verb চিহ্নিত করো। অপ্রয়োজনে পুরো sentence নতুন করে লিখবে না।
 
 ### Common rules
 1. **Subject–verb agreement:** She does not know me.
@@ -224,13 +197,7 @@ Sentence correction-এ ভুল grammar, tense, word order, article, prepositi
 
 ## 6. Paragraph Writing
 
-### সহজ বাংলায়
-Paragraph-এ একটি central topic থাকবে। প্রথম sentence-এ topic introduce করবে, মাঝের sentence-গুলোতে explanation ও example দেবে, শেষে concluding sentence লিখবে।
-
 ### Structure
-1. **Topic sentence:** মূল বিষয় পরিচয় করায়।
-2. **Supporting sentences:** কারণ, ব্যাখ্যা ও উদাহরণ দেয়।
-3. **Concluding sentence:** মূল বক্তব্য সুন্দরভাবে শেষ করে।
 
 ### Writing process
 Brainstorm → arrange ideas → write a topic sentence → add 3–5 relevant supporting sentences → conclude → revise grammar and spelling.
@@ -254,16 +221,7 @@ Time management is an essential skill for students. It helps them use their limi
 
 ## 7. Summary Writing
 
-### সহজ বাংলায়
-Summary হলো passage-এর central idea ও essential supporting points নিজের ভাষায় সংক্ষেপে লেখা। Example, repetition, minor details এবং personal opinion বাদ দেবে।
-
 ### Method
-1. Passage দুইবার পড়ো।
-2. Main idea ও essential points চিহ্নিত করো।
-3. Example ও repeated information বাদ দাও।
-4. নিজের ভাষায় একটি coherent paragraph লেখো।
-5. প্রশ্নে word limit থাকলে সেটি মেনে চলো।
-6. Original passage-এর meaning পরিবর্তন করো না।
 
 ### Practice passage
 Trees are essential to human life and the natural environment. They absorb carbon dioxide and release oxygen, helping to maintain the balance of gases in the atmosphere. Their roots hold soil together and reduce erosion. Trees also provide food and shelter for many animals. In cities, they offer shade and help reduce heat. However, deforestation destroys habitats and creates serious environmental problems. Protecting forests and planting trees are therefore necessary for a healthier planet.
@@ -276,9 +234,6 @@ Trees support environmental balance by absorbing carbon dioxide, releasing oxyge
 ---
 
 ## 8. Business Letter
-
-### সহজ বাংলায়
-Business letter হলো formal communication। ভাষা হবে polite, clear, specific এবং professional। Subject line দেখে recipient যেন চিঠির উদ্দেশ্য বুঝতে পারেন।
 
 ### Standard format
 1. Sender's address
@@ -301,7 +256,7 @@ I am writing to request information about the course registration process for th
 
 I would appreciate your guidance at your earliest convenience.
 
-Yours faithfully,  
+Yours faithfully,
 A Student
 
 **Useful expressions:** I am writing to enquire about...; I would be grateful if you could...; I would appreciate it if you would...; Please let me know...; Thank you for your assistance.
@@ -311,9 +266,6 @@ A Student
 ---
 
 ## 9. Complaint Letter
-
-### সহজ বাংলায়
-Complaint letter-এ কোনো product বা service-এর সমস্যা facts দিয়ে ব্যাখ্যা করবে। শুধু অভিযোগ করাই লক্ষ্য নয়; replacement, repair, refund বা অন্য reasonable solution চাইবে।
 
 ### Structure
 Sender details → Date → Receiver details → Subject → Salutation → Purchase/service details → Problem → Evidence/reference → Requested solution → Closing.
@@ -329,7 +281,7 @@ I request you to inspect the product and arrange a replacement or refund under t
 
 I would appreciate a response within seven working days.
 
-Yours faithfully,  
+Yours faithfully,
 A Customer
 
 **Useful expressions:** I wish to bring to your attention...; Unfortunately, the product/service...; I request that you...; I would appreciate a prompt resolution.
@@ -363,12 +315,9 @@ A Customer
 
 *This is an original revision guide based on the midterm topics previously provided for practice. It does not claim to reproduce an official NU question paper or guarantee the exact format of an upcoming examination. Follow your teacher's instructions and any updated course outline.*
 
-
 ---
 
 ## 11. Mixed Grammar Drill: 30 Original Questions
-
-এই অংশে Articles, Verb Forms, Subject–Verb Agreement, Conjunctions, Gerunds, Infinitives, Participles, Conditionals এবং Sentence Correction একসঙ্গে practice করবে। প্রথমে নিজে solve করবে, তারপর answer key দেখবে।
 
 ### A. Fill in the blanks
 
