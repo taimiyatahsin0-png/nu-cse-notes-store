@@ -1,8 +1,5 @@
 # Correct Sentences and Common Errors
 
-## সহজ বাংলায় ধারণা
-Correct sentence-এ subject–verb agreement, tense, word order, article, preposition, pronoun এবং parallel structure ঠিক থাকে। Sentence correction-এ প্রথমে subject ও main verb চিহ্নিত করো, তারপর বাকির অংশ পরীক্ষা করো।
-
 ## Core rules and method
 **Agreement:** She does not like tea. (not She do not…)
 
