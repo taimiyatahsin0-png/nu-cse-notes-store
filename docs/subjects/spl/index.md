@@ -100,8 +100,6 @@ C Programming Language.
 4. **Trace/output:** use a variable trace table and update values in execution order.
 5. **Flowchart:** use standard symbols, label Yes/No branches and keep the flow clear.
 
-## Teaching approach
-
 ## Reference books
 
 1. Schaum's Outline of Theory and Problems of Programming with C — B. S. Gottfried
