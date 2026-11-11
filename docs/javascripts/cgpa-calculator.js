@@ -9,7 +9,7 @@
     root.dataset.ready="true";
     const $=(selector,scope=root)=>scope.querySelector(selector);
     const $$=(selector,scope=root)=>Array.from(scope.querySelectorAll(selector));
-    const blankState=()=>({saved:{},quick:{}});
+    const blankState=()=>({saved:{},drafts:{},quick:{}});
     let state=blankState();
     try {
       const stored=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null");
@@ -17,6 +17,7 @@
     } catch(_) { state=blankState(); }
     if(!state.saved || typeof state.saved!=="object" || Array.isArray(state.saved)) state.saved={};
     if(!state.quick || typeof state.quick!=="object" || Array.isArray(state.quick)) state.quick={};
+    if(!state.drafts || typeof state.drafts!=="object" || Array.isArray(state.drafts)) state.drafts={};
     const saveState=()=>{try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}catch(_){}};
     const fmt=n=>Number.isFinite(Number(n))?Number(n).toFixed(2):"—";
     const fieldValue=el=>el?(("value" in el)?String(el.value).trim():String(el.textContent).trim()):"";
@@ -50,7 +51,7 @@
       const data=readSemester(semester);
       const progress=$('[data-progress="'+semester+'"]');
       if(progress)progress.textContent=data.selected+" / "+data.total+" original grades entered";
-      setText('[data-sgpa="'+semester+'"]',data.invalid?"Check entries":data.gpa===null?"—":fmt(data.gpa));
+      setText('[data-semester-gpa="'+semester+'"]',data.invalid?"Check entries":data.gpa===null?"—":fmt(data.gpa));
       setText('[data-total-credits="'+semester+'"]',fmt(data.credits));
       setText('[data-quality="'+semester+'"]',fmt(data.quality));
       let message="Enter the original grade for every listed course. Add a retake or improvement grade only when applicable.";
@@ -73,6 +74,24 @@
       setText("#cgpa-overall-detail",count?count+" saved semester(s) · "+fmt(credits)+" attempted credits":"No semester results saved yet");
     }
 
+    function saveDraft(semester) {
+      const body=$('[data-rows="'+semester+'"]');
+      state.drafts[semester]=$(".cgpa-course-row",body).map(row=>({name:fieldValue($(".cgpa-course-name",row)),originalGrade:$(".cgpa-grade",row).value,retakeGrade:$(".cgpa-retake-grade",row).value}));
+      saveState();
+    }
+    function loadDraft(semester) {
+      const draft=state.drafts[semester];
+      if(!Array.isArray(draft))return false;
+      const body=$('[data-rows="'+semester+'"]');
+      const byName=new Map(draft.map(course=>[course.name,course]));
+      $(".cgpa-course-row",body).forEach(row=>{
+        const saved=byName.get(fieldValue($(".cgpa-course-name",row)));
+        $(".cgpa-grade",row).value=saved?(saved.originalGrade||""):"";
+        $(".cgpa-retake-grade",row).value=saved?(saved.retakeGrade||""):"";
+      });
+      updateSemester(semester);
+      return true;
+    }
     function loadSemester(semester) {
       const item=state.saved[semester];
       if(!validSaved(item)||!Array.isArray(item.courses))return;
@@ -101,7 +120,7 @@
     }));
     $("#cgpa-semester-panels").addEventListener("change",event=>{
       const panel=event.target.closest(".cgpa-semester-panel");
-      if(panel)updateSemester(Number(panel.dataset.panel));
+      if(panel){const n=Number(panel.dataset.panel);saveDraft(n);updateSemester(n);}
     });
     $("#cgpa-semester-panels").addEventListener("click",event=>{
       const clear=event.target.closest("[data-clear]");
@@ -109,6 +128,7 @@
       if(clear){
         const n=Number(clear.dataset.clear),body=$('[data-rows="'+n+'"]');
         $(".cgpa-grade,.cgpa-retake-grade",body).forEach(select=>select.value="");
+        delete state.drafts[n];saveState();
         updateSemester(n);
         setText('[data-message="'+n+'"]',"Current entries cleared. Any previously saved semester result remains in your CGPA until you save a replacement or reset all saved results.");
       }else if(save){
@@ -119,7 +139,7 @@
         }
         if(validSaved(state.saved[n])&&!window.confirm("Replace the previously saved Semester "+n+" result with these grades?"))return;
         state.saved[n]={gpa:data.gpa,credits:data.credits,quality:data.quality,courses:data.courses};
-        saveState();updateSavedSummary();
+        delete state.drafts[n];saveState();updateSavedSummary();
         setText('[data-message="'+n+'"]',"Semester "+n+" result saved. The cumulative CGPA has been updated.");
       }
     });
@@ -133,7 +153,7 @@
     });
     $(".cgpa-reset-all").addEventListener("click",()=>{
       if(!window.confirm("Delete all saved semester results from this browser? This cannot be undone."))return;
-      state.saved={};saveState();updateSavedSummary();
+      state.saved={};state.drafts={};saveState();updateSavedSummary();
       for(let i=1;i<=8;i++){
         const body=$('[data-rows="'+i+'"]');
         $(".cgpa-grade,.cgpa-retake-grade",body).forEach(select=>select.value="");
@@ -243,7 +263,7 @@
     window.addEventListener("afterprint",()=>{targetHidePrint();});
     function targetHidePrint(){const target=$("#cgpa-print-summary");if(target)target.hidden=true;}
 
-    for(let i=1;i<=8;i++)if(validSaved(state.saved[i]))loadSemester(i);
+    for(let i=1;i<=8;i++){if(!loadDraft(i)&&validSaved(state.saved[i]))loadSemester(i);}
     updateQuick();updateSavedSummary();
     for(let i=1;i<=8;i++)updateSemester(i);
   }
