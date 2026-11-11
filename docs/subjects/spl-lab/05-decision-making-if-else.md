@@ -1,7 +1,7 @@
 # Practical 05: Decision Making Using if, if-else, and Nested if
 
-> **Status:** Suggested practice practical  
-> **Related theory topics:** Decision making, relational operators, logical operators  
+> **Status:** Suggested practice practical
+> **Related theory topics:** Decision making, relational operators, logical operators
 > **Lab course:** 510202 – Structured Programming Language Lab
 
 !!! note "Syllabus and experiment-order note"
@@ -277,25 +277,25 @@ The programs demonstrate one-way decision-making with `if`, two-way decision-mak
 
 ## 14. Viva questions
 
-**Q1. What is a decision-making statement?**  
+**Q1. What is a decision-making statement?**
 A decision-making statement controls which part of a program executes based on a condition.
 
-**Q2. What is the purpose of the `if` statement?**  
+**Q2. What is the purpose of the `if` statement?**
 It executes a block of statements when its condition is true.
 
-**Q3. What is the difference between `if` and `if-else`?**  
+**Q3. What is the difference between `if` and `if-else`?**
 `if` provides an action for a true condition, while `if-else` provides separate alternatives for true and false conditions.
 
-**Q4. What is a nested if statement?**  
+**Q4. What is a nested if statement?**
 It is an `if` statement placed inside another decision-making block.
 
-**Q5. How does C interpret a condition?**  
+**Q5. How does C interpret a condition?**
 Zero is false; any non-zero value is true.
 
-**Q6. Which operator checks whether a number is divisible by 2?**  
+**Q6. Which operator checks whether a number is divisible by 2?**
 The modulus operator (`%`) can be used: `number % 2 == 0`.
 
-**Q7. Why is `>=` used when finding the largest number?**  
+**Q7. Why is `>=` used when finding the largest number?**
 It handles equality as well as greater-than cases, so tied maximum values are handled correctly.
 
 ## 15. Common mistakes
