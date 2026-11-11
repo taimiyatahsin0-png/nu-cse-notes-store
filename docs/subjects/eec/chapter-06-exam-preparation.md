@@ -1,8 +1,8 @@
 # Chapter 06 Exam Preparation: Bipolar Junction Transistors (BJT)
 
-> **Course:** Electrical and Electronic Circuit (EEC)  
-> **Course Code:** 510203  
-> **Chapter:** 06 — Bipolar Junction Transistors  
+> **Course:** Electrical and Electronic Circuit (EEC)
+> **Course Code:** 510203
+> **Chapter:** 06 — Bipolar Junction Transistors
 > **Purpose:** Beginner-friendly revision, exam answers, circuit concepts and numerical practice.
 
 ---
@@ -24,58 +24,9 @@ Prioritise these areas:
 
 **Exam tip:** For a long answer, use this order where relevant: definition → labelled diagram → working principle → equations/characteristics → advantages or applications.
 
-## Bangla concept guide — আগে বুঝে নাও
-
-এই অংশটি মূলত ধারণা পরিষ্কার করার জন্য। পরীক্ষায় লেখার সময় পরের English definitions, equations এবং descriptive answers ব্যবহার করবে।
-
-### 1. BJT আসলে কী করে?
-
-BJT-কে সহজভাবে একটি **নিয়ন্ত্রণযোগ্য electronic valve** হিসেবে ভাবতে পারো। এর তিনটি terminal হলো Emitter, Base ও Collector। Emitter থেকে charge carrier আসে, Base খুব ছোট control region হিসেবে কাজ করে, আর Collector সেই carrier সংগ্রহ করে।
-
-- **Emitter:** charge carrier সরবরাহ করে।
-- **Base:** emitter থেকে collector-এ carrier যাওয়ার প্রবাহ নিয়ন্ত্রণে সাহায্য করে।
-- **Collector:** অধিকাংশ carrier সংগ্রহ করে এবং সার্কিটে output current বহন করে।
-
-Base খুব পাতলা ও lightly doped রাখা হয়, যাতে emitter থেকে আসা অধিকাংশ carrier base-এ recombine না করে collector-এ পৌঁছাতে পারে।
-
-### 2. NPN ও PNP কীভাবে মনে রাখবে?
-
-- **NPN:** N-type, P-type, N-type। Emitter-এর majority carrier হলো electron। Symbol-এর emitter arrow বাইরে নির্দেশ করে।
-- **PNP:** P-type, N-type, P-type। Emitter-এর majority carrier হলো hole। Symbol-এর emitter arrow ভেতরের দিকে নির্দেশ করে।
-
-মনে রাখার সহজ কৌশল: **NPN = arrow points out; PNP = arrow points in.** Arrow সবসময় emitter terminal-এ থাকে।
-
-### 3. Active region-এ transistor-এর ভেতরে কী ঘটে?
-
-Amplifier হিসেবে কাজ করার সময় সাধারণত:
-1. Emitter-Base junction forward biased থাকে।
-2. Collector-Base junction reverse biased থাকে।
-3. Emitter থেকে carrier Base-এ প্রবেশ করে।
-4. অল্প carrier Base-এ recombine করে; এর সঙ্গে base current সম্পর্কিত।
-5. অধিকাংশ carrier Collector-এ পৌঁছে collector current তৈরি করে।
-
-এখানে Base current তুলনামূলক ছোট হলেও সেটি collector current নিয়ন্ত্রণ করে। তবে transistor-এর আচরণ সঠিক biasing, load এবং device-এর বৈশিষ্ট্যের ওপর নির্ভর করে।
-
-### 4. তিনটি current-এর সম্পর্ক
-
-Emitter current হলো Base ও Collector current-এর যোগফল:
-
 \[
 I_E=I_B+I_C
 \]
-
-অর্থাৎ, emitter দিয়ে যত current প্রবেশ করে, তার একটি অংশ base current এবং বাকি অংশ collector current হিসেবে বিবেচিত হয় (usual current magnitudes অনুযায়ী)।
-
-**মনে রাখবে:** current যোগ করার আগে unit একই করতে হবে। যেমন, \(40\ \mu A=0.04\ mA\)।
-
-### 5. Alpha (α) ও Beta (β) — কোনটি কী?
-
-- **Alpha:** Common-base current gain। Collector current-কে emitter current দিয়ে ভাগ করা হয়: \(\alpha=I_C/I_E\)। তাই active operation-এ এটি সাধারণত 1-এর সামান্য কম।
-- **Beta:** Common-emitter current gain। Collector current-কে base current দিয়ে ভাগ করা হয়: \(\beta=I_C/I_B\)। এটি সাধারণত 1-এর চেয়ে অনেক বড় হতে পারে।
-
-মনে রাখার কৌশল: **α-তে Emitter, β-তে Base** denominator-এ থাকে।
-
-সম্পর্কটি আসে \(I_E=I_B+I_C\) থেকে:
 
 \[
 \beta=\frac{\alpha}{1-\alpha},
@@ -83,101 +34,44 @@ I_E=I_B+I_C
 \alpha=\frac{\beta}{\beta+1}
 \]
 
-### 6. Amplifier আর switch-এর পার্থক্য
-
-একই transistor দুইভাবে ব্যবহার করা যায়:
-
-- **Amplifier:** Active region-এ কাজ করে। ছোট input পরিবর্তনের কারণে collector current-এ তুলনামূলক বড় পরিবর্তন হয়। DC supply output signal-এর অতিরিক্ত শক্তি সরবরাহ করে।
-- **Switch:** OFF অবস্থায় cut-off এবং ON অবস্থায় সাধারণত saturation ব্যবহার করা হয়। LED বা অন্য load চালু-বন্ধ করার মতো কাজে এটি ব্যবহৃত হয়।
-
-তাই পরীক্ষায় লিখবে: **Amplification → Active region; Switching → Cut-off and Saturation.**
-
-### 7. CB, CE ও CC — কোন terminal common?
-
-Configuration-এর নাম দেওয়া হয় যে terminal input ও output—দুই circuit-এর জন্য common থাকে, তার ভিত্তিতে।
-
-- **CB (Common Base):** Base common; input resistance কম, current gain \(\alpha\) এবং voltage gain বেশি হতে পারে।
-- **CE (Common Emitter):** Emitter common; current ও voltage—দুই ধরনের gain পাওয়া যায়, তাই সাধারণ amplifier হিসেবে বহুল ব্যবহৃত। Output সাধারণত input-এর তুলনায় 180° phase-reversed।
-- **CC (Common Collector):** Collector common; emitter follower নামেও পরিচিত। Voltage gain প্রায় 1, input resistance বেশি এবং output resistance কম—তাই buffer হিসেবে উপযোগী।
-
-মনে রাখার shortcut: **CB = low input resistance; CE = common amplifier; CC = buffer.**
-
-### 8. Characteristic graph কী বোঝায়?
-
-Characteristic graph transistor-এর voltage ও current-এর সম্পর্ক দেখায়। যেমন CE output characteristic-এ horizontal axis-এ \(V_{CE}\), vertical axis-এ \(I_C\), আর আলাদা curve-গুলো ভিন্ন fixed \(I_B\)-এর জন্য আঁকা হয়।
-
-Graph আঁকার সময়:
-1. X ও Y axis-এর নাম ও unit লিখবে।
-2. কোন current বা voltage fixed রাখা হয়েছে তা উল্লেখ করবে।
-3. প্রয়োজন হলে cut-off, active ও saturation region চিহ্নিত করবে।
-4. প্রশ্নে দেওয়া NPN/PNP polarity convention অনুসরণ করবে।
-
-### 9. Load line ও Q-point সহজভাবে
-
-DC supply ও collector resistor transistor-এর জন্য একটি সীমা তৈরি করে—কোন \(I_C\) এবং \(V_{CE}\) একসঙ্গে সম্ভব, সেটিই DC load line দেখায়।
-
 \[
 V_{CE}=V_{CC}-I_C R_C
 \]
 
-দুটি endpoint:
-- Cut-off: \(I_C=0\), তাই \(V_{CE}=V_{CC}\)।
-- Idealised saturation: \(V_{CE}\approx0\), তাই \(I_C\approx V_{CC}/R_C\)।
-
-**Q-point** হলো input AC signal না থাকলে transistor-এর স্থির DC operating condition। Amplifier-এর জন্য Q-point সাধারণত active region-এ রাখা হয়, যাতে signal-এর ওঠানামায় transistor দ্রুত cut-off বা saturation-এ চলে না যায়।
-
-### 10. Biasing কেন দরকার?
-
-শুধু transistor বসালেই নির্ভরযোগ্য amplification পাওয়া যায় না। উপযুক্ত DC voltage ও current দিয়ে Q-point স্থির করতে হয়—এই কাজই biasing।
-
-- **Fixed bias:** একটি base resistor দিয়ে base current নির্ধারণ করা হয়; circuit সহজ, কিন্তু β ও temperature পরিবর্তনে Q-point বেশি নড়তে পারে।
-- **Collector-to-base feedback bias:** Collector voltage-এর পরিবর্তন base current-কে প্রভাবিত করে; negative feedback stability বাড়াতে সাহায্য করে।
-- **Voltage-divider bias:** দুই resistor base voltage নির্ধারণ করে; emitter resistor current বেড়ে গেলে সেই বৃদ্ধি কমানোর negative feedback দেয়। তাই এটি সাধারণত fixed bias-এর চেয়ে বেশি stable।
-
-### 11. Numerical কীভাবে সমাধান করবে?
-
-Fixed-bias CE circuit-এর সাধারণ ধাপ:
-
-1. **Given লিখবে:** \(V_{CC}, R_B, R_C, \beta, V_{BE}\)।
 2. **Base current:** \(I_B=(V_{CC}-V_{BE})/R_B\)।
 3. **Collector current estimate:** \(I_C=\beta I_B\)।
 4. **Collector-emitter voltage:** \(V_{CE}=V_{CC}-I_C R_C\)।
-5. **Check করবে:** ফলাফল load-line সীমার মধ্যে আছে কি না। অস্বাভাবিক বা অসম্ভব \(V_{CE}\) এলে active-region assumption ঠিক নয়; saturation বিবেচনা করতে হবে।
-
-**ছোট উদাহরণ:** যদি \(I_B=20\ \mu A\) এবং \(\beta=80\), তাহলে
 
 \[
 I_C=80\times20\ \mu A=1600\ \mu A=1.6\ mA
 \]
 
-এখানে \(\mu A\) থেকে mA-তে conversion না করলে unit ভুল হবে।
-
 ---
 
 ## 2. Essential definitions (exam-ready)
 
-**Bipolar Junction Transistor (BJT):**  
+**Bipolar Junction Transistor (BJT):**
 A BJT is a three-terminal, three-layer semiconductor device containing two P-N junctions, in which both electrons and holes take part in current conduction.
 
-**Emitter:**  
+**Emitter:**
 The heavily doped region of a transistor that supplies charge carriers.
 
-**Base:**  
+**Base:**
 The thin and lightly doped middle region that controls the flow of charge carriers from emitter to collector.
 
-**Collector:**  
+**Collector:**
 The region that collects charge carriers and is designed to dissipate heat.
 
-**Current gain:**  
+**Current gain:**
 The ratio of output current to input current in a transistor configuration.
 
-**Transistor biasing:**  
+**Transistor biasing:**
 The process of applying suitable DC voltages and currents to establish a desired operating point.
 
-**Q-point (Quiescent point):**  
+**Q-point (Quiescent point):**
 The DC operating condition of a transistor when no input AC signal is applied.
 
-**DC load line:**  
+**DC load line:**
 A straight line on a transistor output-characteristic graph that represents all possible combinations of collector current and collector-emitter voltage allowed by the external DC circuit.
 
 ## 3. Construction and types of BJT
@@ -195,7 +89,7 @@ A BJT has three semiconductor regions and three terminals: emitter (E), base (B)
 | Active-mode base polarity | Positive relative to emitter | Negative relative to emitter |
 | Uses | Amplification and switching | Amplification and switching |
 
-**Why is the base thin and lightly doped?**  
+**Why is the base thin and lightly doped?**
 So that only a small number of injected carriers recombine in the base and most can reach the collector.
 
 **Memory aid:** NPN arrow points out; PNP arrow points in. The arrow is on the emitter.
@@ -508,7 +402,7 @@ I_B=\frac{V_{CC}-V_{BE}}{R_B}
 I_C\approx\beta I_B
 \]
 
-**Advantage:** Simple circuit and easy calculation.  
+**Advantage:** Simple circuit and easy calculation.
 **Limitation:** Q-point is sensitive to beta and temperature changes.
 
 ### Collector-to-base feedback bias
@@ -521,7 +415,7 @@ Two resistors establish the base voltage, and an emitter resistor is commonly us
 
 If emitter current rises, emitter voltage rises. This reduces base-emitter voltage and tends to oppose the increase in current. This negative feedback makes the Q-point more stable.
 
-**Advantage:** Generally better stability than fixed bias.  
+**Advantage:** Generally better stability than fixed bias.
 **Limitation:** More components and a somewhat more involved design.
 
 | Method | Main principle | Relative stability |
@@ -574,49 +468,49 @@ The result is positive and below the supply voltage, so the active-region estima
 
 ## 14. Important short questions and answers
 
-**1. What does BJT stand for?**  
+**1. What does BJT stand for?**
 Bipolar Junction Transistor.
 
-**2. Name the three terminals of a BJT.**  
+**2. Name the three terminals of a BJT.**
 Emitter, base and collector.
 
-**3. Why is it called bipolar?**  
+**3. Why is it called bipolar?**
 Because both electrons and holes take part in conduction.
 
-**4. Name the two types of BJT.**  
+**4. Name the two types of BJT.**
 NPN and PNP.
 
-**5. Which way does the NPN emitter arrow point?**  
+**5. Which way does the NPN emitter arrow point?**
 Outward.
 
-**6. State the relation among transistor currents.**  
+**6. State the relation among transistor currents.**
 \(I_E=I_B+I_C\).
 
-**7. Define alpha.**  
+**7. Define alpha.**
 \(\alpha=I_C/I_E\), the common-base current gain.
 
-**8. Define beta.**  
+**8. Define beta.**
 \(\beta=I_C/I_B\), the common-emitter current gain.
 
-**9. In which region does a BJT work as an amplifier?**  
+**9. In which region does a BJT work as an amplifier?**
 Active region.
 
-**10. Which regions are used for switching?**  
+**10. Which regions are used for switching?**
 Cut-off and saturation.
 
-**11. Which configuration is also called an emitter follower?**  
+**11. Which configuration is also called an emitter follower?**
 Common collector (CC).
 
-**12. Which configuration is widely used for voltage amplification?**  
+**12. Which configuration is widely used for voltage amplification?**
 Common emitter (CE).
 
-**13. What is a load line?**  
+**13. What is a load line?**
 A straight line representing the DC current-voltage combinations allowed by the external circuit.
 
-**14. What does Q-point mean?**  
+**14. What does Q-point mean?**
 The no-signal DC operating point of a transistor.
 
-**15. Why is biasing required?**  
+**15. Why is biasing required?**
 To establish and stabilise the desired operating point.
 
 ## 15. Important descriptive questions
