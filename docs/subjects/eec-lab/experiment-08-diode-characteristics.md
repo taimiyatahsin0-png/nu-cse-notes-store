@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 08: study of the v–i characteristics of a pn junction diode using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 A PN junction diode conducts readily when forward biased after the applied voltage overcomes the junction barrier; in reverse bias only a small leakage current flows until breakdown. The forward and reverse V–I characteristics are not symmetric. Silicon diodes commonly show a forward drop around 0.6–0.7 V at modest currents, but the value depends on current and temperature.
 
 ## 3. Apparatus
