@@ -279,25 +279,25 @@ Try these independently:
 
 ## 13. Viva Questions
 
-**Q1. What is a nested loop?**  
+**Q1. What is a nested loop?**
 A: A loop placed inside another loop is called a nested loop.
 
-**Q2. What is the role of the outer loop in pattern printing?**  
+**Q2. What is the role of the outer loop in pattern printing?**
 A: It usually controls the number of rows.
 
-**Q3. What is the role of the inner loop?**  
+**Q3. What is the role of the inner loop?**
 A: It usually controls the number of items printed in each row.
 
-**Q4. If the outer loop runs 4 times and the inner loop runs 3 times each time, how many times does the inner statement execute?**  
+**Q4. If the outer loop runs 4 times and the inner loop runs 3 times each time, how many times does the inner statement execute?**
 A: 12 times.
 
-**Q5. Can we place a while loop inside a for loop?**  
+**Q5. Can we place a while loop inside a for loop?**
 A: Yes. Different types of loops can be nested.
 
-**Q6. Why do we use a newline after the inner loop?**  
+**Q6. Why do we use a newline after the inner loop?**
 A: To move to the next row after the current row is printed.
 
-**Q7. What is the difference between a normal loop and a nested loop?**  
+**Q7. What is the difference between a normal loop and a nested loop?**
 A: A normal loop has one loop structure; a nested loop contains another loop inside its body.
 
 ## 14. Result
