@@ -25,7 +25,7 @@ After studying this chapter, you should be able to:
 - Input: 5 → Output: 8
 - Input: 10 → Output: 13
 
-### Standard English Definition
+### Definition
 
 A **function** is a relation that assigns exactly one output to each input in its domain.
 
@@ -40,7 +40,7 @@ Here:
 - **B:** Codomain — the set in which the outputs are specified to lie.
 - **f:** The rule that assigns an output to each input.
 
-The actual set of outputs is called the **range**. Therefore, the range is a subset of the codomain.
+The **range** is the set of all actual outputs produced by a function. Therefore, the range is a subset of the codomain.
 
 ### Example 1: Evaluating a Function
 
