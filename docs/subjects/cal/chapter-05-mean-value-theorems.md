@@ -1,7 +1,7 @@
 # Chapter 05: Mean Value Theorems
 
-**Course:** Calculus  
-**Course Code:** 510205  
+**Course:** Calculus
+**Course Code:** 510205
 **Level:** First Year – First Semester
 
 ---
@@ -40,17 +40,17 @@ A mean value theorem guarantees that, under certain conditions, at least one int
 
 | Symbol | Read in English | Meaning in Bangla |
 |---|---|---|
-| \(f(x)\) | “f of x” | x-এর উপর নির্ভরশীল function |
-| \([a,b]\) | “closed interval a to b” | a ও b-সহ interval |
-| \((a,b)\) | “open interval a to b” | a ও b বাদ দিয়ে মাঝের interval |
-| \(f'(x)\) | “f prime of x” | f-এর derivative |
-| \(f(a)\) | “f of a” | x-এর জায়গায় a বসালে function-এর মান |
-| \(\exists c\) | “there exists c” | অন্তত একটি c আছে |
-| \(\in\) | “belongs to” | কোনো set বা interval-এর অন্তর্ভুক্ত |
-| \(\ne\) | “is not equal to” | সমান নয় |
-| \(\Rightarrow\) | “implies” | এর ফলে বোঝায় |
+| \(f(x)\) | “f of x” | — |
+| \([a,b]\) | “closed interval a to b” | — |
+| \((a,b)\) | “open interval a to b” | — |
+| \(f'(x)\) | “f prime of x” | — |
+| \(f(a)\) | “f of a” | — |
+| \(\exists c\) | “there exists c” | — |
+| \(\in\) | “belongs to” | — |
+| \(\ne\) | “is not equal to” | — |
+| \(\Rightarrow\) | “implies” | — |
 
-**Remember:**  
+**Remember:**
 - Continuous on \([a,b]\) means continuous at every point from a through b, including both endpoints.
 - Differentiable on \((a,b)\) means differentiable at every interior point. The endpoints are not included in this condition.
 - \(c\in(a,b)\) means the required point must lie strictly between a and b.
@@ -98,19 +98,9 @@ then there exists at least one point \(c\in(a,b)\) such that
 
 This result is known as **Rolle's Theorem**.
 
-### 2.2 সহজ বাংলায় ব্যাখ্যা
-
-ধরো, একটি smooth curve \(x=a\) এবং \(x=b\) বিন্দুতে একই উচ্চতায় আছে। অর্থাৎ দুই প্রান্তের function value সমান।
-
-যদি curve-টি পুরো interval-এ continuous হয় এবং মাঝখানে কোথাও sharp corner না থাকে, তাহলে অন্তত একটি interior point-এ tangent line horizontal হবে।
-
-Horizontal line-এর slope শূন্য। তাই সেই বিন্দুতে derivative শূন্য:
-
 \[
 f'(c)=0
 \]
-
-**মূল কথা:** দুই প্রান্তের উচ্চতা সমান হলে, শর্তগুলো পূরণ সাপেক্ষে মাঝখানে অন্তত একটি জায়গায় tangent-এর slope শূন্য হবে।
 
 *Visual guide: imagine a smooth curve whose two endpoints have equal heights and whose tangent is horizontal at an interior point.*
 
@@ -255,14 +245,6 @@ If a function \(f(x)\) is continuous on \([a,b]\) and differentiable on \((a,b)\
 \]
 
 This result is known as **Lagrange's Mean Value Theorem**.
-
-### 3.2 সহজ বাংলায় ব্যাখ্যা
-
-Rolle's Theorem-এ দুই endpoint-এর function value সমান হতে হয়। কিন্তু Lagrange's MVT-তে endpoint-এর মান সমান হওয়া বাধ্যতামূলক নয়।
-
-এখানে theorem বলে: curve-এর দুই প্রান্তকে যোগ করে যে secant line পাওয়া যায়, তার slope-এর সমান tangent slope curve-এর অন্তত একটি interior point-এ পাওয়া যাবে।
-
-অর্থাৎ,
 
 \[
 \text{Tangent slope}=\text{Secant slope}
@@ -423,17 +405,7 @@ Let \(f(x)\) and \(g(x)\) be two functions that are continuous on \([a,b]\) and 
 
 This result is known as **Cauchy's Mean Value Theorem**.
 
-### 4.2 সহজ বাংলায় ব্যাখ্যা
-
-Rolle's ও Lagrange's theorem-এ একটি function নিয়ে কাজ করা হয়। Cauchy's theorem-এ দুটি function \(f(x)\) এবং \(g(x)\) নিয়ে কাজ করা হয়।
-
-দুটি function-এর endpoint-এর পরিবর্তন এবং interior point-এর derivative-এর মধ্যে একটি নির্দিষ্ট সম্পর্ক তৈরি হয়।
-
-মনে রাখবে, এখানে \(f\) এবং \(g\) দুটিরই continuity ও differentiability শর্ত পরীক্ষা করতে হবে।
-
 ### 4.3 Ratio form
-
-যদি \(g(b)\ne g(a)\) হয়, তাহলে cross-multiplied equation-টিকে এভাবে লেখা যায়:
 
 \[
 \boxed{
@@ -442,8 +414,6 @@ Rolle's ও Lagrange's theorem-এ একটি function নিয়ে কাজ 
 \frac{f(b)-f(a)}{g(b)-g(a)}
 }
 \]
-
-এই ratio form ব্যবহার করার সময় denominator শূন্য নয়—এটি নিশ্চিত করতে হবে। মূল cross-multiplied form-টি বেশি সাধারণভাবে ব্যবহার করা যায়।
 
 ### 4.4 Solved Example 1
 
