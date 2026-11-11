@@ -1,15 +1,11 @@
 # Chapter 11: Improper Integrals, Gamma and Beta Functions
 
-**Course:** Calculus (510205)  
+**Course:** Calculus (510205)
 **Part:** Integral Calculus
-
-> **বাংলায় মূল ধারণা:** সাধারণ definite integral-এ interval finite এবং integrand সাধারণত continuous থাকে। কিন্তু limit infinite হলে বা interval-এর কোনো জায়গায় function অসীমের দিকে গেলে improper integral ব্যবহার করি।
 
 ---
 
 ## 1. Improper Integrals
-
-Improper integral সাধারণত দুই ধরনের।
 
 ### Type I: Infinite interval
 
@@ -17,8 +13,6 @@ Improper integral সাধারণত দুই ধরনের।
 \int_a^\infty f(x)\,dx
 =\lim_{b\to\infty}\int_a^b f(x)\,dx
 \]
-
-Limit finite হলে integral convergent; finite value না থাকলে divergent।
 
 ### Example 1
 
@@ -36,8 +30,6 @@ Limit finite হলে integral convergent; finite value না থাকলে 
 =\boxed1
 \]
 
-অতএব integral convergent।
-
 ### Example 2
 
 \[
@@ -46,19 +38,13 @@ Limit finite হলে integral convergent; finite value না থাকলে 
 =\lim_{b\to\infty}\ln b
 \]
 
-Limit finite নয়; তাই divergent।
-
 ## 2. Type II: Unbounded Integrand
-
-যদি \(f(x)\) কোনো endpoint-এ unbounded হয়, তাহলে limit ব্যবহার করতে হয়।
 
 ### Example 3
 
 \[
 \int_0^1\frac1{\sqrt{x}}dx
 \]
-
-এখানে \(x=0\)-এ integrand unbounded।
 
 \[
 =\lim_{a\to0^+}\int_a^1x^{-1/2}dx
@@ -70,37 +56,19 @@ Limit finite নয়; তাই divergent।
 =\boxed2
 \]
 
-অতএব convergent।
-
 ## 3. The p-Integral Test
-
-খুব গুরুত্বপূর্ণ standard result:
 
 \[
 \boxed{\int_1^\infty\frac1{x^p}dx}
 \]
 
-- \(p>1\) হলে convergent।
-- \(p\leq1\) হলে divergent।
-
-এবং,
-
 \[
 \boxed{\int_0^1\frac1{x^p}dx}
 \]
 
-- \(p<1\) হলে convergent।
-- \(p\geq1\) হলে divergent।
-
-এই দুইটি result গুলিয়ে ফেলবে না।
-
 ## 4. Gamma Function
 
-Gamma function factorial-এর একটি extension।
-
 ### Definition
-
-\(s>0\) হলে,
 
 \[
 \boxed{\Gamma(s)=\int_0^\infty x^{s-1}e^{-x}dx}
@@ -112,25 +80,15 @@ Gamma function factorial-এর একটি extension।
 \boxed{\Gamma(s+1)=s\Gamma(s)}
 \]
 
-এবং,
-
 \[
 \boxed{\Gamma(n+1)=n!}
 \]
 
-যেখানে \(n\) non-negative integer।
-
 ### Why does Gamma extend factorial?
-
-Integration by parts ব্যবহার করে:
 
 \[
 \Gamma(s+1)=\int_0^\infty x^se^{-x}dx
 \]
-
-ধরি \(u=x^s\), \(dv=e^{-x}dx\)। তাহলে \(du=sx^{s-1}dx\), \(v=-e^{-x}\)।
-
-Boundary terms vanish করলে,
 
 \[
 \Gamma(s+1)=s\int_0^\infty x^{s-1}e^{-x}dx
@@ -155,8 +113,6 @@ Find \(\Gamma(5)\).
 \Gamma(1)=\int_0^\infty e^{-x}dx=1
 \]
 
-সুতরাং,
-
 \[
 \boxed{\Gamma(5)=4!=24}
 \]
@@ -167,8 +123,6 @@ Find \(\Gamma(5)\).
 \boxed{\Gamma\left(\frac12\right)=\sqrt{\pi}}
 \]
 
-তাই recurrence formula দিয়ে,
-
 \[
 \Gamma\left(\frac32\right)=\frac12\sqrt\pi
 \]
@@ -176,8 +130,6 @@ Find \(\Gamma(5)\).
 ## 5. Beta Function
 
 ### Definition
-
-\(m>0,n>0\) হলে,
 
 \[
 \boxed{B(m,n)=\int_0^1x^{m-1}(1-x)^{n-1}dx}
@@ -195,8 +147,6 @@ Find \(\Gamma(5)\).
 \boxed{B(m,n)=\frac{\Gamma(m)\Gamma(n)}{\Gamma(m+n)}}
 \]
 
-এটি Beta ও Gamma function-এর সবচেয়ে গুরুত্বপূর্ণ সম্পর্ক।
-
 ### Example 5
 
 Find \(B(2,3)\).
@@ -213,13 +163,9 @@ B(2,3)=\frac{\Gamma(2)\Gamma(3)}{\Gamma(5)}
 
 ## 6. Trigonometric Form of Beta Function
 
-একটি পরিচিত form:
-
 \[
 \boxed{B(m,n)=2\int_0^{\pi/2}\sin^{2m-1}\theta\cos^{2n-1}\theta\,d\theta}
 \]
-
-এটি substitution \(x=\sin^2\theta\) থেকে পাওয়া যায়।
 
 ## 7. Gamma vs Beta
 
@@ -232,28 +178,21 @@ B(2,3)=\frac{\Gamma(2)\Gamma(3)}{\Gamma(5)}
 
 ## 8. Common Mistakes
 
-1. Improper integral-এ limit না লেখা।
-2. Infinite limit-কে সরাসরি substitute করা।
-3. Convergent ও divergent condition উল্টে ফেলা।
-4. \(\Gamma(n)=n!\) লেখা; সঠিক relation হলো \(\Gamma(n+1)=n!\)।
-5. Beta-Gamma relation-এ denominator \(\Gamma(m+n)\) বাদ দেওয়া।
-6. Gamma recurrence-এ \(s\) factor ভুলে যাওয়া।
-
 ## 9. Short Questions
 
-**Q1. What is an improper integral?**  
+**Q1. What is an improper integral?**
 An integral is called improper if it has an infinite interval of integration or an integrand that becomes unbounded within the interval or at an endpoint.
 
-**Q2. When is \(\int_1^\infty x^{-p}dx\) convergent?**  
+**Q2. When is \(\int_1^\infty x^{-p}dx\) convergent?**
 It converges if and only if \(p>1\).
 
-**Q3. Define Gamma function.**  
+**Q3. Define Gamma function.**
 For \(s>0\), \(\Gamma(s)=\int_0^\infty x^{s-1}e^{-x}dx\).
 
-**Q4. State the relation between Gamma and factorial.**  
+**Q4. State the relation between Gamma and factorial.**
 For a non-negative integer \(n\), \(\Gamma(n+1)=n!\).
 
-**Q5. State the Beta-Gamma relation.**  
+**Q5. State the Beta-Gamma relation.**
 \(B(m,n)=\Gamma(m)\Gamma(n)/\Gamma(m+n)\), for positive \(m,n\).
 
 ## 10. Practice (Original questions; not verified NU PYQs)
