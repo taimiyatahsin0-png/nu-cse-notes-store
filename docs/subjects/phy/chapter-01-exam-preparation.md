@@ -1,7 +1,5 @@
 # Physics Chapter 01 Exam Preparation: Electrostatics and Capacitance
 
-> **Study order:** সহজ বাংলা ধারণা → standard English definition → formula → solved example → exam questions. This is an original study pack based on the listed Physics (510207) syllabus reference for Session 2017–2018. It is not an official NU question paper. Confirm the current syllabus with your department.
-
 ## 1. Quick concept map
 
 - **Charge:** matter's electrical property; like charges repel and unlike charges attract.
