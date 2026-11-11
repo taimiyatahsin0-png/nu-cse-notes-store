@@ -3,7 +3,18 @@
   const KEY="nuCseSemesterCgpaV2", points={"A+":4,"A":3.75,"A-":3.5,"B+":3.25,"B":3,"B-":2.75,"C+":2.5,"C":2.25,"D":2,"F":0};
   const $=(s,r=document)=>r.querySelector(s), fmt=n=>Number.isFinite(Number(n))?Number(n).toFixed(2):"—";
   const readState=()=>{try{const x=JSON.parse(localStorage.getItem(KEY)||"null");return x&&typeof x==="object"?x:{saved:{},quick:{}};}catch(_){return{saved:{},quick:{}};}};
-  const valid=x=>x&&Number.isFinite(Number(x.quality))&&Number.isFinite(Number(x.credits))&&Number(x.credits)>0&&Array.isArray(x.courses)&&x.courses.length>0;
+  const valid=x=>{
+    if(!x||!Number.isFinite(Number(x.quality))||!Number.isFinite(Number(x.credits))||Number(x.credits)<=0||!Number.isFinite(Number(x.gpa))||Number(x.gpa)<0||Number(x.gpa)>4||!Array.isArray(x.courses)||x.courses.length===0)return false;
+    const credits=Number(x.credits),quality=Number(x.quality);
+    if(quality<0||quality>credits*4||Math.abs(Number(x.gpa)-quality/credits)>0.011)return false;
+    let courseCredits=0,courseQuality=0;
+    for(const course of x.courses){
+      const credit=Number(course?.credit),grade=course?.grade||course?.retakeGrade||course?.originalGrade;
+      if(!Number.isFinite(credit)||credit<=0||credit>30||!Object.prototype.hasOwnProperty.call(points,grade))return false;
+      courseCredits+=credit;courseQuality+=credit*points[grade];
+    }
+    return Math.abs(courseCredits-credits)<=0.001&&Math.abs(courseQuality-quality)<=0.001;
+  };
   function init(){
     const root=$("#semester-cgpa-tool"); if(!root||root.dataset.advancedReady==="true")return; root.dataset.advancedReady="true";
     const wrap=document.createElement("section"); wrap.className="cgpa-advanced-grid";
@@ -18,7 +29,7 @@
       let usedSaved=false,usedQuick=false;
       for(let i=1;i<=8;i++){
         const x=saved[i],entry=quick[i];
-        if(x&&Number.isFinite(Number(x.quality))&&Number.isFinite(Number(x.credits))&&Number(x.credits)>0){quality+=Number(x.quality);credits+=Number(x.credits);count++;usedSaved=true;continue;}
+        if(valid(x)){quality+=Number(x.quality);credits+=Number(x.credits);count++;usedSaved=true;continue;}
         const g=Number(entry?.gpa),cr=Number(entry?.credits);
         if(entry&&String(entry.gpa??"").trim()!==""&&String(entry.credits??"").trim()!==""&&Number.isFinite(g)&&g>=0&&g<=4&&Number.isFinite(cr)&&cr>0){quality+=g*cr;credits+=cr;count++;usedQuick=true;}
       }
