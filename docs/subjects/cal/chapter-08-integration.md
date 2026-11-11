@@ -1,7 +1,7 @@
 # Chapter 08: Integration
 
-**Course:** Calculus (510205)  
-**Part:** Integral Calculus  
+**Course:** Calculus (510205)
+**Part:** Integral Calculus
 **Level:** Beginner-friendly notes with exam-ready English statements
 
 > **Learning order:** Understand integration as the reverse of differentiation. Learn basic formulas, substitution and integration by parts. Then study definite integrals and the Riemann-sum idea.
@@ -10,23 +10,13 @@
 
 ## 1. What is Integration?
 
-তুমি আগের chapter-এ differentiation শিখেছ। Differentiation কোনো function-এর derivative বের করে। Integration অনেক ক্ষেত্রে সেই process-এর উল্টো কাজ করে।
-
-যেমন,
-
 \[
 \frac{d}{dx}(x^3)=3x^2
 \]
 
-তাই,
-
 \[
 \int 3x^2\,dx=x^3+C
 \]
-
-এখানে \(\int\) হলো integral sign, \(dx\) বোঝায় আমরা \(x\)-এর respect-এ integrate করছি, আর \(C\) হলো arbitrary constant।
-
-**সহজ analogy:** differentiation হলো একটি total journey থেকে instantaneous speed বের করা; integration অনেক ক্ষেত্রে speed থেকে মোট displacement বের করার মতো। তবে integration-এর আরও একটি গুরুত্বপূর্ণ অর্থ হলো area accumulation।
 
 ### Definition (Exam-ready English)
 
@@ -34,39 +24,25 @@
 
 ### Important words
 
-- **Integrand:** যে function-কে integrate করা হয়; যেমন \(\int x^2\,dx\)-এ \(x^2\)।
 - **Integral sign:** \(\int\)।
 - **Variable of integration:** \(x\) in \(dx\)।
 - **Constant of integration:** \(C\), an arbitrary constant in an indefinite integral.
-- **Antiderivative:** এমন একটি function যার derivative দিলে মূল integrand পাওয়া যায়।
 
 ---
 
 ## 2. Antiderivative and Indefinite Integral
 
-যদি \(F'(x)=f(x)\) হয়, তাহলে \(F(x)\) হলো \(f(x)\)-এর একটি antiderivative।
-
-তখন,
-
 \[
 \boxed{\int f(x)\,dx=F(x)+C}
 \]
-
-কেন \(+C\) লিখি?
-
-কারণ constant-এর derivative শূন্য:
 
 \[
 \frac{d}{dx}(x^2+3)=2x
 \]
 
-এবং
-
 \[
 \frac{d}{dx}(x^2+100)=2x
 \]
-
-অর্থাৎ \(x^2+C\)-এর derivative একই \(2x\)। তাই indefinite integral-এর সঙ্গে \(C\) যোগ করতে হয়।
 
 ### Example 1
 
@@ -76,13 +52,9 @@ Evaluate:
 \int 6x\,dx
 \]
 
-আমরা জানি,
-
 \[
 \frac{d}{dx}(3x^2)=6x
 \]
-
-তাই,
 
 \[
 \boxed{\int 6x\,dx=3x^2+C}
@@ -94,21 +66,15 @@ Evaluate:
 
 ### Rule 1: Power Rule
 
-যদি \(n\neq -1\), তাহলে
-
 \[
 \boxed{\int x^n\,dx=\frac{x^{n+1}}{n+1}+C}
 \]
-
-**মনে রাখার কৌশল:** power-এর সঙ্গে 1 যোগ করো, তারপর নতুন power দিয়ে ভাগ করো।
 
 Example:
 
 \[
 \int x^4\,dx=\frac{x^5}{5}+C
 \]
-
-বিশেষ সতর্কতা: \(n=-1\) হলে এই formula ব্যবহার করা যাবে না।
 
 ### Rule 2: Constant Rule
 
@@ -155,8 +121,6 @@ Example:
 ---
 
 ## 4. Standard Integration Formulas
-
-এই formula-গুলো নিয়মিত practice করবে।
 
 ### Algebraic and logarithmic forms
 
@@ -213,29 +177,19 @@ Example:
 \int\frac{1}{1+x^2}\,dx=\tan^{-1}x+C
 \]
 
-**Note:** Trigonometric formula-গুলোতে angle radians-এ ধরা হয়।
-
 ---
 
 ## 5. Integration by Substitution
 
-কোনো integrand-এর ভেতরে একটি function এবং তার derivative-এর মতো অংশ থাকলে substitution ব্যবহার করা সুবিধাজনক।
-
 ### Main idea
-
-ধরি,
 
 \[
 u=g(x)
 \]
 
-তাহলে,
-
 \[
 du=g'(x)\,dx
 \]
-
-অর্থাৎ \(x\)-এর বদলে \(u\) ব্যবহার করে integral সহজ করি।
 
 ### Example 2
 
@@ -245,31 +199,21 @@ Evaluate:
 \int 2x(x^2+1)^5\,dx
 \]
 
-**Step 1:** ধরি,
-
 \[
 u=x^2+1
 \]
-
-**Step 2:** Differentiate করি,
 
 \[
 du=2x\,dx
 \]
 
-**Step 3:** Integral-এ বসাই,
-
 \[
 \int u^5\,du
 \]
 
-**Step 4:** Power rule প্রয়োগ করি,
-
 \[
 =\frac{u^6}{6}+C
 \]
-
-**Step 5:** \(u=x^2+1\) বসাই,
 
 \[
 \boxed{\frac{(x^2+1)^6}{6}+C}
@@ -283,19 +227,13 @@ Evaluate:
 \int\frac{3x^2}{x^3+4}\,dx
 \]
 
-ধরি,
-
 \[
 u=x^3+4,\quad du=3x^2\,dx
 \]
 
-তাহলে,
-
 \[
 \int\frac{du}{u}=\ln|u|+C
 \]
-
-সুতরাং,
 
 \[
 \boxed{\ln|x^3+4|+C}
@@ -305,31 +243,17 @@ u=x^3+4,\quad du=3x^2\,dx
 
 ## 6. Integration by Parts
 
-দুইটি function-এর product integrate করতে integration by parts ব্যবহার করা হয়।
-
 ### Formula
 
 \[
 \boxed{\int u\,dv=uv-\int v\,du}
 \]
 
-এখানে:
-- \(u\) = একটি অংশ, যেটি differentiate করব।
-- \(dv\) = বাকি অংশ, যেটি integrate করব।
-- \(du\) = \(u\)-এর derivative multiplied by \(dx\)।
-- \(v\) = \(dv\)-এর integral।
-
-### কোন অংশকে \(u\) নেব?
-
-একটি সহায়ক priority rule হলো **ILATE**:
-
 1. I — Inverse trigonometric
 2. L — Logarithmic
 3. A — Algebraic
 4. T — Trigonometric
 5. E — Exponential
-
-এটি শুধু একটি guideline; সব সমস্যায় একইভাবে কাজ করবে এমন নিশ্চয়তা নেই।
 
 ### Example 4
 
@@ -339,19 +263,13 @@ Evaluate:
 \int xe^x\,dx
 \]
 
-**Step 1:** নির্বাচন করি,
-
 \[
 u=x,\quad dv=e^x\,dx
 \]
 
-**Step 2:** বের করি,
-
 \[
 du=dx,\quad v=e^x
 \]
-
-**Step 3:** Formula প্রয়োগ করি,
 
 \[
 \begin{aligned}
@@ -375,8 +293,6 @@ Evaluate:
 \int\ln x\,dx
 \]
 
-এখানে \(\ln x\)-কে \(u\) এবং \(dx\)-কে \(dv\) ধরি।
-
 \[
 u=\ln x,\quad dv=dx
 \]
@@ -384,8 +300,6 @@ u=\ln x,\quad dv=dx
 \[
 du=\frac1x\,dx,\quad v=x
 \]
-
-তাই,
 
 \[
 \begin{aligned}
@@ -399,8 +313,6 @@ du=\frac1x\,dx,\quad v=x
 ---
 
 ## 7. Integration of Some Trigonometric Expressions
-
-ত্রিকোণমিতিক integral করার আগে পরিচিত identities মনে রাখবে:
 
 \[
 \sin^2x+\cos^2x=1
@@ -422,19 +334,13 @@ Evaluate:
 \int\sin x\cos x\,dx
 \]
 
-ধরি,
-
 \[
 u=\sin x,\quad du=\cos x\,dx
 \]
 
-তাহলে,
-
 \[
 \int u\,du=\frac{u^2}{2}+C
 \]
-
-অতএব,
 
 \[
 \boxed{\frac{\sin^2x}{2}+C}
@@ -444,30 +350,18 @@ u=\sin x,\quad du=\cos x\,dx
 
 ## 8. Integration by Partial Fractions
 
-কোনো rational function-কে ছোট ছোট ভগ্নাংশে ভেঙে integrate করার পদ্ধতিকে partial fractions বলে।
-
-যেমন,
-
 \[
 \frac{1}{(x+1)(x+2)}
 =\frac{A}{x+1}+\frac{B}{x+2}
 \]
 
-উভয় পাশে denominator দিয়ে গুণ করলে,
-
 \[
 1=A(x+2)+B(x+1)
 \]
 
-\(x=-1\) বসালে \(1=A\), আর \(x=-2\) বসালে \(1=-B\)।
-
-তাই,
-
 \[
 A=1,\quad B=-1
 \]
-
-অর্থাৎ,
 
 \[
 \frac{1}{(x+1)(x+2)}
@@ -498,24 +392,17 @@ Evaluate:
 
 ## 9. Definite Integral
 
-Indefinite integral-এ \(+C\) থাকে। কিন্তু definite integral-এ নির্দিষ্ট lower limit এবং upper limit দেওয়া থাকে।
-
 \[
 \boxed{\int_a^b f(x)\,dx}
 \]
 
-এখানে:
 - \(a\) = lower limit
 - \(b\) = upper limit
 - \(f(x)\) = integrand
 
-যদি \(F'(x)=f(x)\), তাহলে definite integral হিসাব করা যায়:
-
 \[
 \boxed{\int_a^b f(x)\,dx=F(b)-F(a)}
 \]
-
-এটিকে antiderivative দিয়ে definite integration করার নিয়ম বলা হয়।
 
 ### Example 8
 
@@ -525,13 +412,9 @@ Evaluate:
 \int_0^2 3x^2\,dx
 \]
 
-প্রথমে integrate করি:
-
 \[
 \int3x^2\,dx=x^3
 \]
-
-এখন upper এবং lower limit বসাই:
 
 \[
 \begin{aligned}
@@ -542,13 +425,9 @@ Evaluate:
 \end{aligned}
 \]
 
-**মনে রাখবে:** Definite integral-এর final answer-এ \(+C\) লিখবে না।
-
 ---
 
 ## 10. Basic Properties of Definite Integrals
-
-Fundamental Theorems and Properties chapter-এ এগুলো বিস্তারিত আলোচনা হবে। এখানে প্রাথমিকভাবে চিনে রাখো।
 
 ### Property 1: Same limits
 
@@ -587,25 +466,13 @@ Fundamental Theorems and Properties chapter-এ এগুলো বিস্ত�
 
 ## 11. Riemann Sums: Definite Integral as a Limit of a Sum
 
-এটি syllabus-এর একটি গুরুত্বপূর্ণ ধারণা।
-
-ধরা যাক, \(y=f(x)\) curve-এর নিচে \(a\) থেকে \(b\) পর্যন্ত area বের করতে হবে।
-
-আমরা interval-টিকে অনেক ছোট ছোট অংশে ভাগ করি। প্রতিটি অংশের width:
-
 \[
 \Delta x=\frac{b-a}{n}
 \]
 
-প্রতিটি ছোট অংশে একটি rectangle ধরি। Rectangle-এর height হবে কোনো sample point \(x_i^*\)-এ function-এর value।
-
-তাহলে আনুমানিক area:
-
 \[
 S_n=\sum_{i=1}^{n}f(x_i^*)\Delta x
 \]
-
-অংশের সংখ্যা অসীমের দিকে নিলে এবং width শূন্যের দিকে গেলে:
 
 \[
 \boxed{
@@ -614,9 +481,6 @@ S_n=\sum_{i=1}^{n}f(x_i^*)\Delta x
 \sum_{i=1}^{n}f(x_i^*)\Delta x
 }
 \]
-
-এটাই Riemann sum-এর মূল ধারণা।
-
 
 **Signed area note:** A definite integral gives signed (net) area. If the graph is below the \(x\)-axis, that part contributes a negative value. For total geometric area, split the interval at axis crossings and integrate \(|f(x)|\).
 
@@ -634,8 +498,6 @@ Right endpoint:
 x_i=\frac{i}{n}
 \]
 
-তাই,
-
 \[
 \begin{aligned}
 S_n
@@ -645,20 +507,14 @@ S_n
 \end{aligned}
 \]
 
-আমরা জানি,
-
 \[
 \sum_{i=1}^n i=\frac{n(n+1)}2
 \]
-
-তাই,
 
 \[
 S_n=\frac{n(n+1)}{2n^2}
 =\frac12\left(1+\frac1n\right)
 \]
-
-এখন \(n\to\infty\) হলে,
 
 \[
 \int_0^1x\,dx
@@ -670,14 +526,7 @@ S_n=\frac{n(n+1)}{2n^2}
 
 ## 12. Common Mistakes
 
-1. Indefinite integral-এ \(+C\) বাদ দেওয়া।
-2. Power rule-এ নতুন power দিয়ে ভাগ করতে ভুলে যাওয়া।
-3. \(\int 1/x\,dx\)-এ power rule প্রয়োগ করা; সঠিক উত্তর \(\ln|x|+C\)।
-4. Substitution করার পর \(u\) এবং \(du\) সঠিকভাবে replace না করা।
-5. Integration by parts-এর formula-তে minus sign ভুলে যাওয়া।
-6. Definite integral-এ upper limit থেকে lower limit বিয়োগ না করা।
-7. Definite integral-এর উত্তরে অপ্রয়োজনীয় \(+C\) লেখা।
-8. Riemann sum-এ rectangle width \(\Delta x\) বাদ দেওয়া।
+ — |x|+C\)।
 
 ---
 
