@@ -1,10 +1,10 @@
 # English
 
-**Course Code:** 510209  
-**Course Title:** English  
-**Credits:** 3.0  
-**Marks:** 80  
-**Class Hours:** 45  
+**Course Code:** 510209
+**Course Title:** English
+**Credits:** 3.0
+**Marks:** 80
+**Class Hours:** 45
 **Semester:** CSE First Semester
 
 ## Course Overview
