@@ -1,7 +1,7 @@
 # Mathematical Symbols & Notation for Beginners
 
-**Course:** Calculus (510205)  
-**Level:** Beginner  
+**Course:** Calculus (510205)
+**Level:** Beginner
 **Purpose:** Learn what mathematical signs mean, how to read them aloud, and how they are used in Calculus.
 
 > **Study tip:** Do not try to memorize every symbol at once. Learn a small group, read it aloud, and solve a few examples.
@@ -22,37 +22,36 @@ Example:
 - `=` — equals
 - `5` — five
 
-Read it in English: **“Two plus three equals five.”**  
-বাংলায়: **“দুই যোগ তিন সমান পাঁচ।”**
+Read it in English: **“Two plus three equals five.”**
 
 ## 2. Basic arithmetic symbols
 
-| Symbol | Name | Read in English | বাংলা অর্থ |
+| Symbol | Name | Read in English | — |
 |---|---|---|---|
-| (+) | Plus | plus | যোগ |
-| (-) | Minus | minus | বিয়োগ |
-| (	imes) | Multiplication | multiplied by / times | গুণ |
-| (div) | Division | divided by | ভাগ |
-| (=) | Equal sign | equals / is equal to | সমান |
+| (+) | Plus | plus | — |
+| (-) | Minus | minus | — |
+| (	imes) | Multiplication | multiplied by / times | — |
+| (div) | Division | divided by | — |
+| (=) | Equal sign | equals / is equal to | — |
 | (
-eq) | Not equal | is not equal to | সমান নয় |
-| (pm) | Plus-minus | plus or minus | যোগ অথবা বিয়োগ |
-| (approx) | Approximately equal | approximately equals | প্রায় সমান |
-| (%) | Percent | percent | শতকরা |
+eq) | Not equal | is not equal to | — |
+| (pm) | Plus-minus | plus or minus | — |
+| (approx) | Approximately equal | approximately equals | — |
+| (%) | Percent | percent | — |
 
-**Example:** (8 div 2 = 4)  
+**Example:** (8 div 2 = 4)
 Read: “Eight divided by two equals four.”
 
 ## 3. Greater than and less than
 
 These signs compare two values.
 
-| Symbol | Meaning | Read in English | বাংলা |
+| Symbol | Meaning | Read in English | — |
 |---|---|---|---|
-| (>) | Greater than | is greater than | বড় |
-| (<) | Less than | is less than | ছোট |
-| (geq) | Greater than or equal to | is greater than or equal to | বড় অথবা সমান |
-| (leq) | Less than or equal to | is less than or equal to | ছোট অথবা সমান |
+| (>) | Greater than | is greater than | — |
+| (<) | Less than | is less than | — |
+| (geq) | Greater than or equal to | is greater than or equal to | — |
+| (leq) | Less than or equal to | is less than or equal to | — |
 
 **Remember:** The open/wide side faces the larger number.
 
@@ -64,19 +63,13 @@ These signs compare two values.
 
 ### Fraction
 
-(rac{a}{b}) means **a divided by b**. Here, (a) is the numerator (উপরের সংখ্যা) and (b) is the denominator (নিচের সংখ্যা). The denominator cannot be zero.
-
-Example: (rac{3}{4})  
-Read: “Three over four” or “three divided by four.”  
-বাংলায়: চার ভাগের তিন।
+Example: (rac{3}{4})
+Read: “Three over four” or “three divided by four.”
 
 ### Powers / exponents
 
 (2^3) means (2 	imes 2 	imes 2 = 8).
 
-- (2^2): “Two squared” — দুই-এর বর্গ।
-- (2^3): “Two cubed” — দুই-এর ঘন।
-- (a^n): “a to the power n” — a-এর n ঘাত।
 - (x^{-1}): “x to the power minus one.”
 
 The small raised number is called the **exponent** or **power**.
@@ -100,7 +93,7 @@ Examples: (sqrt{9}=3), because (3	imes3=9).
 | ({,}) | Curly braces | Group expressions or represent sets |
 | (|x|) | Absolute value | Distance of x from zero |
 
-Example: (2(3+4)=14).  
+Example: (2(3+4)=14).
 First solve inside the parentheses: (3+4=7), then (2	imes7=14).
 
 ## 6. Variables, constants and sets
@@ -108,17 +101,14 @@ First solve inside the parentheses: (3+4=7), then (2	imes7=14).
 - **Variable:** A letter representing a value that may change. Example: (x), (y).
 - **Constant:** A fixed value. Example: (5), or (pi).
 - (x in A): x belongs to set A. Read: “x is an element of A.”
-- (x 
+- (x
 otin A): x does not belong to set A.
 - (mathbb{R}): the set of all real numbers.
 - (mathbb{Z}): the set of integers.
 - (mathbb{N}): the natural numbers (the exact convention for whether zero is included can vary by text).
 - (arnothing): the empty set.
-- (cup): union — দুই সেটের সব উপাদান একসাথে।
-- (cap): intersection — দুই সেটের সাধারণ উপাদান।
-- (subseteq): is a subset of — উপসেট।
 
-**Example:** (3 in mathbb{R})  
+**Example:** (3 in mathbb{R})
 Read: “Three is an element of the real numbers.”
 
 ## 7. Intervals
@@ -162,8 +152,6 @@ lim_{x	o 2}(x+3)=5
 ]
 
 Read in English: “The limit as x approaches two of x plus three equals five.”
-
-বাংলায়: “x যখন ২-এর কাছাকাছি যায়, তখন x plus ৩-এর মান ৫-এর কাছাকাছি যায়।”
 
 | Symbol | Meaning | How to read |
 |---|---|---|
@@ -214,7 +202,7 @@ Differentiation measures how quickly a function changes.
 | (rac{partial z}{partial x}) | partial z by partial x | Partial derivative |
 | (dx) | dee-x | Differential of x |
 
-Example: If (y=x^2), then (rac{dy}{dx}=2x).  
+Example: If (y=x^2), then (rac{dy}{dx}=2x).
 Read: “The derivative of y with respect to x is two x.”
 
 ## 12. Integration symbols
@@ -241,43 +229,43 @@ Read: “The integral of two x with respect to x is x squared plus C.”
 
 | Symbol | Name | Meaning / reading |
 |---|---|---|
-| (	herefore) | Therefore | অতএব |
-| (ecause) | Because | কারণ |
-| (orall) | For all | সকলের জন্য |
-| (exists) | There exists | অন্তত একটি আছে |
-| (Rightarrow) | Implies | সুতরাং / নির্দেশ করে |
-| (Leftrightarrow) | If and only if | তখনই এবং কেবল তখনই |
-| (sum) | Summation | যোগফল |
+| (	herefore) | Therefore | — |
+| (ecause) | Because | — |
+| (orall) | For all | — |
+| (exists) | There exists | — |
+| (Rightarrow) | Implies | — |
+| (Leftrightarrow) | If and only if | — |
+| (sum) | Summation | — |
 | (log x) | Log x | Logarithm of x |
 | (ln x) | Natural log of x | Natural logarithm of x |
-| (sin x) | Sine x | সাইন x |
-| (cos x) | Cosine x | কোসাইন x |
-| (	an x) | Tangent x | ট্যানজেন্ট x |
+| (sin x) | Sine x | — |
+| (cos x) | Cosine x | — |
+| (	an x) | Tangent x | — |
 
 ## 14. Read these complete expressions aloud
 
-1. (x+5=9)  
+1. (x+5=9)
    “X plus five equals nine.”
 
-2. (x^2=16)  
+2. (x^2=16)
    “X squared equals sixteen.”
 
-3. (sqrt{25}=5)  
+3. (sqrt{25}=5)
    “The square root of twenty-five equals five.”
 
-4. (xgeq 0)  
+4. (xgeq 0)
    “X is greater than or equal to zero.”
 
-5. (f(x)=2x+1)  
+5. (f(x)=2x+1)
    “F of x equals two x plus one.”
 
-6. (lim_{x	o 3}(x+1)=4)  
+6. (lim_{x	o 3}(x+1)=4)
    “The limit as x approaches three of x plus one equals four.”
 
-7. (rac{dy}{dx}=3x^2)  
+7. (rac{dy}{dx}=3x^2)
    “Dee-y by dee-x equals three x squared.”
 
-8. (int x,dx=rac{x^2}{2}+C)  
+8. (int x,dx=rac{x^2}{2}+C)
    “The integral of x with respect to x equals x squared over two plus C.”
 
 ---
@@ -303,7 +291,7 @@ eq) mean?
 1. Not equal to.
 2. X cubed / x to the power three.
 3. Square root of sixteen; the principal square root is 4.
-4. x approaches five / x পাঁচের কাছাকাছি যায়।
+
 5. x is a real number.
 6. ([1,4]).
 7. f prime of x; the derivative of f.
