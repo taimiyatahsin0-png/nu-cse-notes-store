@@ -1,8 +1,5 @@
 # Conjunctions
 
-## সহজ বাংলায় ধারণা
-Conjunction হলো word বা word group যা words, phrases বা clauses যুক্ত করে। Conjunction-এর কাজ বুঝে ব্যবহার করতে হবে: addition, contrast, reason, result, choice বা condition।
-
 ## Core rules and method
 **Coordinating:** for, and, nor, but, or, yet, so (FANBOYS). Example: I was tired, but I completed the task.
 
