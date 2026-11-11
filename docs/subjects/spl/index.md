@@ -55,6 +55,10 @@ The outline below follows the syllabus reference recorded in this repository (Se
 
 C Programming Language.
 
+## Exam revision
+
+[Open the SPL Exam Revision Guide](exam-revision-guide.md) — key definitions, important differences, C syntax, core programming problems, short questions and broad questions.
+
 ## Chapter-wise notes
 
 ### Foundation: Problem solving
