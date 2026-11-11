@@ -1,6 +1,6 @@
 # Physics Chapter 02: Electric Current, Circuits and Measurements
 
-**Course:** Physics (510207)  
+**Course:** Physics \(510207\)  
 **Reference scope:** Electric current, simple circuits and electrical measurements  
 **Learning level:** Beginner
 
@@ -41,9 +41,9 @@ For a constant current:
 I=\frac{Q}{t}
 \]
 
-- (I) = current, measured in ampere (A)
-- (Q) = charge, measured in coulomb (C)
-- (t) = time, measured in second (s)
+- \(I\) = current, measured in ampere \(A\)
+- \(Q\) = charge, measured in coulomb \(C\)
+- \(t\) = time, measured in second \(s\)
 
 **One ampere:** A current of one ampere flows when one coulomb of charge passes through a cross-section in one second.
 
@@ -65,15 +65,15 @@ I=\frac{Q}{t}
 V\propto I\quad\Rightarrow\quad \boxed{V=IR}
 \]
 
-Here, (V) is potential difference in volt (V), (I) is current in ampere (A), and (R) is resistance in ohm (\(\Omega\)).
+Here, \(V\) is potential difference in volt \(V\), \(I\) is current in ampere \(A\), and \(R\) is resistance in ohm (\\(\Omega\\)).
 
 ### Solved example
 
-A (6\ \Omega) resistor is connected across a 12 V supply. Find the current.
+A \(6\ \Omega\) resistor is connected across a 12 V supply. Find the current.
 
-**Given:** (V=12\ V), (R=6\ \Omega)
+**Given:** \(V=12\ V\), \(R=6\ \Omega\)
 
-**Formula:** (I=V/R)
+**Formula:** \(I=V/R\)
 
 **Calculation:**
 
@@ -101,10 +101,10 @@ For a uniform conductor:
 
 where:
 
-- (R) = resistance (\(\Omega\))
-- (\rho) = resistivity (\(\Omega\,m\))
-- (L) = length (m)
-- (A) = cross-sectional area (\(m^2\))
+- \(R\) = resistance (\\(\Omega\\))
+- \(\rho\) = resistivity (\\(\Omega\,m\\))
+- \(L\) = length \(m\)
+- \(A\) = cross-sectional area (\\(m^2\\))
 
 Resistivity is a material property at a specified temperature.
 
@@ -138,10 +138,10 @@ R_{eq}=\frac{R_1R_2}{R_1+R_2}
 
 ### Solved example
 
-Find the equivalent resistance of (2\ \Omega) and (4\ \Omega):
+Find the equivalent resistance of \(2\ \Omega\) and \(4\ \Omega\):
 
-- In series: (R_{eq}=2+4=6\ \Omega).
-- In parallel: (R_{eq}=\frac{2\times4}{2+4}=\boxed{\frac{4}{3}\ \Omega}).
+- In series: \(R_{eq}=2+4=6\ \Omega\).
+- In parallel: \(R_{eq}=\frac{2\times4}{2+4}=\boxed{\frac{4}{3}\ \Omega}\).
 
 ## 5. EMF and Potential Difference
 
@@ -163,9 +163,9 @@ Battery বা cell charge-কে energy সরবরাহ করে। Source-
 \boxed{V=\frac{W}{Q}}
 \]
 
-Both are measured in volts (V). EMF is a source property; terminal potential difference depends on the circuit conditions.
+Both are measured in volts \(V\). EMF is a source property; terminal potential difference depends on the circuit conditions.
 
-For a cell delivering current (I) with internal resistance (r), terminal voltage is:
+For a cell delivering current \(I\) with internal resistance \(r\), terminal voltage is:
 
 \[
 V=\mathcal{E}-Ir
@@ -217,8 +217,8 @@ Electrical energy:
 \boxed{E=Pt}
 \]
 
-- Power-এর SI unit watt (W)
-- Energy-এর SI unit joule (J)
+- Power-এর SI unit watt \(W\)
+- Energy-এর SI unit joule \(J\)
 - বিদ্যুৎ বিলের commercial unit kilowatt-hour (kWh)
 
 \[
@@ -243,13 +243,13 @@ Wheatstone bridge দিয়ে অজানা resistance নির্ণয় ক
 
 **Definition:** A Wheatstone bridge is an electrical circuit used to determine an unknown resistance by balancing two legs of a bridge circuit.
 
-For the following arm arrangement, let (P) and (Q) form one branch, while (R) and (S) form the other branch. At balance, the galvanometer current is zero and:
+For the following arm arrangement, let \(P\) and \(Q\) form one branch, while \(R\) and \(S\) form the other branch. At balance, the galvanometer current is zero and:
 
 \[
 \boxed{\frac{P}{Q}=\frac{R}{S}}
 \]
 
-If (S) is unknown:
+If \(S\) is unknown:
 
 \[
 \boxed{S=\frac{QR}{P}}
@@ -259,7 +259,7 @@ If (S) is unknown:
 
 ### Solved example
 
-A bridge is balanced with (P=2\ \Omega), (Q=4\ \Omega), and (R=3\ \Omega). Find (S).
+A bridge is balanced with \(P=2\ \Omega\), \(Q=4\ \Omega\), and \(R=3\ \Omega\). Find \(S\).
 
 \[
 \frac{P}{Q}=\frac{R}{S}
@@ -285,7 +285,7 @@ Potentiometer দিয়ে EMF বা potential difference তুলনা ক�
 V\propto l\quad\Rightarrow\quad V=kl
 \]
 
-where (k) is the potential gradient.
+where \(k\) is the potential gradient.
 
 For two cells compared using the same potentiometer wire:
 
@@ -323,7 +323,7 @@ Therefore,
 \boxed{I=\frac{k\theta}{NBA}}
 \]
 
-where (N) is the number of turns, (B) is magnetic flux density, (I) is current, (A) is coil area, (k) is the torsional constant, and (\theta) is deflection.
+where \(N\) is the number of turns, \(B\) is magnetic flux density, \(I\) is current, \(A\) is coil area, \(k\) is the torsional constant, and \(\theta\) is deflection.
 
 **Current sensitivity:**
 
@@ -343,15 +343,15 @@ A galvanometer is converted into an ammeter by connecting a low resistance calle
 
 Let:
 
-- (G) = galvanometer resistance
-- (I_g) = full-scale deflection current
-- (I) = required ammeter range
-- (S) = shunt resistance
+- \(G\) = galvanometer resistance
+- \(I_g\) = full-scale deflection current
+- \(I\) = required ammeter range
+- \(S\) = shunt resistance
 
 Since the voltage across parallel branches is equal:
 
 \[
-I_gG=(I-I_g)S
+I_gG=\(I-I_g\)S
 \]
 
 Therefore,
@@ -372,7 +372,7 @@ Voltmeter দিয়ে voltage মাপতে galvanometer-এর সঙ্গ�
 
 A galvanometer is converted into a voltmeter by connecting a high resistance, called a multiplier, in series with it.
 
-Let (R) be the required series resistance and (V) the full-scale voltage range.
+Let \(R\) be the required series resistance and \(V\) the full-scale voltage range.
 
 \[
 V=I_g(G+R)
@@ -414,7 +414,7 @@ For a DC circuit:
 P=VI
 \]
 
-The unit of power is watt (W).
+The unit of power is watt \(W\).
 
 > **Safety:** Never measure resistance on an energized circuit. For current measurement, use the correct meter socket and range; an incorrect connection can short the supply or damage the meter. Practise only with instructor-approved low-voltage lab circuits.
 
@@ -430,22 +430,22 @@ Resistor ও capacitor দিয়ে RC circuit তৈরি হয়। Capacitor 
 \boxed{\tau=RC}
 \]
 
-Here, (R) is in ohms, (C) is in farads, and (\tau) is in seconds.
+Here, \(R\) is in ohms, \(C\) is in farads, and \(\tau\) is in seconds.
 
-For a capacitor charging from an ideal DC source (V):
+For a capacitor charging from an ideal DC source \(V\):
 
 \[
-q(t)=CV\left(1-e^{-t/RC}\right)
+q\(t\)=CV\left\(1-e^{-t/RC}\right\)
 \]
 
 \[
-V_C(t)=V\left(1-e^{-t/RC}\right)
+V_C\(t\)=V\left\(1-e^{-t/RC}\right\)
 \]
 
-For discharging from initial charge (Q_0):
+For discharging from initial charge \(Q_0\):
 
 \[
-q(t)=Q_0e^{-t/RC}
+q\(t\)=Q_0e^{-t/RC}
 \]
 
 After one time constant, a charging capacitor reaches about 63.2% of its final voltage; during discharge, about 36.8% of the initial voltage remains.
@@ -465,20 +465,20 @@ RL circuit-এ resistor ও inductor থাকে। Inductor current-এর প
 For a series RL circuit connected to an ideal DC source:
 
 \[
-i(t)=\frac{V}{R}\left(1-e^{-tR/L}\right)
+i\(t\)=\frac{V}{R}\left\(1-e^{-tR/L}\right\)
 \]
 
 When the source is removed and the current decays through resistance:
 
 \[
-i(t)=I_0e^{-tR/L}
+i\(t\)=I_0e^{-tR/L}
 \]
 
-Here, (L) is inductance in henry (H), (R) is resistance in ohms, and (\tau) is in seconds.
+Here, \(L\) is inductance in henry \(H\), \(R\) is resistance in ohms, and \(\tau\) is in seconds.
 
 ### Solved example
 
-Find the time constant of an RL circuit with (L=4\ H) and (R=2\ \Omega).
+Find the time constant of an RL circuit with \(L=4\ H\) and \(R=2\ \Omega\).
 
 \[
 \tau=\frac{L}{R}=\frac{4}{2}=\boxed{2\ s}
@@ -539,7 +539,7 @@ By connecting a low resistance shunt in parallel with the galvanometer.
 By connecting a high resistance in series with the galvanometer.
 
 **Q11. Define the time constant of an RC circuit.**  
-The time constant is (\tau=RC); it is the time required for a charging capacitor to reach approximately 63.2% of its final voltage.
+The time constant is \(\tau=RC\); it is the time required for a charging capacitor to reach approximately 63.2% of its final voltage.
 
 **Q12. What does a wattmeter measure?**  
 A wattmeter measures electrical power.
@@ -548,27 +548,27 @@ A wattmeter measures electrical power.
 
 > These are original syllabus-based practice questions, not verified NU previous-year questions.
 
-1. Find the current through an (8\ \Omega) resistor connected to 24 V.
-2. Find the equivalent resistance of (3\ \Omega) and (6\ \Omega) in parallel.
+1. Find the current through an \(8\ \Omega\) resistor connected to 24 V.
+2. Find the equivalent resistance of \(3\ \Omega\) and \(6\ \Omega\) in parallel.
 3. A 60 W lamp operates for 10 hours. Find the energy consumed in kWh.
-4. A Wheatstone bridge is balanced with (P=5\ \Omega), (Q=10\ \Omega), and (R=4\ \Omega). Find (S).
+4. A Wheatstone bridge is balanced with \(P=5\ \Omega\), \(Q=10\ \Omega\), and \(R=4\ \Omega\). Find \(S\).
 5. Two cells have balancing lengths of 60 cm and 75 cm. Find the ratio of their EMFs.
-6. A galvanometer has (G=50\ \Omega) and (I_g=1\ mA). Find the shunt required to convert it to a 1 A ammeter.
+6. A galvanometer has \(G=50\ \Omega\) and \(I_g=1\ mA\). Find the shunt required to convert it to a 1 A ammeter.
 7. Find the series resistance needed to convert the same galvanometer into a 10 V voltmeter.
-8. Find the RC time constant for (R=10\ k\Omega) and (C=100\ \mu F).
-9. Find the RL time constant for (L=4\ H) and (R=2\ \Omega).
+8. Find the RC time constant for \(R=10\ k\Omega\) and \(C=100\ \mu F\).
+9. Find the RL time constant for \(L=4\ H\) and \(R=2\ \Omega\).
 
 ### Answer check
 
-1. (3\ A)
-2. (2\ \Omega)
-3. (0.6\ kWh)
-4. (8\ \Omega)
-5. (E_1/E_2=60/75=0.8)
-6. Approximately (0.05005\ \Omega)
-7. (9950\ \Omega)
-8. (1\ s)
-9. (2\ s)
+1. \(3\ A\)
+2. \(2\ \Omega\)
+3. \(0.6\ kWh\)
+4. \(8\ \Omega\)
+5. \(E_1/E_2=60/75=0.8\)
+6. Approximately \(0.05005\ \Omega\)
+7. \(9950\ \Omega\)
+8. \(1\ s\)
+9. \(2\ s\)
 
 ---
 
@@ -581,4 +581,4 @@ A wattmeter measures electrical power.
 - Draw a labelled circuit diagram when the question asks for construction, working or connection.
 - Keep KCL, KVL, Wheatstone bridge and potentiometer principles distinct.
 
-*Original learning notes organized around the Physics (510207) topic outline in the NU CSE syllabus reference effective from Session 2017–2018. Confirm the currently applicable syllabus with your department. Practice questions are not claimed as verified past questions.*
+*Original learning notes organized around the Physics \(510207\) topic outline in the NU CSE syllabus reference effective from Session 2017–2018. Confirm the currently applicable syllabus with your department. Practice questions are not claimed as verified past questions.*
