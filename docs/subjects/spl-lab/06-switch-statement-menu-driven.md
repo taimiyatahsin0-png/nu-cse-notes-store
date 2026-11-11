@@ -259,28 +259,28 @@ Try these independently:
 
 ## 12. Viva Questions
 
-**Q1. What is a switch statement?**  
+**Q1. What is a switch statement?**
 A: A selection statement that executes a matching case according to the value of an expression.
 
-**Q2. What is the purpose of the case keyword?**  
+**Q2. What is the purpose of the case keyword?**
 A: It defines a possible value that can match the switch expression.
 
-**Q3. Why is break used in a switch statement?**  
+**Q3. Why is break used in a switch statement?**
 A: It exits the switch block and prevents unintended fall-through.
 
-**Q4. What is the purpose of default?**  
+**Q4. What is the purpose of default?**
 A: It executes when none of the case values match.
 
-**Q5. Is default compulsory?**  
+**Q5. Is default compulsory?**
 A: No. It is optional, but useful for handling unexpected choices.
 
-**Q6. Can we use floating-point values as case labels?**  
+**Q6. Can we use floating-point values as case labels?**
 A: No. Case labels must be constant integral values (or compatible enumeration constants).
 
-**Q7. What happens if break is omitted?**  
+**Q7. What happens if break is omitted?**
 A: Execution may continue into the following case statements.
 
-**Q8. What is the difference between division (/) and modulus (%)?**  
+**Q8. What is the difference between division (/) and modulus (%)?**
 A: Division produces a quotient, while modulus gives the remainder for integer operands.
 
 ## 13. Result
