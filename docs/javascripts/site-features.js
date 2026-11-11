@@ -93,13 +93,13 @@
       const allowed=new Set(BACKUP_KEYS),incoming={};
       for(const [key,value] of Object.entries(p.data)){
         if(!allowed.has(key)||typeof value!=="string")throw new Error("Backup contains an unsupported key or invalid value.");
-        if(key==="__palette"){if(value!=="default"&&value!=="slate")throw new Error("Invalid theme preference.");incoming[key]=value;continue;}
+        if(key==="__palette"){if(value.length>1000)throw new Error("Invalid theme preference.");incoming[key]=value;continue;}
         const parsed=JSON.parse(value);
         if(key==="nuCseSemesterCgpaV2"){
           if(!parsed||typeof parsed!=="object"||Array.isArray(parsed))throw new Error("Invalid CGPA backup data.");
           for(const part of ["saved","drafts","quick"])if(parsed[part]!==undefined&&(!parsed[part]||typeof parsed[part]!=="object"||Array.isArray(parsed[part])))throw new Error("Invalid CGPA "+part+" data.");
         }else if(key===BOOKMARK_KEY){
-          if(!Array.isArray(parsed)||parsed.some(item=>!item||typeof item!=="object"||typeof item.url!=="string"||!safeURL(item.url)||typeof item.title!=="string"))throw new Error("Invalid bookmark data.");
+          if(!Array.isArray(parsed)||parsed.some(item=>!item||typeof item!=="object"||typeof item.url!=="string"||!safeURL(item.url)||(item.title!==undefined&&typeof item.title!=="string")))throw new Error("Invalid bookmark data.");
         }else if(key===RECENT_KEY){
           if(!Array.isArray(parsed)||parsed.some(term=>typeof term!=="string"||term.length>200))throw new Error("Invalid recent-search data.");
         }
