@@ -1,7 +1,7 @@
 # Chapter 05: Functions in C
 
-**Course:** Structured Programming Language (SPL)  
-**Course Code:** 510201  
+**Course:** Structured Programming Language (SPL)
+**Course Code:** 510201
 **Level:** Beginner
 
 ## Learning Objectives
@@ -14,27 +14,17 @@
 
 ---
 
-# Part A: Understand in Bangla
-
 ## 1. What is a Function?
-
-একটি বড় program-কে ছোট ছোট কাজের অংশে ভাগ করলে প্রতিটি অংশ আলাদাভাবে বোঝা, পরীক্ষা করা এবং পুনরায় ব্যবহার করা সহজ হয়। C-তে নির্দিষ্ট কাজ সম্পন্ন করার জন্য ব্যবহৃত named block of code-কে Function বলে।
 
 **English Exam Definition:** A function is a named, self-contained block of statements designed to perform a specific task.
 
 ### Advantages
-1. Program-কে ছোট অংশে ভাগ করে।
-2. একই code বারবার লেখার প্রয়োজন কমায়।
-3. Testing ও debugging সহজ করে।
-4. Readability ও maintenance উন্নত করে।
 
 ## 2. Types of Functions
 
 ### Library Functions
-C standard library-তে আগে থেকে ঘোষিত function। যেমন printf(), scanf(), strlen(), sqrt()।
 
 ### User-Defined Functions
-Programmer নিজের প্রয়োজন অনুযায়ী যে function তৈরি করে।
 
 ~~~c
 int add(int a, int b)
@@ -46,8 +36,6 @@ int add(int a, int b)
 ## 3. Three Main Parts of a User-Defined Function
 
 ### Function Declaration / Prototype
-
-Compiler-কে function-এর নাম, return type এবং parameter type আগে জানায়।
 
 ~~~c
 int add(int, int);
@@ -91,16 +79,8 @@ int add(int a, int b)
 Output: Sum = 30
 
 ### How It Works
-1. int add(int, int); compiler-কে function-এর interface জানায়।
-2. main() থেকে add(10, 20) call হয়।
-3. a পায় 10 এবং b পায় 20।
-4. return a + b; থেকে 30 caller-এর কাছে ফিরে যায়।
-5. result-এ 30 রাখা হয়।
 
 ## 5. Parameters and Arguments
-
-- **Parameter:** Function definition-এ লেখা variable, যেমন int a, int b।
-- **Argument:** Function call-এর সময় পাঠানো value বা expression, যেমন 10, 20।
 
 ~~~c
 int multiply(int x, int y)
@@ -146,8 +126,6 @@ int square(int n)
 
 ## 7. Parameter Passing in C
 
-C function-এ argument-এর value parameter-এ copy হয়ে যায়। একে **pass by value** বলে। তাই function-এর ভেতরে সাধারণ parameter পরিবর্তন করলে caller-এর original variable পরিবর্তিত হয় না।
-
 ~~~c
 #include <stdio.h>
 
@@ -167,11 +145,7 @@ int main(void)
 
 Output: 10
 
-কারণ x হলো number-এর copy।
-
 ### Changing the Original Value Using a Pointer
-
-C সরাসরি pass-by-reference parameter support করে না। তবে variable-এর address pointer হিসেবে পাঠালে function সেই address ব্যবহার করে original value পরিবর্তন করতে পারে।
 
 ~~~c
 #include <stdio.h>
@@ -192,17 +166,11 @@ int main(void)
 
 Output: 100
 
-এটি pointer দিয়ে address পাঠানোর মাধ্যমে original object পরিবর্তন করে; technically C এখনও value-ই pass করে (এখানে pointer value)।
-
 ## 8. Scope of Variables
 
-Scope হলো program-এর কোন অংশ থেকে কোনো identifier ব্যবহার করা যাবে তার পরিসর।
-
 ### Local Variable
-Function বা block-এর ভেতরে declare করা variable। সাধারণত সেই block-এর বাইরে ব্যবহার করা যায় না।
 
 ### Global Variable
-সব function-এর বাইরে declare করা variable। উপযুক্ত declaration-এর পর file-এর বিভিন্ন function থেকে ব্যবহার করা যায়।
 
 ~~~c
 #include <stdio.h>
@@ -223,18 +191,14 @@ int main(void)
 }
 ~~~
 
-**সতর্কতা:** একই নামের local variable outer/global identifier-কে shadow করতে পারে। Global variable অপ্রয়োজনে বেশি ব্যবহার করলে program বোঝা কঠিন হয়।
-
 ## 9. Storage Classes
 
-Storage class একটি identifier-এর scope, linkage এবং storage duration সম্পর্কে ধারণা দেয়। Beginner syllabus-এ সাধারণত auto, register, static এবং extern আলোচনা করা হয়।
-
-| Storage class | সহজ ধারণা |
+| Storage class | — |
 |---|---|
-| auto | Block-এর local automatic variable; local variable-এর default |
-| register | Implementation-কে register-এ রাখার preference জানায়; compiler উপেক্ষা করতে পারে |
-| static | Static storage duration; function-এর local static value function call-এর পরও থাকে |
-| extern | অন্য জায়গায় defined external-linkage object/function-এর declaration বোঝাতে ব্যবহৃত হয় |
+| auto | — |
+| register | — |
+| static | — |
+| extern | — |
 
 ### static Local Variable Example
 
@@ -264,21 +228,11 @@ Output:
 3
 ~~~
 
-count একবার initialize হয় এবং function call-এর মাঝেও তার value ধরে রাখে।
-
 ### extern Concept
-
-একটি file-এ global object define করা যায়, আর অন্য file-এ extern declaration দিয়ে সেটি ব্যবহার করা যায়। একাধিক file-এর program-এ একই object-এর duplicate definition তৈরি করা যাবে না।
 
 ## 10. Recursion
 
-কোনো function যখন নিজের কাজের মধ্যে নিজেকেই call করে, তাকে Recursion বলে।
-
 **English Exam Definition:** Recursion is a programming technique in which a function calls itself to solve a problem.
-
-একটি recursive function-এর প্রয়োজন:
-1. **Base case:** যে অবস্থায় recursion থেমে যাবে।
-2. **Recursive case:** যে অংশে ছোট input দিয়ে function আবার call হবে।
 
 ### Program: Factorial Using Recursion
 
@@ -309,7 +263,7 @@ int main(void)
 }
 ~~~
 
-The function is intended for inputs from 0 to 20. Negative inputs are invalid, and values above 20 exceed the range of a typical signed 64-bit `long long`. 
+The function is intended for inputs from 0 to 20. Negative inputs are invalid, and values above 20 exceed the range of a typical signed 64-bit `long long`.
 
 Output: 5! = 120
 
@@ -322,29 +276,25 @@ Output: 5! = 120
 | factorial(2) | 2 × factorial(1) | 2 |
 | factorial(1) | Base case | 1 |
 
-তারপর result উল্টো পথে return হয়: 1 → 2 → 6 → 24।
-
 ### Advantages and Disadvantages
-**Advantages:** কিছু problem (tree traversal, divide-and-conquer) সহজভাবে প্রকাশ করা যায়।  
-**Disadvantages:** অতিরিক্ত function call overhead হয়; base case না থাকলে recursion চলতেই পারে এবং stack exhaustion হতে পারে।
 
 ---
 
 # Part B: English Exam Notes
 
-**Q1. Define a function.**  
+**Q1. Define a function.**
 A function is a named block of statements designed to perform a specific task.
 
-**Q2. What is a function prototype?**  
+**Q2. What is a function prototype?**
 A function prototype is a declaration that specifies a function's name, return type and parameter types before it is used.
 
-**Q3. Differentiate between arguments and parameters.**  
+**Q3. Differentiate between arguments and parameters.**
 Parameters are variables listed in a function definition, whereas arguments are values or expressions supplied in a function call.
 
-**Q4. What is recursion?**  
+**Q4. What is recursion?**
 Recursion is a technique in which a function calls itself until a base condition is reached.
 
-**Q5. What is scope?**  
+**Q5. What is scope?**
 Scope is the region of a program in which an identifier can be accessed.
 
 ## Difference Between Library and User-Defined Functions
@@ -462,8 +412,6 @@ int main(void)
     return 0;
 }
 ~~~
-
-**বাংলায়:** x-এর value copy করে পাঠানো হয়নি; &x অর্থাৎ address-এর value পাঠানো হয়েছে। Function pointer দিয়ে original x-কে access করে পরিবর্তন করেছে। তবুও C-তে pointer argument-টিও value হিসেবেই pass হয়।
 
 ### Board and question-bank sources
 
