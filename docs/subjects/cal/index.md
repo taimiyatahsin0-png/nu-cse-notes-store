@@ -1,11 +1,11 @@
 
 # Calculus
 
-**Course Code:** 510205  
-**Course Title:** Calculus  
-**Credits:** 3.0  
-**Marks:** 80  
-**Class Hours:** 45  
+**Course Code:** 510205
+**Course Title:** Calculus
+**Credits:** 3.0
+**Marks:** 80
+**Class Hours:** 45
 **Semester:** CSE First Semester
 
 ## Course Overview
@@ -129,7 +129,6 @@ This course covers the fundamental concepts of Differential Calculus and Integra
 - Previous Year Questions
 - Practice Exercises
 
-
 ## NU Calculus Question Archive
 
 - [NU CSE Calculus question collection (2009–2019)](https://www.scribd.com/document/947202575/NU-CSE-1st-Semester-Calculus)
@@ -166,5 +165,4 @@ The repository follows this published syllabus copy. It is not a guarantee that 
 ---
 
 *Based on the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
-
 
