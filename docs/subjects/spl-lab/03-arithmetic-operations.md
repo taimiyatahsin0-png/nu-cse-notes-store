@@ -1,7 +1,7 @@
 # Practical 03: Arithmetic Operations in C
 
-> **Status:** Suggested practice practical  
-> **Related theory topics:** Arithmetic operators, data types, input and output  
+> **Status:** Suggested practice practical
+> **Related theory topics:** Arithmetic operators, data types, input and output
 > **Lab course:** 510202 – Structured Programming Language Lab
 
 !!! note "Syllabus and experiment-order note"
@@ -199,25 +199,25 @@ The program performs the five basic arithmetic operations on two integers. It al
 
 ## 13. Viva questions
 
-**Q1. What are arithmetic operators?**  
+**Q1. What are arithmetic operators?**
 Arithmetic operators are symbols used to perform mathematical operations on operands.
 
-**Q2. What is the difference between `/` and `%`?**  
+**Q2. What is the difference between `/` and `%`?**
 The division operator calculates a quotient, while the modulus operator calculates the remainder for integer operands.
 
-**Q3. What is the result of `7 / 2` in C when both operands are integers?**  
+**Q3. What is the result of `7 / 2` in C when both operands are integers?**
 The result is `3`, because the fractional part is discarded.
 
-**Q4. What is the result of `(double)7 / 2`?**  
+**Q4. What is the result of `(double)7 / 2`?**
 The result is `3.5`, because floating-point division is performed.
 
-**Q5. Can modulus be used with floating-point operands?**  
+**Q5. Can modulus be used with floating-point operands?**
 No. The `%` operator requires integer operands.
 
-**Q6. What happens if a program divides an integer by zero?**  
+**Q6. What happens if a program divides an integer by zero?**
 It causes undefined behavior in C; therefore, the divisor should be checked before division.
 
-**Q7. What does `%lld` mean?**  
+**Q7. What does `%lld` mean?**
 It is the `printf()` format specifier for a `long long int` value.
 
 ## 14. Common mistakes
