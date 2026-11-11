@@ -1,7 +1,7 @@
 # Chapter 06: Advanced Programming Concepts in C
 
-**Course:** Structured Programming Language (SPL)  
-**Course Code:** 510201  
+**Course:** Structured Programming Language (SPL)
+**Course Code:** 510201
 **Level:** Beginner
 
 ## Learning Objectives
@@ -15,11 +15,7 @@
 
 ---
 
-# Part A: Understand in Bangla
-
 ## 1. Structure
-
-একজন শিক্ষার্থীর roll, name ও CGPA রাখতে হবে। এগুলো আলাদা data type-এর তথ্য, কিন্তু একই শিক্ষার্থীর সঙ্গে সম্পর্কিত। Structure দিয়ে ভিন্ন data type-এর member-গুলোকে একটি user-defined type-এর অধীনে রাখা যায়।
 
 **English Exam Definition:** A structure is a user-defined data type that groups related variables of different data types under one name.
 
@@ -34,8 +30,6 @@ struct Student
 };
 ~~~
 
-Variable তৈরি ও member access:
-
 ~~~c
 struct Student s1 = {101, "Nadia", 3.75f};
 
@@ -43,8 +37,6 @@ printf("%d\n", s1.roll);
 printf("%s\n", s1.name);
 printf("%.2f\n", s1.cgpa);
 ~~~
-
-Structure member access করতে dot (.) operator ব্যবহার হয়।
 
 ### Complete Program
 
@@ -72,8 +64,6 @@ int main(void)
 
 ## 2. Union
 
-Union-ও structure-এর মতো ভিন্ন data type-এর member group করে। কিন্তু union-এর member-গুলো একই memory location share করে। তাই এক সময়ে সাধারণত একটি member-এর stored value-ই meaningful থাকে।
-
 **English Exam Definition:** A union is a user-defined data type in which all members share the same memory location.
 
 ~~~c
@@ -91,29 +81,22 @@ value.number = 10;
 printf("%d\n", value.number);
 ~~~
 
-একটি member-এ value লেখার পর অন্য member-এ value লিখলে আগের representation overwrite হতে পারে। তাই union-এ একাধিক member একসঙ্গে structure-এর মতো independent value রাখে না।
-
 ## 3. Difference Between Structure and Union
 
 | Structure | Union |
 |---|---|
-| প্রতিটি member-এর নিজস্ব storage থাকে | সব member storage share করে |
-| একাধিক member-এর value একসঙ্গে রাখা যায় | সাধারণত এক সময়ে একটি member-এর value ব্যবহার করা হয় |
-| মোট size member-গুলোর size ও padding-এর ওপর নির্ভর করে | size অন্তত সবচেয়ে বড় member-এর প্রয়োজনীয় size-এর সমান; alignment-ও প্রভাব ফেলে |
+| — | — |
+| — | — |
+| — | — |
 | struct keyword | union keyword |
 
 ## 4. Pointers
 
 ### What is a Pointer?
 
-সাধারণ variable-এ value রাখা হয়। Pointer variable-এ অন্য object-এর memory address রাখা হয়।
-
 **English Exam Definition:** A pointer is a variable that stores the memory address of another object.
 
 ### Address-of (&) and Dereference (*)
-
-- &x — variable x-এর address দেয়।
-- *p — pointer p যে object-কে point করে তার value access করে।
 
 ~~~c
 #include <stdio.h>
@@ -130,8 +113,6 @@ int main(void)
     return 0;
 }
 ~~~
-
-Address প্রতিবার বা প্রতিটি computer-এ একই হবে না। %p দিয়ে pointer print করতে (void *) cast ব্যবহার করা হয়।
 
 ### Pointer Dry Run
 
@@ -163,15 +144,7 @@ Output: 50
 
 ### Pointer Safety
 
-- Pointer declare করার পর valid object-এর address না দিলে dereference করবে না।
-- Null pointer (NULL) dereference করা যাবে না।
-- Object-এর lifetime শেষ হওয়ার পর তার address ব্যবহার করবে না।
-- Array-এর valid boundary-এর বাইরে dereference করবে না।
-- Pointer-এর type-এর সঙ্গে pointed object-এর type মিলতে হবে, উপযুক্ত conversion ছাড়া।
-
 ## 5. Pointer and Array Relationship
-
-Array-এর নাম অধিকাংশ expression-এ তার প্রথম element-এর pointer-এ convert হয়। তবে array এবং pointer এক জিনিস নয়; sizeof(array) পুরো array-এর size দেয়, pointer-এর size নয়।
 
 ~~~c
 #include <stdio.h>
@@ -194,18 +167,9 @@ Output:
 20
 ~~~
 
-p + 1 পরবর্তী integer element-এর দিকে নির্দেশ করে, byte হিসেবে শুধু 1 ঘর নয়।
-
 ## 6. File Management in C
 
-File handling ব্যবহার করে program data স্থায়ীভাবে file-এ রাখতে বা file থেকে পড়তে পারে।
-
 ### Important Steps
-1. FILE pointer declare করা।
-2. fopen() দিয়ে file খোলা।
-3. fopen() ব্যর্থ হলে NULL check করা।
-4. প্রয়োজনমতো read/write করা।
-5. fclose() দিয়ে file বন্ধ করা।
 
 ### Common File Modes
 
@@ -283,11 +247,7 @@ int main(void)
 }
 ~~~
 
-fgetc() character বা EOF return করে; তাই result int variable-এ রাখা হয়, যাতে সব unsigned-char value এবং EOF আলাদা করা যায়।
-
 ## 7. Header Files
-
-Header file-এ function declaration, macro, type definition ইত্যাদি থাকতে পারে। #include preprocessor directive দিয়ে header যুক্ত করা হয়।
 
 | Header | Example |
 |---|---|
@@ -299,8 +259,6 @@ Header file-এ function declaration, macro, type definition ইত্যাদ�
 | time.h | time and date functions |
 
 ## 8. Preprocessor
-
-Preprocessor হলো compilation-এর আগে source code-এ directive অনুযায়ী কাজ করা translation phase। Directive সাধারণত # দিয়ে শুরু হয়।
 
 ### #include
 
@@ -315,8 +273,6 @@ Preprocessor হলো compilation-এর আগে source code-এ directive �
 #define SQUARE(x) ((x) * (x))
 ~~~
 
-Macro parameter ব্যবহার করলে parentheses গুরুত্বপূর্ণ। SQUARE(x)-এর মতো macro-তে argument একাধিকবার evaluate হতে পারে; side-effect থাকা expression পাঠানো উচিত নয়।
-
 ### Conditional Compilation
 
 ~~~c
@@ -329,8 +285,6 @@ Common directives: #if, #ifdef, #ifndef, #else, #elif, #endif, #undef।
 
 ## 9. Library Functions
 
-Library function হলো standard library বা অন্য library-তে আগে থেকে implement করা function। Function ব্যবহারের আগে সংশ্লিষ্ট header include করতে হয়।
-
 | Function | Header | Purpose |
 |---|---|---|
 | printf() | stdio.h | formatted output |
@@ -340,26 +294,11 @@ Library function হলো standard library বা অন্য library-তে �
 | malloc() | stdlib.h | dynamic memory allocation |
 | toupper() | ctype.h | convert character to uppercase |
 
-math.h-এর কিছু function ব্যবহার করতে নির্দিষ্ট compiler environment-এ math library link option প্রয়োজন হতে পারে।
-
 ## 10. Error Handling
-
-Program-এ error বিভিন্ন পর্যায়ে হতে পারে।
 
 ### Types of Errors
 
-1. **Syntax/Compile-time error:** C grammar বা type rule ভাঙলে compiler diagnostic দেয়।
-2. **Runtime error:** Program চলার সময় সমস্যা, যেমন file open ব্যর্থ হওয়া।
-3. **Logical error:** Program চলে, কিন্তু logic ভুল হওয়ায় ফল ভুল হয়।
-
 ### Basic Error Handling Practices
-
-- User input-এর range যাচাই করা।
-- fopen()-এর return value NULL কি না দেখা।
-- Division করার আগে divisor zero কি না দেখা।
-- File operation-এর error status পরীক্ষা করা।
-- Function-এর return value প্রয়োজনমতো পরীক্ষা করা।
-- Meaningful error message দেখানো।
 
 Example:
 
@@ -392,22 +331,22 @@ int main(void)
 
 # Part B: English Exam Notes
 
-**Q1. Define a structure.**  
+**Q1. Define a structure.**
 A structure is a user-defined data type that groups related variables of different data types under one name.
 
-**Q2. Define a union.**  
+**Q2. Define a union.**
 A union is a user-defined data type in which all members share the same memory location.
 
-**Q3. What is a pointer?**  
+**Q3. What is a pointer?**
 A pointer is a variable that stores the memory address of another object.
 
-**Q4. What is file handling?**  
+**Q4. What is file handling?**
 File handling is the process of creating, opening, reading, writing and closing files through a program.
 
-**Q5. What is a preprocessor directive?**  
+**Q5. What is a preprocessor directive?**
 A preprocessor directive is an instruction beginning with # that is processed before the main compilation phase.
 
-**Q6. What is error handling?**  
+**Q6. What is error handling?**
 Error handling is the process of detecting, reporting and responding to errors that occur during program execution or other stages.
 
 ## Short Questions (2 Marks)
@@ -582,8 +521,6 @@ else
 | Multiple members can hold values at the same time | Writing one member may overwrite the representation used by another |
 | Size depends on members and padding | Size is sufficient for the largest member, including alignment |
 
-**বাংলায়:** Structure-এ roll, name, marks আলাদা জায়গায় রাখা যায়। Union-এ member-গুলো একই memory share করে, তাই একই সময়ে সব member-এ আলাদা value ধরে রাখার জন্য union ব্যবহার করা হয় না।
-
 ### Board and question-bank sources
 
 - [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
@@ -601,12 +538,9 @@ else
 
 **Source caution:** These are student-uploaded / student-compiled copies. The year tags are revision clues, not proof of an official NU archive record.
 
-
 ---
 
 ## Solved Board-Style Program: Swap Two Numbers Using Pointers
-
-**বাংলায় Logic:** Function-এ দুইটি variable-এর address পাঠাব। Pointer দিয়ে সেই address-এর value access করে temporary variable ব্যবহার করে swap করব।
 
 ```c
 #include <stdio.h>
@@ -677,8 +611,6 @@ int main(void)
 }
 ```
 
-**মনে রাখবে:** `students[i]` একটি structure object; `.roll`, `.name` ও `.marks` দিয়ে তার member access করা হয়।
-
 ## Solved Program: Append Text to a File
 
 **Problem:** Open an existing text file in append mode and add a new line at its end. If the file does not exist, append mode creates it.
@@ -719,8 +651,6 @@ int main(void)
 ## Solved Board-Style Program: Append One File to Another
 
 **Problem:** Read the contents of a source text file and append them to the end of a destination text file.
-
-**বাংলায় Logic:** Source file read mode-এ এবং destination file append mode-এ খুলব। Source থেকে এক character করে EOF না আসা পর্যন্ত পড়ব এবং destination-এ লিখব। শেষে read/write error check করে দুই file বন্ধ করব।
 
 ~~~c
 #include <stdio.h>
@@ -781,9 +711,6 @@ int main(void)
     return 0;
 }
 ~~~
-
-**Important:** Destination file আগে থেকে থাকলে তার পুরোনো content থাকবে এবং নতুন content শেষে যোগ হবে। Destination না থাকলে append mode সেটি তৈরি করবে।
-
 
 ---
 
