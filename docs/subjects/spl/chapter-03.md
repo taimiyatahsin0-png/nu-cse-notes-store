@@ -266,11 +266,12 @@ switch (expression)
 
 | `if-else` | `switch` |
 |---|---|
-| — | — |
-| — || — | — |
-| — | — |
-| — | — |
-| — | — |
+| Tests a condition that evaluates to true or false | Compares an expression with constant `case` values |
+| Supports relational and logical operators | Does not directly support relational or range conditions in `case` labels |
+| Suitable for ranges, such as `marks >= 40` | Suitable for fixed choices, such as menu options 1, 2 or 3 |
+| Can use different expressions in each condition | All `case` labels belong to one `switch` expression |
+| Conditions are checked from top to bottom | Control jumps to the matching `case`; `break` usually prevents fall-through |
+| Works with any scalar condition expression that is valid in C | The controlling expression and case labels must use permitted integer types/constant expressions |
 
 **Exam answer:** `if-else` is suitable for relational, logical and range-based conditions, whereas `switch` is suitable for selecting among several fixed constant values of an integral or character expression. A `switch` case usually requires `break` to prevent fall-through.
 
@@ -571,18 +572,18 @@ Result = 14.50
 
 # Part D: Common Beginner Mistakes
 
-| — | — | — |
+| Incorrect code | Problem | Correct form |
 |---|---|---|
-| `if (a = b)` | — | — |
-| `scanf("%d", number);` | — | `scanf("%d", &number);` |
-| — | — | `scanf("%lf", &value);` |
-| `if (marks >= 40);` | — | — |
-| — | — | — |
-| — | — | — |
-| — | — | — |
-| — | — | — |
-| — | — | — |
-| — | — | `printf("%f", value);` |
+| `if (a = b)` | Uses assignment instead of comparison when equality is intended | `if (a == b)` |
+| `scanf("%d", number);` | Does not pass the address of the variable | `scanf("%d", &number);` |
+| `scanf("%f", &value);` when `value` is `double` | `%f` expects a `float *` in `scanf()` | `scanf("%lf", &value);` |
+| `if (marks >= 40);` | The semicolon ends the `if` statement, leaving the following block independent | `if (marks >= 40)` |
+| `case 1.5:` | A floating-point value is not a valid `case` label in C | Use an integer/character constant, such as `case 1:` |
+| `switch (marks) { case marks >= 40: ... }` | A `case` label cannot be a relational condition | Use `if (marks >= 40)` |
+| `printf("%d", 3.14);` | `%d` expects an `int`, not a floating-point argument | `printf("%f", 3.14);` |
+| `scanf("%c", &choice);` immediately after reading a number | The pending newline may be read as the character | `scanf(" %c", &choice);` (leading space skips whitespace) |
+| `if (x > 0) printf("Positive"); else;` | The semicolon after `else` creates an empty else statement | `else printf("Not positive");` |
+| `printf("%f", value);` where `value` is `double` | No error: `%f` is correct for `double` output in `printf()` | `printf("%f", value);` |
 
 ### Quick reminders
 
@@ -829,9 +830,9 @@ int main(void)
 | while | do-while | for |
 |---|---|---|
 | Entry-controlled loop | Exit-controlled loop | Entry-controlled loop |
-| — | — | — |
-| Zero or more execution | At least one execution | Zero or more execution |
-| — | — | — |
+| Checks the condition before the loop body | Checks the condition after the loop body | Checks the condition before the loop body |
+| May execute zero or more times | Executes at least once | May execute zero or more times |
+| Best when the number of repetitions is not known in advance | Useful when the body must run at least once, such as a menu | Convenient when initialization, condition and update belong together; often used for counted loops |
 
 ## 18. Program: Sum of First N Natural Numbers
 
@@ -938,9 +939,9 @@ Output: 1 2 4 5
 
 | break | continue |
 |---|---|
-| — | — |
-| — | — |
-| — | — |
+| Immediately terminates the nearest enclosing loop or `switch` statement | Skips the remaining statements in the current loop iteration |
+| Control moves to the statement after the loop or `switch` | Control proceeds to the next iteration of the loop |
+| In a `switch` inside a loop, it exits the `switch`, not the outer loop | Applies to loops; it does not terminate a `switch` statement |
 
 ## 23. Infinite Loop
 
