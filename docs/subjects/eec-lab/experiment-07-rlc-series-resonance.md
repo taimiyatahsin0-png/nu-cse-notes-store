@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 07: study of rlc series resonance using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 In a series RLC circuit, resonance occurs when inductive and capacitive reactances are equal: XL = XC. The resonant frequency is f0 = 1/(2π√LC). At ideal series resonance, impedance is minimum (approximately R), current is maximum, and power factor is unity.
 
 ## 3. Apparatus
