@@ -1112,143 +1112,143 @@ Choose the correct answer.
 
 ### 1. What is an algorithm?
 
-A. A programming language  
-B. A finite sequence of instructions  
-C. A computer device  
-D. An operating system  
+A. A programming language
+B. A finite sequence of instructions
+C. A computer device
+D. An operating system
 
 ### 2. Which of the following is a characteristic of an algorithm?
 
-A. Ambiguity  
-B. Infinite execution  
-C. Definiteness  
-D. Unclear instructions  
+A. Ambiguity
+B. Infinite execution
+C. Definiteness
+D. Unclear instructions
 
 ### 3. Which symbol represents Start and Stop?
 
-A. Rectangle  
-B. Diamond  
-C. Oval  
-D. Parallelogram  
+A. Rectangle
+B. Diamond
+C. Oval
+D. Parallelogram
 
 ### 4. Which symbol represents a decision?
 
-A. Diamond  
-B. Rectangle  
-C. Oval  
-D. Circle  
+A. Diamond
+B. Rectangle
+C. Oval
+D. Circle
 
 ### 5. Which symbol represents input and output?
 
-A. Oval  
-B. Parallelogram  
-C. Rectangle  
-D. Diamond  
+A. Oval
+B. Parallelogram
+C. Rectangle
+D. Diamond
 
 ### 6. Which symbol represents processing?
 
-A. Rectangle  
-B. Diamond  
-C. Circle  
-D. Oval  
+A. Rectangle
+B. Diamond
+C. Circle
+D. Oval
 
 ### 7. What does IPO stand for?
 
-A. Input, Program, Operation  
-B. Input, Process, Output  
-C. Internet, Process, Output  
-D. Input, Program, Output  
+A. Input, Program, Operation
+B. Input, Process, Output
+C. Internet, Process, Output
+D. Input, Program, Output
 
 ### 8. Which of the following is not a characteristic of an algorithm?
 
-A. Input  
-B. Output  
-C. Finiteness  
-D. Ambiguity  
+A. Input
+B. Output
+C. Finiteness
+D. Ambiguity
 
 ### 9. What is pseudocode?
 
-A. A machine language  
-B. A programming language  
-C. An English-like representation of an algorithm  
-D. An operating system  
+A. A machine language
+B. A programming language
+C. An English-like representation of an algorithm
+D. An operating system
 
 ### 10. Which structure is used for decision-making?
 
-A. Sequence  
-B. Selection  
-C. Iteration  
-D. Compilation  
+A. Sequence
+B. Selection
+C. Iteration
+D. Compilation
 
 ### 11. Which structure is used for repetition?
 
-A. Iteration  
-B. Selection  
-C. Sequence  
-D. Input  
+A. Iteration
+B. Selection
+C. Sequence
+D. Input
 
 ### 12. Which keyword is commonly used to accept data in pseudocode?
 
-A. PRINT  
-B. INPUT  
-C. STOP  
-D. END  
+A. PRINT
+B. INPUT
+C. STOP
+D. END
 
 ### 13. Which keyword is used to display output?
 
-A. INPUT  
-B. READ  
-C. OUTPUT  
-D. START  
+A. INPUT
+B. READ
+C. OUTPUT
+D. START
 
 ### 14. What is the result of 5! ?
 
-A. 25  
-B. 60  
-C. 100  
-D. 120  
+A. 25
+B. 60
+C. 100
+D. 120
 
 ### 15. What is the value of 0! ?
 
-A. 0  
-B. 1  
-C. Undefined  
-D. 10  
+A. 0
+B. 1
+C. Undefined
+D. 10
 
 ### 16. Which operator is commonly used to find the remainder?
 
-A. +  
-B. -  
-C. %  
-D. /  
+A. +
+B. -
+C. %
+D. /
 
 ### 17. What is the output if N = 8 and the condition N % 2 == 0 is checked?
 
-A. Odd  
-B. Even  
-C. Zero  
-D. Negative  
+A. Odd
+B. Even
+C. Zero
+D. Negative
 
 ### 18. Which of the following shows the direction of a flowchart?
 
-A. Diamond  
-B. Arrow  
-C. Oval  
-D. Rectangle  
+A. Diamond
+B. Arrow
+C. Oval
+D. Rectangle
 
 ### 19. Which of the following is language-independent?
 
-A. C program  
-B. C++ program  
-C. Pseudocode  
-D. Machine code  
+A. C program
+B. C++ program
+C. Pseudocode
+D. Machine code
 
 ### 20. What must an algorithm produce?
 
-A. At least one output  
-B. At least ten inputs  
-C. An infinite loop  
-D. A programming language  
+A. At least one output
+B. At least ten inputs
+C. An infinite loop
+D. A programming language
 
 ## MCQ Answer Key
 
@@ -1382,8 +1382,6 @@ C=\frac{5}{9}(F-32)
 4. Display \(C\).
 5. Stop.
 
-**বাংলায় বুঝে নাও:** প্রথমে Fahrenheit input নেবে, 32 বিয়োগ করবে, তারপর 5/9 দিয়ে গুণ করবে। হিসাবের ধাপ ঠিক রাখলে একই logic দিয়ে C program-ও লেখা যাবে।
-
 ### Extra practice (not verified PYQs)
 
 1. Draw a flowchart to find the average of three numbers.
@@ -1392,55 +1390,30 @@ C=\frac{5}{9}(F-32)
 
 **Source caution:** Paper copies and question banks are student-uploaded secondary sources. A year is attached only where the source visibly lists it; an exercise created for practice is never labelled as a past question.
 
-
 ---
 
-# 13. Bangla-First Concept Review
-
-এই অংশটি Algorithm, Flowchart ও Pseudocode-এর মূল ধারণাগুলো দ্রুত বুঝে নেওয়ার জন্য।
-
-## 13.1 Algorithm — সহজ বাংলায়
-
-Algorithm হলো কোনো নির্দিষ্ট সমস্যা সমাধানের জন্য সাজানো, স্পষ্ট ও সীমিত সংখ্যক ধাপ। অর্থাৎ, Code লেখার আগে কী কী কাজ কোন ক্রমে করতে হবে, সেটি লিখে নেওয়াই Algorithm তৈরি করা।
-
-**উদাহরণ: দুটি সংখ্যা যোগ করা**
-
 1. Start
-2. A ও B ইনপুট নাও।
-3. SUM = A + B হিসাব করো।
-4. SUM দেখাও।
+
 5. Stop
 
-**মনে রাখবে:** Algorithm কোনো Programming Language নয়। এটি সমাধানের Logic বা ধাপ প্রকাশ করে।
-
-## 13.2 Algorithm-এর পাঁচটি বৈশিষ্ট্য — সহজ ভাষায়
-
-| বৈশিষ্ট্য | সহজ ব্যাখ্যা |
+| — | — |
 |---|---|
-| Input | প্রয়োজনীয় তথ্য গ্রহণ করতে পারে; input না-ও থাকতে পারে |
-| Output | অন্তত একটি ফলাফল তৈরি করতে হবে |
-| Definiteness | প্রতিটি ধাপ পরিষ্কার ও দ্ব্যর্থহীন হতে হবে |
-| Finiteness | সীমিত সংখ্যক ধাপের পর শেষ হতে হবে |
-| Effectiveness | প্রতিটি ধাপ বাস্তবায়নযোগ্য হতে হবে |
+| Input | — |
+| Output | — |
+| Definiteness | — |
+| Finiteness | — |
+| Effectiveness | — |
 
 **English exam definition:** An algorithm is a finite sequence of well-defined and effective instructions that produces an output for a given problem.
 
-## 13.3 Flowchart — সহজ বাংলায়
-
-Flowchart হলো Algorithm-এর ধাপগুলোকে নির্দিষ্ট চিহ্ন (symbol) ও arrow দিয়ে ছবির মতো সাজিয়ে দেখানো। কোন কাজের পরে কোন কাজ হবে এবং কোথায় সিদ্ধান্ত নেওয়া হবে, তা সহজে বোঝা যায়।
-
-| Symbol | নাম | কী বোঝায় |
+| Symbol | — | — |
 |---|---|---|
-| Oval | Terminal | Start বা Stop |
-| Rectangle | Process | হিসাব বা Processing |
-| Parallelogram | Input/Output | তথ্য নেওয়া বা ফল দেখানো |
-| Diamond | Decision | শর্ত যাচাই; Yes/No পথ |
-| Arrow | Flow line | কাজের প্রবাহের দিক |
-| Circle | Connector | Flowchart-এর দুই অংশ যুক্ত করা |
-
-## 13.4 Pseudocode — সহজ বাংলায়
-
-Pseudocode হলো সাধারণ English-এর মতো শব্দ ও Programming Logic ব্যবহার করে Algorithm লেখা। এটি C, C++ বা Python-এর নির্দিষ্ট Syntax মানতে বাধ্য নয়।
+| Oval | Terminal | — |
+| Rectangle | Process | — |
+| Parallelogram | Input/Output | — |
+| Diamond | Decision | — |
+| Arrow | Flow line | — |
+| Circle | Connector | — |
 
 **Example:**
 
@@ -1452,20 +1425,14 @@ OUTPUT SUM
 STOP
 ```
 
-## 13.5 Algorithm, Flowchart ও Pseudocode-এর পার্থক্য
-
-| বিষয় | Algorithm | Flowchart | Pseudocode |
+| — | Algorithm | Flowchart | Pseudocode |
 |---|---|---|---|
-| প্রকাশের ধরন | ধাপে ধাপে লেখা | চিত্র ও Symbol | Structured text |
-| মূল উদ্দেশ্য | Logic-এর ধাপ নির্ধারণ | Logic দৃশ্যমান করা | Coding-এর আগে Logic লেখা |
-| বিশেষ Symbol | প্রয়োজন নেই | Standard symbol লাগে | নির্দিষ্ট symbol লাগে না |
-| Language dependency | সাধারণ ভাষায় লেখা যায় | Graphical | Language-independent |
+| — | — | — | Structured text |
+| — | — | — | — |
+| — | — | — | — |
+| Language dependency | — | Graphical | Language-independent |
 
 ## 13.6 Solved Example: Largest of Two Numbers
-
-**Problem:** দুটি সংখ্যার মধ্যে বড় সংখ্যাটি বের করো।
-
-**Logic (বাংলায়):** প্রথমে A ও B ইনপুট নিতে হবে। A যদি B-এর চেয়ে বড় হয়, A দেখাবে। নইলে B বড় হলে B দেখাবে। দুইটি সমান হলে Equal দেখাবে।
 
 **Pseudocode:**
 
@@ -1486,21 +1453,15 @@ STOP
 
 **Dry Run:** A = 25, B = 15
 
-| ধাপ | পরীক্ষা / কাজ | ফল |
+| — | — | — |
 |---|---|---|
-| 1 | A = 25, B = 15 | Input নেওয়া হলো |
+| 1 | A = 25, B = 15 | — |
 | 2 | A > B | True |
 | 3 | OUTPUT A | 25 |
 
 **Output:** 25
 
 ## 13.7 Important Exam Reminder
-
-- Algorithm লিখলে Start, Input, Process, Output ও Stop-এর ধাপগুলো যুক্তিসংগতভাবে সাজাবে।
-- Flowchart আঁকলে Start/Stop-এর জন্য Oval, Process-এর জন্য Rectangle, Input/Output-এর জন্য Parallelogram এবং Decision-এর জন্য Diamond ব্যবহার করবে।
-- Decision-এর দুইটি branch-এ Yes/No বা True/False লিখবে।
-- Pseudocode-এ indentation ব্যবহার করবে, যাতে logic সহজে বোঝা যায়।
-- Dry run করার সময় প্রতিটি ধাপে variable-এর value লিখে রাখবে।
 
 **Practice questions in this file are learning exercises unless a question is separately identified with a traceable paper source.**
 
