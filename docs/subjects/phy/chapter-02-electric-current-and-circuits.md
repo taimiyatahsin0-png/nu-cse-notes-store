@@ -1,272 +1,584 @@
 # Physics Chapter 02: Electric Current, Circuits and Measurements
 
-**Course:** Physics (510207)
+**Course:** Physics (510207)  
+**Reference scope:** Electric current, simple circuits and electrical measurements  
+**Learning level:** Beginner
 
+> **বাংলায় অধ্যায়ের ধারণা:** এই অধ্যায়ে charge-এর প্রবাহ, voltage, resistance, circuit-এর নিয়ম, RC/RL circuit এবং electrical measuring instruments শিখবে। প্রতিটি গুরুত্বপূর্ণ ধারণার আগে সহজ বাংলা ব্যাখ্যা, পরে পরীক্ষায় লেখার মতো English answer দেওয়া হয়েছে।
 
-> **বাংলায় মূল ধারণা:** Electric current মানে charge-এর প্রবাহ। Circuit-এ battery বা source charge-কে energy দেয়, আর resistor সেই energy-কে heat বা অন্য form-এ রূপান্তর করে। Circuit laws দিয়ে current ও voltage হিসাব করা হয়।
 ---
+
+## Learning outcomes
+
+After studying this chapter, you should be able to:
+
+1. Define electric current, EMF, potential difference and resistance.
+2. Apply Ohm's law, KCL and KVL to simple circuits.
+3. Calculate electrical power and energy.
+4. Explain Wheatstone bridge and its balance condition.
+5. Describe the working principle of a potentiometer.
+6. Explain a moving-coil galvanometer and its conversion into an ammeter or voltmeter.
+7. Describe simple RC and RL circuits and calculate their time constants.
+8. Explain the basic uses of a multimeter and wattmeter.
 
 ## 1. Electric Current
 
-কোনো cross-section দিয়ে প্রতি unit time-এ যত charge প্রবাহিত হয়, সেটিই electric current।
+### সহজ বাংলায়
+
+কোনো তারের cross-section দিয়ে charge প্রবাহিত হলে electric current তৈরি হয়। প্রতি সেকেন্ডে যত charge প্রবাহিত হয়, সেটিই current-এর পরিমাণ। Metal wire-এ electron একদিকে চলে, কিন্তু conventional current-এর দিক ধরা হয় positive charge যেদিকে চলত সেই দিকে।
+
+### English Exam Answer
+
+**Definition:** Electric current is the rate of flow of electric charge through a cross-section of a conductor.
 
 \[
-\boxed{I=\frac{dQ}{dt}}
+I=\frac{dQ}{dt}
 \]
 
-Constant current হলে \(I=Q/t\)। SI unit ampere (A)।
+For a constant current:
 
-Conventional current-এর direction positive charge flow-এর direction; metal wire-এ electron flow বিপরীত দিকে।
+\[
+I=\frac{Q}{t}
+\]
+
+- (I) = current, measured in ampere (A)
+- (Q) = charge, measured in coulomb (C)
+- (t) = time, measured in second (s)
+
+**One ampere:** A current of one ampere flows when one coulomb of charge passes through a cross-section in one second.
+
+\[
+1\ A=1\ C/s
+\]
 
 ## 2. Ohm's Law
 
-Temperature ও অন্যান্য physical condition constant থাকলে conductor-এর current তার দুই প্রান্তের potential difference-এর সমানুপাতিক।
+### সহজ বাংলায়
+
+একই temperature ও physical condition-এ কোনো conductor-এর দুই প্রান্তে voltage বাড়ালে current-ও একই অনুপাতে বাড়ে। অর্থাৎ voltage দ্বিগুণ করলে current-ও দ্বিগুণ হয়, যদি resistance অপরিবর্তিত থাকে।
+
+### English Exam Answer
+
+**Statement:** At constant temperature and other physical conditions, the current through a conductor is directly proportional to the potential difference across its ends.
 
 \[
-\boxed{V=IR}
+V\propto I\quad\Rightarrow\quad \boxed{V=IR}
 \]
 
-- \(V\): volt
-- \(I\): ampere
-- \(R\): ohm (\(\Omega\))
+Here, (V) is potential difference in volt (V), (I) is current in ampere (A), and (R) is resistance in ohm (\(\Omega\)).
 
-### Example 1
+### Solved example
 
-A \(6\Omega\) resistor is connected to 12 V.
+A (6\ \Omega) resistor is connected across a 12 V supply. Find the current.
+
+**Given:** (V=12\ V), (R=6\ \Omega)
+
+**Formula:** (I=V/R)
+
+**Calculation:**
 
 \[
-I=V/R=12/6=\boxed{2A}
+I=\frac{12}{6}=\boxed{2\ A}
 \]
+
+**Answer:** The current is 2 A.
 
 ## 3. Resistance and Resistivity
 
-Uniform wire-এর resistance:
+### সহজ বাংলায়
+
+Resistance হলো current প্রবাহে বাধা। একই material ও একই cross-sectional area হলে তারের length বাড়লে resistance বাড়ে। আর তার মোটা হলে অর্থাৎ area বাড়লে resistance কমে।
+
+### English Exam Answer
+
+**Resistance:** Resistance is the property of a conductor by which it opposes the flow of electric current.
+
+For a uniform conductor:
 
 \[
 \boxed{R=\rho\frac{L}{A}}
 \]
 
-যেখানে \(\rho\) resistivity, \(L\) length, \(A\) cross-sectional area।
+where:
 
-SI unit of resistivity: \(\Omega m\)।
+- (R) = resistance (\(\Omega\))
+- (\rho) = resistivity (\(\Omega\,m\))
+- (L) = length (m)
+- (A) = cross-sectional area (\(m^2\))
 
-একই material-এর wire-এর length বাড়লে resistance বাড়ে; area বাড়লে resistance কমে।
+Resistivity is a material property at a specified temperature.
 
 ## 4. Series and Parallel Resistors
 
-Series:
+### সহজ বাংলায়
+
+**Series connection:** Resistor-গুলো একটার পর একটা যুক্ত থাকে। সবগুলোর মধ্য দিয়ে একই current যায়।
+
+**Parallel connection:** Resistor-গুলোর দুই প্রান্ত একই দুই node-এ যুক্ত থাকে। প্রতিটি branch-এর voltage একই থাকে।
+
+### English Exam Answer
+
+For resistors in series:
 
 \[
-R_{\text{eq}}=R_1+R_2+\cdots
+\boxed{R_{eq}=R_1+R_2+\cdots+R_n}
 \]
 
-সব resistor-এ একই current প্রবাহিত হয়।
-
-Parallel:
+For resistors in parallel:
 
 \[
-\frac1{R_{\text{eq}}}=\frac1{R_1}+\frac1{R_2}+\cdots
+\boxed{\frac{1}{R_{eq}}=\frac{1}{R_1}+\frac{1}{R_2}+\cdots+\frac{1}{R_n}}
 \]
 
-সব branch-এর voltage একই।
-
-### Example 2
-
-\(2\Omega\) ও \(4\Omega\) series-এ:
+For two parallel resistors:
 
 \[
-R_{\text{eq}}=6\Omega
+R_{eq}=\frac{R_1R_2}{R_1+R_2}
 \]
 
-একই দুইটি parallel-এ:
+### Solved example
 
-\[
-R_{\text{eq}}=\frac{2\times4}{2+4}
-=\boxed{\frac43\Omega}
-\]
+Find the equivalent resistance of (2\ \Omega) and (4\ \Omega):
+
+- In series: (R_{eq}=2+4=6\ \Omega).
+- In parallel: (R_{eq}=\frac{2\times4}{2+4}=\boxed{\frac{4}{3}\ \Omega}).
 
 ## 5. EMF and Potential Difference
 
-EMF হলো source-এর প্রতি unit charge-এ supplied energy; potential difference হলো circuit-এর দুই point-এর মধ্যে প্রতি unit charge-এ energy transfer।
+### সহজ বাংলায়
+
+Battery বা cell charge-কে energy সরবরাহ করে। Source-এর প্রতি unit charge-এ সরবরাহ করা energy-কে EMF বলে। আর circuit-এর দুই point-এর মধ্যে প্রতি unit charge-এ energy transfer-কে potential difference বলে। দুটির unit volt হলেও অর্থ এক নয়।
+
+### English Exam Answer
+
+**EMF:** The electromotive force of a source is the energy supplied by the source per unit charge.
 
 \[
-\mathcal E=\frac{W}{q}
+\boxed{\mathcal{E}=\frac{W}{Q}}
 \]
 
-EMF ও potential difference উভয়ের unit volt, তবে physical meaning এক নয়।
+**Potential difference:** The potential difference between two points is the work done or energy transferred per unit charge when charge moves between those points.
+
+\[
+\boxed{V=\frac{W}{Q}}
+\]
+
+Both are measured in volts (V). EMF is a source property; terminal potential difference depends on the circuit conditions.
+
+For a cell delivering current (I) with internal resistance (r), terminal voltage is:
+
+\[
+V=\mathcal{E}-Ir
+\]
 
 ## 6. Kirchhoff's Laws
 
-### Kirchhoff's Current Law (KCL)
+### 6.1 Kirchhoff's Current Law (KCL)
 
-কোনো junction-এ incoming current-এর যোগফল outgoing current-এর যোগফলের সমান।
+**বাংলায়:** কোনো junction-এ যত current প্রবেশ করে, মোট current বেরও তত হয়। কারণ junction-এ charge জমে থাকে না।
+
+**English Exam Answer:** Kirchhoff's Current Law states that the algebraic sum of currents at a junction is zero. Equivalently, the total current entering a junction equals the total current leaving it.
 
 \[
-\boxed{\sum I=0}
+\boxed{\sum I_{in}=\sum I_{out}}
 \]
 
-এটি conservation of charge-এর ফল।
+KCL is based on the conservation of electric charge.
 
-### Kirchhoff's Voltage Law (KVL)
+### 6.2 Kirchhoff's Voltage Law (KVL)
 
-কোনো closed loop-এ potential changes-এর algebraic sum শূন্য।
+**বাংলায়:** একটি closed loop ঘুরে আগের জায়গায় ফিরলে মোট voltage rise এবং voltage drop-এর algebraic sum শূন্য হয়। এটি energy conservation-এর সঙ্গে সম্পর্কিত।
+
+**English Exam Answer:** Kirchhoff's Voltage Law states that the algebraic sum of all potential differences around any closed loop in a circuit is zero.
 
 \[
 \boxed{\sum \Delta V=0}
 \]
 
-এটি conservation of energy-এর ফল।
+KVL is based on the conservation of energy.
 
 ## 7. Electrical Power and Energy
+
+### সহজ বাংলায়
+
+Power বোঝায় প্রতি সেকেন্ডে কত electrical energy ব্যবহার বা রূপান্তর হচ্ছে। Energy হলো নির্দিষ্ট সময় ধরে মোট ব্যবহৃত বিদ্যুৎশক্তি।
+
+### English Exam Answer
+
+Electrical power is the rate at which electrical energy is transferred or converted.
 
 \[
 \boxed{P=VI=I^2R=\frac{V^2}{R}}
 \]
 
-SI unit watt (W)।
-
 Electrical energy:
 
 \[
-E=Pt
+\boxed{E=Pt}
 \]
 
-Commercial unit: kilowatt-hour (kWh)।
-
-\(1kWh=3.6\times10^6J\)।
-
-### Example 3
-
-A 100 W lamp operates for 5 hours.
+- Power-এর SI unit watt (W)
+- Energy-এর SI unit joule (J)
+- বিদ্যুৎ বিলের commercial unit kilowatt-hour (kWh)
 
 \[
-E=100\times5=500Wh=0.5kWh
+1\ kWh=3.6\times10^6\ J
 \]
 
-## 8. RC Circuit and Time Constant
+### Solved example
 
-Resistor ও capacitor series-এ থাকলে RC circuit হয়।
+A 100 W lamp operates for 5 hours. Find the energy consumed.
 
-Time constant:
+\[
+E=100\ W\times5\ h=500\ Wh=\boxed{0.5\ kWh}
+\]
+
+## 8. Wheatstone Bridge
+
+### সহজ বাংলায়
+
+Wheatstone bridge দিয়ে অজানা resistance নির্ণয় করা যায়। চারটি resistance bridge-এর চার বাহুতে থাকে এবং মাঝখানে galvanometer যুক্ত থাকে। Bridge balanced হলে galvanometer দিয়ে current যায় না। তখন দুইটি junction-এর potential সমান হয়।
+
+### English Exam Answer
+
+**Definition:** A Wheatstone bridge is an electrical circuit used to determine an unknown resistance by balancing two legs of a bridge circuit.
+
+For the following arm arrangement, let (P) and (Q) form one branch, while (R) and (S) form the other branch. At balance, the galvanometer current is zero and:
+
+\[
+\boxed{\frac{P}{Q}=\frac{R}{S}}
+\]
+
+If (S) is unknown:
+
+\[
+\boxed{S=\frac{QR}{P}}
+\]
+
+**Principle:** At the balanced condition, the ratio of resistances in one branch is equal to the ratio in the other branch. The two galvanometer terminals are at the same potential.
+
+### Solved example
+
+A bridge is balanced with (P=2\ \Omega), (Q=4\ \Omega), and (R=3\ \Omega). Find (S).
+
+\[
+\frac{P}{Q}=\frac{R}{S}
+\]
+
+\[
+S=\frac{QR}{P}=\frac{4\times3}{2}=\boxed{6\ \Omega}
+\]
+
+## 9. Potentiometer
+
+### সহজ বাংলায়
+
+Potentiometer দিয়ে EMF বা potential difference তুলনা করা হয়। একটি uniform wire-এর মধ্য দিয়ে steady current গেলে তার প্রতি unit length-এ potential drop একই থাকে। তাই wire-এর যত বেশি length-এ balance পাওয়া যায়, সংশ্লিষ্ট EMF তত বেশি।
+
+### English Exam Answer
+
+**Definition:** A potentiometer is an instrument used to measure or compare potential differences and electromotive forces by a null method.
+
+**Principle:** The potential drop along a uniform wire carrying a steady current is directly proportional to its length.
+
+\[
+V\propto l\quad\Rightarrow\quad V=kl
+\]
+
+where (k) is the potential gradient.
+
+For two cells compared using the same potentiometer wire:
+
+\[
+\boxed{\frac{E_1}{E_2}=\frac{l_1}{l_2}}
+\]
+
+At the balance point, no current is drawn from the test cell through the galvanometer branch. This makes the null method highly useful for accurate EMF comparison.
+
+## 10. Moving-Coil Galvanometer
+
+### সহজ বাংলায়
+
+Galvanometer খুব ছোট current শনাক্ত ও মাপতে পারে। একটি coil magnetic field-এর মধ্যে থাকে। Coil দিয়ে current গেলে magnetic torque তৈরি হয় এবং pointer সরে যায়। Spring-এর restoring torque-এর সঙ্গে balance হলে pointer নির্দিষ্ট angle-এ থামে।
+
+### English Exam Answer
+
+**Definition:** A moving-coil galvanometer is an instrument used to detect and measure small electric currents.
+
+In a radial magnetic field, the deflecting torque on a coil is:
+
+\[
+\tau_d=NBIA
+\]
+
+At equilibrium, deflecting torque equals restoring torque:
+
+\[
+NBIA=k\theta
+\]
+
+Therefore,
+
+\[
+\boxed{I=\frac{k\theta}{NBA}}
+\]
+
+where (N) is the number of turns, (B) is magnetic flux density, (I) is current, (A) is coil area, (k) is the torsional constant, and (\theta) is deflection.
+
+**Current sensitivity:**
+
+\[
+\frac{\theta}{I}=\frac{NBA}{k}
+\]
+
+## 11. Conversion of a Galvanometer into an Ammeter
+
+### সহজ বাংলায়
+
+Ammeter দিয়ে বড় current মাপতে galvanometer-এর parallel-এ খুব কম resistance-এর একটি shunt বসানো হয়। এতে মোট current-এর বড় অংশ shunt দিয়ে যায়, আর galvanometer নিরাপদ full-scale current পায়।
+
+### English Exam Answer
+
+A galvanometer is converted into an ammeter by connecting a low resistance called a shunt in parallel with it.
+
+Let:
+
+- (G) = galvanometer resistance
+- (I_g) = full-scale deflection current
+- (I) = required ammeter range
+- (S) = shunt resistance
+
+Since the voltage across parallel branches is equal:
+
+\[
+I_gG=(I-I_g)S
+\]
+
+Therefore,
+
+\[
+\boxed{S=\frac{I_gG}{I-I_g}}
+\]
+
+An ideal ammeter has very low resistance and is connected in series with the circuit element.
+
+## 12. Conversion of a Galvanometer into a Voltmeter
+
+### সহজ বাংলায়
+
+Voltmeter দিয়ে voltage মাপতে galvanometer-এর সঙ্গে বড় resistance series-এ যুক্ত করা হয়। এতে instrument-এর মধ্য দিয়ে current খুব কম থাকে এবং circuit-এর ওপর প্রভাব কম পড়ে।
+
+### English Exam Answer
+
+A galvanometer is converted into a voltmeter by connecting a high resistance, called a multiplier, in series with it.
+
+Let (R) be the required series resistance and (V) the full-scale voltage range.
+
+\[
+V=I_g(G+R)
+\]
+
+Therefore,
+
+\[
+\boxed{R=\frac{V}{I_g}-G}
+\]
+
+An ideal voltmeter has very high resistance and is connected in parallel across the component.
+
+## 13. Multimeter and Wattmeter
+
+### Multimeter
+
+**বাংলায়:** Multimeter দিয়ে প্রয়োজন অনুযায়ী voltage, current ও resistance মাপা যায়। কোন mode এবং কোন terminal ব্যবহার করতে হবে, তা instrument-এর manual দেখে নিতে হয়।
+
+**English Exam Answer:** A multimeter is an electrical measuring instrument that can measure quantities such as voltage, current and resistance. Many digital multimeters also provide continuity, diode and other measurement functions.
+
+- Voltage measurement: connect in parallel.
+- Current measurement: connect in series using the correct current terminal and range.
+- Resistance measurement: isolate power from the circuit before measuring.
+
+### Wattmeter
+
+**বাংলায়:** Wattmeter electrical power মাপে। সাধারণ electrodynamometer-type wattmeter-এ current coil load-এর সঙ্গে series-এ এবং pressure/voltage coil load-এর parallel-এ যুক্ত থাকে।
+
+**English Exam Answer:** A wattmeter is an instrument used to measure electrical power. In an AC circuit, a wattmeter measures real power:
+
+\[
+\boxed{P=VI\cos\phi}
+\]
+
+For a DC circuit:
+
+\[
+P=VI
+\]
+
+The unit of power is watt (W).
+
+> **Safety:** Never measure resistance on an energized circuit. For current measurement, use the correct meter socket and range; an incorrect connection can short the supply or damage the meter. Practise only with instructor-approved low-voltage lab circuits.
+
+## 14. Simple RC Circuit
+
+### সহজ বাংলায়
+
+Resistor ও capacitor দিয়ে RC circuit তৈরি হয়। Capacitor charge হওয়ার সময় voltage ধীরে ধীরে বাড়ে। Discharge হওয়ার সময় stored charge ও voltage ধীরে ধীরে কমে।
+
+**Time constant:**
 
 \[
 \boxed{\tau=RC}
 \]
 
-Charging capacitor:
+Here, (R) is in ohms, (C) is in farads, and (\tau) is in seconds.
+
+For a capacitor charging from an ideal DC source (V):
 
 \[
-q(t)=CV(1-e^{-t/RC})
+q(t)=CV\left(1-e^{-t/RC}\right)
 \]
 
-Discharging capacitor:
+\[
+V_C(t)=V\left(1-e^{-t/RC}\right)
+\]
+
+For discharging from initial charge (Q_0):
 
 \[
 q(t)=Q_0e^{-t/RC}
 \]
 
-একটি time constant পরে charging capacitor final charge-এর প্রায় 63.2% অর্জন করে; discharging capacitor initial charge-এর প্রায় 36.8% থাকে।
+After one time constant, a charging capacitor reaches about 63.2% of its final voltage; during discharge, about 36.8% of the initial voltage remains.
 
-## 9. RL Circuit
+## 15. Simple RL Circuit
 
-Resistor ও inductor series-এ থাকলে RL circuit হয়।
+### সহজ বাংলায়
 
-Time constant:
+RL circuit-এ resistor ও inductor থাকে। Inductor current-এর পরিবর্তনকে বাধা দেয়। তাই DC supply যুক্ত করার সঙ্গে সঙ্গে current সর্বোচ্চ মানে পৌঁছে যায় না; ধীরে ধীরে বাড়ে।
 
-\[
-\boxed{\tau=\frac LR}
-\]
-
-DC supply সংযুক্ত করার পর current steady value-এর দিকে বাড়ে:
+**Time constant:**
 
 \[
-i(t)=\frac VR(1-e^{-tR/L})
+\boxed{\tau=\frac{L}{R}}
 \]
 
-Switch খুলে discharge হলে:
+For a series RL circuit connected to an ideal DC source:
+
+\[
+i(t)=\frac{V}{R}\left(1-e^{-tR/L}\right)
+\]
+
+When the source is removed and the current decays through resistance:
 
 \[
 i(t)=I_0e^{-tR/L}
 \]
 
-## 10. Wheatstone Bridge
+Here, (L) is inductance in henry (H), (R) is resistance in ohms, and (\tau) is in seconds.
 
-চারটি resistance bridge arrangement-এ থাকে। Balanced condition-এ galvanometer current zero।
+### Solved example
 
-যদি arms \(P,Q,R,S\) হয়, তাহলে:
-
-\[
-\boxed{\frac PQ=\frac RS}
-\]
-
-Unknown resistance নির্ণয়ে ব্যবহার করা যায়।
-
-## 11. Potentiometer
-
-Potentiometer potential difference বা EMF তুলনা করতে ব্যবহৃত হয়। এটি null method-এ কাজ করে; balance point-এ test source থেকে current নেয় না।
-
-দুটি cell-এর EMF তুলনায়,
+Find the time constant of an RL circuit with (L=4\ H) and (R=2\ \Omega).
 
 \[
-\frac{E_1}{E_2}=\frac{l_1}{l_2}
+\tau=\frac{L}{R}=\frac{4}{2}=\boxed{2\ s}
 \]
 
-যেখানে \(l_1,l_2\) balancing lengths।
+## 16. Quick Comparison of Measuring Instruments
 
-## 12. Galvanometer, Ammeter and Voltmeter
+| Instrument | Main purpose | Connection | Ideal resistance |
+|---|---|---|---|
+| Galvanometer | Detects small current | In the measured branch | Depends on design |
+| Ammeter | Measures current | Series | Very low |
+| Voltmeter | Measures potential difference | Parallel | Very high |
+| Multimeter | Measures several electrical quantities | Depends on selected mode | Depends on mode |
+| Wattmeter | Measures electrical power | Current coil series; voltage coil parallel | Depends on design |
 
-- **Galvanometer:** ছোট current শনাক্ত করে।
-- **Ammeter:** current measure করে; circuit-এ series-এ বসে এবং resistance ideally খুব কম।
-- **Voltmeter:** potential difference measure করে; component-এর parallel-এ বসে এবং resistance ideally খুব বেশি।
+## 17. Common Mistakes
 
-Galvanometer-এর সঙ্গে low resistance parallel-এ যুক্ত করলে ammeter; high resistance series-এ যুক্ত করলে voltmeter তৈরি করা যায়।
+1. Confusing conventional current direction with electron flow.
+2. Connecting an ammeter in parallel instead of series.
+3. Connecting a voltmeter in series instead of parallel.
+4. Confusing EMF with terminal potential difference.
+5. Mixing up KCL (junction/current) and KVL (loop/voltage).
+6. Treating kWh as a unit of power; it is a unit of energy.
+7. Forgetting to convert microfarads to farads before calculating (RC).
+8. Using the ammeter shunt formula for a voltmeter conversion.
+9. Measuring resistance while the circuit is powered.
 
-## 13. Electrical Measuring Instruments
+## 18. Short Questions with Exam-Ready Answers
 
-- Multimeter voltage, current ও resistance মাপে (model অনুযায়ী আরও function থাকতে পারে)।
-- Wattmeter electrical power মাপে।
-- Instrument range ও connection করার আগে circuit de-energize করা নিরাপদ; current measurement-এ multimeter ভুল port/parallel connection-এ short circuit হতে পারে।
+**Q1. Define electric current.**  
+Electric current is the rate of flow of electric charge through a cross-section of a conductor.
 
-## 14. Common Mistakes
+**Q2. State Ohm's law.**  
+At constant temperature and other physical conditions, the current through a conductor is directly proportional to the potential difference across it.
 
-1. Current ও electron flow-এর direction এক ধরে নেওয়া।
-2. Ammeter parallel-এ বসানো।
-3. Voltmeter series-এ বসানো।
-4. KCL ও KVL গুলিয়ে ফেলা।
-5. kWh-কে power-এর unit ভাবা; এটি energy-এর unit।
-6. RC time constant-এ \(RC\)-এর বদলে \(R/C\) লেখা।
+**Q3. What is EMF?**  
+EMF is the energy supplied by a source per unit charge.
 
-## 15. Short Questions
-
-**Q1. State Ohm's law.**  
-At constant physical conditions, current through a conductor is directly proportional to the potential difference across it.
-
-**Q2. State KCL.**  
+**Q4. State KCL.**  
 The algebraic sum of currents at a junction is zero.
 
-**Q3. State KVL.**  
+**Q5. State KVL.**  
 The algebraic sum of potential differences around a closed loop is zero.
 
-**Q4. Define time constant of an RC circuit.**  
-The time constant is \(\tau=RC\), the time required for a charging capacitor to reach about 63.2% of its final charge.
+**Q6. What is a Wheatstone bridge?**  
+A Wheatstone bridge is a circuit used to determine an unknown resistance by balancing two branches of a bridge network.
 
-## 16. Practice (Original questions; not verified NU PYQs)
+**Q7. State the principle of a potentiometer.**  
+The potential drop along a uniform wire carrying a steady current is directly proportional to its length.
 
-1. Find current through \(8\Omega\) connected to 24 V.
-2. Find equivalent resistance of \(3\Omega\) and \(6\Omega\) in parallel.
-3. A 60 W bulb operates 10 hours. Find energy in kWh.
-4. State the difference between KCL and KVL.
-5. Find RC time constant for \(R=10k\Omega\), \(C=100\mu F\).
+**Q8. What is a galvanometer?**  
+A galvanometer is an instrument used to detect and measure small electric currents.
+
+**Q9. How is a galvanometer converted into an ammeter?**  
+By connecting a low resistance shunt in parallel with the galvanometer.
+
+**Q10. How is a galvanometer converted into a voltmeter?**  
+By connecting a high resistance in series with the galvanometer.
+
+**Q11. Define the time constant of an RC circuit.**  
+The time constant is (\tau=RC); it is the time required for a charging capacitor to reach approximately 63.2% of its final voltage.
+
+**Q12. What does a wattmeter measure?**  
+A wattmeter measures electrical power.
+
+## 19. Practice Questions
+
+> These are original syllabus-based practice questions, not verified NU previous-year questions.
+
+1. Find the current through an (8\ \Omega) resistor connected to 24 V.
+2. Find the equivalent resistance of (3\ \Omega) and (6\ \Omega) in parallel.
+3. A 60 W lamp operates for 10 hours. Find the energy consumed in kWh.
+4. A Wheatstone bridge is balanced with (P=5\ \Omega), (Q=10\ \Omega), and (R=4\ \Omega). Find (S).
+5. Two cells have balancing lengths of 60 cm and 75 cm. Find the ratio of their EMFs.
+6. A galvanometer has (G=50\ \Omega) and (I_g=1\ mA). Find the shunt required to convert it to a 1 A ammeter.
+7. Find the series resistance needed to convert the same galvanometer into a 10 V voltmeter.
+8. Find the RC time constant for (R=10\ k\Omega) and (C=100\ \mu F).
+9. Find the RL time constant for (L=4\ H) and (R=2\ \Omega).
 
 ### Answer check
 
-4. KCL applies at a junction and expresses conservation of charge; KVL applies around a closed loop and expresses conservation of energy.
-
-1. \(3A\).
-2. \(2\Omega\).
-3. \(0.6kWh\).
-5. \(1s\).
+1. (3\ A)
+2. (2\ \Omega)
+3. (0.6\ kWh)
+4. (8\ \Omega)
+5. (E_1/E_2=60/75=0.8)
+6. Approximately (0.05005\ \Omega)
+7. (9950\ \Omega)
+8. (1\ s)
+9. (2\ s)
 
 ---
 
-*Original study notes organized around the listed NU CSE Physics (510207) syllabus reference for Session 2017–2018. Practice questions are not claimed as past questions.*
+## Exam-writing checklist
+
+- Write the definition before the formula.
+- Define every symbol and include its SI unit.
+- For derivations, show the reasoning instead of writing only the final equation.
+- For numerical problems, use **Given → Formula → Substitution → Answer with unit**.
+- Draw a labelled circuit diagram when the question asks for construction, working or connection.
+- Keep KCL, KVL, Wheatstone bridge and potentiometer principles distinct.
+
+*Original learning notes organized around the Physics (510207) topic outline in the NU CSE syllabus reference effective from Session 2017–2018. Confirm the currently applicable syllabus with your department. Practice questions are not claimed as verified past questions.*
