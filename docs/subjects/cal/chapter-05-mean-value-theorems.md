@@ -38,7 +38,7 @@ A mean value theorem guarantees that, under certain conditions, at least one int
 
 ### 1.2 Interval notation and symbols
 
-| Symbol | Read in English | Meaning in Bangla |
+| Symbol | Read in English | Meaning |
 |---|---|---|
 | \(f(x)\) | “f of x” | — |
 | \([a,b]\) | “closed interval a to b” | — |
