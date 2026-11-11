@@ -6,7 +6,7 @@ description: "Calculate NU CSE semester GPA and cumulative CGPA using course cre
 
 Calculate each semester's GPA from individual course grades, save completed semesters, and track your overall CGPA. Choose Course Grades to calculate each SGPA from all course grades, or Quick CGPA to enter semester GPAs you already know. The Semester 1 course list is based on the CSE syllabus published in the National University Professionals Syllabus Archive. Later-semester course lists are provisional reference data and should be checked against your department's current syllabus.
 
-<p class="cgpa-start-here"><strong>Starting Semester 1?</strong> Your first-semester courses are ready below. Enter each course grade, add a retake result only when applicable, and save your SGPA.</p>
+<p class="cgpa-start-here"><strong>Starting Semester 1?</strong> Your first-semester courses are ready below. Enter each original grade and, for a repeated course, its latest accepted result in the optional retake column. The latest result replaces the original in this estimate, while the course credit is counted once.</p>
 
 <div id="semester-cgpa-tool" class="semester-cgpa-tool">
   <div class="cgpa-top-actions"><button type="button" class="md-button md-button--primary cgpa-print-results">Export / Print Result (Save as PDF)</button></div>
@@ -549,7 +549,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       <div class="cgpa-overall-card"><span>Overall CGPA</span><strong id="cgpa-overall">—</strong><small id="cgpa-overall-detail">No semester results saved yet</small></div>
       <div class="cgpa-table-wrap">
         <table class="cgpa-saved-table">
-          <thead><tr><th>Semester</th><th>SGPA / Grade Point</th><th>Credits</th><th>Status</th><th>Action</th></tr></thead>
+          <thead><tr><th>Semester</th><th>SGPA</th><th>Credits</th><th>Status</th><th>Action</th></tr></thead>
           <tbody id="cgpa-saved-rows">
             <tr><td>Semester 1</td><td data-saved-gpa="1">—</td><td data-saved-credit="1">—</td><td data-saved-status="1">Not saved</td><td><button type="button" class="cgpa-open-semester" data-open="1">Open</button></td></tr>
 <tr><td>Semester 2</td><td data-saved-gpa="2">—</td><td data-saved-credit="2">—</td><td data-saved-status="2">Not saved</td><td><button type="button" class="cgpa-open-semester" data-open="2">Open</button></td></tr>
