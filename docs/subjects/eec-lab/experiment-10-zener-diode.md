@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 10: study of zener diode v–i characteristics using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 A Zener diode is designed to operate in reverse breakdown within its rated current and power limits. In the breakdown region, its voltage remains approximately VZ over a range of reverse current. A series resistor is essential to limit current. Power dissipation is PZ = VZIZ.
 
 ## 3. Apparatus
