@@ -1,10 +1,10 @@
 # Chapter 03: Continuity of Functions
 
-**Course:** Calculus  
-**Course Code:** 510205  
+**Course:** Calculus
+**Course Code:** 510205
 **Semester:** First Year – First Semester
 
-> **Learning approach:** First understand continuity through simple Bangla examples. Then learn the formal English definitions, conditions, theorems and exam-style solutions.
+> **Study approach:** Use the formal definitions, worked examples and practice problems below.
 
 ---
 
@@ -20,18 +20,6 @@ After studying this chapter, you should be able to:
 6. Understand important properties of continuous functions on closed and bounded intervals.
 
 ## 2. What Is Continuity?
-
-### সহজ বাংলায়
-
-Continuity মানে হলো **কোনো ভাঙন বা বিচ্ছিন্নতা ছাড়া ধারাবাহিকভাবে চলা**।
-
-ধরো, একটি পেন্সিল কাগজের ওপর না তুলে একটি রেখা আঁকছো। রেখাটি যদি মাঝখানে না ভাঙে, তাহলে সেটি continuous curve-এর একটি সহজ ধারণা।
-
-Function-এর ক্ষেত্রে কোনো নির্দিষ্ট বিন্দুতে continuity আছে কি না, তা বোঝার জন্য তিনটি বিষয় পরীক্ষা করতে হয়:
-
-1. ওই বিন্দুতে function-এর value থাকতে হবে।
-2. ওই বিন্দুতে limit থাকতে হবে।
-3. Limit এবং function-এর value সমান হতে হবে।
 
 ### Standard English Definition
 
@@ -70,8 +58,6 @@ That means the left-hand and right-hand limits exist and are equal:
 \[
 \lim_{x\to a}f(x)=f(a).
 \]
-
-**মনে রাখবে:** তিনটি শর্তের যেকোনো একটি ব্যর্থ হলে function-টি ওই বিন্দুতে discontinuous বা অসতত।
 
 ## 3. Solved Examples: Testing Continuity at a Point
 
@@ -418,8 +404,6 @@ When a function is continuous on a closed and bounded interval, important theore
 
 **Statement:** Every function that is continuous on a closed and bounded interval ([a,b]) is bounded on that interval.
 
-**সহজ বাংলা:** Function-টির output একটি নির্দিষ্ট সর্বোচ্চ ও সর্বনিম্ন সীমার মধ্যে থাকবে। অর্থাৎ, output অসীমভাবে বড় বা ছোট হবে না।
-
 In other words, there exist real numbers (m) and (M) such that:
 
 \[
@@ -430,8 +414,6 @@ m\leq f(x)\leq M
 ### 8.2 Extreme Value Theorem
 
 **Statement:** If a function is continuous on a closed and bounded interval ([a,b]), then it attains both an absolute maximum value and an absolute minimum value on that interval.
-
-**সহজ বাংলা:** Function-এর graph-এ ওই interval-এর মধ্যে সবচেয়ে বড় output এবং সবচেয়ে ছোট output—দুটিই পাওয়া যাবে।
 
 **Example:**
 
@@ -463,8 +445,6 @@ Therefore:
 \[
 f(c)=N.
 \]
-
-**সহজ বাংলা:** একটি continuous function যদি এক প্রান্তে ২ এবং অন্য প্রান্তে ৮ হয়, তাহলে মাঝখানের প্রতিটি মান—যেমন ৩, ৪, ৫, ৬, ৭—অন্তত একবার গ্রহণ করবে।
 
 ### Example 7: Applying IVT
 
@@ -540,19 +520,19 @@ A function is continuous on ([a,b]) if it is continuous on ((a,b)), right-contin
 
 ## 10. Common Mistakes to Avoid
 
-1. **Thinking that an existing limit automatically means continuity.**  
+1. **Thinking that an existing limit automatically means continuity.**
    Wrong. The function value must also exist and equal the limit.
 
-2. **Ignoring one-sided limits.**  
+2. **Ignoring one-sided limits.**
    A two-sided limit exists only when the left-hand and right-hand limits are equal.
 
-3. **Forgetting the denominator condition in a quotient.**  
+3. **Forgetting the denominator condition in a quotient.**
    A quotient of continuous functions is continuous only where the denominator is non-zero.
 
-4. **Applying the Extreme Value Theorem to an open interval without checking conditions.**  
+4. **Applying the Extreme Value Theorem to an open interval without checking conditions.**
    The theorem requires a continuous function on a closed and bounded interval.
 
-5. **Confusing boundedness with attaining a maximum and minimum.**  
+5. **Confusing boundedness with attaining a maximum and minimum.**
    A bounded function need not attain its bounds unless the required theorem conditions are satisfied.
 
 ---
