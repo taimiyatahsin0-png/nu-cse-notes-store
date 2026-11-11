@@ -71,11 +71,11 @@ The Chapter 03 notes also explain the Lorentz force on a moving charge and torqu
 
 For each topic:
 
-2. Learn the standard English definition and symbols.
-3. Write the formula with every variable and SI unit.
-4. Follow the derivation or reasoning before memorising it.
-5. Solve numerical examples step by step.
-6. Attempt the original practice questions without looking at the answer.
+1. Learn the standard definition, law or principle.
+2. Write the formula with every variable and SI unit.
+3. Follow the derivation or physical reasoning.
+4. Solve numerical examples step by step.
+5. Attempt the practice questions without looking at the answer.
 
 Practice questions on this site are not labelled as NU previous-year questions unless the original paper and year have been verified.
 
