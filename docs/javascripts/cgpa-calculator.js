@@ -18,7 +18,7 @@
     if(!state.saved || typeof state.saved!=="object" || Array.isArray(state.saved)) state.saved={};
     if(!state.quick || typeof state.quick!=="object" || Array.isArray(state.quick)) state.quick={};
     if(!state.drafts || typeof state.drafts!=="object" || Array.isArray(state.drafts)) state.drafts={};
-    const saveState=()=>{try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}catch(_){}};
+    const saveState=()=>{try{localStorage.setItem(STORAGE_KEY,JSON.stringify(state));}catch(_){};window.dispatchEvent(new CustomEvent("nu-cse-cgpa-updated"));};
     const fmt=n=>Number.isFinite(Number(n))?Number(n).toFixed(2):"—";
     const fieldValue=el=>el?(("value" in el)?String(el.value).trim():String(el.textContent).trim()):"";
     const setText=(selector,value)=>{const el=$(selector);if(el)el.textContent=value;};
