@@ -191,8 +191,10 @@ body {
 }
 .md-typeset .grid.cards > ul > li > p:last-child { margin-bottom: .25rem; }
 .cgpa-quick-row {
-  grid-template-columns: minmax(0, 1fr) minmax(130px, 180px);
+  grid-template-columns: minmax(0, 1fr) minmax(110px, 150px) minmax(110px, 150px);
 }
+.cgpa-quick-row input { min-width: 0; }
+.cgpa-quick-row small { color: var(--muted); font-weight: 500; }
 .cgpa-quick-row input { min-width: 0; }
 .cgpa-input-table select { min-width: 88px; }
 .cgpa-semester-tabs { align-items: stretch; }
