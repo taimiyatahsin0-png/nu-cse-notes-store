@@ -120,3 +120,9 @@ The topic outline above is organized using the NU CSE syllabus reference effecti
 - [B.Sc. CSE syllabus reference hosted by BIST (PDF)](https://bist.ac.bd/storage/1645259906_Computer%20Science%20and%20Engineering%201st%20Year_Pub_Date_15092019.pdf)
 
 Confirm the applicable syllabus and assessment requirements with your department. The notes and exercises on this site are independent learning materials, not official NU publications.
+
+
+## My PDF Notes
+
+Your personal PDF notes for this subject will appear here. [Browse the All PDFs Library](../../tools/pdf-library.md) to find available files or learn where to upload new ones.
+
