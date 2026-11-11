@@ -2,9 +2,9 @@
 description: "Calculate NU CSE semester GPA and cumulative CGPA using course credits, letter grades, and optional retake or improvement results. Export a printable GPA report."
 ---
 
-# Semester GPA & CGPA Calculator
+# NU CSE CGPA Calculator
 
-Calculate each semester's GPA from individual course grades, save completed semesters, and track your overall CGPA. Choose Course Grades to calculate each SGPA from all course grades, or Quick CGPA to enter semester GPAs you already know. The Semester 1 course list is based on the CSE syllabus published in the National University Professionals Syllabus Archive. Later-semester course lists are provisional reference data and should be checked against your department's current syllabus.
+Calculate each semester's GPA from course grades, save completed semesters, and track your cumulative CGPA. Use Course Grades for a course-by-course calculation or Quick CGPA when you already know a semester's GPA and total credits. The Semester 1 course list is based on the CSE syllabus published in the National University Professionals Syllabus Archive. Later-semester course lists are provisional reference data and should be checked against your department's current syllabus.
 
 <p class="cgpa-start-here"><strong>Starting Semester 1?</strong> Your first-semester courses are ready below. Enter each original grade and, for a repeated course, its latest accepted result in the optional retake column. The latest result replaces the original in this estimate, while the course credit is counted once.</p>
 
@@ -12,7 +12,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
   <div class="cgpa-top-actions"><button type="button" class="md-button md-button--primary cgpa-print-results">Export / Print Result (Save as PDF)</button></div>
   <div class="cgpa-mode-tabs" role="tablist" aria-label="Calculator mode">
     <button type="button" class="cgpa-mode-tab is-active" data-mode="courses" role="tab" aria-selected="true">Course Grades</button>
-    <button type="button" class="cgpa-mode-tab" data-mode="quick" role="tab" aria-selected="false">Quick GPA</button>
+    <button type="button" class="cgpa-mode-tab" data-mode="quick" role="tab" aria-selected="false">Quick CGPA</button>
   </div>
 
   <section id="cgpa-course-mode" class="cgpa-mode-panel">
@@ -86,7 +86,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="1">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="1">—</strong></div>
+          <div><span>Semester GPA</span><strong data-sgpa="1">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="1">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="1">0.00</strong></div>
         </div>
@@ -549,7 +549,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       <div class="cgpa-overall-card"><span>Overall CGPA</span><strong id="cgpa-overall">—</strong><small id="cgpa-overall-detail">No semester results saved yet</small></div>
       <div class="cgpa-table-wrap">
         <table class="cgpa-saved-table">
-          <thead><tr><th>Semester</th><th>SGPA</th><th>Credits</th><th>Status</th><th>Action</th></tr></thead>
+          <thead><tr><th>Semester</th><th>Semester GPA</th><th>Credits</th><th>Status</th><th>Action</th></tr></thead>
           <tbody id="cgpa-saved-rows">
             <tr><td>Semester 1</td><td data-saved-gpa="1">—</td><td data-saved-credit="1">—</td><td data-saved-status="1">Not saved</td><td><button type="button" class="cgpa-open-semester" data-open="1">Open</button></td></tr>
 <tr><td>Semester 2</td><td data-saved-gpa="2">—</td><td data-saved-credit="2">—</td><td data-saved-status="2">Not saved</td><td><button type="button" class="cgpa-open-semester" data-open="2">Open</button></td></tr>
@@ -568,19 +568,19 @@ Calculate each semester's GPA from individual course grades, save completed seme
 
   <section id="cgpa-quick-mode" class="cgpa-mode-panel" hidden>
     <h2>Quick CGPA calculation</h2>
-    <p>Already know your semester results? Enter only the SGPA/GPA for the semesters you have completed. Blank semesters are ignored. Semester 1 uses 18 credits; later-semester credit totals are provisional reference values.</p>
+    <p>Enter the semester GPA and the exact total credits for each completed semester. Semester 1 is prefilled with 18 credits from the archived NU CSE syllabus. Credit totals for Semesters 2–8 are left blank because they have not been verified.</p>
     <div class="cgpa-quick-list">
-      <label class="cgpa-quick-row"><span>Semester 1 <small>(18 credits)</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="1" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 1 GPA"></label>
-      <label class="cgpa-quick-row"><span>Semester 2 <small>(16.5 credits)</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="2" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 2 GPA"></label>
-      <label class="cgpa-quick-row"><span>Semester 3 <small>(18 credits)</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="3" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 3 GPA"></label>
-      <label class="cgpa-quick-row"><span>Semester 4 <small>(16.5 credits)</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="4" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 4 GPA"></label>
-      <label class="cgpa-quick-row"><span>Semester 5 <small>(16.5 credits)</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="5" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 5 GPA"></label>
-      <label class="cgpa-quick-row"><span>Semester 6 <small>(16.5 credits)</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="6" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 6 GPA"></label>
-      <label class="cgpa-quick-row"><span>Semester 7 <small>(18 credits)</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="7" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 7 GPA"></label>
-      <label class="cgpa-quick-row"><span>Semester 8 <small>(18 credits)</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="8" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 8 GPA"></label>
+      <label class="cgpa-quick-row"><span>Semester 1 <small>GPA / 18 credits</small></span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="1" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 1 GPA"><input type="number" class="cgpa-quick-credit" data-quick-credit="1" min="0.01" max="100" step="0.01" value="18" placeholder="Credits" aria-label="Semester 1 total credits"></label>
+      <label class="cgpa-quick-row"><span>Semester 2</span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="2" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 2 GPA"><input type="number" class="cgpa-quick-credit" data-quick-credit="2" min="0.01" max="100" step="0.01" placeholder="Total credits" aria-label="Semester 2 total credits"></label>
+      <label class="cgpa-quick-row"><span>Semester 3</span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="3" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 3 GPA"><input type="number" class="cgpa-quick-credit" data-quick-credit="3" min="0.01" max="100" step="0.01" placeholder="Total credits" aria-label="Semester 3 total credits"></label>
+      <label class="cgpa-quick-row"><span>Semester 4</span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="4" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 4 GPA"><input type="number" class="cgpa-quick-credit" data-quick-credit="4" min="0.01" max="100" step="0.01" placeholder="Total credits" aria-label="Semester 4 total credits"></label>
+      <label class="cgpa-quick-row"><span>Semester 5</span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="5" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 5 GPA"><input type="number" class="cgpa-quick-credit" data-quick-credit="5" min="0.01" max="100" step="0.01" placeholder="Total credits" aria-label="Semester 5 total credits"></label>
+      <label class="cgpa-quick-row"><span>Semester 6</span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="6" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 6 GPA"><input type="number" class="cgpa-quick-credit" data-quick-credit="6" min="0.01" max="100" step="0.01" placeholder="Total credits" aria-label="Semester 6 total credits"></label>
+      <label class="cgpa-quick-row"><span>Semester 7</span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="7" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 7 GPA"><input type="number" class="cgpa-quick-credit" data-quick-credit="7" min="0.01" max="100" step="0.01" placeholder="Total credits" aria-label="Semester 7 total credits"></label>
+      <label class="cgpa-quick-row"><span>Semester 8</span><input type="number" class="cgpa-quick-gpa" data-quick-gpa="8" min="0" max="4" step="0.01" placeholder="GPA (0–4)" aria-label="Semester 8 GPA"><input type="number" class="cgpa-quick-credit" data-quick-credit="8" min="0.01" max="100" step="0.01" placeholder="Total credits" aria-label="Semester 8 total credits"></label>
     </div>
-    <div class="cgpa-overall-card"><span>Credit-weighted CGPA</span><strong id="cgpa-quick-overall">—</strong><small id="cgpa-quick-detail">Enter semester GPA</small></div>
-    <p class="cgpa-semester-message" id="cgpa-quick-message" role="status">Enter a semester GPA from 0.00 to 4.00. Credits are applied automatically.</p>
+    <div class="cgpa-overall-card"><span>Quick CGPA</span><strong id="cgpa-quick-overall">—</strong><small id="cgpa-quick-detail">Enter semester GPA and credits</small></div>
+    <p class="cgpa-semester-message" id="cgpa-quick-message" role="status">Each included semester needs a GPA from 0.00 to 4.00 and its actual total credits.</p>
     <button type="button" class="md-button cgpa-clear-quick">Clear Quick Calculator</button>
   </section>
   <section id="cgpa-print-summary" class="cgpa-print-summary" hidden></section>
@@ -603,16 +603,16 @@ Each course grade option displays its corresponding grade point and marks range.
 | 40% to less than 45% | D | 2.00 |
 | Less than 40% | F | 0.00 |
 
-**Important:** Letter grades and their fixed grade points are assigned to individual courses based on course marks. SGPA is a credit-weighted average of those course grade points, so an SGPA such as 3.62 does not itself receive a separate official letter grade.
+**Important:** Letter grades and their fixed grade points are assigned to individual courses based on course marks. Semester GPA is a credit-weighted average of those course grade points, so an SGPA such as 3.62 does not itself receive a separate official letter grade.
 
 ## How it works
 
 The calculator provides eight semester tabs, a course-grade mode, a Quick CGPA mode, saved semester results, and a credit-weighted overall CGPA. Grade options display the letter grade, grade point, and marks range together.
 
-**Semester GPA (SGPA)** is calculated using the credit-weighted average of the course grade points:
+**Semester GPA** is calculated using the credit-weighted average of the course grade points:
 
 \[
-\text{SGPA} = \frac{\sum(\text{Course Credit} \times \text{Grade Point})}{\sum(\text{Attempted Course Credits})}
+\text{Semester GPA} = \frac{\sum(\text{Course Credit} \times \text{Grade Point})}{\sum(\text{Attempted Course Credits})}
 \]
 
 **Overall CGPA** is calculated from the total quality points and total credits of the semesters you save. It is not a simple average of semester GPAs.
@@ -621,11 +621,9 @@ The calculator provides eight semester tabs, a course-grade mode, a Quick CGPA m
 
 - **Semester 1 source:** National University, Professionals Syllabus Archive — *Computer Science and Engineering, CSE (Hon's) Syllabus 2017–2018*. The archive page currently lists this edition; check with your department if a session-specific revision was issued for 2025–2026.
 - **Semesters 2–8:** course names, codes and credits remain provisional reference data and must be verified against the latest syllabus confirmed by your department.
-- Every listed course must have an original grade or a retake/improvement grade before its semester SGPA can be saved. If a later attempt grade is entered, it replaces the original grade in this estimate; the course credit is counted only once. F contributes 0.00 grade points.
-- Quick CGPA uses 18 credits for Semester 1 and provisional credit totals for Semesters 2–8.
+- Every listed course must have an original grade or a retake/improvement grade before its semester result can be saved. If a later attempt grade is entered, it replaces the original grade in this estimate; the course credit is counted only once. F contributes 0.00 grade points.
+- Quick CGPA requires you to enter the actual credit total for every semester; only Semester 1 is prefilled with 18 credits.
 - Saved results and quick entries stay in your current browser and device; clearing browser data may remove them.
 - The retake/improvement field is a calculation aid, not a ruling on NU eligibility, attempt limits, grade caps, or transcript treatment. Confirm the rules applicable to your session with NU or your college. This is an unofficial estimate; your official NU result and applicable regulations are authoritative.
-- **Semester 1:** the seven course codes, titles and credits match the CSE (Hon's) syllabus listed in the [official NU Professionals Syllabus Archive](https://www.nu.ac.bd/syllabus-professionals.php), effective from 2017–2018. The archive currently lists that edition; check with your department whether a separate 2025–2026 revision applies to your cohort.
-- **Semesters 2–8:** course names, codes and credits remain provisional reference data. Verify them against the latest syllabus confirmed by your department before relying on those semester calculations.
 
 [View the NU grade scale](grade-scale.md)
