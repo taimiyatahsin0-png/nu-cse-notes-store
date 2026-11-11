@@ -1,8 +1,5 @@
 # Paragraph Writing
 
-## সহজ বাংলায় ধারণা
-Paragraph হলো একটি নির্দিষ্ট topic নিয়ে logically connected sentences-এর group। ভালো paragraph-এ topic sentence, supporting details এবং concluding sentence থাকে।
-
 ## Core rules and method
 **Structure:**
 1. Topic sentence — introduces the central idea.
