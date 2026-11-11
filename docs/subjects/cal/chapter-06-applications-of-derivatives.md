@@ -1,7 +1,7 @@
 # Chapter 06: Applications of Derivatives
 
-**Course:** Calculus  
-**Course Code:** 510205  
+**Course:** Calculus
+**Course Code:** 510205
 **Level:** First Year – First Semester
 
 ---
@@ -53,7 +53,7 @@ A horizontal tangent often occurs at a maximum or minimum, but not always. For e
 | \(f'(x)<0\) | “f prime of x is less than zero” | Function is decreasing on the interval |
 | \(f''(x)>0\) | “f double prime of x is greater than zero” | Concave upward |
 | \(f''(x)<0\) | “f double prime of x is less than zero” | Concave downward |
-| \(\therefore\) | “therefore” | সুতরাং |
+| \(\therefore\) | “therefore” | — |
 
 ---
 
@@ -179,13 +179,9 @@ The word **extremum** (plural: extrema) refers to a maximum or minimum value.
 
 A function \(f\) has a **local maximum** at \(x=c\) if \(f(c)\) is greater than or equal to the function values at nearby points.
 
-In simple Bangla: আশেপাশের মানগুলোর তুলনায় \(f(c)\) সবচেয়ে বড় বা সমান হলে সেটি local maximum।
-
 ### 3.2 Local minimum
 
 A function \(f\) has a **local minimum** at \(x=c\) if \(f(c)\) is less than or equal to the function values at nearby points.
-
-অর্থাৎ, আশেপাশের মানগুলোর তুলনায় \(f(c)\) সবচেয়ে ছোট বা সমান হলে সেটি local minimum।
 
 ### 3.3 Absolute (global) maximum and minimum
 
@@ -279,12 +275,6 @@ Suppose \(c\) is a critical number.
 | \(+\) | \(+\) | Increasing on both sides | No extremum by this test |
 | \(-\) | \(-\) | Decreasing on both sides | No extremum by this test |
 
-### 4.2 সহজ বাংলায় মনে রাখো
-
-- \(+\) থেকে \(-\): উপরে উঠছিল, পরে নিচে নামছে → maximum.
-- \(-\) থেকে \(+\): নিচে নামছিল, পরে উপরে উঠছে → minimum.
-- একই sign থাকলে: direction বদলায়নি → local extremum নেই।
-
 ### 4.3 Solved Example
 
 **Problem:** Find and classify the local extrema of
@@ -359,11 +349,8 @@ Then:
 2. If \(f''(c)<0\), \(f\) has a local maximum at \(x=c\).
 3. If \(f''(c)=0\), the test is inconclusive.
 
-**বাংলায়:**
-
 - Second derivative positive → curve concave upward → local minimum.
 - Second derivative negative → curve concave downward → local maximum.
-- Second derivative zero → এই test দিয়ে সিদ্ধান্ত নেওয়া যায় না।
 
 ### 5.2 Solved Example
 
@@ -607,8 +594,6 @@ So the function is concave upward on \((1,\infty)\).
 ### 8.1 Definition
 
 An **inflection point** is a point on a curve where the concavity changes from upward to downward or from downward to upward.
-
-বাংলায়: যে বিন্দুতে curve-এর বাঁকানোর ধরন পরিবর্তিত হয়, তাকে point of inflection বলে।
 
 ### 8.2 How to find a possible inflection point
 
