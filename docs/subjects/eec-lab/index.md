@@ -90,8 +90,3 @@ Each page provides a theory summary, procedure outline, observation table, calcu
 *The experiment list currently recorded here follows a 2017–2018 syllabus reference. Confirm the current Professional Honours lab manual, experiment order and circuit diagrams with your department before practical assessment.*
 
 
-
-## My PDF Notes
-
-Your personal PDF notes for this subject will appear here. [Browse the All PDFs Library](../../tools/pdf-library.md) to find available files or learn where to upload new ones.
-
