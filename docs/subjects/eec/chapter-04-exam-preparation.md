@@ -1,8 +1,7 @@
 # Chapter 04: Semiconductor Diodes and Special Purpose Diodes — Exam Preparation Pack
 
-**Course:** Electrical and Electronic Circuit (EEC)  
-**Course Code:** 510203  
-**Language:** Bangla explanations with standard English exam terminology
+**Course:** Electrical and Electronic Circuit (EEC)
+**Course Code:** 510203
 
 > This pack follows the Chapter 04 notes currently recorded in this repository. It is a practice resource, not a prediction of actual examination questions. Confirm the current syllabus with your department.
 
@@ -38,17 +37,6 @@ Anode = P-side. Cathode = N-side.
 
 ## 3. Formation of a P-N junction
 
-P-type semiconductor-এ holes majority carriers; N-type semiconductor-এ electrons majority carriers।
-
-1. N-side-এর electrons বেশি concentration-এর কারণে P-side-এর দিকে diffuse করে।
-2. P-side-এর holes N-side-এর দিকে diffuse করে।
-3. Junction-এর কাছে electrons ও holes recombine করে।
-4. N-side-এ fixed positive donor ions এবং P-side-এ fixed negative acceptor ions থেকে যায়।
-5. Fixed ions একটি electric field তৈরি করে।
-6. Mobile majority carrier কমে যাওয়া অঞ্চলটি depletion region নামে পরিচিত হয়।
-
-এই electric field further diffusion-কে oppose করে এবং barrier potential তৈরি করে। At equilibrium, diffusion tendency ও drift tendency balance করে; unbiased junction-এ net current থাকে না।
-
 ### Approximate forward voltage values
 
 | Material | Practical approximation |
@@ -56,35 +44,17 @@ P-type semiconductor-এ holes majority carriers; N-type semiconductor-এ elect
 | Silicon | 0.7 V |
 | Germanium | 0.3 V |
 
-এগুলো approximate constant-voltage model-এর value; actual voltage current ও temperature-এর সঙ্গে পরিবর্তিত হয়।
-
-**Exam diagram:** P-region, N-region, depletion region, fixed ions এবং electric-field direction label করবে।
-
 ## 4. Forward bias
 
 A P-N junction diode is forward biased when its P-side is connected to the positive terminal and its N-side to the negative terminal of a DC supply.
 
 Working:
-1. External voltage built-in barrier potential-এর বিপরীতে কাজ করে।
-2. Depletion region সংকীর্ণ হয়।
-3. Barrier potential কমে যায়।
-4. Majority carriers junction অতিক্রম করতে পারে।
-5. উল্লেখযোগ্য forward current প্রবাহিত হয়।
-
-Conventional current diode-এর anode (P-side) থেকে cathode (N-side)-এর দিকে যায়।
 
 ## 5. Reverse bias
 
 A P-N junction diode is reverse biased when its P-side is connected to the negative terminal and its N-side to the positive terminal of a DC supply.
 
 Working:
-1. External voltage junction-এর built-in electric field-কে support করে।
-2. Depletion region প্রশস্ত হয়।
-3. Barrier potential বৃদ্ধি পায়।
-4. Majority carrier conduction strongly restricted হয়।
-5. Minority carrier-এর কারণে অল্প reverse current প্রবাহিত হয়।
-
-এই অল্প current-কে reverse saturation current বলা হয়। Reverse voltage breakdown পর্যায়ে পৌঁছালে current দ্রুত বেড়ে যায়।
 
 ## 6. Forward bias vs reverse bias
 
@@ -100,8 +70,6 @@ Working:
 Memory tip: Forward bias narrows the depletion region; reverse bias widens it.
 
 ## 7. V-I characteristics
-
-V-I graph-এ horizontal axis-এ diode voltage এবং vertical axis-এ diode current দেখানো হয়।
 
 **Forward region:** Initially current is small. As forward voltage increases, current rises rapidly. Introductory calculations often use about 0.7 V for silicon and 0.3 V for germanium.
 
@@ -168,20 +136,7 @@ R = Vr/I = 3/0.01 = 300 ohm.
 
 A Zener diode is designed to operate in reverse breakdown and maintain an approximately constant voltage over a specified current range.
 
-Zener diode সাধারণত ordinary diode-এর তুলনায় বেশি heavily doped হয়; depletion region তুলনামূলক narrow। এর specified reverse breakdown voltage-কে Zener voltage (Vz) বলে।
-
-Reverse bias-এ breakdown-এর আগে অল্প current প্রবাহিত হয়। Reverse voltage Vz-এ পৌঁছালে current দ্রুত বাড়ে, কিন্তু permitted operating-current range-এ diode voltage প্রায় constant থাকে।
-
-Forward bias-এ Zener diode broadly ordinary silicon diode-এর মতো আচরণ করে। Reverse breakdown-এ operation করার সময় current limit করতে series resistor প্রয়োজন। Maximum current ও power rating অতিক্রম করা যাবে না।
-
 ## 11. Zener diode as a voltage regulator
-
-Basic Zener shunt regulator-এর উপাদান: DC input supply, series resistor, reverse-biased Zener diode এবং load resistor। Zener diode ও load parallel-এ থাকে। Zener breakdown region-এ থাকলে output voltage প্রায় Vz-এর সমান থাকে।
-
-- Input voltage বাড়লে, load current unchanged থাকলে Zener current বাড়তে পারে।
-- Load current বাড়লে Zener current কমে; output প্রায় constant থাকতে পারে।
-- Zener current minimum regulating value-এর নিচে গেলে regulation নষ্ট হতে পারে।
-- Zener current খুব বেশি হলে power rating অতিক্রম করতে পারে।
 
 ### Solved numerical 3: No-load Zener regulator
 
