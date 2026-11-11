@@ -77,4 +77,4 @@ Question-bank links and student-uploaded papers are secondary sources unless an 
 
 **Learn at your own pace. Build your skills. Keep growing.**
 
-*An independent student learning resource; not an official National University website.*
+*Study, practise, and build your CSE foundations step by step.*
