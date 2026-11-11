@@ -143,10 +143,10 @@ These are student-uploaded secondary sources, not an official NU-hosted archive.
 
 These notes use a consistent learning order:
 
-1. **Bangla concept first:** understand what the idea means and why it works.
-2. **Exam-ready English:** learn a concise, standard definition or theorem statement.
+1. **Definition and theorem:** learn the exact statement, assumptions and conditions.
+2. **Method:** identify the relevant rule, formula or theorem before solving.
 3. **Worked solution:** show the formula, substitutions and intermediate steps—not only the final answer.
-4. **Practice and revision:** include common mistakes, formula review and questions clearly separated by source.
+4. **Practice and revision:** review key results, common mistakes and questions clearly separated by source.
 
 **For mathematical answers:** state the relevant theorem or formula, check its conditions, show each algebraic step and box the final result. For proofs, write the assumptions, logical steps and conclusion.
 
