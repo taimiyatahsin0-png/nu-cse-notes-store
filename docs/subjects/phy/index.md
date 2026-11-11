@@ -95,4 +95,4 @@ This repository uses the syllabus reference effective from Session 2017–2018. 
 
 ---
 
-This is an independent student learning resource, not an official National University publication.
+For examination scope, follow the syllabus and instructions confirmed by your department.
