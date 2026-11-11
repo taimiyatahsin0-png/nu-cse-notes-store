@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 03: verification of thevenin’s theorem using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 Thevenin’s theorem states that a linear two-terminal network can be replaced, as seen by a load, by an ideal voltage source Vth in series with a resistance Rth. Vth is the open-circuit terminal voltage. For independent sources, Rth is found by deactivating ideal voltage sources (short circuit) and ideal current sources (open circuit), then looking into the terminals.
 
 ## 3. Apparatus
