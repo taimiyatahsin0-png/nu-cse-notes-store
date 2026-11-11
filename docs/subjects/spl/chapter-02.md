@@ -14,13 +14,7 @@ After completing this chapter, students will be able to:
 
 ---
 
-# Part A: Understand in Bangla
-
 ## 1. What is a Variable?
-
-### সহজ বাংলায়
-
-মনে করো, তোমার কাছে একটি বাক্স আছে। বাক্সটির নাম `age`। এর মধ্যে তুমি ২০ সংখ্যাটি রাখলে।
 
 Programming-এ এই বাক্সের মতো জায়গাকে Variable বলা হয়।
 
@@ -50,10 +44,6 @@ Here:
 
 ## 2. Variable Declaration
 
-### বাংলায় ব্যাখ্যা
-
-Variable Declaration হলো কোনো Variable-এর নাম এবং Data Type নির্ধারণ করে কম্পিউটারকে জানানো।
-
 Example:
 
 ```c
@@ -67,10 +57,6 @@ char grade;
 Variable declaration is the process of specifying a variable's name and data type before using it in a program.
 
 ## 3. Variable Initialization
-
-### বাংলায় ব্যাখ্যা
-
-Variable তৈরি করার সময়ই যখন তার মধ্যে কোনো প্রাথমিক মান (Initial Value) দেওয়া হয়, তখন তাকে Initialization বলে।
 
 Example:
 
@@ -120,10 +106,6 @@ total-marks
 
 ## 5. What is a Constant?
 
-### সহজ বাংলায়
-
-Variable-এর Value পরিবর্তন করা যায়। কিন্তু Constant-এর Value Program চলার সময় পরিবর্তন করা যায় না।
-
 Example:
 
 ```c
@@ -162,10 +144,6 @@ Output:
 ---
 
 ## 6. Data Types in C
-
-### সহজ বাংলায়
-
-Variable-এর মধ্যে কী ধরনের তথ্য রাখা হবে, তা Data Type নির্ধারণ করে।
 
 যেমন:
 
@@ -219,10 +197,6 @@ Output may vary depending on the system.
 
 ## 7. Format Specifiers
 
-### সহজ বাংলায়
-
-`printf()` দিয়ে কোনো Variable-এর Value দেখাতে হলে তার Data Type অনুযায়ী Format Specifier ব্যবহার করতে হয়।
-
 ### Important Format Specifiers
 
 | Format Specifier | Data Type |
@@ -269,10 +243,6 @@ Grade = A
 Here, `%.2f` displays two digits after the decimal point.
 
 ## 8. Taking Input Using scanf()
-
-### বাংলায় ব্যাখ্যা
-
-`scanf()` Function ব্যবহার করে User-এর কাছ থেকে Input নেওয়া যায়।
 
 Example:
 
@@ -321,10 +291,6 @@ Your age is 20
 
 # 9. Operators in C
 
-### সহজ বাংলায়
-
-Operator হলো এমন একটি Symbol, যার সাহায্যে কোনো Operation বা কাজ সম্পন্ন করা হয়।
-
 যেমন:
 
 ```c
@@ -362,10 +328,6 @@ C programming-এ গুরুত্বপূর্ণ Operators:
 7. Bitwise Operators
 
 ## 10.1 Arithmetic Operators
-
-### বাংলায় ব্যাখ্যা
-
-Mathematical Calculation বা গাণিতিক হিসাব করার জন্য Arithmetic Operators ব্যবহার করা হয়।
 
 | Operator | Meaning | Example |
 |---|---|---|
@@ -421,10 +383,6 @@ Output:
 
 ## 10.2 Relational Operators
 
-### বাংলায় ব্যাখ্যা
-
-দুটি Value-এর মধ্যে তুলনা করার জন্য Relational Operator ব্যবহার করা হয়।
-
 এগুলো তুলনার ফলাফল হিসেবে True অথবা False প্রদান করে।
 
 C programming-এ:
@@ -469,10 +427,6 @@ Explanation:
 - 10 == 5 is False, so output is 0.
 
 ## 10.3 Logical Operators
-
-### বাংলায় ব্যাখ্যা
-
-একাধিক Condition একসঙ্গে পরীক্ষা করার জন্য Logical Operators ব্যবহার করা হয়।
 
 C-তে তিনটি প্রধান Logical Operator রয়েছে।
 
@@ -540,10 +494,6 @@ Output:
 
 ## 10.4 Assignment Operators
 
-### বাংলায় ব্যাখ্যা
-
-Variable-এর মধ্যে Value সংরক্ষণ বা Update করার জন্য Assignment Operator ব্যবহার করা হয়।
-
 | Operator | Example | Equivalent Expression |
 |---|---|---|
 | = | a = 5 | a = 5 |
@@ -581,10 +531,6 @@ Explanation:
 `a += 5` means `a = a + 5`.
 
 ## 10.5 Increment and Decrement Operators
-
-### বাংলায় ব্যাখ্যা
-
-Increment Operator কোনো Variable-এর Value এক বাড়ায়।
 
 Decrement Operator কোনো Variable-এর Value এক কমায়।
 
@@ -742,10 +688,6 @@ Output:
 
 # 11. Operator Precedence
 
-### বাংলায় ব্যাখ্যা
-
-একটি Expression-এ একাধিক Operator থাকলে কোন Operator আগে কাজ করবে, সেটি নির্ধারণ করে Operator Precedence।
-
 Example:
 
 ```c
@@ -808,10 +750,6 @@ Output:
 ---
 
 # 12. Type Conversion
-
-### বাংলায় ব্যাখ্যা
-
-একটি Data Type-এর Value অন্য Data Type-এ পরিবর্তন করাকে Type Conversion বলে।
 
 C programming-এ Type Conversion প্রধানত দুই ধরনের।
 
@@ -1283,10 +1221,6 @@ Average = 20.00
 | 4 | Display | Average = 20.00 |
 
 ## 11.2 Operator Precedence
-
-### সহজ বাংলায়
-
-একটি expression-এ একাধিক operator থাকলে কোন কাজ আগে হবে, তা operator precedence নির্ধারণ করে।
 
 Example:
 
