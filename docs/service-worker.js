@@ -1,6 +1,6 @@
 "use strict";
-const PREFIX="nu-cse-notes-store-",VERSION="v1",SHELL=PREFIX+"shell-"+VERSION,PAGES=PREFIX+"pages-"+VERSION,BASE=new URL("./",self.location.href);
-const CORE=["./","./offline/","./tools/cgpa-calculator/","./tools/notes-library/","./tools/formula-sheets/","./tools/bookmarks/"].map(p=>new URL(p,BASE).href);
+const PREFIX="nu-cse-notes-store-",VERSION="v2",SHELL=PREFIX+"shell-"+VERSION,PAGES=PREFIX+"pages-"+VERSION,BASE=new URL("./",self.location.href);
+const CORE=["./","./offline/","./tools/cgpa-calculator/","./tools/notes-library/","./tools/formula-sheets/","./tools/bookmarks/","./search/search_index.json"].map(p=>new URL(p,BASE).href);
 self.addEventListener("install",event=>event.waitUntil((async()=>{const c=await caches.open(SHELL);await c.addAll(CORE);await self.skipWaiting();})()));
 self.addEventListener("activate",event=>event.waitUntil((async()=>{const keys=await caches.keys();await Promise.all(keys.filter(k=>k.startsWith(PREFIX)&&k!==SHELL&&k!==PAGES).map(k=>caches.delete(k)));await self.clients.claim();})()));
 self.addEventListener("fetch",event=>{
