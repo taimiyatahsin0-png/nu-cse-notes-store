@@ -4,8 +4,6 @@
 **Course Code:** 510205  
 **Semester:** First Year – First Semester
 
-> **Learning approach:** Understand the concept in simple Bangla first, then learn the standard English definition and practise examples.
-
 ---
 
 ## 1. Learning Objectives
@@ -22,10 +20,6 @@ After studying this chapter, you should be able to:
 ---
 
 ## 2. What Is a Function?
-
-### সহজ বাংলায়
-
-Function-কে একটি নিয়ম বা machine হিসেবে ভাবো। তুমি একটি input দেবে, machine নির্দিষ্ট নিয়মে সেটিকে process করে একটি output দেবে।
 
 যেমন, নিয়মটি হলো input-এর সঙ্গে 3 যোগ করা।
 
@@ -90,9 +84,6 @@ The input 1 is paired with both 2 and 5. Since one input has two different outpu
 
 ## 3. Domain, Codomain and Range
 
-### সহজ বাংলায়
-
-- **Domain:** কোন কোন input দেওয়া যাবে।
 - **Codomain:** output কোন set-এর মধ্যে থাকবে বলে নির্ধারণ করা হয়েছে।
 - **Range:** বাস্তবে যেসব output পাওয়া যায়।
 
