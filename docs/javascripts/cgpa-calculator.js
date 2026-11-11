@@ -127,7 +127,7 @@
       const save=event.target.closest("[data-save]");
       if(clear){
         const n=Number(clear.dataset.clear),body=$('[data-rows="'+n+'"]');
-        $(".cgpa-grade,.cgpa-retake-grade",body).forEach(select=>select.value="");
+        $$(".cgpa-grade,.cgpa-retake-grade",body).forEach(select=>select.value="");
         delete state.drafts[n];saveState();
         updateSemester(n);
         setText('[data-message="'+n+'"]',"Current entries cleared. Any previously saved semester result remains in your CGPA until you save a replacement or reset all saved results.");
@@ -159,7 +159,7 @@
       state.saved={};state.drafts={};saveState();updateSavedSummary();window.dispatchEvent(new CustomEvent("nu-cse-cgpa-saved-updated"));
       for(let i=1;i<=8;i++){
         const body=$('[data-rows="'+i+'"]');
-        $(".cgpa-grade,.cgpa-retake-grade",body).forEach(select=>select.value="");
+        $$(".cgpa-grade,.cgpa-retake-grade",body).forEach(select=>select.value="");
         updateSemester(i);
       }
     });
