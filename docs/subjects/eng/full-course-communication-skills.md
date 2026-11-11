@@ -1,7 +1,7 @@
 # English (510209): Full-Course Communication Skills Guide
 
-**Course:** English (510209)  
-**Reference:** NU CSE B.Sc. Honours syllabus reference effective from Session 2017–2018  
+**Course:** English (510209)
+**Reference:** NU CSE B.Sc. Honours syllabus reference effective from Session 2017–2018
 **Purpose:** Supplementary learning notes for the speaking, listening, reading, writing and commercial-correspondence areas listed in the reference syllabus.
 
 > **Scope note:** This guide follows the broad course areas in the cited syllabus reference. Your reported midterm list is covered separately in [English Midterm Exam Preparation](midterm-exam-preparation.md). Confirm the topics and assessment format assigned to your 2025–26 session with your department. Activities and sample texts below are original practice, not official NU questions.
@@ -9,10 +9,6 @@
 ---
 
 ## 1. Speaking Skills
-
-### সহজ বাংলায়
-
-Speaking মানে শুধু ইংরেজিতে কথা বলা নয়; পরিস্থিতি অনুযায়ী পরিষ্কার, ভদ্র ও বোধগম্যভাবে নিজের বক্তব্য প্রকাশ করা। কথা বলার আগে উদ্দেশ্য, শ্রোতা এবং প্রয়োজনীয় তথ্য ঠিক করো। ভুলের ভয়ে থেমে না গিয়ে ছোট ও সঠিক বাক্য দিয়ে শুরু করো।
 
 ### Useful communication functions
 
@@ -36,10 +32,10 @@ Speaking মানে শুধু ইংরেজিতে কথা বলা 
 
 ### Practice dialogue: Asking for information
 
-**Student:** Excuse me, could you tell me where the department office is?  
-**Staff member:** It is on the second floor, beside the library.  
-**Student:** Thank you. Could you also tell me the office hours?  
-**Staff member:** It is open from 9 a.m. to 4 p.m. on working days.  
+**Student:** Excuse me, could you tell me where the department office is?
+**Staff member:** It is on the second floor, beside the library.
+**Student:** Thank you. Could you also tell me the office hours?
+**Staff member:** It is open from 9 a.m. to 4 p.m. on working days.
 **Student:** I appreciate your help.
 
 ### Oral-presentation checklist
@@ -54,10 +50,6 @@ Speaking মানে শুধু ইংরেজিতে কথা বলা 
 ---
 
 ## 2. Introduction to Phonetics
-
-### সহজ বাংলায়
-
-Phonetics হলো মানুষের speech sound কীভাবে তৈরি, ছড়ায় এবং শোনা যায়—তার বৈজ্ঞানিক অধ্যয়ন। English spelling আর pronunciation সবসময় এক নয়। তাই শব্দের বানান দেখে উচ্চারণ অনুমান না করে dictionary-র pronunciation ও IPA শুনে অনুশীলন করো।
 
 ### Three branches
 
@@ -93,10 +85,6 @@ Say each pair aloud and notice the sound difference:
 ---
 
 ## 3. Listening Skills and Note-Taking
-
-### সহজ বাংলায়
-
-Listening মানে শব্দ শোনা নয়, বরং বক্তার মূল বক্তব্য, উদ্দেশ্য, তথ্য ও সম্পর্ক বোঝা। সব শব্দ ধরার চেষ্টা না করে প্রথমে topic এবং key information ধরবে।
 
 ### Before, during and after listening
 
@@ -139,10 +127,6 @@ Ask a friend to read this paragraph twice, or use a text-to-speech reader:
 
 ## 4. Reading Literary and General Essays
 
-### সহজ বাংলায়
-
-Literary essay-তে লেখকের language, imagery, tone, character বা theme গুরুত্বপূর্ণ হতে পারে। General essay-তে সাধারণত কোনো সামাজিক, বৈজ্ঞানিক বা সমসাময়িক বিষয়ের যুক্তি, তথ্য ও ব্যাখ্যা থাকে। দুই ক্ষেত্রেই author's purpose এবং central idea বুঝতে হবে।
-
 ### Reading strategies
 
 - **Skimming:** Read quickly to understand the overall topic.
@@ -164,10 +148,6 @@ Literary essay-তে লেখকের language, imagery, tone, character ব�
 ---
 
 ## 5. Précis Writing
-
-### সহজ বাংলায়
-
-Précis হলো passage-এর মূল বক্তব্য ও প্রয়োজনীয় যুক্তি সংক্ষেপে নিজের ভাষায় লেখা। এটি summary-র মতো হলেও précis সাধারণত আরও সংহত, নিরপেক্ষ এবং মূল লেখার logical structure-এর প্রতি বিশ্বস্ত হয়। প্রশ্নে word limit দেওয়া থাকলে সেটিই অনুসরণ করবে।
 
 ### Method
 
@@ -191,10 +171,6 @@ Public libraries continue to support education by providing learning resources, 
 ---
 
 ## 6. Analytical Writing
-
-### সহজ বাংলায়
-
-Analytical writing-এ শুধু কোনো বিষয়ের বর্ণনা দেওয়া হয় না; বিষয়টিকে ভেঙে কারণ, প্রমাণ, প্রভাব এবং সম্পর্ক বিশ্লেষণ করা হয়। প্রতিটি claim-এর পক্ষে যুক্তি বা evidence দিতে হবে।
 
 ### A practical structure
 
@@ -223,10 +199,6 @@ The stronger claim is more useful because it identifies benefits, conditions and
 ---
 
 ## 7. Scientific Writing
-
-### সহজ বাংলায়
-
-Scientific writing হলো scientific বা technical information নির্ভুল, স্পষ্ট, logical এবং evidence-based ভাষায় প্রকাশ করা। এখানে অতিরঞ্জন বা unsupported claim করা যাবে না। Observation, method, result এবং conclusion আলাদা করে লিখবে।
 
 ### Common features
 
@@ -264,10 +236,6 @@ Never change or invent experimental readings to make a result look better.
 
 ## 8. Commercial Correspondence
 
-### সহজ বাংলায়
-
-Commercial correspondence হলো business বা organisational কাজে ব্যবহৃত formal written communication। Letter-এর purpose শুরুতেই পরিষ্কার করতে হবে। Tone হবে courteous, factual এবং professional।
-
 ### Common types
 
 - Enquiry letter — asking for product, price or service information.
@@ -289,7 +257,7 @@ Please also mention any educational discount available for institutional purchas
 
 Thank you for your assistance. We look forward to your response.
 
-Yours faithfully,  
+Yours faithfully,
 Department Representative
 
 ### Checklist
@@ -304,10 +272,6 @@ Department Representative
 
 ## 9. Tender Notice and Pre-Qualification Notice
 
-### সহজ বাংলায়
-
-Tender notice-এ কোনো প্রতিষ্ঠান নির্দিষ্ট কাজ বা পণ্য সরবরাহের জন্য eligible bidders-দের bid জমা দিতে আহ্বান করে। Pre-qualification notice-এ bidder-এর অভিজ্ঞতা, আর্থিক সক্ষমতা ও technical capability যাচাই করা হয়। এগুলো formal public notices; তথ্য ও deadline স্পষ্ট হওয়া জরুরি।
-
 ### Typical information in a tender notice
 
 - Name of the procuring organisation
@@ -321,17 +285,17 @@ Tender notice-এ কোনো প্রতিষ্ঠান নির্দি
 
 ### Original practice template — Tender Notice
 
-**ABC Institute**  
+**ABC Institute**
 **Invitation for Tender (IFT)**
 
-Tender Reference: ABC/PROC/2026/01  
+Tender Reference: ABC/PROC/2026/01
 ABC Institute invites eligible suppliers to submit tenders for the supply of laboratory equipment.
 
 Interested bidders must collect the tender document and submit their proposals according to the instructions stated in that document. The submission deadline is 12:00 noon on 15 December 2026.
 
 Further information may be obtained from the Procurement Office during official working hours.
 
-**Authorised Officer**  
+**Authorised Officer**
 ABC Institute
 
 *This is a fictional classroom template. It is not a real procurement notice.*
@@ -352,10 +316,6 @@ ABC Institute
 
 ## 10. Report Writing
 
-### সহজ বাংলায়
-
-Report হলো কোনো ঘটনা, কাজ, survey বা investigation-এর structured factual account। Report-এর purpose অনুযায়ী heading ও section বদলাতে পারে, কিন্তু তথ্য নির্ভুল এবং organised হতে হবে।
-
 ### Basic report structure
 
 1. Title
@@ -369,8 +329,8 @@ Report হলো কোনো ঘটনা, কাজ, survey বা investigati
 
 ### Original sample: Report on a Student Workshop
 
-**Report on a Student Workshop on Cybersecurity Awareness**  
-**Date:** 10 November 2026  
+**Report on a Student Workshop on Cybersecurity Awareness**
+**Date:** 10 November 2026
 **Prepared by:** Student Representative
 
 A workshop on cybersecurity awareness was organised for first-semester students on 10 November 2026. The session introduced common online risks, including phishing, weak passwords and unsafe downloads.
