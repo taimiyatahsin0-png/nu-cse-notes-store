@@ -26,10 +26,6 @@ After completing this chapter, students will be able to:
 
 ## 1.1 What is Alternating Current (AC)?
 
-### বাংলা ব্যাখ্যা
-
-সাধারণ DC (Direct Current) সার্কিটে কারেন্ট একটি নির্দিষ্ট দিকে প্রবাহিত হয়। কিন্তু AC (Alternating Current)-এর ক্ষেত্রে কারেন্টের মান এবং দিক সময়ের সঙ্গে পর্যায়ক্রমে পরিবর্তিত হয়।
-
 বাসাবাড়ির বিদ্যুৎ সরবরাহ AC-এর একটি পরিচিত উদাহরণ। AC voltage-এর polarity নির্দিষ্ট সময় পরপর পরিবর্তিত হয়, ফলে circuit-এর current-এর দিকও পরিবর্তিত হতে পারে।
 
 ### English Exam Answer
@@ -62,10 +58,6 @@ Alternating voltage is a voltage whose magnitude and polarity change periodicall
 # 2. Basic Principle of an AC Generator
 
 ## 2.1 What is an AC Generator?
-
-### বাংলা ব্যাখ্যা
-
-AC Generator বা Alternator হলো এমন একটি যন্ত্র যা Mechanical Energy-কে Electrical Energy-তে রূপান্তর করে এবং Alternating Voltage তৈরি করে।
 
 এর মূলনীতি হলো **Electromagnetic Induction**।
 
@@ -155,10 +147,6 @@ V_{pp}=2V_m
 
 ## 3.3 Amplitude or Peak Value
 
-### বাংলা ব্যাখ্যা
-
-Waveform-এর zero reference level থেকে সর্বোচ্চ মান পর্যন্ত দূরত্বকে Amplitude বা Peak Value বলে।
-
 ### English Exam Answer
 
 **Amplitude:** The maximum value of an alternating voltage or current measured from its zero reference level.
@@ -196,10 +184,6 @@ Angular frequency হলো প্রতি সেকেন্ডে phase angle
 **Unit:** rad/s
 
 ## 3.7 Phase and Phase Difference
-
-### বাংলা ব্যাখ্যা
-
-Phase দিয়ে একটি periodic waveform তার cycle-এর কোন অবস্থানে আছে, তা বোঝানো হয়।
 
 একই frequency-এর দুটি waveform-এর মধ্যে cycle-এর অবস্থানগত পার্থক্যকে Phase Difference বলে।
 
@@ -245,10 +229,6 @@ I_{avg}=\frac{2I_m}{\pi}
 # 5. RMS Value of AC
 
 ## 5.1 What is RMS Value?
-
-### বাংলা ব্যাখ্যা
-
-RMS-এর পূর্ণরূপ Root Mean Square।
 
 AC-এর RMS value হলো এমন একটি equivalent DC value, যা একই resistance-এর মধ্যে একই সময় ধরে সমপরিমাণ heat উৎপন্ন করে।
 
@@ -306,10 +286,6 @@ V_{rms}=\frac{100}{1.414}
 # 6. Form Factor
 
 ## 6.1 Definition
-
-### বাংলা ব্যাখ্যা
-
-Form Factor হলো কোনো AC waveform-এর RMS value এবং rectified average value-এর অনুপাত।
 
 Sinusoidal waveform-এর ক্ষেত্রে average value বলতে সাধারণত full-wave rectified average বা half-cycle average বোঝানো হয়।
 
@@ -393,10 +369,6 @@ V=IR
 
 ## 7.2 Inductance (L)
 
-### বাংলা ব্যাখ্যা
-
-Inductor সাধারণত coil দিয়ে তৈরি হয়। এর মধ্য দিয়ে current পরিবর্তিত হলে magnetic field পরিবর্তিত হয় এবং সেই পরিবর্তনের বিরোধিতা করে induced voltage তৈরি হয়।
-
 - Symbol: (L)
 - Unit: Henry (H)
 - Ideal inductor-এ current voltage-এর তুলনায় (90^\circ) lag করে।
@@ -416,10 +388,6 @@ Where:
 **Important:** Frequency বাড়লে inductive reactance বাড়ে।
 
 ## 7.3 Capacitance (C)
-
-### বাংলা ব্যাখ্যা
-
-Capacitor বৈদ্যুতিক charge এবং energy electric field-এ সঞ্চয় করে। এর capacitance হলো charge সঞ্চয়ের ক্ষমতার পরিমাপ।
 
 - Symbol: (C)
 - Unit: Farad (F)
@@ -513,10 +481,6 @@ Z=\sqrt{900+1600}
 # 9. Resonance in a Series RLC Circuit
 
 ## 9.1 What is Resonance?
-
-### বাংলা ব্যাখ্যা
-
-Series RLC circuit-এ এমন একটি নির্দিষ্ট frequency পাওয়া যায়, যেখানে inductive reactance এবং capacitive reactance সমান হয়।
 
 অর্থাৎ:
 
@@ -741,7 +705,6 @@ In this chapter, we learned:
 **Learning Tip:** Formula মুখস্থ করার আগে প্রতিটি symbol, unit এবং physical meaning বুঝে নাও। Numerical problem সমাধানের সময় unit conversion বিশেষভাবে খেয়াল করবে।
 
 *Educational resource for National University CSE students. This chapter follows the EEC topic outline currently recorded in this repository; confirm any later syllabus revision with your department.*
-
 
 ---
 
