@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 02: verification of kirchhoff’s current and voltage laws using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 Kirchhoff’s Current Law (KCL): the algebraic sum of currents at a node is zero; total current entering equals total current leaving. Kirchhoff’s Voltage Law (KVL): the algebraic sum of voltage rises and drops around a closed loop is zero. These laws follow from conservation of charge and energy.
 
 ## 3. Apparatus
