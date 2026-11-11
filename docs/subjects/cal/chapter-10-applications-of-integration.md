@@ -1,21 +1,17 @@
 # Chapter 10: Applications of Integration
 
-**Course:** Calculus (510205)  
+**Course:** Calculus (510205)
 **Part:** Integral Calculus
-
-> **বাংলায় মূল ধারণা:** Integration দিয়ে শুধু integral solve করা হয় না; curve-এর নিচের area, ঘূর্ণায়মান solid-এর volume, arc length এবং surface area বের করা যায়।
 
 ---
 
 ## 1. Area Under a Curve
 
-যদি \(f(x)\geq0\) হয় \([a,b]\)-তে, তাহলে curve \(y=f(x)\), x-axis এবং \(x=a,x=b\)-এর মধ্যবর্তী area:
-
 \[
 \boxed{A=\int_a^b f(x)\,dx}
 \]
 
-যদি function x-axis-এর নিচেও যায়, total geometric area বের করতে interval-কে axis crossing-এ ভাগ করে \(|f(x)|\) integrate করতে হবে।
+ — |f(x)| —
 
 ### Example 1
 
@@ -29,13 +25,9 @@ A=\int_0^2x^2dx
 
 ## 2. Area Between Two Curves
 
-যদি upper curve \(y=f(x)\) এবং lower curve \(y=g(x)\) হয়, তাহলে:
-
 \[
 \boxed{A=\int_a^b[f(x)-g(x)]dx}
 \]
-
-প্রথমে curves-এর intersection বের করে limits নির্ধারণ করতে হবে।
 
 ### Example 2
 
@@ -47,8 +39,6 @@ Intersection:
 2x=x^2\Rightarrow x(x-2)=0
 \]
 
-তাই \(x=0,2\)। এই interval-এ \(2x\) উপরের curve।
-
 \[
 A=\int_0^2(2x-x^2)dx
 =\left[x^2-\frac{x^3}{3}\right]_0^2
@@ -56,10 +46,6 @@ A=\int_0^2(2x-x^2)dx
 \]
 
 ## 3. Volume by the Disk Method
-
-কোনো plane region-কে x-axis-এর চারপাশে rotate করলে disk তৈরি হতে পারে।
-
-যদি radius \(R(x)\) হয়, তাহলে cross-sectional area \(\pi R(x)^2\)। তাই:
 
 \[
 \boxed{V=\pi\int_a^b[R(x)]^2dx}
@@ -77,33 +63,21 @@ V=\pi\int_0^2x^2dx
 
 ## 4. Washer Method
 
-যদি region-এ inner radius \(r(x)\) এবং outer radius \(R(x)\) থাকে, তাহলে washer-এর area:
-
 \[
 \pi(R^2-r^2)
 \]
-
-সুতরাং,
 
 \[
 \boxed{V=\pi\int_a^b[R(x)^2-r(x)^2]dx}
 \]
 
-**মনে রাখবে:** Outer radius থেকে inner radius-এর square বিয়োগ করতে হয়।
-
 ## 5. Volume by Cylindrical Shells
-
-Axis-এর চারপাশে thin rectangular strip ঘুরলে cylindrical shell তৈরি হয়।
 
 \[
 \boxed{V=2\pi\int_a^b(\text{radius})(\text{height})\,dx}
 \]
 
-x-axis বা y-axis কোনটির চারপাশে rotate করা হচ্ছে, তার ওপর radius ও integration variable নির্ভর করে।
-
 ### Example 4
-
-Region under \(y=x\), \(0\leq x\leq2\), y-axis-এর চারপাশে rotate করা হলো।
 
 Shell radius \(=x\), height \(=x\)।
 
@@ -115,17 +89,11 @@ V=2\pi\int_0^2x\cdot x\,dx
 
 ## 6. Volume by Cross-sections
 
-যদি কোনো solid-এর perpendicular cross-section-এর area \(A(x)\) জানা থাকে, তাহলে:
-
 \[
 \boxed{V=\int_a^bA(x)\,dx}
 \]
 
-উদাহরণ: square cross-section-এর side \(s(x)\) হলে \(A(x)=s(x)^2\)।
-
 ## 7. Arc Length of a Curve
-
-যদি curve \(y=f(x)\) হয় এবং \(f'\) continuous থাকে, তাহলে \(x=a\) থেকে \(x=b\) পর্যন্ত arc length:
 
 \[
 \boxed{L=\int_a^b\sqrt{1+[f'(x)]^2}\,dx}
@@ -147,19 +115,13 @@ L=\int_0^2\sqrt{1+1}\,dx
 
 ## 8. Surface Area of Revolution
 
-Curve \(y=f(x)\geq0\) কে x-axis-এর চারপাশে rotate করলে surface area:
-
 \[
 \boxed{S=2\pi\int_a^b y\sqrt{1+[y']^2}\,dx}
 \]
 
-y-axis-এর চারপাশে rotate করলে (x as radius):
-
 \[
 \boxed{S=2\pi\int_a^b x\sqrt{1+[y']^2}\,dx}
 \]
-
-Formula প্রয়োগের আগে curve, axis, interval এবং radius ঠিকভাবে চিহ্নিত করবে।
 
 ## 9. Choosing the Correct Method
 
@@ -176,26 +138,18 @@ Formula প্রয়োগের আগে curve, axis, interval এবং radiu
 
 ## 10. Common Mistakes
 
-1. Area between curves-এ upper minus lower না করা।
-2. Geometric area ও signed integral-কে একই ধরে নেওয়া।
-3. Disk/washer method-এ radius square করতে ভুলে যাওয়া।
-4. Washer-এ inner radius-এর square বাদ না দেওয়া।
-5. Shell method-এ radius ও height গুলিয়ে ফেলা।
-6. Arc length-এ derivative-এর square বাদ দেওয়া।
-7. Rotation axis ভুল নির্ধারণ করা।
-
 ## 11. Short Questions
 
-**Q1. What is the area under a curve?**  
+**Q1. What is the area under a curve?**
 For a non-negative continuous function \(f\) on \([a,b]\), the area under the curve is \(\int_a^b f(x)dx\).
 
-**Q2. State the disk method formula.**  
+**Q2. State the disk method formula.**
 \(V=\pi\int_a^b[R(x)]^2dx\), where \(R(x)\) is the radius of a circular cross-section.
 
-**Q3. State the washer method formula.**  
+**Q3. State the washer method formula.**
 \(V=\pi\int_a^b[R(x)^2-r(x)^2]dx\), where \(R\) and \(r\) are outer and inner radii.
 
-**Q4. State the arc-length formula for \(y=f(x)\).**  
+**Q4. State the arc-length formula for \(y=f(x)\).**
 \(L=\int_a^b\sqrt{1+[f'(x)]^2}dx\).
 
 ## 12. Practice (Original questions; not verified NU PYQs)
