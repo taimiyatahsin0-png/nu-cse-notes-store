@@ -29,29 +29,6 @@ No personal PDFs added yet.
 
 No personal PDFs added yet.
 
-## How to add your own PDFs
-
-1. Open the GitHub repository and go to the `docs/pdfs/` folder.
-2. Open `semester-1/`, then the folder for the subject.
-3. Choose **Add file → Upload files**, select your PDF and commit the change.
-4. Use a clear filename, such as `SPL-Important-Questions.pdf` or `Calculus-Limits-Notes.pdf`.
-5. Add the PDF to the matching subject section above and to that subject's **My PDF Notes** section. Use the same file path for both links.
-
-### Folder structure
-
-```text
-docs/
-└── pdfs/
-    └── semester-1/
-        ├── spl/
-        ├── eec/
-        ├── calculus/
-        ├── physics/
-        └── english/
-```
-
-The folders are created when the first PDF is uploaded to them; Git does not store empty folders. Keep your original PDF filenames consistent when adding links.
-
 **PDF actions:** The **View PDF** link opens the browser's built-in PDF viewer in a new tab. The **Download PDF** link requests a local download. Browser settings may affect whether a PDF opens or downloads automatically.
 
 ---
