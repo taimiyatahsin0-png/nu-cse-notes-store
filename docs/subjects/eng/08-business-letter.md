@@ -1,8 +1,5 @@
 # Business Letter Writing
 
-## সহজ বাংলায় ধারণা
-Business letter হলো professional purpose-এ লেখা formal correspondence। ভাষা হবে clear, polite, concise এবং specific। Recipient-এর পরিচয়, subject, purpose, details এবং expected action পরিষ্কার রাখতে হবে।
-
 ## Core rules and method
 **Standard format:**
 Sender's address / contact
