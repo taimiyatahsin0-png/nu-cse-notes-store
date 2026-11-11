@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 04: verification of norton’s theorem using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 Norton’s theorem states that a linear two-terminal network can be replaced by an ideal current source IN in parallel with a resistance RN. IN is the short-circuit current at the terminals and RN = Rth for the same network.
 
 ## 3. Apparatus
