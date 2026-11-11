@@ -60,8 +60,3 @@ At the end of the course, students are expected to develop a simple real-life pr
 *This page is organized according to the NU CSE syllabus effective from Session 2017–2018. Check for any later syllabus revisions.*
 
 
-
-## My PDF Notes
-
-Your personal PDF notes for this subject will appear here. [Browse the All PDFs Library](../../tools/pdf-library.md) to find available files or learn where to upload new ones.
-
