@@ -59,7 +59,8 @@
     }
     select.addEventListener("change",render);$("#cgpa-sim-reset",wrap).addEventListener("click",render);
     window.addEventListener("storage",e=>{if(e.key===KEY){planner();refresh();}});
-    window.addEventListener("nu-cse-cgpa-updated",()=>{planner();refresh();});
+    window.addEventListener("nu-cse-cgpa-updated",planner);
+    window.addEventListener("nu-cse-cgpa-saved-updated",()=>{planner();refresh();});
     planner();refresh();
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
