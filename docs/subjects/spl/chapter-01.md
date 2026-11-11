@@ -25,7 +25,7 @@ After completing this chapter, students will be able to:
 
 ## 1.1 What is Programming?
 
-### English Exam Answer
+### Definition and Exam Notes
 
 **Definition of Programming:**
 
