@@ -5,7 +5,7 @@
 ## 1. Objective
 To study and experimentally verify experiment 01: verification of ohm’s law and resistivity using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
+## 2. Theory
 Ohm’s law states that, for a conductor maintained at constant physical conditions (especially temperature), current is directly proportional to the potential difference across it: V = IR. The resistance is R = V/I. For a uniform wire, R = ρL/A, so resistivity is ρ = RA/L.
 
 ## 3. Apparatus
