@@ -16,10 +16,6 @@ After completing this chapter, students will be able to:
 
 ## 1. What is a Variable?
 
-Programming-এ এই বাক্সের মতো জায়গাকে Variable বলা হয়।
-
-Variable হলো কম্পিউটারের Memory-তে তথ্য সংরক্ষণের জন্য ব্যবহৃত একটি নামযুক্ত জায়গা। Program চলার সময় এর value পরিবর্তন করা যায়।
-
 ### English Exam Note
 
 **Definition:**
@@ -70,12 +66,10 @@ char grade = 'A';
 
 | Declaration | Initialization |
 |---|---|
-| Variable-এর নাম ও Type নির্ধারণ করে | Variable-এ প্রাথমিক Value দেয় |
+| — | — |
 | `int age;` | `int age = 20;` |
 
 ## 4. Rules for Naming Variables
-
-C programming-এ Variable-এর নাম দেওয়ার কিছু নিয়ম রয়েছে।
 
 1. A variable name can contain letters, digits and underscores.
 2. A variable name must not start with a digit.
@@ -102,8 +96,6 @@ float
 total-marks
 ```
 
-**মনে রাখবে:** `age` এবং `Age` C programming-এ দুটি আলাদা Variable।
-
 ## 5. What is a Constant?
 
 Example:
@@ -111,8 +103,6 @@ Example:
 ```c
 const float PI = 3.1416;
 ```
-
-এখানে `PI` একটি Constant।
 
 ### English Exam Note
 
@@ -144,14 +134,6 @@ Output:
 ---
 
 ## 6. Data Types in C
-
-যেমন:
-
-- পূর্ণ সংখ্যা: 25
-- দশমিক সংখ্যা: 5.75
-- একটি অক্ষর: 'A'
-
-সব ধরনের তথ্য একইভাবে সংরক্ষণ করা যায় না। তাই C programming-এ বিভিন্ন Data Type রয়েছে।
 
 ### English Exam Note
 
@@ -291,13 +273,9 @@ Your age is 20
 
 # 9. Operators in C
 
-যেমন:
-
 ```c
 10 + 5
 ```
-
-এখানে `+` হলো Operator। এটি দুটি সংখ্যাকে যোগ করে।
 
 ### English Exam Note
 
@@ -316,8 +294,6 @@ Here:
 - `a` and `b` are operands.
 
 ## 10. Types of Operators
-
-C programming-এ গুরুত্বপূর্ণ Operators:
 
 1. Arithmetic Operators
 2. Relational Operators
@@ -339,17 +315,11 @@ C programming-এ গুরুত্বপূর্ণ Operators:
 
 ### Important: Modulus (%)
 
-Modulus Operator ভাগশেষ বের করে।
-
 Example:
 
 ```c
 10 % 3
 ```
-
-এখানে ১০ কে ৩ দিয়ে ভাগ করলে ভাগশেষ ১।
-
-তাই Output হবে:
 
 ```text
 1
@@ -367,10 +337,6 @@ Output:
 3
 ```
 
-কারণ Integer Division-এ ভগ্নাংশের অংশ বাদ পড়ে।
-
-অন্যদিকে:
-
 ```c
 printf("%.2f", 10.0 / 3);
 ```
@@ -383,9 +349,6 @@ Output:
 
 ## 10.2 Relational Operators
 
-এগুলো তুলনার ফলাফল হিসেবে True অথবা False প্রদান করে।
-
-C programming-এ:
 - True = 1
 - False = 0
 
@@ -428,17 +391,13 @@ Explanation:
 
 ## 10.3 Logical Operators
 
-C-তে তিনটি প্রধান Logical Operator রয়েছে।
-
 | Operator | Name | Meaning |
 |---|---|---|
-| && | Logical AND | সব Condition True হলে True |
-| \|\| | Logical OR | যেকোনো একটি Condition True হলে True |
-| ! | Logical NOT | Result উল্টে দেয় |
+| && | Logical AND | — |
+| \|\| | Logical OR | — |
+| ! | Logical NOT | — |
 
 ### AND (&&)
-
-দুটি Condition-ই True হলে Result True হবে।
 
 | A | B | A && B |
 |---|---|---|
@@ -449,8 +408,6 @@ C-তে তিনটি প্রধান Logical Operator রয়েছে।
 
 ### OR (||)
 
-যেকোনো একটি Condition True হলেই Result True হবে।
-
 | A | B | A \|\| B |
 |---|---|---|
 | 1 | 1 | 1 |
@@ -459,8 +416,6 @@ C-তে তিনটি প্রধান Logical Operator রয়েছে।
 | 0 | 0 | 0 |
 
 ### NOT (!)
-
-Result-কে উল্টে দেয়।
 
 | A | !A |
 |---|---|
@@ -532,8 +487,6 @@ Explanation:
 
 ## 10.5 Increment and Decrement Operators
 
-Decrement Operator কোনো Variable-এর Value এক কমায়।
-
 | Operator | Meaning |
 |---|---|
 | ++ | Increase by 1 |
@@ -561,11 +514,7 @@ Now, `b = 4`.
 
 **Pre-increment: ++a**
 
-আগে Value বাড়ে, তারপর ব্যবহৃত হয়।
-
 **Post-increment: a++**
-
-আগে বর্তমান Value ব্যবহৃত হয়, তারপর Value বাড়ে।
 
 Example:
 
@@ -608,15 +557,11 @@ Output:
 
 ## 10.6 Conditional Operator
 
-Conditional Operator হলো একটি Ternary Operator, যা তিনটি Operand নিয়ে কাজ করে।
-
 Syntax:
 
 ```c
 condition ? expression1 : expression2;
 ```
-
-Condition True হলে expression1 এবং False হলে expression2 execute হয়।
 
 Example:
 
@@ -640,8 +585,6 @@ Adult
 ```
 
 ## 10.7 Bitwise Operators
-
-Bitwise Operators Binary Bits-এর ওপর কাজ করে।
 
 | Operator | Name |
 |---|---|
@@ -693,10 +636,6 @@ Example:
 ```c
 int result = 10 + 5 * 2;
 ```
-
-এখানে Multiplication আগে হবে।
-
-তাই:
 
 ```text
 10 + 5 * 2
@@ -751,11 +690,7 @@ Output:
 
 # 12. Type Conversion
 
-C programming-এ Type Conversion প্রধানত দুই ধরনের।
-
 ### 1. Implicit Type Conversion
-
-Compiler স্বয়ংক্রিয়ভাবে একটি Data Type-কে অন্য Data Type-এ পরিবর্তন করে।
 
 Example:
 
@@ -764,11 +699,7 @@ int a = 10;
 float b = a;
 ```
 
-এখানে Integer Value 10 স্বয়ংক্রিয়ভাবে Float-এ রূপান্তরিত হয়েছে।
-
 ### 2. Explicit Type Conversion (Type Casting)
-
-Programmer নিজে Type Conversion করে।
 
 Syntax:
 
@@ -1144,8 +1075,6 @@ In this chapter, we learned:
 | Automatic local variables have block lifetime | A file-scope object has static storage duration |
 | Not automatically initialized when uninitialized and automatic | Static-storage objects are initialized to zero if no explicit initializer is supplied |
 
-**বাংলায়:** Local variable নির্দিষ্ট function/block-এর ভেতরে ব্যবহার করা যায়। Global variable function-এর বাইরে declare করা হয়। তবে global variable বেশি ব্যবহার করলেই program ভালো হয় না; যেখানে দরকার, সেখানে সীমিত scope রাখাই ভালো।
-
 ### Board and question-bank sources
 
 - [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
@@ -1229,14 +1158,8 @@ int a = 5, b = 2;
 int result = a + b * 3;
 ~~~
 
-এখানে multiplication আগে হবে:
-
 - b * 3 = 2 * 3 = 6
 - a + 6 = 5 + 6 = 11
-
-তাই result-এর মান 11।
-
-**Parentheses** ব্যবহার করলে expression-এর কোন অংশ আগে হিসাব হবে তা পরিষ্কার করা যায়।
 
 ~~~c
 int result = (a + b) * 3; /* 21 */
@@ -1265,8 +1188,6 @@ Output:
 3.50
 ~~~
 
-**ব্যাখ্যা:** দুইটি integer ভাগ করলে integer division হয় এবং ভগ্নাংশ অংশ বাদ যায়। একটি operand-কে float করলে floating-point division হয়।
-
 ## 11.4 Pre-increment and Post-increment
 
 ~~~c
@@ -1279,8 +1200,6 @@ int b = x++; /* use first, then increment */
 |---|---:|---:|
 | a = ++x | 6 | a = 6 |
 | b = x++ | 7 | b = 6 |
-
-**মনে রাখবে:** Pre-increment আগে value বাড়ায়, post-increment expression-এ আগের value ব্যবহার করে তারপর value বাড়ায়।
 
 ## 11.5 Common Operator Mistakes
 
