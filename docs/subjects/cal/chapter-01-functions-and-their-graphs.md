@@ -1,7 +1,7 @@
 # Chapter 01: Functions and Their Graphs
 
-**Course:** Calculus  
-**Course Code:** 510205  
+**Course:** Calculus
+**Course Code:** 510205
 **Semester:** First Year – First Semester
 
 ---
@@ -21,13 +21,9 @@ After studying this chapter, you should be able to:
 
 ## 2. What Is a Function?
 
-যেমন, নিয়মটি হলো input-এর সঙ্গে 3 যোগ করা।
-
 - Input: 2 → Output: 5
 - Input: 5 → Output: 8
 - Input: 10 → Output: 13
-
-এখানে প্রতিটি input-এর জন্য ঠিক একটি output থাকতে হবে। একই input থেকে একাধিক output পাওয়া গেলে সেটি function-এর শর্ত পূরণ করবে না।
 
 ### Standard English Definition
 
@@ -83,9 +79,6 @@ The input 1 is paired with both 2 and 5. Since one input has two different outpu
 ---
 
 ## 3. Domain, Codomain and Range
-
-- **Codomain:** output কোন set-এর মধ্যে থাকবে বলে নির্ধারণ করা হয়েছে।
-- **Range:** বাস্তবে যেসব output পাওয়া যায়।
 
 ### Example
 
