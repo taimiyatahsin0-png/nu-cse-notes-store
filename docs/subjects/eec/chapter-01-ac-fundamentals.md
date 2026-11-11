@@ -1,8 +1,8 @@
 # Chapter 01: AC Fundamentals
 
-**Course Name:** Electrical and Electronic Circuit (EEC)  
-**Course Code:** 510203  
-**Chapter:** 01  
+**Course Name:** Electrical and Electronic Circuit (EEC)
+**Course Code:** 510203
+**Chapter:** 01
 **Level:** Beginner
 
 ---
@@ -26,8 +26,6 @@ After completing this chapter, students will be able to:
 
 ## 1.1 What is Alternating Current (AC)?
 
-বাসাবাড়ির বিদ্যুৎ সরবরাহ AC-এর একটি পরিচিত উদাহরণ। AC voltage-এর polarity নির্দিষ্ট সময় পরপর পরিবর্তিত হয়, ফলে circuit-এর current-এর দিকও পরিবর্তিত হতে পারে।
-
 ### English Exam Answer
 
 **Definition of Alternating Current (AC):**
@@ -39,8 +37,6 @@ Alternating current is an electric current whose magnitude and direction change 
 ## 1.2 What is Alternating Voltage?
 
 Alternating voltage is a voltage whose magnitude and polarity change periodically with time.
-
-একটি AC voltage-এর positive half-cycle-এ এক polarity এবং negative half-cycle-এ বিপরীত polarity থাকে।
 
 ## 1.3 AC and DC: Basic Difference
 
@@ -59,10 +55,6 @@ Alternating voltage is a voltage whose magnitude and polarity change periodicall
 
 ## 2.1 What is an AC Generator?
 
-এর মূলনীতি হলো **Electromagnetic Induction**।
-
-যখন কোনো coil-এর মধ্য দিয়ে অতিক্রান্ত magnetic flux পরিবর্তিত হয়, তখন Faraday's law অনুযায়ী coil-এ EMF induced হয়।
-
 ### English Exam Answer
 
 **Definition of AC Generator:**
@@ -70,14 +62,6 @@ Alternating voltage is a voltage whose magnitude and polarity change periodicall
 An AC generator is an electrical machine that converts mechanical energy into electrical energy in the form of alternating voltage by the principle of electromagnetic induction.
 
 ## 2.2 Working Principle
-
-একটি সাধারণ AC generator-এ:
-
-1. একটি coil magnetic field-এর মধ্যে ঘোরে।
-2. Coil-এর সঙ্গে যুক্ত magnetic flux পরিবর্তিত হয়।
-3. Faraday's law অনুযায়ী coil-এ EMF induced হয়।
-4. Coil ঘুরতে থাকলে induced EMF-এর polarity পর্যায়ক্রমে পরিবর্তিত হয়।
-5. ফলে alternating voltage পাওয়া যায়।
 
 **Faraday's Law:**
 
@@ -98,19 +82,11 @@ Where:
 
 # 3. Sinusoidal AC Waveform
 
-অনেক AC generator-এর output-কে sinusoidal waveform দিয়ে প্রকাশ করা যায়।
-
 ## 3.1 Instantaneous Value
-
-কোনো নির্দিষ্ট মুহূর্তে AC voltage বা current-এর যে মান থাকে, তাকে Instantaneous Value বলে।
-
-একটি sinusoidal voltage-এর সমীকরণ:
 
 \[
 v(t)=V_m\sin(\omega t+\phi)
 \]
-
-একইভাবে current:
 
 \[
 i(t)=I_m\sin(\omega t+\phi)
@@ -126,18 +102,11 @@ Where:
 - (t) = time in seconds
 - (phi) = phase angle
 
-যদি initial phase angle শূন্য হয়, তাহলে:
-
 \[
 v(t)=V_m\sin(\omega t)
 \]
 
 ## 3.2 Important Parts of a Sine Wave
-
-- **Positive half-cycle:** Waveform-এর positive অংশ।
-- **Negative half-cycle:** Waveform-এর negative অংশ।
-- **Peak value:** সর্বোচ্চ absolute value।
-- **Peak-to-peak value:** Positive peak এবং negative peak-এর মধ্যকার মোট পার্থক্য।
 
 For a symmetrical sine wave:
 
@@ -153,19 +122,13 @@ V_{pp}=2V_m
 
 ## 3.4 Time Period (T)
 
-একটি সম্পূর্ণ cycle সম্পন্ন করতে যে সময় লাগে, তাকে Time Period বলে।
-
-**Symbol:** (T)  
+**Symbol:** (T)
 **Unit:** second (s)
 
 ## 3.5 Frequency (f)
 
-প্রতি সেকেন্ডে সম্পন্ন cycle-এর সংখ্যাকে Frequency বলে।
-
-**Symbol:** (f)  
+**Symbol:** (f)
 **Unit:** Hertz (Hz)
-
-Time period এবং frequency-এর সম্পর্ক:
 
 \[
 f=\frac{1}{T}
@@ -175,8 +138,6 @@ T=\frac{1}{f}
 
 ## 3.6 Angular Frequency (ω)
 
-Angular frequency হলো প্রতি সেকেন্ডে phase angle পরিবর্তনের হার।
-
 \[
 \omega=2\pi f=\frac{2\pi}{T}
 \]
@@ -185,9 +146,6 @@ Angular frequency হলো প্রতি সেকেন্ডে phase angle
 
 ## 3.7 Phase and Phase Difference
 
-একই frequency-এর দুটি waveform-এর মধ্যে cycle-এর অবস্থানগত পার্থক্যকে Phase Difference বলে।
-
-- একই phase: phase difference (0^\circ)
 - Opposite phase: phase difference (180^\circ)
 - One-quarter cycle difference: phase difference (90^\circ)
 
@@ -199,40 +157,26 @@ Angular frequency হলো প্রতি সেকেন্ডে phase angle
 
 # 4. Average Value of AC
 
-Average value হলো নির্দিষ্ট সময় বা interval-এ waveform-এর গড় মান।
-
-একটি সম্পূর্ণ sinusoidal cycle-এর average value শূন্য, কারণ positive এবং negative half-cycle পরস্পরকে cancel করে।
-
 \[
 V_{avg}=0
 \quad \text{(over one complete cycle)}
 \]
-
-কিন্তু একটি half-cycle-এর average value:
 
 \[
 V_{avg}=\frac{2V_m}{\pi}
 \approx 0.637V_m
 \]
 
-একইভাবে:
-
 \[
 I_{avg}=\frac{2I_m}{\pi}
 \approx 0.637I_m
 \]
-
-**Important:** অনেক textbook-এ average value বলতে sinusoidal waveform-এর half-cycle average বা full-wave rectified average বোঝানো হয়। প্রশ্নে কোনটি চাওয়া হয়েছে তা খেয়াল করতে হবে।
 
 ---
 
 # 5. RMS Value of AC
 
 ## 5.1 What is RMS Value?
-
-AC-এর RMS value হলো এমন একটি equivalent DC value, যা একই resistance-এর মধ্যে একই সময় ধরে সমপরিমাণ heat উৎপন্ন করে।
-
-বাসাবাড়ির AC supply-এর voltage সাধারণত RMS value দিয়ে প্রকাশ করা হয়।
 
 ### English Exam Answer
 
@@ -242,14 +186,10 @@ The RMS value of an alternating quantity is the equivalent DC value that produce
 
 ## 5.2 RMS Value of a Sinusoidal Wave
 
-Sinusoidal voltage-এর জন্য:
-
 \[
 V_{rms}=\frac{V_m}{\sqrt{2}}
 \approx 0.707V_m
 \]
-
-Sinusoidal current-এর জন্য:
 
 \[
 I_{rms}=\frac{I_m}{\sqrt{2}}
@@ -286,8 +226,6 @@ V_{rms}=\frac{100}{1.414}
 # 6. Form Factor
 
 ## 6.1 Definition
-
-Sinusoidal waveform-এর ক্ষেত্রে average value বলতে সাধারণত full-wave rectified average বা half-cycle average বোঝানো হয়।
 
 ### English Exam Answer
 
@@ -355,11 +293,8 @@ An AC circuit may contain three basic passive components:
 
 ## 7.1 Resistance (R)
 
-Resistance হলো কোনো উপাদানের current প্রবাহে বাধা দেওয়ার বৈশিষ্ট্য।
-
 - Symbol: (R)
 - Unit: Ohm ((\Omega))
-- Ideal resistor-এর voltage ও current একই phase-এ থাকে।
 
 Ohm's law:
 
@@ -371,7 +306,6 @@ V=IR
 
 - Symbol: (L)
 - Unit: Henry (H)
-- Ideal inductor-এ current voltage-এর তুলনায় (90^\circ) lag করে।
 
 Inductive reactance:
 
@@ -385,13 +319,10 @@ Where:
 - (f) = frequency (Hz)
 - (L) = inductance (H)
 
-**Important:** Frequency বাড়লে inductive reactance বাড়ে।
-
 ## 7.3 Capacitance (C)
 
 - Symbol: (C)
 - Unit: Farad (F)
-- Ideal capacitor-এ current voltage-এর তুলনায় (90^\circ) lead করে।
 
 Capacitive reactance:
 
@@ -404,8 +335,6 @@ Where:
 - (X_C) = capacitive reactance (Ohm)
 - (f) = frequency (Hz)
 - (C) = capacitance (F)
-
-**Important:** Frequency বাড়লে capacitive reactance কমে।
 
 ## 7.4 Comparison of R, L and C
 
@@ -421,13 +350,7 @@ Where:
 
 ## 8.1 What is a Series RLC Circuit?
 
-যে AC circuit-এ Resistor (R), Inductor (L) এবং Capacitor (C) series-এ যুক্ত থাকে, তাকে Series RLC Circuit বলে।
-
-Series circuit-এ সব component-এর মধ্য দিয়ে একই current প্রবাহিত হয়।
-
 ## 8.2 Impedance of Series RLC Circuit
-
-Impedance হলো AC circuit-এ total opposition to current। এটি resistance এবং reactance-এর সম্মিলিত প্রভাব প্রকাশ করে।
 
 \[
 Z=\sqrt{R^2+(X_L-X_C)^2}
@@ -482,17 +405,11 @@ Z=\sqrt{900+1600}
 
 ## 9.1 What is Resonance?
 
-অর্থাৎ:
-
 \[
 X_L=X_C
 \]
 
-এই অবস্থাকে Series Resonance বলে।
-
 ## 9.2 Resonant Frequency
-
-Resonant frequency-এর সূত্র:
 
 \[
 f_r=\frac{1}{2\pi\sqrt{LC}}
@@ -505,8 +422,6 @@ Where:
 - (C) = capacitance (F)
 
 ## 9.3 Characteristics of Series Resonance
-
-Resonance অবস্থায়:
 
 1. (X_L=X_C)
 2. Net reactance is zero.
@@ -553,15 +468,9 @@ f_r\approx 50.33\text{ Hz}
 
 ## 10.1 What is Parallel Resonance?
 
-যখন parallel RLC circuit-এর inductive এবং capacitive effects নির্দিষ্ট frequency-তে পরস্পরকে balance করে, তখন তাকে Parallel Resonance বলে।
-
-Ideal parallel LC circuit-এর ক্ষেত্রে resonance condition:
-
 \[
 X_L=X_C
 \]
-
-এবং resonant frequency:
 
 \[
 f_r=\frac{1}{2\pi\sqrt{LC}}
@@ -701,8 +610,6 @@ In this chapter, we learned:
 **Next Chapter:** Network Theorems — KCL, KVL, Superposition, Thevenin's, Norton's and Maximum Power Transfer Theorems.
 
 ---
-
-**Learning Tip:** Formula মুখস্থ করার আগে প্রতিটি symbol, unit এবং physical meaning বুঝে নাও। Numerical problem সমাধানের সময় unit conversion বিশেষভাবে খেয়াল করবে।
 
 *Educational resource for National University CSE students. This chapter follows the EEC topic outline currently recorded in this repository; confirm any later syllabus revision with your department.*
 
