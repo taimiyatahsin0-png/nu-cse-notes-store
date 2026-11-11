@@ -4,9 +4,6 @@
 
 ## 1. Solar Cell
 
-### সহজ বাংলায় ধারণা
-Solar cell হলো এমন semiconductor device, যা sunlight-এর energy-কে সরাসরি electrical energy-তে রূপান্তর করে। আলো semiconductor junction-এ পড়লে electron–hole pair তৈরি হয়; built-in electric field charge-গুলোকে আলাদা করে এবং external circuit-এ current প্রবাহিত হতে পারে। এই ঘটনাকে **photovoltaic effect** বলে।
-
 ### Exam-ready definition
 A solar cell is a semiconductor device that converts light energy directly into electrical energy by the photovoltaic effect.
 
@@ -41,9 +38,6 @@ Here Vmp and Imp are voltage and current at the maximum-power point; Pin is inci
 
 ## 2. Clipper Circuits
 
-### সহজ বাংলায় ধারণা
-Clipper circuit input waveform-এর নির্দিষ্ট অংশকে কেটে বা সীমাবদ্ধ করে, কিন্তু বাকি অংশকে যতটা সম্ভব অপরিবর্তিত রাখে। সাধারণত diode ও resistor দিয়ে তৈরি হয়। এটি waveform-এর positive বা negative peak সীমিত করতে পারে।
-
 ### Exam-ready definition
 A clipper is a diode circuit that removes or limits a selected portion of an input waveform without significantly affecting the remaining portion.
 
@@ -76,9 +70,6 @@ Wave shaping, over-voltage limiting, input protection and signal conditioning.
 ---
 
 ## 3. Clamper Circuits
-
-### সহজ বাংলায় ধারণা
-Clamper circuit waveform-এর shape ও peak-to-peak value প্রায় একই রেখে waveform-কে উপরে বা নিচে shift করে। সাধারণত diode, capacitor ও resistor ব্যবহার করা হয়। Capacitor charge ধরে রাখে, তাই output-এর DC level পরিবর্তিত হয়।
 
 ### Exam-ready definition
 A clamper is a diode-capacitor circuit that adds a DC level to an AC waveform, shifting the waveform upward or downward without ideally changing its peak-to-peak value.
