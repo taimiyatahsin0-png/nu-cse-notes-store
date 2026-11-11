@@ -8,7 +8,7 @@ A free, chapter-wise learning and practice website for first-semester CSE studen
 ## What you can find here
 
 - Subject-wise notes for SPL, SPL Lab, EEC, EEC Lab, Calculus, Physics and English.
-- Bangla-first concept explanations followed by standard English exam-ready definitions and answers.
+- Concise, English-only, exam-focused notes with standard definitions, key concepts, formulas, derivations, solved problems and practice questions.
 - Beginner-friendly examples, worked problems, formulas and C programming practice.
 - Code explanations with logic, sample output and dry-run tables where appropriate.
 - Student tools including a CGPA calculator, grade scale, programming hub and question-resource library.
@@ -76,7 +76,7 @@ The GitHub Actions workflow in `.github/workflows/deploy.yml` builds the MkDocs 
 ## Content standards
 
 - Explain unfamiliar concepts before using advanced terminology.
-- Keep Bangla explanations clear and English exam answers concise and technically correct.
+- Use precise academic English and standard technical terminology throughout.
 - Use standard, portable C examples and explain important edge cases.
 - Label assumptions, syllabus references and source quality honestly.
 - Do not label newly created practice questions as historical NU questions.
