@@ -2,10 +2,10 @@
 
 # Electrical and Electronic Circuit (EEC)
 
-**Course Code:** 510203  
-**Marks:** 80  
-**Credits:** 3.0  
-**Class Hours:** 45  
+**Course Code:** 510203
+**Marks:** 80
+**Credits:** 3.0
+**Class Hours:** 45
 **Semester:** CSE First Semester
 
 ## Course Overview
@@ -92,7 +92,6 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 - Differentiators
 - Summing Amplifiers
 
-
 ## Chapter-wise Notes
 
 ### Chapter 01: AC Fundamentals
@@ -142,7 +141,6 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 [📖 Read Chapter 08: Feedback Techniques and Operational Amplifiers](chapter-08-feedback-techniques-and-operational-amplifiers.md)
 
 [📝 Chapter 08 Exam Preparation Pack](chapter-08-exam-preparation.md)
-
 
 ### Supplementary Topics
 
