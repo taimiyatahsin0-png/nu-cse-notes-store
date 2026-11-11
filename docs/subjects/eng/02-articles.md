@@ -4,14 +4,7 @@
 
 An article is a determiner used before a noun to indicate whether the noun is specific or non-specific.
 
-
-
 ## Core rules and method
-**A:** consonant sound-এর আগে — a university, a book, a European country.
-
-**An:** vowel sound-এর আগে — an apple, an hour, an honest person.
-
-**The:** নির্দিষ্ট/পরিচিত noun, unique object, superlative, ordinal, rivers, seas, mountain ranges and certain geographical names — the sun, the best answer, the Padma (usage depends on name convention).
 
 **Zero article:** plural/uncountable noun in a general sense — Books are useful. Water is essential. Languages are important.
 
