@@ -2,7 +2,7 @@
   "use strict";
   const KEY="nuCseSemesterCgpaV2", points={"A+":4,"A":3.75,"A-":3.5,"B+":3.25,"B":3,"B-":2.75,"C+":2.5,"C":2.25,"D":2,"F":0};
   const $=(s,r=document)=>r.querySelector(s), fmt=n=>Number.isFinite(Number(n))?Number(n).toFixed(2):"—";
-  const read=()=>{try{const x=JSON.parse(localStorage.getItem(KEY)||"null");return x&&x.saved&&typeof x.saved==="object"?x.saved:{};}catch(_){return{};}};
+  const readState=()=>{try{const x=JSON.parse(localStorage.getItem(KEY)||"null");return x&&typeof x==="object"?x:{saved:{},quick:{}};}catch(_){return{saved:{},quick:{}};}};
   const valid=x=>x&&Number.isFinite(Number(x.quality))&&Number.isFinite(Number(x.credits))&&Number(x.credits)>0&&Array.isArray(x.courses)&&x.courses.length>0;
   function init(){
     const root=$("#semester-cgpa-tool"); if(!root||root.dataset.advancedReady==="true")return; root.dataset.advancedReady="true";
@@ -14,25 +14,29 @@
     const quick=$("#cgpa-quick-mode",root); root.insertBefore(wrap,quick||null);
     const target=$("#cgpa-target-value",wrap), remaining=$("#cgpa-remaining-credits",wrap);
     function planner(){
-      const saved=read(); let quality=0,credits=0,count=0;
+      const state=readState(),saved=state.saved&&typeof state.saved==="object"?state.saved:{},quick=state.quick&&typeof state.quick==="object"?state.quick:{}; let quality=0,credits=0,count=0,source="saved course results";
       for(let i=1;i<=8;i++){const x=saved[i];if(x&&Number.isFinite(Number(x.quality))&&Number.isFinite(Number(x.credits))&&Number(x.credits)>0){quality+=Number(x.quality);credits+=Number(x.credits);count++;}}
+      if(!count){
+        source="Quick CGPA entries";
+        for(let i=1;i<=8;i++){const entry=quick[i],g=Number(entry?.gpa),cr=Number(entry?.credits);if(entry&&String(entry.gpa??"").trim()!==""&&String(entry.credits??"").trim()!==""&&Number.isFinite(g)&&g>=0&&g<=4&&Number.isFinite(cr)&&cr>0){quality+=g*cr;credits+=cr;count++;}}
+      }
       const t=Number(target.value),r=Number(remaining.value),out=$("#cgpa-required-average",wrap),detail=$("#cgpa-target-detail",wrap);
-      if(!count||!remaining.value||!Number.isFinite(t)||t<0||t>4||!Number.isFinite(r)||r<=0){out.textContent="—";detail.textContent=!count?"Save at least one semester first.":"Enter a target from 0.00 to 4.00 and a positive remaining credit total.";return;}
+      if(!count||!remaining.value||!Number.isFinite(t)||t<0||t>4||!Number.isFinite(r)||r<=0){out.textContent="—";detail.textContent=!count?"Save a semester result or enter valid GPA and credits in Quick CGPA first.":"Enter a target from 0.00 to 4.00 and a positive remaining credit total.";return;}
       const required=(t*(credits+r)-quality)/r;
       if(required>4){out.textContent="Above 4.00";detail.textContent="This target is not mathematically reachable with the remaining credits entered. Check your target and credit total.";}
       else if(required<=0){out.textContent="0.00 or higher";detail.textContent="Your saved quality points already meet or exceed this target.";}
-      else{out.textContent=fmt(required);detail.textContent="Based on "+count+" saved semester(s), "+fmt(credits)+" completed credits and "+fmt(r)+" remaining credits.";}
+      else{out.textContent=fmt(required);detail.textContent="Based on "+count+" "+(source==="saved course results"?"saved semester(s)":"Quick CGPA semester entr"+(count===1?"y":"ies"))+", "+fmt(credits)+" completed credits and "+fmt(r)+" remaining credits.";}
     }
     target.addEventListener("input",planner); remaining.addEventListener("input",planner);
     const select=$("#cgpa-sim-semester",wrap), list=$("#cgpa-sim-course-list",wrap); let active=[];
     function refresh(){
-      const saved=read(),previous=select.value; select.innerHTML='<option value="">Select a saved semester</option>';
+      const state=readState(),saved=state.saved&&typeof state.saved==="object"?state.saved:{},previous=select.value; select.innerHTML='<option value="">Select a saved semester</option>';
       for(let i=1;i<=8;i++)if(valid(saved[i])){const o=document.createElement("option");o.value=String(i);o.textContent="Semester "+i;select.appendChild(o);}
       if(previous&&saved[previous])select.value=previous;
       if(select.value)render();else list.innerHTML="<p>Save a course-based semester result to start a simulation.</p>";
     }
     function render(){
-      const saved=read(),n=Number(select.value),item=saved[n]; if(!valid(item)){list.textContent="No course-level saved result is available.";return;}
+      const state=readState(),saved=state.saved&&typeof state.saved==="object"?state.saved:{},n=Number(select.value),item=saved[n]; if(!valid(item)){list.textContent="No course-level saved result is available.";return;}
       active=item.courses.map(c=>({name:String(c.name||"Course"),credit:Number(c.credit),grade:String(c.grade||c.retakeGrade||c.originalGrade||"")}));
       list.replaceChildren();
       active.forEach((course,index)=>{
@@ -45,7 +49,7 @@
       });calculate();
     }
     function calculate(){
-      const saved=read(),n=Number(select.value),item=saved[n];if(!valid(item))return;
+      const state=readState(),saved=state.saved&&typeof state.saved==="object"?state.saved:{},n=Number(select.value),item=saved[n];if(!valid(item))return;
       let simulated=0;active.forEach(c=>{simulated+=c.credit*points[c.grade];});
       let total=0,credits=0;
       for(let i=1;i<=8;i++)if(valid(saved[i])){total+=i===n?simulated:Number(saved[i].quality);credits+=Number(saved[i].credits);}
@@ -55,6 +59,7 @@
     }
     select.addEventListener("change",render);$("#cgpa-sim-reset",wrap).addEventListener("click",render);
     window.addEventListener("storage",e=>{if(e.key===KEY){planner();refresh();}});
+    window.addEventListener("nu-cse-cgpa-updated",()=>{planner();refresh();});
     planner();refresh();
   }
   if(document.readyState==="loading")document.addEventListener("DOMContentLoaded",init);else init();
