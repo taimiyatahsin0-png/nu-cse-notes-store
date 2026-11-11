@@ -1,7 +1,7 @@
 # Chapter 08: Feedback Techniques and Operational Amplifiers
 
-> **Course:** Electrical and Electronic Circuit (EEC)  
-> **Course Code:** 510203  
+> **Course:** Electrical and Electronic Circuit (EEC)
+> **Course Code:** 510203
 > **Topic group:** Feedback Techniques and Operational Amplifiers
 
 Feedback is the process of returning a portion of a circuit's output signal to its input. It is widely used to control amplifier gain, stability, bandwidth and distortion. An operational amplifier (op-amp) is a high-gain differential amplifier that can perform many useful operations when connected with suitable feedback components.
@@ -534,7 +534,7 @@ An **inverting amplifier** produces an output that is opposite in polarity (180�
 ```text
  Vin ── Rin ──●────(−)\
               |        \____ Vout
-              └── Rf ──/ 
+              └── Rf ──/
                        (+)
                         |
                        GND
@@ -861,89 +861,89 @@ V_o=-(1+1)
 
 ## 16. Common mistakes to avoid
 
-1. **Mistake:** Feedback always increases amplifier gain.  
+1. **Mistake:** Feedback always increases amplifier gain.
    **Correction:** Negative feedback reduces closed-loop gain; positive feedback increases effective gain in the ideal block model.
 
-2. **Mistake:** Positive feedback is the normal method for stabilizing a linear amplifier.  
+2. **Mistake:** Positive feedback is the normal method for stabilizing a linear amplifier.
    **Correction:** Negative feedback is commonly used for stable linear amplification. Positive feedback is useful in oscillators and regenerative circuits.
 
-3. **Mistake:** The feedback factor \(\beta\) is the amplifier gain.  
+3. **Mistake:** The feedback factor \(\beta\) is the amplifier gain.
    **Correction:** \(\beta\) describes the fraction of output returned to the input; \(A\) is open-loop amplifier gain.
 
-4. **Mistake:** An emitter follower has a large voltage gain.  
+4. **Mistake:** An emitter follower has a large voltage gain.
    **Correction:** Its voltage gain is close to, but usually slightly less than, unity. It is useful for buffering and current drive.
 
-5. **Mistake:** The inverting and non-inverting amplifier formulas are identical.  
+5. **Mistake:** The inverting and non-inverting amplifier formulas are identical.
    **Correction:** Inverting gain is \(-R_f/R_{in}\); non-inverting gain is \(1+R_f/R_1\).
 
-6. **Mistake:** A virtual short means the two op-amp inputs are physically connected.  
+6. **Mistake:** A virtual short means the two op-amp inputs are physically connected.
    **Correction:** Their voltages are approximately equal under linear operation with effective negative feedback.
 
-7. **Mistake:** Ideal op-amp input current is zero in every possible circuit condition.  
+7. **Mistake:** Ideal op-amp input current is zero in every possible circuit condition.
    **Correction:** The ideal input-current rule is used in the ideal model; real input bias currents exist, and circuit operating conditions matter.
 
-8. **Mistake:** An integrator and differentiator perform the same operation.  
+8. **Mistake:** An integrator and differentiator perform the same operation.
    **Correction:** An integrator accumulates the input over time; a differentiator responds to its rate of change.
 
-9. **Mistake:** An op-amp output can exceed its power-supply limits.  
+9. **Mistake:** An op-amp output can exceed its power-supply limits.
    **Correction:** Output voltage is limited by supply rails and the device's output-swing specification.
 
-10. **Mistake:** Practical differentiators are always ideal and noise-free.  
+10. **Mistake:** Practical differentiators are always ideal and noise-free.
     **Correction:** Practical differentiators need frequency limiting because differentiation can amplify high-frequency noise.
 
 ## 17. Exam-ready short answers
 
-**1. What is feedback?**  
+**1. What is feedback?**
 Feedback is the process of returning a portion of a system's output signal to its input.
 
-**2. What are the two types of feedback?**  
+**2. What are the two types of feedback?**
 Negative feedback and positive feedback.
 
-**3. What is negative feedback?**  
+**3. What is negative feedback?**
 Negative feedback occurs when the feedback signal is subtracted from the input signal.
 
-**4. What is positive feedback?**  
+**4. What is positive feedback?**
 Positive feedback occurs when the feedback signal is added to the input signal.
 
-**5. Write the gain formula for negative feedback.**  
+**5. Write the gain formula for negative feedback.**
 \[
 A_f=\frac{A}{1+A\beta}
 \]
 
-**6. Write the gain formula for positive feedback.**  
+**6. Write the gain formula for positive feedback.**
 \[
 A_f=\frac{A}{1-A\beta}
 \]
 
-**7. What is an emitter follower?**  
+**7. What is an emitter follower?**
 An emitter follower is a common-collector BJT circuit in which the emitter output voltage follows the base input voltage approximately.
 
-**8. What is an operational amplifier?**  
+**8. What is an operational amplifier?**
 An operational amplifier is a high-gain differential voltage amplifier that amplifies the difference between its two input voltages.
 
-**9. Name the two input terminals of an op-amp.**  
+**9. Name the two input terminals of an op-amp.**
 Inverting (−) and non-inverting (+) inputs.
 
-**10. What is virtual short?**  
+**10. What is virtual short?**
 Under linear operation with effective negative feedback, the two ideal op-amp input voltages are approximately equal, although they are not physically connected.
 
-**11. Write the gain formula of an inverting amplifier.**  
+**11. Write the gain formula of an inverting amplifier.**
 \[
 A_v=-\frac{R_f}{R_{in}}
 \]
 
-**12. Write the gain formula of a non-inverting amplifier.**  
+**12. Write the gain formula of a non-inverting amplifier.**
 \[
 A_v=1+\frac{R_f}{R_1}
 \]
 
-**13. What is an integrator?**  
+**13. What is an integrator?**
 An integrator is a circuit whose output is proportional to the time integral of its input.
 
-**14. What is a differentiator?**  
+**14. What is a differentiator?**
 A differentiator is a circuit whose output is proportional to the time derivative of its input.
 
-**15. What is a summing amplifier?**  
+**15. What is a summing amplifier?**
 A summing amplifier is an op-amp circuit that produces an output proportional to the weighted sum of several input voltages.
 
 ## 18. Descriptive questions for practice
