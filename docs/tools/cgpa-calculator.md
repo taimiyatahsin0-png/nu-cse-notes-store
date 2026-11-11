@@ -33,43 +33,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
                 <td><input class="cgpa-course-name" type="text" value="Structured Programming Language (510201)" readonly aria-label="Structured Programming Language"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Structured Programming Language Lab (510202)" readonly aria-label="Structured Programming Language Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Electrical and Electronic Circuit (510203)" readonly aria-label="Electrical and Electronic Circuit"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Electrical and Electronic Circuit Lab (510204)" readonly aria-label="Electrical and Electronic Circuit Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Calculus (510205)" readonly aria-label="Calculus"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Physics (510207)" readonly aria-label="Physics"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="English (510209)" readonly aria-label="English"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
             </tbody>
           </table>
@@ -98,37 +98,37 @@ Calculate each semester's GPA from individual course grades, save completed seme
                 <td><input class="cgpa-course-name" type="text" value="Digital Systems Design (510221)" readonly aria-label="Digital Systems Design"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Digital Systems Lab (510222)" readonly aria-label="Digital Systems Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Discrete Mathematics (510223)" readonly aria-label="Discrete Mathematics"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Linear Algebra (510225)" readonly aria-label="Linear Algebra"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Statistics and Probability (510227)" readonly aria-label="Statistics and Probability"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="History of the Emergence of Independent Bangladesh (510229)" readonly aria-label="History of the Emergence of Independent Bangladesh"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
             </tbody>
           </table>
@@ -157,43 +157,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
                 <td><input class="cgpa-course-name" type="text" value="Data Structure (520201)" readonly aria-label="Data Structure"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Data Structure Lab (520202)" readonly aria-label="Data Structure Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Object Oriented Programming (520203)" readonly aria-label="Object Oriented Programming"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Object Oriented Programming Lab (520204)" readonly aria-label="Object Oriented Programming Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Architecture (520205)" readonly aria-label="Computer Architecture"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Ordinary Differential Equation (520207)" readonly aria-label="Ordinary Differential Equation"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Fundamental of Business Studies (520209)" readonly aria-label="Fundamental of Business Studies"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
             </tbody>
           </table>
@@ -222,43 +222,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
                 <td><input class="cgpa-course-name" type="text" value="Database Management System (520221)" readonly aria-label="Database Management System"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Database Management System Lab (520222)" readonly aria-label="Database Management System Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Microprocessor and Assembly Language (520223)" readonly aria-label="Microprocessor and Assembly Language"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Microprocessor and Assembly Language Lab (520224)" readonly aria-label="Microprocessor and Assembly Language Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Design and Analysis of Algorithms (520225)" readonly aria-label="Design and Analysis of Algorithms"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Design and Analysis of Algorithms Lab (520226)" readonly aria-label="Design and Analysis of Algorithms Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Numerical Analysis (520227)" readonly aria-label="Numerical Analysis"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
             </tbody>
           </table>
@@ -287,43 +287,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
                 <td><input class="cgpa-course-name" type="text" value="Peripheral and Interfacing (530201)" readonly aria-label="Peripheral and Interfacing"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Peripheral and Interfacing Lab (530202)" readonly aria-label="Peripheral and Interfacing Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Data and Telecommunications (530203)" readonly aria-label="Data and Telecommunications"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Data and Telecommunications Lab (530204)" readonly aria-label="Data and Telecommunications Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Operating System (530205)" readonly aria-label="Operating System"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Operating System Lab (530206)" readonly aria-label="Operating System Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Economics (530207)" readonly aria-label="Economics"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
             </tbody>
           </table>
@@ -352,43 +352,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
                 <td><input class="cgpa-course-name" type="text" value="Software Engineering (530219)" readonly aria-label="Software Engineering"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Software Engineering Lab (530220)" readonly aria-label="Software Engineering Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Networking (530221)" readonly aria-label="Computer Networking"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Networking Lab (530222)" readonly aria-label="Computer Networking Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Embedded System Programming (530223)" readonly aria-label="Embedded System Programming"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Embedded System Programming Lab (530224)" readonly aria-label="Embedded System Programming Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Theory of Computation (530225)" readonly aria-label="Theory of Computation"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
             </tbody>
           </table>
@@ -417,49 +417,49 @@ Calculate each semester's GPA from individual course grades, save completed seme
                 <td><input class="cgpa-course-name" type="text" value="Artificial Intelligence (540201)" readonly aria-label="Artificial Intelligence"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Artificial Intelligence Lab (540202)" readonly aria-label="Artificial Intelligence Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Compiler Design and Construction (540203)" readonly aria-label="Compiler Design and Construction"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Compiler Design Lab (540204)" readonly aria-label="Compiler Design Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Graphics (540205)" readonly aria-label="Computer Graphics"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Graphics Lab (540206)" readonly aria-label="Computer Graphics Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="E-Commerce and Web Engineering (540207)" readonly aria-label="E-Commerce and Web Engineering"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="E-Commerce and Web Engineering Lab (540208)" readonly aria-label="E-Commerce and Web Engineering Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
             </tbody>
           </table>
@@ -488,37 +488,37 @@ Calculate each semester's GPA from individual course grades, save completed seme
                 <td><input class="cgpa-course-name" type="text" value="Network and Information Security (540219)" readonly aria-label="Network and Information Security"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Network and Information Security Lab (540220)" readonly aria-label="Network and Information Security Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Information System Management (540221)" readonly aria-label="Information System Management"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Project (540222)" readonly aria-label="Project"></td>
                 <td><input class="cgpa-credit" type="number" value="6" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Digital Image Processing (540229)" readonly aria-label="Digital Image Processing"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Digital Image Processing Lab (540230)" readonly aria-label="Digital Image Processing Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
                 <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
-                
+
               </tr>
             </tbody>
           </table>
