@@ -1,10 +1,9 @@
 # Chapter 01: AC Fundamentals — Exam Preparation Pack
 
-**Course:** Electrical and Electronic Circuit (EEC)  
-**Course Code:** 510203  
-**Chapter:** AC Fundamentals  
-**Purpose:** Revision and exam practice  
-**Language:** Bangla explanations with standard English exam terminology
+**Course:** Electrical and Electronic Circuit (EEC)
+**Course Code:** 510203
+**Chapter:** AC Fundamentals
+**Purpose:** Revision and exam practice
 
 > **Study note:** These are practice and revision materials based on the chapter notes in this repository. They are not verified predictions of the questions that will appear in an examination. Follow your teacher's instructions and the current syllabus prescribed by your department.
 
@@ -29,13 +28,9 @@
 
 ### 2.1 Alternating Current (AC)
 
-**বাংলা:** যে electric current-এর মান এবং দিক সময়ের সঙ্গে পর্যায়ক্রমে পরিবর্তিত হয়, তাকে Alternating Current বলে।
-
 **English exam answer:** Alternating current is an electric current whose magnitude and direction change periodically with time.
 
 ### 2.2 Frequency
-
-**বাংলা:** প্রতি সেকেন্ডে সম্পন্ন পূর্ণ cycle-এর সংখ্যাই frequency।
 
 **English exam answer:** Frequency is the number of complete cycles of a periodic quantity per second.
 
@@ -45,8 +40,6 @@
 
 ### 2.3 Time Period
 
-**বাংলা:** একটি পূর্ণ cycle সম্পন্ন করতে যে সময় লাগে, তাকে time period বলে।
-
 **English exam answer:** The time required to complete one full cycle of a periodic quantity is called its time period.
 
 - Symbol: (T)
@@ -54,8 +47,6 @@
 - Relation: (T=1/f)
 
 ### 2.4 RMS Value
-
-**বাংলা:** একই resistance-এ একই সময়ে যে DC current বা voltage সমান heating effect তৈরি করে, সেটিই AC quantity-এর RMS-equivalent value।
 
 **English exam answer:** The RMS value of an alternating quantity is the equivalent DC value that produces the same heating effect in a given resistance over the same period.
 
@@ -69,8 +60,6 @@ I_{rms}=\frac{I_m}{\sqrt{2}}=0.707I_m
 
 ### 2.5 Form Factor
 
-**বাংলা:** RMS value এবং average rectified value-এর অনুপাতকে form factor বলে।
-
 **English exam answer:** Form factor is the ratio of the RMS value to the average rectified value of an alternating quantity.
 
 For a sine wave:
@@ -81,8 +70,6 @@ K_f=\frac{V_{rms}}{V_{avg,rect}}
 \]
 
 ### 2.6 Resonance in a Series RLC Circuit
-
-**বাংলা:** Series RLC circuit-এ যে frequency-তে inductive reactance ও capacitive reactance সমান হয়, সেই অবস্থাকে resonance বলে।
 
 **English exam answer:** Series resonance occurs when the inductive reactance equals the capacitive reactance.
 
@@ -96,47 +83,37 @@ X_L=X_C
 
 ### 3.1 Derivation of RMS value of a sinusoidal voltage
 
-ধরি, একটি sinusoidal voltage:
 \[
 v=V_m\sin\theta
 \]
 
-RMS-এর সংজ্ঞা অনুযায়ী,
 \[
 V_{rms}=\sqrt{\frac{1}{2\pi}\int_0^{2\pi}v^2\,d\theta}
 \]
 
-মান বসিয়ে,
 \[
 V_{rms}=\sqrt{\frac{1}{2\pi}\int_0^{2\pi}V_m^2\sin^2\theta\,d\theta}
 \]
 
-ধ্রুবক বাইরে নিলে,
 \[
 V_{rms}=V_m\sqrt{\frac{1}{2\pi}\int_0^{2\pi}\sin^2\theta\,d\theta}
 \]
 
-একটি পূর্ণ cycle-এ (\sin^2\theta)-এর গড় মান (1/2)। সুতরাং,
 \[
 V_{rms}=V_m\sqrt{\frac12}
 =\frac{V_m}{\sqrt2}
 \]
 
-অতএব,
 \[
 \boxed{V_{rms}=0.707V_m}
 \]
 
-**Exam tip:** Definition → general formula → substitute sine expression → integrate/average → final boxed result. ধাপগুলো পরিষ্কারভাবে লিখবে।
-
 ### 3.2 Derivation of average value of a sine wave over a half-cycle
 
-ধরি,
 \[
 v=V_m\sin\theta
 \]
 
-Positive half-cycle-এর average value:
 \[
 V_{avg}=\frac{1}{\pi}\int_0^{\pi}V_m\sin\theta\,d\theta
 \]
@@ -150,23 +127,16 @@ V_{avg}=\frac{1}{\pi}\int_0^{\pi}V_m\sin\theta\,d\theta
 =\frac{2V_m}{\pi}
 \]
 
-অতএব,
 \[
 \boxed{V_{avg}=0.637V_m}
 \]
 
-**Remember:** একটি পূর্ণ symmetrical sine-wave cycle-এর average value শূন্য। (0.637V_m) হলো half-cycle average বা full-wave rectified average।
-
 ### 3.3 Impedance of a series RLC circuit
 
-Series RLC circuit-এ resistance (R) এবং net reactance ((X_L-X_C)) পরস্পরের সঙ্গে phasor-এ perpendicular।
-
-তাই impedance-এর মান:
 \[
 \boxed{Z=\sqrt{R^2+(X_L-X_C)^2}}
 \]
 
-এবং supply voltage (V) হলে,
 \[
 \boxed{I=\frac{V}{Z}}
 \]
@@ -354,64 +324,64 @@ f_r\approx50.33\text{ Hz}
 
 ## 6. Short questions for quick revision
 
-1. **What is AC?**  
+1. **What is AC?**
    AC is a current whose magnitude and direction change periodically with time.
 
-2. **What is an AC generator?**  
+2. **What is an AC generator?**
    It is a machine that converts mechanical energy into electrical energy in the form of alternating voltage by electromagnetic induction.
 
-3. **State Faraday's law.**  
+3. **State Faraday's law.**
    The induced EMF is proportional to the rate of change of magnetic flux linkage.
 
-4. **What is amplitude?**  
+4. **What is amplitude?**
    The maximum value of an alternating quantity measured from its zero reference level.
 
-5. **What is the relation between frequency and time period?**  
+5. **What is the relation between frequency and time period?**
    (f=1/T).
 
-6. **What is the unit of angular frequency?**  
+6. **What is the unit of angular frequency?**
    rad/s.
 
-7. **What is the average value of a sine wave over a complete cycle?**  
+7. **What is the average value of a sine wave over a complete cycle?**
    Zero.
 
-8. **What is the half-cycle average value of a sine wave?**  
+8. **What is the half-cycle average value of a sine wave?**
    (2V_m/\pi=0.637V_m).
 
-9. **What is the RMS value of a sine wave?**  
+9. **What is the RMS value of a sine wave?**
    (V_m/\sqrt2=0.707V_m).
 
-10. **What is the form factor of a sine wave?**  
+10. **What is the form factor of a sine wave?**
     Approximately 1.11.
 
-11. **What is inductive reactance?**  
+11. **What is inductive reactance?**
     The opposition offered by an inductor to alternating current.
 
-12. **What is capacitive reactance?**  
+12. **What is capacitive reactance?**
     The opposition offered by a capacitor to alternating current.
 
-13. **What happens to (X_L) when frequency increases?**  
+13. **What happens to (X_L) when frequency increases?**
     (X_L) increases.
 
-14. **What happens to (X_C) when frequency increases?**  
+14. **What happens to (X_C) when frequency increases?**
     (X_C) decreases.
 
-15. **What is the phase relation in an ideal inductor?**  
+15. **What is the phase relation in an ideal inductor?**
     Current lags voltage by (90^\circ).
 
-16. **What is the phase relation in an ideal capacitor?**  
+16. **What is the phase relation in an ideal capacitor?**
     Current leads voltage by (90^\circ).
 
-17. **What is the resonance condition in a series RLC circuit?**  
+17. **What is the resonance condition in a series RLC circuit?**
     (X_L=X_C).
 
-18. **What is the impedance at series resonance?**  
+18. **What is the impedance at series resonance?**
     It is minimum and equals (R) in the ideal series RLC model.
 
-19. **What is the power factor at series resonance?**  
+19. **What is the power factor at series resonance?**
     Unity.
 
-20. **What is the unit of capacitance?**  
+20. **What is the unit of capacitance?**
     Farad (F).
 
 ---
@@ -490,7 +460,6 @@ Before the exam, make sure you can:
 **Recommended study sequence:** Read the matching Chapter 01 notes → learn the definitions → practise both derivations → solve the six worked examples yourself → attempt the self-test → revise mistakes.
 
 **Next:** Chapter 02 — Network Theorems Exam Preparation Pack.
-
 
 ---
 
