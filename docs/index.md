@@ -2,13 +2,13 @@
 
 A free, organized learning space for first-semester CSE students of National University, Bangladesh.
 
-Learn concepts in simple Bangla, connect them with standard English terminology, and practise step by step.
+Study concise, English-only CSE notes focused on key definitions, core concepts, formulas, derivations and university examination preparation.
 
 <div class="grid cards" markdown>
 
 -   :material-book-open-variant: **Subject Notes**
 
-    Chapter-wise notes, examples and exam preparation materials.
+    English-only chapter notes, important definitions, formulas, solved problems and exam preparation.
 
     [Explore SPL](subjects/spl/index.md)
 
@@ -62,7 +62,7 @@ Learn concepts in simple Bangla, connect them with standard English terminology,
 ## How to study with this site
 
 1. Start with the relevant subject and chapter.
-2. Understand the Bangla explanation before learning the English exam answer.
+2. Learn the standard definition, understand the concept, and practise exam-style questions.
 3. Work through examples, formulas and code traces.
 4. Attempt practice questions without looking at the answers first.
 5. Keep a separate list of mistakes and revise it regularly.
