@@ -15,12 +15,58 @@
     if(count)count.textContent=String(items.length);if(text)text.textContent=items.length+" saved page"+(items.length===1?"":"s");
     if(list){list.replaceChildren();items.forEach(item=>{const row=document.createElement("div");row.className="site-bookmark-item";const a=document.createElement("a");a.href=safeURL(item.url)||BASE.href;a.textContent=item.title||"Saved page";const b=document.createElement("button");b.type="button";b.textContent="Remove";b.addEventListener("click",()=>setBookmarks(bookmarks().filter(x=>x.url!==item.url)));row.append(a,b);list.appendChild(row);});}
   }
-  function openSearch(){const trigger=$('label[for="__search"]')||$(".md-header__button[for='__search']");if(trigger)trigger.click();const input=$("#__search");if(input)input.focus();}
+  let searchDocuments=null;
+  async function loadSearchDocuments(){
+    if(searchDocuments)return searchDocuments;
+    try{const response=await fetch(new URL("search/search_index.json",BASE));if(!response.ok)throw new Error("Search index unavailable");const data=await response.json();searchDocuments=Array.isArray(data.docs)?data.docs:[];}
+    catch(_){searchDocuments=[];}
+    return searchDocuments;
+  }
+  function createPalette(){
+    if($("#site-command-palette"))return;
+    const dialog=document.createElement("dialog");dialog.id="site-command-palette";dialog.className="site-command-palette";
+    dialog.innerHTML='<div class="site-command-heading"><strong>Search NU CSE Notes Store</strong><button type="button" id="site-command-close" aria-label="Close search">×</button></div><input id="site-command-input" type="search" placeholder="Search notes, formulas, courses, tools and bookmarks..." autocomplete="off"><p class="site-command-hint">Search every published page and your saved bookmarks.</p><div id="site-command-results" role="listbox"></div>';
+    document.body.appendChild(dialog);
+    const input=$("#site-command-input",dialog);
+    input.addEventListener("input",()=>renderPaletteResults(input.value));
+    $("#site-command-close",dialog).addEventListener("click",()=>dialog.close());
+    dialog.addEventListener("click",event=>{if(event.target===dialog)dialog.close();});
+    dialog.addEventListener("close",()=>{input.value="";});
+  }
+  function addPaletteResult(target,title,description,url,kind){
+    const button=document.createElement("button");button.type="button";button.className="site-command-result";button.setAttribute("role","option");
+    const heading=document.createElement("strong");heading.textContent=title;
+    const detail=document.createElement("small");detail.textContent=(kind?kind+" · ":"")+description;
+    button.append(heading,detail);button.addEventListener("click",()=>{const safe=safeURL(url);if(safe)location.href=safe;});
+    target.appendChild(button);
+  }
+  async function renderPaletteResults(query){
+    const target=$("#site-command-results");if(!target)return;target.replaceChildren();
+    const q=(query||"").trim().toLowerCase();
+    if(!q){
+      [["CGPA Calculator","Academic tool","tools/cgpa-calculator/"],["Smart Notes Library","Browse subject notes","tools/notes-library/"],["Formula Sheets","Calculus, Physics and EEC formulas","tools/formula-sheets/"],["My Library","Bookmarks and backup","tools/bookmarks/"]].forEach(x=>addPaletteResult(target,x[0],x[1],new URL(x[2],BASE).href,"Quick link"));
+      const recent=read(RECENT_KEY,[]);if(Array.isArray(recent)&&recent.length){const label=document.createElement("p");label.className="site-command-section-label";label.textContent="Recent searches";target.appendChild(label);recent.slice(0,5).forEach(term=>{const b=document.createElement("button");b.type="button";b.className="site-command-recent";b.textContent=term;b.addEventListener("click",()=>{$("#site-command-input").value=term;renderPaletteResults(term);});target.appendChild(b);});}
+      return;
+    }
+    const tokens=q.split(/\s+/).filter(Boolean),docs=await loadSearchDocuments(),matches=[];
+    docs.forEach(doc=>{
+      const title=String(doc.title||"Untitled"),text=String(doc.text||""),hay=(title+" "+text).toLowerCase();
+      if(tokens.every(token=>hay.includes(token))){let score=tokens.reduce((n,t)=>n+(title.toLowerCase().includes(t)?5:0),0);matches.push({title,text,location:doc.location||"",score});}
+    });
+    matches.sort((a,b)=>b.score-a.score);
+    matches.slice(0,10).forEach(doc=>{const snippet=doc.text.replace(/\s+/g," ").trim().slice(0,150);addPaletteResult(target,doc.title,snippet,new URL(doc.location,BASE).href,"Page");});
+    bookmarks().filter(item=>(item.title+" "+item.url).toLowerCase().includes(q)).slice(0,5).forEach(item=>addPaletteResult(target,item.title||"Saved page","Your local bookmark",item.url,"Bookmark"));
+    if(!target.children.length){const empty=document.createElement("p");empty.className="site-command-empty";empty.textContent="No matching pages or bookmarks. Try another keyword.";target.appendChild(empty);}
+  }
+  function openSearch(){
+    createPalette();const dialog=$("#site-command-palette"),input=$("#site-command-input");
+    if(!dialog.open)dialog.showModal();input.focus();renderPaletteResults(input.value);
+  }
   function createUtility(){
     if($("#site-utility"))return;
     const u=document.createElement("div");u.id="site-utility";u.className="site-utility";
     u.innerHTML='<button type="button" id="site-search-open" class="site-utility-button" title="Global search (Ctrl+K)">⌕ <span>Search</span></button><button type="button" id="site-bookmark-current" class="site-utility-button" aria-pressed="false">Bookmark this page</button><button type="button" id="site-bookmarks-open" class="site-utility-button" aria-expanded="false">My bookmarks <span id="site-utility-bookmarks-count">0</span></button><button type="button" id="site-install-app" class="site-utility-button" hidden>Install app</button><section id="site-utility-panel" class="site-utility-panel" hidden aria-label="Saved bookmarks"><div class="site-utility-panel-heading"><strong>My bookmarks</strong><button type="button" id="site-utility-close" aria-label="Close bookmarks">×</button></div><p id="site-utility-bookmarks-count-text"></p><div id="site-utility-bookmarks"></div><a id="site-manage-bookmarks" href="#">Manage bookmarks and backup</a></section>';
-    document.body.appendChild(u);$("#site-manage-bookmarks").href=new URL("tools/bookmarks/",BASE).href;
+    document.body.appendChild(u);$("#site-manage-bookmarks").href=new URL("tools/bookmarks/",BASE).href;createPalette();
     $("#site-search-open").addEventListener("click",openSearch);
     $("#site-bookmark-current").addEventListener("click",()=>{const p=page(),items=bookmarks();setBookmarks(items.some(x=>x.url===p.url)?items.filter(x=>x.url!==p.url):[{...p,savedAt:new Date().toISOString()},...items].slice(0,200));});
     const panel=$("#site-utility-panel"),opener=$("#site-bookmarks-open"),toggle=show=>{panel.hidden=!show;opener.setAttribute("aria-expanded",String(show));};
