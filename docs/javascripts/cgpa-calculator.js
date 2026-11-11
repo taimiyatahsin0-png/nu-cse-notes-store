@@ -148,7 +148,10 @@
       if(!button)return;
       const n=Number(button.dataset.open);
       $('[data-semester="'+n+'"]').click();
-      loadSemester(n);
+      if(validSaved(state.saved[n])){
+        if(state.drafts[n]&&!window.confirm("Discard the unsaved draft and load the previously saved Semester "+n+" result?"))return;
+        delete state.drafts[n];saveState();loadSemester(n);
+      }
       $("#cgpa-course-mode").scrollIntoView({behavior:"smooth",block:"start"});
     });
     $(".cgpa-reset-all").addEventListener("click",()=>{
@@ -191,10 +194,8 @@
       state.quick=next;saveState();
       return {quality,credits,count,invalid,needsCredits};
     }
-    const quickEntries={};
     for(let i=1;i<=8;i++){
       const entry=normalizeQuickEntry(state.quick[i],i);
-      quickEntries[i]=entry;
       $('[data-quick-gpa="'+i+'"]').value=entry.gpa;
       $('[data-quick-credit="'+i+'"]').value=entry.credits;
     }
