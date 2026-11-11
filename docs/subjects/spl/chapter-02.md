@@ -66,7 +66,6 @@ char grade = 'A';
 
 | Declaration | Initialization |
 |---|---|
-| — | — |
 | `int age;` | `int age = 20;` |
 
 ## 4. Rules for Naming Variables
