@@ -32,11 +32,15 @@ nav:
       - Programming Hub: tools/programming-hub.md
       - PYQ Library: tools/pyq-library.md
   - First Semester:
-      - SPL (510201): subjects/spl/index.md
+      - SPL (510201):
+          - Subject Overview: subjects/spl/index.md
+          - Exam Revision Guide: subjects/spl/exam-revision-guide.md
       - SPL Lab (510202): subjects/spl-lab/index.md
       - EEC (510203): subjects/eec/index.md
       - EEC Lab (510204): subjects/eec-lab/index.md
-      - Calculus (510205): subjects/cal/index.md
+      - Calculus (510205):
+          - Subject Overview: subjects/cal/index.md
+          - Exam Revision Guide: subjects/cal/exam-revision-guide.md
       - Physics (510207): subjects/phy/index.md
       - English (510209): subjects/eng/index.md
 
