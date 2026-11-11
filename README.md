@@ -15,7 +15,7 @@ A free, chapter-wise learning and practice website for first-semester CSE studen
 
 ## Learning approach
 
-1. Read the concept explanation in simple Bangla.
+1. Study the key definitions and concepts before attempting the worked examples.
 2. Learn the standard English definition and exam terminology.
 3. Work through the examples before memorising an answer.
 4. Trace code and calculations step by step.
