@@ -11,6 +11,15 @@ theme:
     - scheme: default
       primary: green
       accent: teal
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: green
+      accent: teal
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
   features:
     - navigation.tabs
     - navigation.sections
@@ -31,6 +40,10 @@ nav:
       - Grade Scale: tools/grade-scale.md
       - Programming Hub: tools/programming-hub.md
       - PYQ Library: tools/pyq-library.md
+      - Smart Notes Library: tools/notes-library.md
+      - Formula Sheets: tools/formula-sheets.md
+      - My Library & Bookmarks: tools/bookmarks.md
+      - Offline Access & Install: offline.md
   - First Semester:
       - SPL (510201):
           - Subject Overview: subjects/spl/index.md
@@ -58,6 +71,8 @@ markdown_extensions:
 
 extra_javascript:
   - javascripts/cgpa-calculator.js
+  - javascripts/cgpa-advanced.js
+  - javascripts/site-features.js
   - javascripts/mathjax.js
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
