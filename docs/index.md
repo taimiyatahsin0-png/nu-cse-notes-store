@@ -2,15 +2,15 @@
 
 A free, organized learning space for first-semester CSE students of National University, Bangladesh.
 
-Study concise, English-only CSE notes focused on key definitions, core concepts, formulas, derivations and university examination preparation.
+Study concise CSE notes focused on key definitions, core concepts, formulas, derivations and university examination preparation.
 
 <div class="grid cards" markdown>
 
--   :material-book-open-variant: **Subject Notes**
+-   :material-book-open-variant: **First-Semester Subject Notes**
 
-    English-only chapter notes, important definitions, formulas, solved problems and exam preparation.
+    Chapter notes, important definitions, formulas, solved problems and exam preparation for all first-semester courses.
 
-    [Explore SPL](subjects/spl/index.md)
+    [SPL](subjects/spl/index.md) · [SPL Lab](subjects/spl-lab/index.md) · [EEC](subjects/eec/index.md) · [EEC Lab](subjects/eec-lab/index.md) · [Calculus](subjects/cal/index.md) · [Physics](subjects/phy/index.md) · [English](subjects/eng/index.md)
 
 -   :material-calculator-variant: **CGPA Calculator**
 
