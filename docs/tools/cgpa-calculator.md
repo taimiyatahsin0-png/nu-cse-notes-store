@@ -625,6 +625,7 @@ The calculator provides eight semester tabs, a course-grade mode, a Quick CGPA m
 - Quick CGPA uses 18 credits for Semester 1 and provisional credit totals for Semesters 2–8.
 - Saved results and quick entries stay in your current browser and device; clearing browser data may remove them.
 - The retake/improvement field is a calculation aid, not a ruling on NU eligibility, attempt limits, grade caps, or transcript treatment. Confirm the rules applicable to your session with NU or your college. This is an unofficial estimate; your official NU result and applicable regulations are authoritative.
-- **Curriculum warning:** these eight-semester course names, codes and credits follow CSE Buddy's displayed list. They have not been independently verified against your 2025–26 NU Professional Honours CSE syllabus. Confirm them against your official syllabus before relying on the result.
+- **Semester 1:** the seven course codes, titles and credits match the CSE (Hon's) syllabus listed in the [official NU Professionals Syllabus Archive](https://www.nu.ac.bd/syllabus-professionals.php), effective from 2017–2018. The archive currently lists that edition; check with your department whether a separate 2025–2026 revision applies to your cohort.
+- **Semesters 2–8:** course names, codes and credits remain provisional reference data. Verify them against the latest syllabus confirmed by your department before relying on those semester calculations.
 
 [View the NU grade scale](grade-scale.md)
