@@ -35,7 +35,7 @@ A central collection of PDF notes created and added for the NU CSE Notes Store. 
 - **SPL – Chapter 02** · [View PDF](../subjects/spl/SPL-Chapter-02.pdf){ target=_blank } · [Download PDF](../subjects/spl/SPL-Chapter-02.pdf){ download="SPL-Chapter-02.pdf" }
 ### Electrical and Electronic Circuit (510203)
 
-No personal PDFs added yet.
+- **EEC Kit** · [View PDF](../pdfs/semester-1/eec/EEC-Kit-GitHub.pdf){ target=_blank } · [Download PDF](../pdfs/semester-1/eec/EEC-Kit-GitHub.pdf){ download="EEC-Kit-GitHub.pdf" }
 
 ### Calculus (510205)
 
