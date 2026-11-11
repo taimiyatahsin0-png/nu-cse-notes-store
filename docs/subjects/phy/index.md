@@ -1,10 +1,10 @@
 # Physics
 
-**Course Code:** 510207  
-**Course Title:** Physics  
-**Credits:** 3.0  
-**Marks:** 80  
-**Class Hours:** 45  
+**Course Code:** 510207
+**Course Title:** Physics
+**Credits:** 3.0
+**Marks:** 80
+**Class Hours:** 45
 **Semester:** CSE First Semester
 
 ## Course Overview
@@ -71,7 +71,6 @@ The Chapter 03 notes also explain the Lorentz force on a moving charge and torqu
 
 For each topic:
 
-1. Understand the Bangla explanation and physical meaning.
 2. Learn the standard English definition and symbols.
 3. Write the formula with every variable and SI unit.
 4. Follow the derivation or reasoning before memorising it.
