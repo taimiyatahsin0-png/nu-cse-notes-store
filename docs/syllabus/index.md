@@ -43,4 +43,4 @@ This page records the First Semester course structure from the National Universi
 
 ---
 
-This is an independent student learning resource. It is not an official National University website and is not affiliated with or endorsed by National University, Bangladesh.
+For authoritative academic information, follow the latest National University notices and the syllabus confirmed by your department.
