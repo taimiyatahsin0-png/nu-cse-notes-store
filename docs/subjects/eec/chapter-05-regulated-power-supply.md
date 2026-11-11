@@ -1,7 +1,7 @@
 # Chapter 05: Regulated Power Supply
 
-> **Course:** Electrical and Electronic Circuit (EEC)  
-> **Course Code:** 510203  
+> **Course:** Electrical and Electronic Circuit (EEC)
+> **Course Code:** 510203
 > **Topic group:** Regulated Power Supply
 
 Most electronic circuits need a DC supply, but the electricity available from a wall outlet is AC. A regulated power supply converts AC into DC and keeps the output voltage reasonably steady even when the input supply or load changes.
@@ -673,63 +673,63 @@ P_Z=V_ZI_Z
 
 ## 12. Common mistakes to avoid
 
-1. **Mistake:** A rectifier produces perfectly smooth DC.  
+1. **Mistake:** A rectifier produces perfectly smooth DC.
    **Correction:** A basic rectifier produces pulsating DC. A filter reduces ripple.
 
-2. **Mistake:** A half-wave rectifier uses both AC half-cycles.  
+2. **Mistake:** A half-wave rectifier uses both AC half-cycles.
    **Correction:** It uses one half-cycle; a full-wave rectifier uses both.
 
-3. **Mistake:** Full-wave ripple frequency equals the input frequency.  
+3. **Mistake:** Full-wave ripple frequency equals the input frequency.
    **Correction:** It is twice the input frequency.
 
-4. **Mistake:** A bridge rectifier needs a centre-tapped transformer.  
+4. **Mistake:** A bridge rectifier needs a centre-tapped transformer.
    **Correction:** A bridge rectifier does not require a centre tap.
 
-5. **Mistake:** A larger capacitor always makes a supply perfect.  
+5. **Mistake:** A larger capacitor always makes a supply perfect.
    **Correction:** It reduces ripple, but does not by itself provide precise voltage regulation. Inrush current, capacitor rating and regulator requirements also matter.
 
-6. **Mistake:** In a Zener regulator, all series current flows through the Zener.  
+6. **Mistake:** In a Zener regulator, all series current flows through the Zener.
    **Correction:** Series current divides between the Zener and the load.
 
-7. **Mistake:** Zener voltage regulation works at any current.  
+7. **Mistake:** Zener voltage regulation works at any current.
    **Correction:** The Zener must remain within its specified minimum/maximum current and power limits.
 
-8. **Mistake:** A transistor regulator creates energy.  
+8. **Mistake:** A transistor regulator creates energy.
    **Correction:** It controls the voltage delivered from the input supply; a linear regulator dissipates some power as heat.
 
-9. **Mistake:** \(V_m\) always means the same transformer voltage in every rectifier formula.  
+9. **Mistake:** \(V_m\) always means the same transformer voltage in every rectifier formula.
    **Correction:** Check whether it refers to one half-secondary or the complete secondary.
 
 ## 13. Exam-ready short answers
 
-**1. What is a regulated power supply?**  
+**1. What is a regulated power supply?**
 A regulated power supply is a circuit that provides a nearly constant DC output voltage despite reasonable changes in input voltage or load conditions.
 
-**2. What is rectification?**  
+**2. What is rectification?**
 Rectification is the process of converting AC into a unidirectional output.
 
-**3. What is a half-wave rectifier?**  
+**3. What is a half-wave rectifier?**
 A half-wave rectifier is a circuit that uses one diode to pass one half-cycle of an AC input and block the other half-cycle.
 
-**4. What is a full-wave rectifier?**  
+**4. What is a full-wave rectifier?**
 A full-wave rectifier is a circuit that uses both half-cycles of an AC input to produce a unidirectional output.
 
-**5. What is ripple?**  
+**5. What is ripple?**
 Ripple is the remaining periodic AC variation in the output of a rectifier after rectification and filtering.
 
-**6. What is a filter circuit?**  
+**6. What is a filter circuit?**
 A filter circuit reduces the AC component or ripple in the rectifier output to produce smoother DC.
 
-**7. Why is the ripple frequency of a full-wave rectifier twice the input frequency?**  
+**7. Why is the ripple frequency of a full-wave rectifier twice the input frequency?**
 Because both positive and negative half-cycles produce output pulses, giving two pulses for each input cycle.
 
-**8. What is voltage regulation?**  
+**8. What is voltage regulation?**
 Voltage regulation is the ability of a power supply to maintain a nearly constant output voltage when input or load conditions change.
 
-**9. What is a Zener regulator?**  
+**9. What is a Zener regulator?**
 A Zener regulator is a voltage-regulating circuit that uses a reverse-biased Zener diode operating in breakdown to maintain an approximately constant output voltage.
 
-**10. What is a transistor voltage regulator?**  
+**10. What is a transistor voltage regulator?**
 A transistor voltage regulator uses a transistor as a controlling or pass element, usually with a reference and feedback circuit, to maintain a nearly constant output voltage.
 
 ## 14. Descriptive questions for practice
