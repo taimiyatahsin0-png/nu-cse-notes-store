@@ -1,7 +1,7 @@
 # Practical 04: Relational and Logical Operators in C
 
-> **Status:** Suggested practice practical  
-> **Related theory topics:** Relational operators, logical operators, expressions, input and output  
+> **Status:** Suggested practice practical
+> **Related theory topics:** Relational operators, logical operators, expressions, input and output
 > **Lab course:** 510202 – Structured Programming Language Lab
 
 !!! note "Syllabus and experiment-order note"
@@ -194,28 +194,28 @@ The program compares two integers using relational operators and evaluates combi
 
 ## 13. Viva questions
 
-**Q1. What is a relational operator?**  
+**Q1. What is a relational operator?**
 A relational operator compares two values and produces a true or false result.
 
-**Q2. What is the difference between `=` and `==`?**  
+**Q2. What is the difference between `=` and `==`?**
 `=` is the assignment operator, while `==` is the equality operator.
 
-**Q3. What is the result of a true relational expression in C?**  
+**Q3. What is the result of a true relational expression in C?**
 It evaluates to the integer value `1`.
 
-**Q4. What is the result of a false relational expression in C?**  
+**Q4. What is the result of a false relational expression in C?**
 It evaluates to the integer value `0`.
 
-**Q5. What does the logical AND operator do?**  
+**Q5. What does the logical AND operator do?**
 It produces true only when both conditions are true.
 
-**Q6. What does the logical OR operator do?**  
+**Q6. What does the logical OR operator do?**
 It produces true when at least one condition is true.
 
-**Q7. What does the logical NOT operator do?**  
+**Q7. What does the logical NOT operator do?**
 It reverses the truth value of a condition.
 
-**Q8. What is short-circuit evaluation?**  
+**Q8. What is short-circuit evaluation?**
 In `A && B`, if `A` is false, `B` is not evaluated. In `A || B`, if `A` is true, `B` is not evaluated.
 
 ## 14. Common mistakes
