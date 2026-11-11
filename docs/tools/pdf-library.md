@@ -1,5 +1,5 @@
 ---
-description: "Browse personal PDF notes for all NU CSE subjects and learn how to add new files."
+description: "Browse personal PDF notes for NU CSE first-semester subjects and learn how to add new files."
 ---
 
 # All PDFs Library
@@ -13,15 +13,7 @@ A central collection of PDF notes created and added for the NU CSE Notes Store. 
 - **SPL – Chapter 01** · [View PDF](../subjects/spl/SPL-Chapter-01.pdf){ target=_blank } · [Download PDF](../subjects/spl/SPL-Chapter-01.pdf){ download="SPL-Chapter-01.pdf" }
 - **SPL – Chapter 02** · [View PDF](../subjects/spl/SPL-Chapter-02.pdf){ target=_blank } · [Download PDF](../subjects/spl/SPL-Chapter-02.pdf){ download="SPL-Chapter-02.pdf" }
 
-### Structured Programming Language Lab (510202)
-
-No personal PDFs added yet.
-
 ### Electrical and Electronic Circuit (510203)
-
-No personal PDFs added yet.
-
-### Electrical and Electronic Circuit Lab (510204)
 
 No personal PDFs added yet.
 
@@ -52,9 +44,7 @@ docs/
 └── pdfs/
     └── semester-1/
         ├── spl/
-        ├── spl-lab/
         ├── eec/
-        ├── eec-lab/
         ├── calculus/
         ├── physics/
         └── english/
