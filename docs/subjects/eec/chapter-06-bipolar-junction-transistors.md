@@ -1,7 +1,7 @@
 # Chapter 06: Bipolar Junction Transistors (BJT)
 
-> **Course:** Electrical and Electronic Circuit (EEC)  
-> **Course Code:** 510203  
+> **Course:** Electrical and Electronic Circuit (EEC)
+> **Course Code:** 510203
 > **Topic group:** Bipolar Junction Transistors (BJT)
 
 A transistor is a semiconductor device that can control a relatively large current using a smaller input signal. It is one of the basic building blocks of amplifiers and electronic switching circuits.
@@ -728,72 +728,72 @@ V_{CE}=10-(0.00198\times1000)
 
 ## 14. Common mistakes to avoid
 
-1. **Mistake:** A BJT has only two terminals.  
+1. **Mistake:** A BJT has only two terminals.
    **Correction:** It has three terminals: emitter, base and collector.
 
-2. **Mistake:** NPN and PNP have the same layer structure.  
+2. **Mistake:** NPN and PNP have the same layer structure.
    **Correction:** NPN is N-P-N; PNP is P-N-P.
 
-3. **Mistake:** The base is heavily doped and thick.  
+3. **Mistake:** The base is heavily doped and thick.
    **Correction:** The base is thin and lightly doped.
 
-4. **Mistake:** \(I_E=I_C-I_B\).  
+4. **Mistake:** \(I_E=I_C-I_B\).
    **Correction:** \(I_E=I_C+I_B\), using the usual current magnitudes.
 
-5. **Mistake:** \(\alpha\) is normally greater than 1.  
+5. **Mistake:** \(\alpha\) is normally greater than 1.
    **Correction:** Common-base current gain is normally slightly less than 1.
 
-6. **Mistake:** A transistor amplifies in saturation.  
+6. **Mistake:** A transistor amplifies in saturation.
    **Correction:** Normal linear amplification occurs in the active region.
 
-7. **Mistake:** A transistor switch should remain in the active region when fully ON.  
+7. **Mistake:** A transistor switch should remain in the active region when fully ON.
    **Correction:** A fully ON BJT switch is normally driven into saturation.
 
-8. **Mistake:** CE output is in phase with its input.  
+8. **Mistake:** CE output is in phase with its input.
    **Correction:** A common-emitter amplifier normally produces a 180° phase reversal.
 
-9. **Mistake:** The Q-point is the instantaneous AC signal value.  
+9. **Mistake:** The Q-point is the instantaneous AC signal value.
    **Correction:** It is the DC operating condition with no input signal.
 
-10. **Mistake:** Fixed bias is highly stable against temperature and gain changes.  
+10. **Mistake:** Fixed bias is highly stable against temperature and gain changes.
     **Correction:** Fixed bias is relatively sensitive; voltage-divider bias with emitter feedback is generally more stable.
 
 ## 15. Exam-ready short answers
 
-**1. What is a BJT?**  
+**1. What is a BJT?**
 A BJT is a three-terminal semiconductor device consisting of two P-N junctions in which both electrons and holes participate in current conduction.
 
-**2. Name the three terminals of a BJT.**  
+**2. Name the three terminals of a BJT.**
 Emitter, base and collector.
 
-**3. What are the two types of BJT?**  
+**3. What are the two types of BJT?**
 NPN and PNP transistors.
 
-**4. Why is the base region made thin and lightly doped?**  
+**4. Why is the base region made thin and lightly doped?**
 It reduces carrier recombination in the base so that most carriers injected from the emitter can reach the collector.
 
-**5. State the relation among transistor currents.**  
+**5. State the relation among transistor currents.**
 \(I_E=I_B+I_C\).
 
-**6. Define current gain \(\alpha\).**  
+**6. Define current gain \(\alpha\).**
 The common-base current gain is the ratio of collector current to emitter current: \(\alpha=I_C/I_E\).
 
-**7. Define current gain \(\beta\).**  
+**7. Define current gain \(\beta\).**
 The common-emitter current gain is the ratio of collector current to base current: \(\beta=I_C/I_B\).
 
-**8. In which region does a transistor work as an amplifier?**  
+**8. In which region does a transistor work as an amplifier?**
 The active region.
 
-**9. In which regions does a transistor work as a switch?**  
+**9. In which regions does a transistor work as a switch?**
 Cut-off and saturation.
 
-**10. What is a Q-point?**  
+**10. What is a Q-point?**
 The Q-point is the DC operating point of a transistor in the absence of an input AC signal.
 
-**11. What is a DC load line?**  
+**11. What is a DC load line?**
 A DC load line is a straight line on the output-characteristic graph representing the possible collector-current and collector-emitter-voltage combinations set by the external circuit.
 
-**12. What is transistor biasing?**  
+**12. What is transistor biasing?**
 Transistor biasing is the application of suitable DC voltages and currents to establish a desired operating point.
 
 ## 16. Descriptive questions for practice
