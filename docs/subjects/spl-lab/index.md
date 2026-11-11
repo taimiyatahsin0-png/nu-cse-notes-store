@@ -1,9 +1,9 @@
 
 # Structured Programming Language Lab
 
-**Course Code:** 510202  
-**Marks:** 40  
-**Credits:** 1.5  
+**Course Code:** 510202
+**Marks:** 40
+**Credits:** 1.5
 **Related Theory Course:** 510201 – Structured Programming Language
 
 ## Course Objectives
