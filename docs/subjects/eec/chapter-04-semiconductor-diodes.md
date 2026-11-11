@@ -1,7 +1,7 @@
 # Chapter 04: Semiconductor Diodes and Special Purpose Diodes
 
-> **Course:** Electrical and Electronic Circuit (EEC)  
-> **Course Code:** 510203  
+> **Course:** Electrical and Electronic Circuit (EEC)
+> **Course Code:** 510203
 > **Topic group:** Semiconductor Diodes and Special Purpose Diodes
 
 A semiconductor diode is one of the simplest and most important electronic components. It allows current to pass easily in one direction under normal operating conditions and strongly opposes current in the other direction. This one-way behaviour is the foundation of rectifiers, power supplies, signal circuits, LEDs and many other electronic systems.
@@ -500,60 +500,60 @@ Always use consistent units: volts (V), amperes (A), ohms (Ω), and watts (W).
 
 ## 12. Common mistakes to avoid
 
-1. **Mistake:** Forward bias means P-side is negative.  
+1. **Mistake:** Forward bias means P-side is negative.
    **Correction:** Forward bias means P-side is positive and N-side is negative.
 
-2. **Mistake:** Reverse bias produces exactly zero current.  
+2. **Mistake:** Reverse bias produces exactly zero current.
    **Correction:** A small reverse current normally exists before breakdown.
 
-3. **Mistake:** The depletion region disappears completely in forward bias.  
+3. **Mistake:** The depletion region disappears completely in forward bias.
    **Correction:** It becomes narrower; it does not simply vanish.
 
-4. **Mistake:** Every diode has exactly a 0.7 V forward drop.  
+4. **Mistake:** Every diode has exactly a 0.7 V forward drop.
    **Correction:** 0.7 V is a useful silicon approximation in a simple model. Actual voltage depends on current, temperature and device construction.
 
-5. **Mistake:** An LED can be connected directly to any voltage source.  
+5. **Mistake:** An LED can be connected directly to any voltage source.
    **Correction:** Its current must be controlled by a suitable resistor or driver.
 
-6. **Mistake:** A normal diode should be operated in reverse breakdown.  
+6. **Mistake:** A normal diode should be operated in reverse breakdown.
    **Correction:** Only devices designed and rated for that operation should be used that way.
 
-7. **Mistake:** A Zener diode regulates voltage without any current limit.  
+7. **Mistake:** A Zener diode regulates voltage without any current limit.
    **Correction:** A suitable series current-limiting element and correct operating conditions are essential.
 
-8. **Mistake:** LED light colour is determined only by its plastic casing.  
+8. **Mistake:** LED light colour is determined only by its plastic casing.
    **Correction:** The emitted wavelength is mainly determined by the semiconductor material and its band gap.
 
 ## 13. Exam-ready short answers
 
-**1. What is a P-N junction?**  
+**1. What is a P-N junction?**
 A P-N junction is the boundary formed between P-type and N-type regions of a semiconductor crystal.
 
-**2. What is a depletion region?**  
+**2. What is a depletion region?**
 The depletion region is the region around a P-N junction that is depleted of mobile majority carriers and contains fixed ionized impurity atoms.
 
-**3. Define barrier potential.**  
+**3. Define barrier potential.**
 Barrier potential is the built-in potential difference across the depletion region that opposes the diffusion of majority carriers.
 
-**4. What is forward bias?**  
+**4. What is forward bias?**
 Forward bias is the condition in which the P-side is connected to the positive terminal and the N-side to the negative terminal of a DC supply.
 
-**5. What is reverse bias?**  
+**5. What is reverse bias?**
 Reverse bias is the condition in which the P-side is connected to the negative terminal and the N-side to the positive terminal of a DC supply.
 
-**6. What is the V-I characteristic of a diode?**  
+**6. What is the V-I characteristic of a diode?**
 The V-I characteristic is the graph that represents the relationship between the voltage across a diode and the current through it.
 
-**7. What is an LED?**  
+**7. What is an LED?**
 An LED is a semiconductor diode that emits light when forward biased due to electroluminescence.
 
-**8. What is a Zener diode?**  
+**8. What is a Zener diode?**
 A Zener diode is a specially designed diode that operates in reverse breakdown to provide an approximately constant voltage.
 
-**9. Why is a resistor connected in series with an LED?**  
+**9. Why is a resistor connected in series with an LED?**
 A series resistor limits the LED current and protects it from damage due to excessive current.
 
-**10. Mention two applications of a Zener diode.**  
+**10. Mention two applications of a Zener diode.**
 A Zener diode is used in voltage regulation and as a voltage reference.
 
 ## 14. Descriptive questions for practice
