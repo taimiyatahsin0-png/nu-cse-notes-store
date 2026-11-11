@@ -3,7 +3,7 @@
   const KEY="nuCseSemesterCgpaV2", points={"A+":4,"A":3.75,"A-":3.5,"B+":3.25,"B":3,"B-":2.75,"C+":2.5,"C":2.25,"D":2,"F":0};
   const $=(s,r=document)=>r.querySelector(s), fmt=n=>Number.isFinite(Number(n))?Number(n).toFixed(2):"—";
   const read=()=>{try{const x=JSON.parse(localStorage.getItem(KEY)||"null");return x&&x.saved&&typeof x.saved==="object"?x.saved:{};}catch(_){return{};}};
-  const valid=x=>x&&Number.isFinite(Number(x.quality))&&Number.isFinite(Number(x.credits))&&Number(x.credits)>0&&Array.isArray(x.courses);
+  const valid=x=>x&&Number.isFinite(Number(x.quality))&&Number.isFinite(Number(x.credits))&&Number(x.credits)>0&&Array.isArray(x.courses)&&x.courses.length>0;
   function init(){
     const root=$("#semester-cgpa-tool"); if(!root||root.dataset.advancedReady==="true")return; root.dataset.advancedReady="true";
     const wrap=document.createElement("section"); wrap.className="cgpa-advanced-grid";
