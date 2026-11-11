@@ -4,8 +4,6 @@
 **Reference scope:** Electric current, simple circuits and electrical measurements  
 **Learning level:** Beginner
 
-> **বাংলায় অধ্যায়ের ধারণা:** এই অধ্যায়ে charge-এর প্রবাহ, voltage, resistance, circuit-এর নিয়ম, RC/RL circuit এবং electrical measuring instruments শিখবে। প্রতিটি গুরুত্বপূর্ণ ধারণার আগে সহজ বাংলা ব্যাখ্যা, পরে পরীক্ষায় লেখার মতো English answer দেওয়া হয়েছে।
-
 ---
 
 ## Learning outcomes
@@ -22,10 +20,6 @@ After studying this chapter, you should be able to:
 8. Explain the basic uses of a multimeter and wattmeter.
 
 ## 1. Electric Current
-
-### সহজ বাংলায়
-
-কোনো তারের cross-section দিয়ে charge প্রবাহিত হলে electric current তৈরি হয়। প্রতি সেকেন্ডে যত charge প্রবাহিত হয়, সেটিই current-এর পরিমাণ। Metal wire-এ electron একদিকে চলে, কিন্তু conventional current-এর দিক ধরা হয় positive charge যেদিকে চলত সেই দিকে।
 
 ### English Exam Answer
 
@@ -52,10 +46,6 @@ I=\frac{Q}{t}
 \]
 
 ## 2. Ohm's Law
-
-### সহজ বাংলায়
-
-একই temperature ও physical condition-এ কোনো conductor-এর দুই প্রান্তে voltage বাড়ালে current-ও একই অনুপাতে বাড়ে। অর্থাৎ voltage দ্বিগুণ করলে current-ও দ্বিগুণ হয়, যদি resistance অপরিবর্তিত থাকে।
 
 ### English Exam Answer
 
@@ -85,10 +75,6 @@ I=\frac{12}{6}=\boxed{2\ A}
 
 ## 3. Resistance and Resistivity
 
-### সহজ বাংলায়
-
-Resistance হলো current প্রবাহে বাধা। একই material ও একই cross-sectional area হলে তারের length বাড়লে resistance বাড়ে। আর তার মোটা হলে অর্থাৎ area বাড়লে resistance কমে।
-
 ### English Exam Answer
 
 **Resistance:** Resistance is the property of a conductor by which it opposes the flow of electric current.
@@ -109,10 +95,6 @@ where:
 Resistivity is a material property at a specified temperature.
 
 ## 4. Series and Parallel Resistors
-
-### সহজ বাংলায়
-
-**Series connection:** Resistor-গুলো একটার পর একটা যুক্ত থাকে। সবগুলোর মধ্য দিয়ে একই current যায়।
 
 **Parallel connection:** Resistor-গুলোর দুই প্রান্ত একই দুই node-এ যুক্ত থাকে। প্রতিটি branch-এর voltage একই থাকে।
 
@@ -145,10 +127,6 @@ Find the equivalent resistance of \(2\ \Omega\) and \(4\ \Omega\):
 
 ## 5. EMF and Potential Difference
 
-### সহজ বাংলায়
-
-Battery বা cell charge-কে energy সরবরাহ করে। Source-এর প্রতি unit charge-এ সরবরাহ করা energy-কে EMF বলে। আর circuit-এর দুই point-এর মধ্যে প্রতি unit charge-এ energy transfer-কে potential difference বলে। দুটির unit volt হলেও অর্থ এক নয়।
-
 ### English Exam Answer
 
 **EMF:** The electromotive force of a source is the energy supplied by the source per unit charge.
@@ -175,8 +153,6 @@ V=\mathcal{E}-Ir
 
 ### 6.1 Kirchhoff's Current Law (KCL)
 
-**বাংলায়:** কোনো junction-এ যত current প্রবেশ করে, মোট current বেরও তত হয়। কারণ junction-এ charge জমে থাকে না।
-
 **English Exam Answer:** Kirchhoff's Current Law states that the algebraic sum of currents at a junction is zero. Equivalently, the total current entering a junction equals the total current leaving it.
 
 \[
@@ -187,8 +163,6 @@ KCL is based on the conservation of electric charge.
 
 ### 6.2 Kirchhoff's Voltage Law (KVL)
 
-**বাংলায়:** একটি closed loop ঘুরে আগের জায়গায় ফিরলে মোট voltage rise এবং voltage drop-এর algebraic sum শূন্য হয়। এটি energy conservation-এর সঙ্গে সম্পর্কিত।
-
 **English Exam Answer:** Kirchhoff's Voltage Law states that the algebraic sum of all potential differences around any closed loop in a circuit is zero.
 
 \[
@@ -198,10 +172,6 @@ KCL is based on the conservation of electric charge.
 KVL is based on the conservation of energy.
 
 ## 7. Electrical Power and Energy
-
-### সহজ বাংলায়
-
-Power বোঝায় প্রতি সেকেন্ডে কত electrical energy ব্যবহার বা রূপান্তর হচ্ছে। Energy হলো নির্দিষ্ট সময় ধরে মোট ব্যবহৃত বিদ্যুৎশক্তি।
 
 ### English Exam Answer
 
@@ -235,10 +205,6 @@ E=100\ W\times5\ h=500\ Wh=\boxed{0.5\ kWh}
 
 ## 8. Wheatstone Bridge
 
-### সহজ বাংলায়
-
-Wheatstone bridge দিয়ে অজানা resistance নির্ণয় করা যায়। চারটি resistance bridge-এর চার বাহুতে থাকে এবং মাঝখানে galvanometer যুক্ত থাকে। Bridge balanced হলে galvanometer দিয়ে current যায় না। তখন দুইটি junction-এর potential সমান হয়।
-
 ### English Exam Answer
 
 **Definition:** A Wheatstone bridge is an electrical circuit used to determine an unknown resistance by balancing two legs of a bridge circuit.
@@ -271,10 +237,6 @@ S=\frac{QR}{P}=\frac{4\times3}{2}=\boxed{6\ \Omega}
 
 ## 9. Potentiometer
 
-### সহজ বাংলায়
-
-Potentiometer দিয়ে EMF বা potential difference তুলনা করা হয়। একটি uniform wire-এর মধ্য দিয়ে steady current গেলে তার প্রতি unit length-এ potential drop একই থাকে। তাই wire-এর যত বেশি length-এ balance পাওয়া যায়, সংশ্লিষ্ট EMF তত বেশি।
-
 ### English Exam Answer
 
 **Definition:** A potentiometer is an instrument used to measure or compare potential differences and electromotive forces by a null method.
@@ -296,10 +258,6 @@ For two cells compared using the same potentiometer wire:
 At the balance point, no current is drawn from the test cell through the galvanometer branch. This makes the null method highly useful for accurate EMF comparison.
 
 ## 10. Moving-Coil Galvanometer
-
-### সহজ বাংলায়
-
-Galvanometer খুব ছোট current শনাক্ত ও মাপতে পারে। একটি coil magnetic field-এর মধ্যে থাকে। Coil দিয়ে current গেলে magnetic torque তৈরি হয় এবং pointer সরে যায়। Spring-এর restoring torque-এর সঙ্গে balance হলে pointer নির্দিষ্ট angle-এ থামে।
 
 ### English Exam Answer
 
@@ -333,10 +291,6 @@ where \(N\) is the number of turns, \(B\) is magnetic flux density, \(I\) is cur
 
 ## 11. Conversion of a Galvanometer into an Ammeter
 
-### সহজ বাংলায়
-
-Ammeter দিয়ে বড় current মাপতে galvanometer-এর parallel-এ খুব কম resistance-এর একটি shunt বসানো হয়। এতে মোট current-এর বড় অংশ shunt দিয়ে যায়, আর galvanometer নিরাপদ full-scale current পায়।
-
 ### English Exam Answer
 
 A galvanometer is converted into an ammeter by connecting a low resistance called a shunt in parallel with it.
@@ -364,10 +318,6 @@ An ideal ammeter has very low resistance and is connected in series with the cir
 
 ## 12. Conversion of a Galvanometer into a Voltmeter
 
-### সহজ বাংলায়
-
-Voltmeter দিয়ে voltage মাপতে galvanometer-এর সঙ্গে বড় resistance series-এ যুক্ত করা হয়। এতে instrument-এর মধ্য দিয়ে current খুব কম থাকে এবং circuit-এর ওপর প্রভাব কম পড়ে।
-
 ### English Exam Answer
 
 A galvanometer is converted into a voltmeter by connecting a high resistance, called a multiplier, in series with it.
@@ -390,8 +340,6 @@ An ideal voltmeter has very high resistance and is connected in parallel across 
 
 ### Multimeter
 
-**বাংলায়:** Multimeter দিয়ে প্রয়োজন অনুযায়ী voltage, current ও resistance মাপা যায়। কোন mode এবং কোন terminal ব্যবহার করতে হবে, তা instrument-এর manual দেখে নিতে হয়।
-
 **English Exam Answer:** A multimeter is an electrical measuring instrument that can measure quantities such as voltage, current and resistance. Many digital multimeters also provide continuity, diode and other measurement functions.
 
 - Voltage measurement: connect in parallel.
@@ -399,8 +347,6 @@ An ideal voltmeter has very high resistance and is connected in parallel across 
 - Resistance measurement: isolate power from the circuit before measuring.
 
 ### Wattmeter
-
-**বাংলায়:** Wattmeter electrical power মাপে। সাধারণ electrodynamometer-type wattmeter-এ current coil load-এর সঙ্গে series-এ এবং pressure/voltage coil load-এর parallel-এ যুক্ত থাকে।
 
 **English Exam Answer:** A wattmeter is an instrument used to measure electrical power. In an AC circuit, a wattmeter measures real power:
 
@@ -419,10 +365,6 @@ The unit of power is watt \(W\).
 > **Safety:** Never measure resistance on an energized circuit. For current measurement, use the correct meter socket and range; an incorrect connection can short the supply or damage the meter. Practise only with instructor-approved low-voltage lab circuits.
 
 ## 14. Simple RC Circuit
-
-### সহজ বাংলায়
-
-Resistor ও capacitor দিয়ে RC circuit তৈরি হয়। Capacitor charge হওয়ার সময় voltage ধীরে ধীরে বাড়ে। Discharge হওয়ার সময় stored charge ও voltage ধীরে ধীরে কমে।
 
 **Time constant:**
 
@@ -451,10 +393,6 @@ q\(t\)=Q_0e^{-t/RC}
 After one time constant, a charging capacitor reaches about 63.2% of its final voltage; during discharge, about 36.8% of the initial voltage remains.
 
 ## 15. Simple RL Circuit
-
-### সহজ বাংলায়
-
-RL circuit-এ resistor ও inductor থাকে। Inductor current-এর পরিবর্তনকে বাধা দেয়। তাই DC supply যুক্ত করার সঙ্গে সঙ্গে current সর্বোচ্চ মানে পৌঁছে যায় না; ধীরে ধীরে বাড়ে।
 
 **Time constant:**
 
