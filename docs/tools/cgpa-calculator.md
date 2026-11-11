@@ -32,43 +32,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Structured Programming Language (510201)" readonly aria-label="Structured Programming Language"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Structured Programming Language Lab (510202)" readonly aria-label="Structured Programming Language Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Electrical and Electronic Circuit (510203)" readonly aria-label="Electrical and Electronic Circuit"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Electrical and Electronic Circuit Lab (510204)" readonly aria-label="Electrical and Electronic Circuit Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Calculus (510205)" readonly aria-label="Calculus"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Physics (510207)" readonly aria-label="Physics"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="English (510209)" readonly aria-label="English"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
             </tbody>
@@ -79,7 +79,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="1">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="1">—</strong></div>
+          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="1">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="1">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="1">0.00</strong></div>
         </div>
@@ -97,37 +97,37 @@ Calculate each semester's GPA from individual course grades, save completed seme
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Digital Systems Design (510221)" readonly aria-label="Digital Systems Design"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Digital Systems Lab (510222)" readonly aria-label="Digital Systems Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Discrete Mathematics (510223)" readonly aria-label="Discrete Mathematics"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Linear Algebra (510225)" readonly aria-label="Linear Algebra"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Statistics and Probability (510227)" readonly aria-label="Statistics and Probability"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="History of the Emergence of Independent Bangladesh (510229)" readonly aria-label="History of the Emergence of Independent Bangladesh"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
             </tbody>
@@ -138,7 +138,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="2">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="2">—</strong></div>
+          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="2">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="2">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="2">0.00</strong></div>
         </div>
@@ -156,43 +156,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Data Structure (520201)" readonly aria-label="Data Structure"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Data Structure Lab (520202)" readonly aria-label="Data Structure Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Object Oriented Programming (520203)" readonly aria-label="Object Oriented Programming"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Object Oriented Programming Lab (520204)" readonly aria-label="Object Oriented Programming Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Architecture (520205)" readonly aria-label="Computer Architecture"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Ordinary Differential Equation (520207)" readonly aria-label="Ordinary Differential Equation"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Fundamental of Business Studies (520209)" readonly aria-label="Fundamental of Business Studies"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
             </tbody>
@@ -203,7 +203,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="3">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="3">—</strong></div>
+          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="3">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="3">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="3">0.00</strong></div>
         </div>
@@ -221,43 +221,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Database Management System (520221)" readonly aria-label="Database Management System"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Database Management System Lab (520222)" readonly aria-label="Database Management System Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Microprocessor and Assembly Language (520223)" readonly aria-label="Microprocessor and Assembly Language"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Microprocessor and Assembly Language Lab (520224)" readonly aria-label="Microprocessor and Assembly Language Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Design and Analysis of Algorithms (520225)" readonly aria-label="Design and Analysis of Algorithms"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Design and Analysis of Algorithms Lab (520226)" readonly aria-label="Design and Analysis of Algorithms Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Numerical Analysis (520227)" readonly aria-label="Numerical Analysis"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
             </tbody>
@@ -268,7 +268,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="4">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="4">—</strong></div>
+          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="4">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="4">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="4">0.00</strong></div>
         </div>
@@ -286,43 +286,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Peripheral and Interfacing (530201)" readonly aria-label="Peripheral and Interfacing"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Peripheral and Interfacing Lab (530202)" readonly aria-label="Peripheral and Interfacing Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Data and Telecommunications (530203)" readonly aria-label="Data and Telecommunications"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Data and Telecommunications Lab (530204)" readonly aria-label="Data and Telecommunications Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Operating System (530205)" readonly aria-label="Operating System"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Operating System Lab (530206)" readonly aria-label="Operating System Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Economics (530207)" readonly aria-label="Economics"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
             </tbody>
@@ -333,7 +333,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="5">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="5">—</strong></div>
+          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="5">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="5">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="5">0.00</strong></div>
         </div>
@@ -351,43 +351,43 @@ Calculate each semester's GPA from individual course grades, save completed seme
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Software Engineering (530219)" readonly aria-label="Software Engineering"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Software Engineering Lab (530220)" readonly aria-label="Software Engineering Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Networking (530221)" readonly aria-label="Computer Networking"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Networking Lab (530222)" readonly aria-label="Computer Networking Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Embedded System Programming (530223)" readonly aria-label="Embedded System Programming"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Embedded System Programming Lab (530224)" readonly aria-label="Embedded System Programming Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Theory of Computation (530225)" readonly aria-label="Theory of Computation"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
             </tbody>
@@ -398,7 +398,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="6">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="6">—</strong></div>
+          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="6">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="6">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="6">0.00</strong></div>
         </div>
@@ -416,49 +416,49 @@ Calculate each semester's GPA from individual course grades, save completed seme
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Artificial Intelligence (540201)" readonly aria-label="Artificial Intelligence"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Artificial Intelligence Lab (540202)" readonly aria-label="Artificial Intelligence Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Compiler Design and Construction (540203)" readonly aria-label="Compiler Design and Construction"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Compiler Design Lab (540204)" readonly aria-label="Compiler Design Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Graphics (540205)" readonly aria-label="Computer Graphics"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Computer Graphics Lab (540206)" readonly aria-label="Computer Graphics Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="E-Commerce and Web Engineering (540207)" readonly aria-label="E-Commerce and Web Engineering"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="E-Commerce and Web Engineering Lab (540208)" readonly aria-label="E-Commerce and Web Engineering Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
             </tbody>
@@ -469,7 +469,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="7">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="7">—</strong></div>
+          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="7">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="7">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="7">0.00</strong></div>
         </div>
@@ -487,37 +487,37 @@ Calculate each semester's GPA from individual course grades, save completed seme
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Network and Information Security (540219)" readonly aria-label="Network and Information Security"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Network and Information Security Lab (540220)" readonly aria-label="Network and Information Security Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Information System Management (540221)" readonly aria-label="Information System Management"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Project (540222)" readonly aria-label="Project"></td>
                 <td><input class="cgpa-credit" type="number" value="6" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Digital Image Processing (540229)" readonly aria-label="Digital Image Processing"></td>
                 <td><input class="cgpa-credit" type="number" value="3" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
 <tr class="cgpa-course-row cgpa-fixed-row">
                 <td><input class="cgpa-course-name" type="text" value="Digital Image Processing Lab (540230)" readonly aria-label="Digital Image Processing Lab"></td>
                 <td><input class="cgpa-credit" type="number" value="1.5" readonly aria-label="Credit"></td>
-                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option>A+</option><option>A</option><option>A-</option><option>B+</option><option>B</option><option>B-</option><option>C+</option><option>C</option><option>D</option><option>F</option></select></td>
+                <td><select class="cgpa-grade" aria-label="Letter grade"><option value="">Select</option><option value="A+">A+ — 4.00 (80–100%)</option><option value="A">A — 3.75 (75–<80%)</option><option value="A-">A- — 3.50 (70–<75%)</option><option value="B+">B+ — 3.25 (65–<70%)</option><option value="B">B — 3.00 (60–<65%)</option><option value="B-">B- — 2.75 (55–<60%)</option><option value="C+">C+ — 2.50 (50–<55%)</option><option value="C">C — 2.25 (45–<50%)</option><option value="D">D — 2.00 (40–<45%)</option><option value="F">F — 0.00 (<40%)</option></select></td>
 
               </tr>
             </tbody>
@@ -528,7 +528,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
           <button type="button" class="md-button cgpa-clear-semester" data-clear="8">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="8">—</strong></div>
+          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="8">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="8">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="8">0.00</strong></div>
         </div>
@@ -542,7 +542,7 @@ Calculate each semester's GPA from individual course grades, save completed seme
       <div class="cgpa-overall-card"><span>Overall CGPA</span><strong id="cgpa-overall">—</strong><small id="cgpa-overall-detail">No semester results saved yet</small></div>
       <div class="cgpa-table-wrap">
         <table class="cgpa-saved-table">
-          <thead><tr><th>Semester</th><th>SGPA</th><th>Credits</th><th>Status</th><th>Action</th></tr></thead>
+          <thead><tr><th>Semester</th><th>SGPA / Grade Point</th><th>Credits</th><th>Status</th><th>Action</th></tr></thead>
           <tbody id="cgpa-saved-rows">
             <tr><td>Semester 1</td><td data-saved-gpa="1">—</td><td data-saved-credit="1">—</td><td data-saved-status="1">Not saved</td><td><button type="button" class="cgpa-open-semester" data-open="1">Open</button></td></tr>
 <tr><td>Semester 2</td><td data-saved-gpa="2">—</td><td data-saved-credit="2">—</td><td data-saved-status="2">Not saved</td><td><button type="button" class="cgpa-open-semester" data-open="2">Open</button></td></tr>
@@ -578,9 +578,28 @@ Calculate each semester's GPA from individual course grades, save completed seme
   </section>
 </div>
 
+## Grade and grade-point reference
+
+Each course grade option displays its corresponding grade point and marks range. For example, **A = 3.75 grade points** for a course mark of **75% to less than 80%**.
+
+| Course marks | Letter grade | Grade point |
+|---:|:---:|---:|
+| 80% and above | A+ | 4.00 |
+| 75% to less than 80% | A | 3.75 |
+| 70% to less than 75% | A- | 3.50 |
+| 65% to less than 70% | B+ | 3.25 |
+| 60% to less than 65% | B | 3.00 |
+| 55% to less than 60% | B- | 2.75 |
+| 50% to less than 55% | C+ | 2.50 |
+| 45% to less than 50% | C | 2.25 |
+| 40% to less than 45% | D | 2.00 |
+| Less than 40% | F | 0.00 |
+
+**Important:** Letter grades and their fixed grade points are assigned to individual courses based on course marks. SGPA is a credit-weighted average of those course grade points, so an SGPA such as 3.62 does not itself receive a separate official letter grade.
+
 ## How it works
 
-The calculator follows CSE Buddy's workflow: eight semester tabs, a course-grade mode, a Quick CGPA mode, saved semester results, and a credit-weighted overall CGPA.
+The calculator provides eight semester tabs, a course-grade mode, a Quick CGPA mode, saved semester results, and a credit-weighted overall CGPA. Grade options display the letter grade, grade point, and marks range together.
 
 **Semester GPA (SGPA)** is calculated using the credit-weighted average of the course grade points:
 
