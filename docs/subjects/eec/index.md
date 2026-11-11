@@ -158,3 +158,9 @@ This course introduces the fundamental concepts of electrical circuits, AC funda
 
 The eight core topic groups above match the cited Session 2017–2018 course outline. The supplementary Solar Cell, Clipper and Clamper page is separately labelled and should not be assumed to be examinable. This reference does not establish that no later revision applies to Session 2025–26; confirm the current scope with your department.
 
+
+
+## My PDF Notes
+
+Your personal PDF notes for this subject will appear here. [Browse the All PDFs Library](../../tools/pdf-library.md) to find available files or learn where to upload new ones.
+
