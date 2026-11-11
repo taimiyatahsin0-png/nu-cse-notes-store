@@ -83,10 +83,10 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="1">Save to Overall CGPA</button>
-          <button type="button" class="md-button cgpa-clear-semester" data-clear="1">Clear Semester</button>
+          <button type="button" class="md-button cgpa-clear-semester" data-clear="1">Clear Current Entries</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="1">—</strong></div>
+          <div><span>Semester GPA</span><strong data-semester-gpa="1">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="1">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="1">0.00</strong></div>
         </div>
@@ -142,10 +142,10 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="2">Save to Overall CGPA</button>
-          <button type="button" class="md-button cgpa-clear-semester" data-clear="2">Clear Semester</button>
+          <button type="button" class="md-button cgpa-clear-semester" data-clear="2">Clear Current Entries</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="2">—</strong></div>
+          <div><span>Semester GPA</span><strong data-semester-gpa="2">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="2">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="2">0.00</strong></div>
         </div>
@@ -207,10 +207,10 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="3">Save to Overall CGPA</button>
-          <button type="button" class="md-button cgpa-clear-semester" data-clear="3">Clear Semester</button>
+          <button type="button" class="md-button cgpa-clear-semester" data-clear="3">Clear Current Entries</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="3">—</strong></div>
+          <div><span>Semester GPA</span><strong data-semester-gpa="3">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="3">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="3">0.00</strong></div>
         </div>
@@ -272,10 +272,10 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="4">Save to Overall CGPA</button>
-          <button type="button" class="md-button cgpa-clear-semester" data-clear="4">Clear Semester</button>
+          <button type="button" class="md-button cgpa-clear-semester" data-clear="4">Clear Current Entries</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="4">—</strong></div>
+          <div><span>Semester GPA</span><strong data-semester-gpa="4">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="4">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="4">0.00</strong></div>
         </div>
@@ -337,10 +337,10 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="5">Save to Overall CGPA</button>
-          <button type="button" class="md-button cgpa-clear-semester" data-clear="5">Clear Semester</button>
+          <button type="button" class="md-button cgpa-clear-semester" data-clear="5">Clear Current Entries</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="5">—</strong></div>
+          <div><span>Semester GPA</span><strong data-semester-gpa="5">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="5">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="5">0.00</strong></div>
         </div>
@@ -402,10 +402,10 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="6">Save to Overall CGPA</button>
-          <button type="button" class="md-button cgpa-clear-semester" data-clear="6">Clear Semester</button>
+          <button type="button" class="md-button cgpa-clear-semester" data-clear="6">Clear Current Entries</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="6">—</strong></div>
+          <div><span>Semester GPA</span><strong data-semester-gpa="6">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="6">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="6">0.00</strong></div>
         </div>
@@ -473,10 +473,10 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="7">Save to Overall CGPA</button>
-          <button type="button" class="md-button cgpa-clear-semester" data-clear="7">Clear Semester</button>
+          <button type="button" class="md-button cgpa-clear-semester" data-clear="7">Clear Current Entries</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="7">—</strong></div>
+          <div><span>Semester GPA</span><strong data-semester-gpa="7">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="7">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="7">0.00</strong></div>
         </div>
@@ -532,10 +532,10 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
         </div>
         <div class="cgpa-semester-actions">
           <button type="button" class="md-button md-button--primary cgpa-save-semester" data-save="8">Save to Overall CGPA</button>
-          <button type="button" class="md-button cgpa-clear-semester" data-clear="8">Clear Semester</button>
+          <button type="button" class="md-button cgpa-clear-semester" data-clear="8">Clear Current Entries</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA</span><strong data-sgpa="8">—</strong></div>
+          <div><span>Semester GPA</span><strong data-semester-gpa="8">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="8">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="8">0.00</strong></div>
         </div>
