@@ -145,7 +145,7 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
           <button type="button" class="md-button cgpa-clear-semester" data-clear="2">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="2">—</strong></div>
+          <div><span>Semester GPA</span><strong data-sgpa="2">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="2">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="2">0.00</strong></div>
         </div>
@@ -210,7 +210,7 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
           <button type="button" class="md-button cgpa-clear-semester" data-clear="3">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="3">—</strong></div>
+          <div><span>Semester GPA</span><strong data-sgpa="3">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="3">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="3">0.00</strong></div>
         </div>
@@ -275,7 +275,7 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
           <button type="button" class="md-button cgpa-clear-semester" data-clear="4">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="4">—</strong></div>
+          <div><span>Semester GPA</span><strong data-sgpa="4">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="4">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="4">0.00</strong></div>
         </div>
@@ -340,7 +340,7 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
           <button type="button" class="md-button cgpa-clear-semester" data-clear="5">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="5">—</strong></div>
+          <div><span>Semester GPA</span><strong data-sgpa="5">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="5">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="5">0.00</strong></div>
         </div>
@@ -405,7 +405,7 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
           <button type="button" class="md-button cgpa-clear-semester" data-clear="6">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="6">—</strong></div>
+          <div><span>Semester GPA</span><strong data-sgpa="6">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="6">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="6">0.00</strong></div>
         </div>
@@ -476,7 +476,7 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
           <button type="button" class="md-button cgpa-clear-semester" data-clear="7">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="7">—</strong></div>
+          <div><span>Semester GPA</span><strong data-sgpa="7">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="7">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="7">0.00</strong></div>
         </div>
@@ -535,7 +535,7 @@ Calculate each semester's GPA from course grades, save completed semesters, and 
           <button type="button" class="md-button cgpa-clear-semester" data-clear="8">Clear Semester</button>
         </div>
         <div class="cgpa-semester-summary" aria-live="polite">
-          <div><span>Semester GPA (SGPA)</span><strong data-sgpa="8">—</strong></div>
+          <div><span>Semester GPA</span><strong data-sgpa="8">—</strong></div>
           <div><span>Total semester credits</span><strong data-total-credits="8">0.00</strong></div>
           <div><span>Quality points</span><strong data-quality="8">0.00</strong></div>
         </div>
@@ -603,7 +603,7 @@ Each course grade option displays its corresponding grade point and marks range.
 | 40% to less than 45% | D | 2.00 |
 | Less than 40% | F | 0.00 |
 
-**Important:** Letter grades and their fixed grade points are assigned to individual courses based on course marks. Semester GPA is a credit-weighted average of those course grade points, so an SGPA such as 3.62 does not itself receive a separate official letter grade.
+**Important:** Letter grades and their fixed grade points are assigned to individual courses based on course marks. Semester GPA is a credit-weighted average of those course grade points, so a semester GPA such as 3.62 does not itself receive a separate official letter grade.
 
 ## How it works
 
