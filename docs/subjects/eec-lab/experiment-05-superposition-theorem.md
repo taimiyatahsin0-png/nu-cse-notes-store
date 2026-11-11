@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 05: verification of superposition theorem using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 In a linear circuit with multiple independent sources, the voltage or current in any element equals the algebraic sum of the contributions produced by each independent source acting alone. When considering one source, deactivate the other independent ideal voltage sources by shorting them and ideal current sources by opening them. Dependent sources remain active.
 
 ## 3. Apparatus
