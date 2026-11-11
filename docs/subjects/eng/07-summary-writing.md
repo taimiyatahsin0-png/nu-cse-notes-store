@@ -1,8 +1,5 @@
 # Summary Writing
 
-## সহজ বাংলায় ধারণা
-Summary হলো passage-এর মূল বক্তব্য সংক্ষেপে নিজের ভাষায় প্রকাশ করা। উদাহরণ, পুনরাবৃত্তি, অপ্রয়োজনীয় বর্ণনা বাদ যাবে; কিন্তু লেখকের central meaning বদলানো যাবে না।
-
 ## Core rules and method
 1. Read the passage twice.
 2. Identify the central idea and essential supporting points.
