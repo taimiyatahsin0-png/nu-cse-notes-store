@@ -1,8 +1,5 @@
 # Reading Comprehension
 
-## সহজ বাংলায় ধারণা
-Reading comprehension means understanding a passage and answering questions from its stated meaning, implied meaning, vocabulary and organization. প্রথমে পুরো passage শব্দে-শব্দে অনুবাদ না করে main idea বোঝো; তারপর প্রশ্নের keyword ধরে relevant line খুঁজবে।
-
 ## Core rules and method
 1. Read the title and first/last sentences to identify the topic.
 2. Read the questions and underline keywords.
