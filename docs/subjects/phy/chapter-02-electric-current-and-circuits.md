@@ -1,7 +1,7 @@
 # Physics Chapter 02: Electric Current, Circuits and Measurements
 
-**Course:** Physics \(510207\)  
-**Reference scope:** Electric current, simple circuits and electrical measurements  
+**Course:** Physics \(510207\)
+**Reference scope:** Electric current, simple circuits and electrical measurements
 **Learning level:** Beginner
 
 ---
@@ -96,8 +96,6 @@ Resistivity is a material property at a specified temperature.
 
 ## 4. Series and Parallel Resistors
 
-**Parallel connection:** Resistor-গুলোর দুই প্রান্ত একই দুই node-এ যুক্ত থাকে। প্রতিটি branch-এর voltage একই থাকে।
-
 ### English Exam Answer
 
 For resistors in series:
@@ -186,10 +184,6 @@ Electrical energy:
 \[
 \boxed{E=Pt}
 \]
-
-- Power-এর SI unit watt \(W\)
-- Energy-এর SI unit joule \(J\)
-- বিদ্যুৎ বিলের commercial unit kilowatt-hour (kWh)
 
 \[
 1\ kWh=3.6\times10^6\ J
@@ -446,40 +440,40 @@ Find the time constant of an RL circuit with \(L=4\ H\) and \(R=2\ \Omega\).
 
 ## 18. Short Questions with Exam-Ready Answers
 
-**Q1. Define electric current.**  
+**Q1. Define electric current.**
 Electric current is the rate of flow of electric charge through a cross-section of a conductor.
 
-**Q2. State Ohm's law.**  
+**Q2. State Ohm's law.**
 At constant temperature and other physical conditions, the current through a conductor is directly proportional to the potential difference across it.
 
-**Q3. What is EMF?**  
+**Q3. What is EMF?**
 EMF is the energy supplied by a source per unit charge.
 
-**Q4. State KCL.**  
+**Q4. State KCL.**
 The algebraic sum of currents at a junction is zero.
 
-**Q5. State KVL.**  
+**Q5. State KVL.**
 The algebraic sum of potential differences around a closed loop is zero.
 
-**Q6. What is a Wheatstone bridge?**  
+**Q6. What is a Wheatstone bridge?**
 A Wheatstone bridge is a circuit used to determine an unknown resistance by balancing two branches of a bridge network.
 
-**Q7. State the principle of a potentiometer.**  
+**Q7. State the principle of a potentiometer.**
 The potential drop along a uniform wire carrying a steady current is directly proportional to its length.
 
-**Q8. What is a galvanometer?**  
+**Q8. What is a galvanometer?**
 A galvanometer is an instrument used to detect and measure small electric currents.
 
-**Q9. How is a galvanometer converted into an ammeter?**  
+**Q9. How is a galvanometer converted into an ammeter?**
 By connecting a low resistance shunt in parallel with the galvanometer.
 
-**Q10. How is a galvanometer converted into a voltmeter?**  
+**Q10. How is a galvanometer converted into a voltmeter?**
 By connecting a high resistance in series with the galvanometer.
 
-**Q11. Define the time constant of an RC circuit.**  
+**Q11. Define the time constant of an RC circuit.**
 The time constant is \(\tau=RC\); it is the time required for a charging capacitor to reach approximately 63.2% of its final voltage.
 
-**Q12. What does a wattmeter measure?**  
+**Q12. What does a wattmeter measure?**
 A wattmeter measures electrical power.
 
 ## 19. Practice Questions
