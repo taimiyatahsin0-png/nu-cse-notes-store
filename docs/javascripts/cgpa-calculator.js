@@ -84,7 +84,7 @@
       if(!Array.isArray(draft))return false;
       const body=$('[data-rows="'+semester+'"]');
       const byName=new Map(draft.map(course=>[course.name,course]));
-      $(".cgpa-course-row",body).forEach(row=>{
+      $$(".cgpa-course-row",body).forEach(row=>{
         const saved=byName.get(fieldValue($(".cgpa-course-name",row)));
         $(".cgpa-grade",row).value=saved?(saved.originalGrade||""):"";
         $(".cgpa-retake-grade",row).value=saved?(saved.retakeGrade||""):"";
