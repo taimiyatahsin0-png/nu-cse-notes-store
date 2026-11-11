@@ -66,11 +66,11 @@ C Programming Language.
 
 ### Chapter 01: Introduction to C Programming
 - [📖 Read Chapter 01](chapter-01.md)
-- [📥 Download Chapter 01 PDF](SPL-Chapter-01.pdf)
+- [View PDF](SPL-Chapter-01.pdf){ target=_blank } · [Download PDF](SPL-Chapter-01.pdf){ download="SPL-Chapter-01.pdf" }
 
 ### Chapter 02: Variables, Data Types and Operators
 - [📖 Read Chapter 02](chapter-02.md)
-- [📥 Download Chapter 02 PDF](SPL-Chapter-02.pdf)
+- [View PDF](SPL-Chapter-02.pdf){ target=_blank } · [Download PDF](SPL-Chapter-02.pdf){ download="SPL-Chapter-02.pdf" }
 
 ### Chapter 03: Input, Output, Decision Making and Looping
 - [📖 Read Chapter 03](chapter-03.md)
@@ -112,3 +112,8 @@ C Programming Language.
 ---
 
 *Academic reference: B.Sc. Honours in Computer Science and Engineering, National University, Bangladesh (effective from Session 2017–2018). Check for later revisions and follow your department's current instructions.*
+
+
+## My PDF Notes
+
+For your own additional PDFs, upload files to `docs/pdfs/semester-1/spl/` in the repository, then add their links to the [All PDFs Library](../../tools/pdf-library.md).
