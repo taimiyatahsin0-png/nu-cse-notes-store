@@ -1,10 +1,9 @@
 # Chapter 03: Introduction to Semiconductors — Exam Preparation Pack
 
-**Course:** Electrical and Electronic Circuit (EEC)  
-**Course Code:** 510203  
-**Chapter:** Introduction to Semiconductors  
-**Purpose:** Exam revision, concept checks and numerical practice  
-**Language:** Bangla explanations with standard English exam terminology
+**Course:** Electrical and Electronic Circuit (EEC)
+**Course Code:** 510203
+**Chapter:** Introduction to Semiconductors
+**Purpose:** Exam revision, concept checks and numerical practice
 
 > **Study note:** This pack follows the Chapter 03 notes and topic outline currently recorded in this repository. It is a practice resource, not a prediction of actual examination questions. Confirm the current syllabus with your department.
 
@@ -29,33 +28,23 @@
 
 ### 2.1 Semiconductor
 
-**বাংলা:** যে পদার্থের electrical conductivity conductor ও insulator-এর মাঝামাঝি এবং temperature, light বা doping-এর মাধ্যমে নিয়ন্ত্রণ করা যায়, তাকে semiconductor বলে।
-
 **English exam answer:** A semiconductor is a material whose electrical conductivity lies between that of a conductor and an insulator and can be controlled by external conditions or impurity doping.
 
 Examples: Silicon (Si), Germanium (Ge).
 
 ### 2.2 Valence electrons
 
-**বাংলা:** Atom-এর outermost shell-এর electron-গুলোকে valence electron বলে। এগুলো chemical bonding ও electrical behaviour-এ গুরুত্বপূর্ণ ভূমিকা রাখে।
-
 **English exam answer:** Valence electrons are the electrons present in the outermost occupied shell of an atom.
 
 ### 2.3 Covalent bond
-
-**বাংলা:** দুটি neighbouring atom যখন electron share করে bond তৈরি করে, তাকে covalent bond বলে।
 
 **English exam answer:** A covalent bond is a chemical bond formed when neighbouring atoms share valence electrons.
 
 ### 2.4 Energy band gap
 
-**বাংলা:** Valence band-এর সর্বোচ্চ energy level এবং conduction band-এর সর্বনিম্ন energy level-এর মধ্যবর্তী energy difference-কে band gap বলে।
-
 **English exam answer:** The band gap is the energy difference between the top of the valence band and the bottom of the conduction band.
 
 ### 2.5 Intrinsic semiconductor
-
-**বাংলা:** যে semiconductor crystal chemically pure এবং যেখানে ইচ্ছাকৃতভাবে কোনো impurity যোগ করা হয় না, তাকে intrinsic semiconductor বলে।
 
 **English exam answer:** An intrinsic semiconductor is a pure semiconductor in which no impurity is intentionally added.
 
@@ -66,22 +55,13 @@ At thermal equilibrium:
 
 ### 2.6 Extrinsic semiconductor
 
-**বাংলা:** যে semiconductor-এর conductivity নিয়ন্ত্রণের জন্য অল্প পরিমাণ impurity যোগ করা হয়, তাকে extrinsic semiconductor বলে।
-
 **English exam answer:** An extrinsic semiconductor is a semiconductor whose electrical conductivity is modified by adding a controlled amount of impurity atoms.
 
 ### 2.7 Doping
 
-**বাংলা:** Pure semiconductor-এ অতি সামান্য ও নিয়ন্ত্রিত পরিমাণ suitable impurity যোগ করার প্রক্রিয়াকে doping বলে।
-
 **English exam answer:** Doping is the controlled process of adding a small amount of suitable impurity atoms to a pure semiconductor to modify its electrical conductivity.
 
 ### 2.8 Majority and minority carriers
-
-- **Majority carriers:** যে charge carrier-এর concentration বেশি।
-- **Minority carriers:** যে charge carrier-এর concentration কম।
-
-N-type-এ electron majority; P-type-এ hole majority।
 
 ---
 
@@ -94,19 +74,12 @@ N-type-এ electron majority; P-type-এ hole majority।
 | Band model | Partly filled band or overlapping bands | Relatively small band gap | Large band gap |
 | Examples | Copper, aluminium | Silicon, germanium | Glass, rubber |
 
-**বাংলা ব্যাখ্যা:** Conductor-এ charge সহজে চলাচল করে। Insulator-এ mobile carrier খুব কম। Semiconductor-এর conductivity মাঝামাঝি হলেও সবচেয়ে গুরুত্বপূর্ণ বিষয় হলো এর conductivity temperature ও doping দিয়ে নিয়ন্ত্রণ করা যায়।
-
 ---
 
 ## 4. Atomic structure and covalent bonding
 
 - Silicon (Si): atomic number 14; four valence electrons.
 - Germanium (Ge): atomic number 32; four valence electrons.
-- তাই Si ও Ge উভয়ই tetravalent।
-
-Pure silicon crystal-এ প্রতিটি silicon atom চারটি neighbouring silicon atom-এর সঙ্গে valence electron share করে চারটি covalent bond তৈরি করে।
-
-**Exam diagram:** Silicon crystal-এর একটি central Si atom এবং চারটি neighbouring Si atom দেখাবে। Shared electron pair দিয়ে চারটি covalent bond label করবে। Diagram-এর নিচে লিখবে: “Each silicon atom forms four covalent bonds with four neighbouring atoms.”
 
 ---
 
@@ -378,64 +351,64 @@ Substitute:
 
 ## 13. Short questions and answers
 
-1. **What is a semiconductor?**  
+1. **What is a semiconductor?**
    A material whose conductivity lies between that of a conductor and an insulator and can be controlled.
 
-2. **Name two common semiconductor materials.**  
+2. **Name two common semiconductor materials.**
    Silicon and germanium.
 
-3. **How many valence electrons do Si and Ge have?**  
+3. **How many valence electrons do Si and Ge have?**
    Four each.
 
-4. **What is a covalent bond?**  
+4. **What is a covalent bond?**
    A bond formed by sharing valence electrons between neighbouring atoms.
 
-5. **What is the forbidden energy gap?**  
+5. **What is the forbidden energy gap?**
    The energy separation between the valence band and conduction band.
 
-6. **What is an electron-hole pair?**  
+6. **What is an electron-hole pair?**
    A free electron and the hole left behind when a valence electron gains sufficient energy.
 
-7. **What is recombination?**  
+7. **What is recombination?**
    The process in which a free electron fills a hole.
 
-8. **Define intrinsic semiconductor.**  
+8. **Define intrinsic semiconductor.**
    A pure semiconductor with no intentional impurity doping.
 
-9. **State the carrier relation for an intrinsic semiconductor.**  
+9. **State the carrier relation for an intrinsic semiconductor.**
    \(n=p=n_i\).
 
-10. **What is doping?**  
+10. **What is doping?**
     The controlled addition of a small amount of impurity to a pure semiconductor.
 
-11. **What is an extrinsic semiconductor?**  
+11. **What is an extrinsic semiconductor?**
     A semiconductor whose conductivity is modified by doping.
 
-12. **Which impurity produces N-type material?**  
+12. **Which impurity produces N-type material?**
     A pentavalent donor impurity.
 
-13. **Which impurity produces P-type material?**  
+13. **Which impurity produces P-type material?**
     A trivalent acceptor impurity.
 
-14. **What are the majority carriers in N-type material?**  
+14. **What are the majority carriers in N-type material?**
     Electrons.
 
-15. **What are the majority carriers in P-type material?**  
+15. **What are the majority carriers in P-type material?**
     Holes.
 
-16. **Does an N-type crystal have a net negative charge?**  
+16. **Does an N-type crystal have a net negative charge?**
     No. It is electrically neutral overall.
 
-17. **Does a P-type crystal have a net positive charge?**  
+17. **Does a P-type crystal have a net positive charge?**
     No. It is electrically neutral overall.
 
-18. **What is the approximate band gap of silicon at room temperature?**  
+18. **What is the approximate band gap of silicon at room temperature?**
     About 1.12 eV.
 
-19. **What is the approximate band gap of germanium at room temperature?**  
+19. **What is the approximate band gap of germanium at room temperature?**
     About 0.66 eV.
 
-20. **Do both electrons and holes contribute to semiconductor current?**  
+20. **Do both electrons and holes contribute to semiconductor current?**
     Yes.
 
 ---
