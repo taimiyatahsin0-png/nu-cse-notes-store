@@ -1,10 +1,10 @@
 # Chapter 02: Limits of Functions
 
-**Course:** Calculus  
-**Course Code:** 510205  
+**Course:** Calculus
+**Course Code:** 510205
 **Semester:** First Year – First Semester
 
-> **Learning approach:** Understand the idea in simple Bangla first, then learn the standard mathematical definition and practise step by step.
+> **Study approach:** Use the formal definitions, worked examples and practice problems below.
 
 ---
 
@@ -23,19 +23,9 @@ After studying this chapter, you should be able to:
 
 ## 2. What Is a Limit?
 
-### সহজ বাংলায়
-
-ধরো, একটি function-এর input \(x\) ধীরে ধীরে 2-এর কাছাকাছি যাচ্ছে। তখন function-এর output কোন সংখ্যার কাছাকাছি যাচ্ছে, সেটিই limit-এর মূল ধারণা।
-
-এখানে গুরুত্বপূর্ণ বিষয় হলো: আমরা দেখতে চাই output কোথায় *approach* করছে; ঠিক \(x=2\)-এ function-এর value কী, সেটি সব সময় প্রধান বিষয় নয়।
-
-উদাহরণ:
-
 \[
 f(x)=x+3
 \]
-
-যখন \(x\) 2-এর কাছাকাছি যায়, তখন \(f(x)\) 5-এর কাছাকাছি যায়। তাই,
 
 \[
 \lim_{x\to2}(x+3)=5
@@ -383,10 +373,6 @@ Using the standard limit:
 ---
 
 ## 8. Limits at Infinity
-
-### সহজ বাংলায়
-
-এখানে \(x\) কোনো নির্দিষ্ট সংখ্যার দিকে যাচ্ছে না। বরং \(x\) অনেক বড় positive বা negative মানের দিকে যাচ্ছে।
 
 \[
 \lim_{x\to\infty}f(x)
