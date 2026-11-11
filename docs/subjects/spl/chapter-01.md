@@ -1,8 +1,8 @@
 [📥 Download Chapter 01 PDF](SPL-Chapter-01.pdf)
 # Chapter 01: Introduction to C Programming
-**Course Name:** Structured Programming Language  
-**Course Code:** 510201  
-**Chapter:** 01  
+**Course Name:** Structured Programming Language
+**Course Code:** 510201
+**Chapter:** 01
 **Level:** Beginner
 
 ---
@@ -25,17 +25,6 @@ After completing this chapter, students will be able to:
 
 ## 1.1 What is Programming?
 
-ধরো, তুমি কম্পিউটারকে দুটি সংখ্যা যোগ করতে বলবে। তাহলে কম্পিউটারকে কয়েকটি নির্দেশনা দিতে হবে:
-
-1. প্রথম সংখ্যা গ্রহণ করো।
-2. দ্বিতীয় সংখ্যা গ্রহণ করো।
-3. সংখ্যা দুটি যোগ করো।
-4. ফলাফল দেখাও।
-
-এই নির্দেশনাগুলো Programming Language ব্যবহার করে লেখা হয়।
-
-সহজভাবে, মানুষ কম্পিউটারকে কী করতে হবে তা Programming-এর মাধ্যমে শেখায়।
-
 ### English Exam Answer
 
 **Definition of Programming:**
@@ -50,8 +39,6 @@ A program can be written to add two numbers, calculate the average of marks or d
 
 ## 1.2 What is a Program?
 
-যেমন, দুটি সংখ্যা যোগ করার জন্য লেখা C Code একটি Program।
-
 ### English Exam Answer
 
 **Definition of Program:**
@@ -61,8 +48,6 @@ A program is a set of instructions written in a programming language to perform 
 ---
 
 ## 1.3 What is a Programming Language?
-
-যেমন:
 
 - C
 - C++
@@ -82,10 +67,6 @@ A programming language is a formal language used by programmers to write instruc
 
 ## 2.1 What is C Language?
 
-এটি দিয়ে বিভিন্ন ধরনের Software, Operating System-এর অংশ, Compiler এবং Embedded System তৈরি করা যায়।
-
-C Language শেখার মাধ্যমে Programming-এর মৌলিক ধারণা, Logic Building এবং Problem Solving দক্ষতা তৈরি হয়।
-
 ### English Exam Answer
 
 **Definition of C Language:**
@@ -97,10 +78,6 @@ It is widely used for system programming, embedded systems and application devel
 ---
 
 ## 2.2 History of C Language
-
-C Language-এর আগে B এবং BCPL-এর মতো Programming Language ব্যবহৃত হতো। C Language এসব পূর্ববর্তী ভাষার ধারণা থেকে প্রভাবিত হয়ে তৈরি হয়।
-
-পরবর্তীতে UNIX Operating System-এর উন্নয়নে C গুরুত্বপূর্ণ ভূমিকা পালন করে।
 
 ### English Exam Answer
 
@@ -118,27 +95,15 @@ C Language-এর আগে B এবং BCPL-এর মতো Programming Langua
 
 ### 1. Simple
 
-C Language-এর Syntax তুলনামূলকভাবে সহজ এবং এতে অল্পসংখ্যক Keywords রয়েছে।
-
 ### 2. Structured
-
-একটি বড় Program-কে ছোট ছোট Function বা Module-এ ভাগ করা যায়। এতে Program বোঝা ও রক্ষণাবেক্ষণ করা সহজ হয়।
 
 ### 3. Portable
 
-উপযুক্ত Compiler এবং প্রয়োজনীয় পরিবর্তনের মাধ্যমে C Program বিভিন্ন Computer System-এ চালানো যায়।
-
 ### 4. Fast and Efficient
-
-C Program সাধারণত দ্রুত Execute হয় এবং System Resources-এর ওপর ভালো নিয়ন্ত্রণ প্রদান করে।
 
 ### 5. Rich Library
 
-C Language-এ বিভিন্ন Standard Library Function রয়েছে। যেমন: Input, Output এবং Mathematical Operations।
-
 ### 6. Middle-Level Language
-
-C-তে High-Level Programming-এর সুবিধার পাশাপাশি Low-Level System Access-এর ক্ষমতাও রয়েছে।
 
 ### English Exam Answer
 
@@ -161,10 +126,6 @@ The important features of C language are given below:
 
 ## 3.1 Why Do We Need a Language Translator?
 
-তাই Source Code-কে কম্পিউটারের উপযোগী নিম্নস্তরের কোডে রূপান্তর করতে Language Translator প্রয়োজন হয়।
-
-প্রধানত তিন ধরনের Language Translator রয়েছে:
-
 1. Compiler
 2. Interpreter
 3. Assembler
@@ -185,12 +146,6 @@ The three main types of language translators are:
 
 ## 3.2 What is a Compiler?
 
-C Language-এ GCC একটি বহুল ব্যবহৃত Compiler।
-
-সহজভাবে:
-
-Programmer Code লেখে → Compiler Code অনুবাদ করে → প্রয়োজনীয় Executable তৈরি হয় → Program চালানো হয়।
-
 ### English Exam Answer
 
 **Definition of Compiler:**
@@ -202,10 +157,6 @@ A compiler is a language translator that translates source code written in a hig
 ---
 
 ## 3.3 What is an Interpreter?
-
-সাধারণত Interpreter আলাদা Executable File তৈরি না করেই Code চালায়।
-
-Python-এর প্রচলিত Interpreter একটি উদাহরণ।
 
 ### English Exam Answer
 
@@ -244,8 +195,6 @@ An assembler is a language translator that converts an assembly language program
 
 ## 4.1 Example of a Simple C Program
 
-প্রথমে একটি সাধারণ C Program দেখি।
-
 ```c
 #include <stdio.h>
 
@@ -267,31 +216,17 @@ Hello, World!
 
 ### 1. `#include <stdio.h>`
 
-এটি একটি Preprocessor Directive।
-
-`stdio.h` হলো Standard Input/Output Header File। এতে `printf()` এবং `scanf()`-এর মতো Standard Input/Output Function-এর Declaration থাকে।
-
 ### 2. `int main()`
-
-এটি Main Function। একটি সাধারণ hosted C Program-এর execution `main()` Function থেকে শুরু হয়।
 
 ### 3. `{ }`
 
-Curly Braces একটি Function-এর Body বা Block নির্দেশ করে।
-
 ### 4. `printf("Hello, World!");`
 
-`printf()` Function ব্যবহার করে Screen-এ Output দেখানো হয়।
-
 ### 5. `return 0;`
-
-এটি Operating System-কে জানায় যে Program সফলভাবে শেষ হয়েছে।
 
 ---
 
 ## 4.3 General Structure of a C Program
-
-একটি সাধারণ C Program-এ নিচের অংশগুলো থাকতে পারে:
 
 ```c
 /* Documentation Section */
@@ -311,18 +246,6 @@ int main()
 
 /* User-defined Functions */
 ```
-
-**2. Link or Preprocessor Section:** এখানে প্রয়োজনীয় Header File যুক্ত করা হয়।
-
-**3. Global Declaration Section:** এখানে Global Variable এবং Function Declaration রাখা যায়।
-
-**4. main() Function:** Program-এর মূল Execution Entry Point।
-
-**5. Local Declaration Section:** Function-এর ভেতরে Local Variable Declare করা হয়।
-
-**6. Executable Statements:** এখানে Program-এর কাজ সম্পন্ন করার Instruction লেখা হয়।
-
-**7. User-defined Functions:** প্রোগ্রামার নিজের প্রয়োজন অনুযায়ী Function তৈরি করতে পারে।
 
 ### English Exam Answer
 
@@ -351,15 +274,11 @@ Each section has a specific purpose in organizing and executing the program.
 
 # 6. How to Compile and Run a C Program
 
-ধরো, তোমার Program-এর নাম `hello.c` এবং তোমার কম্পিউটারে GCC Compiler ইনস্টল করা আছে।
-
 ### Step 1: Compile the Program
 
 ```bash
 gcc hello.c -o hello
 ```
-
-এই Command-টি `hello.c` Compile করে `hello` নামে Executable তৈরি করে।
 
 ### Step 2: Run on Windows
 
@@ -436,8 +355,6 @@ printf("Hello");
 ```
 
 ## Mistake 4: Missing Closing Brace
-
-প্রতিটি Opening Brace `{`-এর জন্য উপযুক্ত Closing Brace `}` থাকতে হবে।
 
 ---
 
@@ -611,8 +528,6 @@ In this chapter, we learned:
 
 ---
 
-**Learning Tip:** First understand the Bangla explanations, then practise writing the English exam answers without looking at the notes.
-
 *Educational resource for National University CSE students.*
 
 ---
@@ -675,8 +590,6 @@ int main(void)
 }
 ~~~
 
-**বাংলায়:** #include <stdio.h> দিয়ে input-output function-এর declaration পাওয়া যায়। Program execution শুরু হয় main() থেকে। printf() output দেখায় এবং return 0 সফলভাবে শেষ হওয়ার ইঙ্গিত দেয়।
-
 ### Board and source links
 
 - [NU CSE Board Questions (2006–2018)](https://drive.google.com/file/d/1Lodp-nv8jOXRU7SvriRGqNYamqGUIzvM/view?usp=sharing)
@@ -701,16 +614,6 @@ int main(void)
 
 ## 13.1 What is Structured Programming?
 
-### সহজ বাংলায়
-
-Structured Programming হলো এমন একটি পদ্ধতি যেখানে বড় সমস্যাকে ছোট, সহজে বোঝা ও পরীক্ষা করা যায় এমন অংশে ভাগ করে সমাধান করা হয়। এতে Program-এর কাজের ধারা পরিষ্কার থাকে এবং অপ্রয়োজনীয় জটিলতা কমে।
-
-Structured Programming-এর তিনটি মৌলিক control structure হলো:
-
-1. **Sequence:** নির্দেশনাগুলো একটির পর একটি নির্দিষ্ট ক্রমে execute হয়।
-2. **Selection:** কোনো condition-এর ফল অনুযায়ী একাধিক পথের মধ্যে একটি বেছে নেওয়া হয়। যেমন: `if`, `if-else`, `switch`।
-3. **Iteration:** কোনো condition বা নির্দিষ্ট সংখ্যকবারের জন্য নির্দেশনা পুনরাবৃত্তি করা হয়। যেমন: `for`, `while`, `do-while`।
-
 ### English Exam Answer
 
 **Definition:** Structured programming is a programming approach that organizes a program into clear, logical blocks and uses sequence, selection and iteration to control the flow of execution.
@@ -718,8 +621,6 @@ Structured Programming-এর তিনটি মৌলিক control structure 
 ## 13.2 Three Basic Control Structures
 
 ### A. Sequence
-
-বাংলায়: Statements তাদের লেখা ক্রম অনুযায়ী একের পর এক execute হয়।
 
 ```c
 int a = 10;
@@ -729,8 +630,6 @@ printf("%d\n", sum);
 ```
 
 ### B. Selection
-
-বাংলায়: Condition সত্য না মিথ্যা, তার ওপর নির্ভর করে কোন statement চলবে তা নির্ধারিত হয়।
 
 ```c
 if (marks >= 40)
@@ -745,8 +644,6 @@ else
 
 ### C. Iteration
 
-বাংলায়: একই কাজ বারবার করার জন্য loop ব্যবহার করা হয়।
-
 ```c
 for (int i = 1; i <= 5; i++)
 {
@@ -755,12 +652,6 @@ for (int i = 1; i <= 5; i++)
 ```
 
 ## 13.3 Advantages of Structured Programming
-
-1. **Readability:** Code পড়া ও বোঝা সহজ হয়।
-2. **Modularity:** বড় সমস্যাকে ছোট ছোট অংশে ভাগ করা যায়।
-3. **Testing:** আলাদা অংশ পরীক্ষা করা সহজ হয়।
-4. **Debugging:** ভুল খুঁজে বের করা সহজ হয়।
-5. **Maintenance:** ভবিষ্যতে Code পরিবর্তন ও উন্নত করা সহজ হয়।
 
 ## 13.4 Short Exam Questions
 
