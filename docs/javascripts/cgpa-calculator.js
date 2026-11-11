@@ -22,7 +22,21 @@
     const fmt=n=>Number.isFinite(Number(n))?Number(n).toFixed(2):"—";
     const fieldValue=el=>el?(("value" in el)?String(el.value).trim():String(el.textContent).trim()):"";
     const setText=(selector,value)=>{const el=$(selector);if(el)el.textContent=value;};
-    const validSaved=item=>item&&Number.isFinite(Number(item.gpa))&&Number(item.gpa)>=0&&Number(item.gpa)<=4&&Number.isFinite(Number(item.credits))&&Number(item.credits)>0&&Number.isFinite(Number(item.quality));
+    const validSaved=item=>{
+      if(!item||!Number.isFinite(Number(item.gpa))||Number(item.gpa)<0||Number(item.gpa)>4||!Number.isFinite(Number(item.credits))||Number(item.credits)<=0||!Number.isFinite(Number(item.quality)))return false;
+      const credits=Number(item.credits),quality=Number(item.quality),gpa=Number(item.gpa);
+      if(quality<0||quality>credits*4||Math.abs(gpa-quality/credits)>0.011)return false;
+      if(Array.isArray(item.courses)){
+        let courseCredits=0,courseQuality=0;
+        for(const course of item.courses){
+          const credit=Number(course?.credit),grade=course?.grade||course?.retakeGrade||course?.originalGrade;
+          if(!Number.isFinite(credit)||credit<=0||credit>30||!Object.prototype.hasOwnProperty.call(gradePoints,grade))return false;
+          courseCredits+=credit;courseQuality+=credit*gradePoints[grade];
+        }
+        if(Math.abs(courseCredits-credits)>0.001||Math.abs(courseQuality-quality)>0.001)return false;
+      }
+      return true;
+    };
 
     function readSemester(semester) {
       const body=$('[data-rows="'+semester+'"]');
