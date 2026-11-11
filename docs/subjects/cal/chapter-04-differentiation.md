@@ -1,7 +1,7 @@
 # Chapter 04: Differentiation
 
-**Course:** Calculus  
-**Course Code:** 510205  
+**Course:** Calculus
+**Course Code:** 510205
 **Semester:** First Year – First Semester
 
 > **Learning approach:** We will build the idea from the slope of a straight line, connect it to limits, and then learn derivative rules with step-by-step examples. Read the notation guide alongside this chapter if symbols are still unfamiliar.
@@ -24,16 +24,6 @@ After studying this chapter, you should be able to:
 10. Use linear approximation and differentials.
 
 ## 2. What Is Differentiation?
-
-### সহজ বাংলায়
-
-ধরো, একটি গাড়ি চলছে। সময়ের সঙ্গে গাড়ির অবস্থান পরিবর্তিত হচ্ছে। গাড়ির অবস্থান কত দ্রুত বদলাচ্ছে, সেটি হলো তার instantaneous velocity বা তাৎক্ষণিক বেগ।
-
-একইভাবে, কোনো function-এর input (x) পরিবর্তন হলে output (y) কত দ্রুত পরিবর্তিত হয়, সেটি মাপার গাণিতিক পদ্ধতি হলো **differentiation**।
-
-- Function: input (x) দিলে output (y) কত হয়।
-- Derivative: (x) বদলালে (y) কত দ্রুত বদলায়।
-- Differentiation: derivative বের করার প্রক্রিয়া।
 
 ### Standard English Definition
 
@@ -745,12 +735,6 @@ y''
 
 ## 12. Related Rates
 
-### সহজ বাংলায়
-
-কখনো একটি সমস্যায় দুই বা তার বেশি চলমান রাশির মধ্যে সম্পর্ক থাকে। সময়ের সঙ্গে একটি রাশি বদলালে অন্যটি কত দ্রুত বদলাচ্ছে, সেটি বের করাই related rates-এর কাজ।
-
-উদাহরণ: একটি বেলুন ফুললে তার ব্যাসার্ধ ও আয়তন দুটোই বাড়ে। ব্যাসার্ধ কত দ্রুত বাড়ছে জানা থাকলে আয়তন কত দ্রুত বাড়ছে, তা বের করা যায়।
-
 ### General Method
 
 1. Identify the changing quantities.
@@ -908,27 +892,27 @@ This estimates the change in (y) as approximately (0.6).
 
 ## 16. Common Mistakes to Avoid
 
-1. **Forgetting to reduce the power by one.**  
+1. **Forgetting to reduce the power by one.**
    For (x^5), the derivative is (5x^4), not (5x^5).
 
-2. **Differentiating a constant incorrectly.**  
+2. **Differentiating a constant incorrectly.**
    The derivative of (9) is (0), not (9).
 
-3. **Using the product rule incorrectly.**  
+3. **Using the product rule incorrectly.**
    Remember ( (uv)'=uv'+vu').
 
-4. **Forgetting the square in the quotient-rule denominator.**  
+4. **Forgetting the square in the quotient-rule denominator.**
    The denominator is (v^2).
 
 5. **Forgetting the derivative of the inside function in the chain rule.**
 
-6. **Assuming continuity guarantees differentiability.**  
+6. **Assuming continuity guarantees differentiability.**
    A sharp corner, such as (f(x)=|x|) at zero, is continuous but not differentiable.
 
-7. **Mixing up (\Delta y) and (dy).**  
+7. **Mixing up (\Delta y) and (dy).**
    (\Delta y) is the actual change; (dy) is the differential or linear estimate.
 
-8. **Ignoring units in related-rate problems.**  
+8. **Ignoring units in related-rate problems.**
    If area changes over time, the unit is square units per unit time.
 
 ---
