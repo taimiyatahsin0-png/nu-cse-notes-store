@@ -1,8 +1,5 @@
 # Complaint Letter Writing
 
-## সহজ বাংলায় ধারণা
-Complaint letter-এ কোনো পণ্য, সেবা বা ঘটনার সমস্যা ভদ্র কিন্তু দৃঢ়ভাবে জানানো হয়। লক্ষ্য হলো সমস্যা সমাধান: replacement, repair, refund, correction বা written response চাওয়া।
-
 ## Core rules and method
 **Structure:** sender details → date → receiver details → subject → salutation → purchase/service details → factual description of the problem → evidence/reference number → reasonable requested solution → response deadline if appropriate → formal closing.
 
