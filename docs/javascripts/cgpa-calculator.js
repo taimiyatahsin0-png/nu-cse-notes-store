@@ -76,7 +76,7 @@
 
     function saveDraft(semester) {
       const body=$('[data-rows="'+semester+'"]');
-      state.drafts[semester]=$(".cgpa-course-row",body).map(row=>({name:fieldValue($(".cgpa-course-name",row)),originalGrade:$(".cgpa-grade",row).value,retakeGrade:$(".cgpa-retake-grade",row).value}));
+      state.drafts[semester]= $(".cgpa-course-row",body).map(row=>({name:fieldValue($(".cgpa-course-name",row)),originalGrade:$(".cgpa-grade",row).value,retakeGrade:$(".cgpa-retake-grade",row).value}));
       saveState();
     }
     function loadDraft(semester) {
