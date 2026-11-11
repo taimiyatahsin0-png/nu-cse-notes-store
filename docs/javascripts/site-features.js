@@ -29,6 +29,7 @@
     document.body.appendChild(dialog);
     const input=$("#site-command-input",dialog);
     input.addEventListener("input",()=>renderPaletteResults(input.value));
+    input.addEventListener("keydown",event=>{if(event.key==="Enter")saveSearch(input);});
     $("#site-command-close",dialog).addEventListener("click",()=>dialog.close());
     dialog.addEventListener("click",event=>{if(event.target===dialog)dialog.close();});
     dialog.addEventListener("close",()=>{input.value="";});
