@@ -1,8 +1,8 @@
 # Structured Programming Language (SPL)
 
-**Course Code:** 510201  
-**Marks:** 80  
-**Credits:** 3.0  
+**Course Code:** 510201
+**Marks:** 80
+**Credits:** 3.0
 **Class Hours:** 45
 
 This course introduces the fundamentals of structured programming using the C programming language.
@@ -101,8 +101,6 @@ C Programming Language.
 5. **Flowchart:** use standard symbols, label Yes/No branches and keep the flow clear.
 
 ## Teaching approach
-
-Notes are designed to be beginner-friendly: simple Bangla explanations first, followed by standard English exam terminology and answers. C examples aim to use standard, portable syntax and explain common mistakes.
 
 ## Reference books
 
