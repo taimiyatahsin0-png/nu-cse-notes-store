@@ -1,10 +1,10 @@
 
 # Electrical and Electronic Circuit Lab
 
-**Course Code:** 510204  
-**Credits:** 1.5  
-**Marks:** 40  
-**Semester:** First Year – First Semester  
+**Course Code:** 510204
+**Credits:** 1.5
+**Marks:** 40
+**Semester:** First Year – First Semester
 **Related Theory Course:** 510203 – Electrical and Electronic Circuit
 
 ## Course Objectives
@@ -49,7 +49,6 @@ Students will develop practical skills in electrical circuit analysis, electroni
 
 ### Experiment 10: Zener Diode
 - Study of I-V Characteristics of a Zener Diode
-
 
 ## Experiment-wise Lab Notes
 
