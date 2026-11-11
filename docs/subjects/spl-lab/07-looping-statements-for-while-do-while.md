@@ -291,28 +291,28 @@ Try these independently:
 
 ## 12. Viva Questions
 
-**Q1. What is a loop?**  
+**Q1. What is a loop?**
 A: A loop is a control structure that repeatedly executes a block of statements while a condition allows it.
 
-**Q2. How many types of loops are available in C?**  
+**Q2. How many types of loops are available in C?**
 A: Three basic types: `for`, `while`, and `do-while`.
 
-**Q3. Which loop executes at least once?**  
+**Q3. Which loop executes at least once?**
 A: The `do-while` loop.
 
-**Q4. What is an infinite loop?**  
+**Q4. What is an infinite loop?**
 A: A loop that does not terminate because its condition never becomes false or no effective exit is reached.
 
-**Q5. What is the purpose of the update expression in a counter-controlled loop?**  
+**Q5. What is the purpose of the update expression in a counter-controlled loop?**
 A: It changes the counter so that the loop can eventually reach its stopping condition.
 
-**Q6. What is the difference between while and do-while?**  
+**Q6. What is the difference between while and do-while?**
 A: `while` checks the condition before the body; `do-while` checks it after the body.
 
-**Q7. Can a for loop run zero times?**  
+**Q7. Can a for loop run zero times?**
 A: Yes. If its condition is false at the first check, its body does not execute.
 
-**Q8. Why is a semicolon used after the condition in do-while?**  
+**Q8. Why is a semicolon used after the condition in do-while?**
 A: It is part of the required syntax of the `do-while` statement.
 
 ## 13. Result
