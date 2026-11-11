@@ -1,7 +1,7 @@
 # Physics Chapter 03: Magnetic Fields and Force — Exam Preparation Pack
 
-**Course:** Physics (510207)  
-**Chapter:** Magnetic Fields and Force on Current  
+**Course:** Physics (510207)
+**Chapter:** Magnetic Fields and Force on Current
 **Purpose:** Beginner revision, exam-ready answers and numerical practice
 
 > **Study note:** This is an original study pack based on the chapter notes in this repository. Questions below are practice questions, not verified NU past questions. Confirm the current syllabus and teacher's scope before an examination.
@@ -26,8 +26,6 @@
 
 ### 2.1 Magnetic Field
 
-**বাংলা:** Magnet, current-carrying conductor বা moving charge-এর চারপাশে যে অঞ্চলে magnetic force অনুভূত হতে পারে, সেটিই magnetic field।
-
 **English exam answer:** A magnetic field is a region around a magnet, current-carrying conductor or moving charge where magnetic forces can be experienced.
 
 - Symbol: \(B\)
@@ -35,13 +33,9 @@
 
 ### 2.2 Magnetic Flux Density
 
-**বাংলা:** Magnetic field-এর strength বোঝাতে magnetic flux density \(B\) ব্যবহার করা হয়।
-
 **English exam answer:** Magnetic flux density is the magnetic field quantity represented by \(B\), measured in tesla.
 
 ### 2.3 Magnetic Force on a Moving Charge
-
-**বাংলা:** Magnetic field-এর মধ্যে moving charge থাকলে তার velocity এবং field-এর direction-এর ওপর নির্ভর করে force কাজ করতে পারে।
 
 **English exam answer:** The magnetic force on a moving charge is the force exerted by a magnetic field on a charge in motion.
 
@@ -55,8 +49,6 @@ F=|q|vB\sin\theta
 
 ### 2.4 Magnetic Dipole Moment of a Current Loop
 
-**বাংলা:** Current loop-এর magnetic effect-এর magnitude বোঝায় magnetic dipole moment।
-
 **English exam answer:** The magnetic dipole moment of a current loop is the product of the current, the area of the loop and the number of turns.
 
 \[
@@ -67,8 +59,6 @@ SI unit: \(A\,m^2\).
 
 ### 2.5 Torque on a Current Loop
 
-**বাংলা:** Magnetic field-এর মধ্যে current loop-কে ঘোরানোর যে turning effect তৈরি হয়, সেটিই torque।
-
 **English exam answer:** The torque on a current-carrying coil in a uniform magnetic field is the turning effect produced by the magnetic field.
 
 \[
@@ -76,8 +66,6 @@ SI unit: \(A\,m^2\).
 \]
 
 ### 2.6 Potential Energy of a Magnetic Dipole
-
-**বাংলা:** Magnetic field-এর তুলনায় magnetic dipole কোন orientation-এ আছে, তার ওপর তার potential energy নির্ভর করে।
 
 **English exam answer:** The potential energy of a magnetic dipole in a uniform magnetic field is the energy associated with its orientation relative to the field.
 
@@ -132,8 +120,6 @@ For a current loop, \(\theta\) is measured between the **area vector (normal to 
 | \(0^\circ\) | Zero | Minimum: \(-\mu B\) | Stable |
 | \(90^\circ\) | Maximum: \(\mu B\) | Zero | Not an equilibrium |
 | \(180^\circ\) | Zero | Maximum: \(+\mu B\) | Unstable |
-
-**বাংলায় মনে রাখো:** Dipole field-এর দিকে align হতে চায়। তাই parallel অবস্থায় energy minimum, আর opposite অবস্থায় energy maximum।
 
 ### 4.3 Fleming's rules
 
@@ -261,28 +247,28 @@ W_{ext}=-0.1-(-0.2)=\boxed{0.1\,J}
 
 ## 6. Short questions and answers (2 marks)
 
-**Q1. What is the SI unit of magnetic flux density?**  
+**Q1. What is the SI unit of magnetic flux density?**
 Answer: Tesla (T).
 
-**Q2. When is the magnetic force on a moving charge zero?**  
+**Q2. When is the magnetic force on a moving charge zero?**
 Answer: When the charge moves parallel or antiparallel to the magnetic field, or when it is at rest.
 
-**Q3. Does a magnetic field change the speed of a charged particle?**  
+**Q3. Does a magnetic field change the speed of a charged particle?**
 Answer: A magnetic force is perpendicular to the particle's velocity and does no work; therefore, its speed remains constant.
 
-**Q4. What is the direction of force between two parallel wires carrying currents in the same direction?**  
+**Q4. What is the direction of force between two parallel wires carrying currents in the same direction?**
 Answer: They attract each other.
 
-**Q5. State the field inside an ideal long solenoid.**  
+**Q5. State the field inside an ideal long solenoid.**
 Answer: \(B=\mu_0nI\).
 
-**Q6. What is the magnetic dipole moment of a coil?**  
+**Q6. What is the magnetic dipole moment of a coil?**
 Answer: \(\mu=NIA\).
 
-**Q7. At what angle is the torque on a current loop maximum?**  
+**Q7. At what angle is the torque on a current loop maximum?**
 Answer: At \(90^\circ\), measured between the area vector and the magnetic field.
 
-**Q8. At what orientation is the potential energy of a magnetic dipole minimum?**  
+**Q8. At what orientation is the potential energy of a magnetic dipole minimum?**
 Answer: When \(\vec\mu\) is parallel to \(\vec B\), at \(\theta=0^\circ\).
 
 ## 7. Descriptive questions (5 marks)
