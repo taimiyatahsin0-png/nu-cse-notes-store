@@ -5,7 +5,6 @@
 ## 1. Objective
 To study and experimentally verify experiment 06: study of an rc circuit and time constant using instructor-approved apparatus and measured observations.
 
-## 2. Theory (সহজ বাংলা ধারণা)
 An RC circuit contains a resistor R and capacitor C. Its time constant is τ = RC seconds. During charging from a DC step, capacitor voltage is vc(t) = Vs(1 − e^(−t/RC)); during discharging from V0, vc(t) = V0e^(−t/RC). After one time constant, charging reaches about 63.2% of its final value and discharging falls to about 36.8% of its initial value.
 
 ## 3. Apparatus
