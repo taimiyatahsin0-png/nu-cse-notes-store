@@ -95,3 +95,9 @@ This repository uses the syllabus reference effective from Session 2017–2018. 
 ---
 
 For examination scope, follow the syllabus and instructions confirmed by your department.
+
+
+## My PDF Notes
+
+Your personal PDF notes for this subject will appear here. [Browse the All PDFs Library](../../tools/pdf-library.md) to find available files or learn where to upload new ones.
+
