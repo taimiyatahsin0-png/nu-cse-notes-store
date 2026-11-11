@@ -84,4 +84,4 @@ The GitHub Actions workflow in `.github/workflows/deploy.yml` builds the MkDocs 
 
 ## Disclaimer
 
-This is an independent student learning resource. It is not an official National University website and is not affiliated with or endorsed by National University, Bangladesh. Check official notices and your department's instructions for authoritative academic information.
+For authoritative academic information, use National University notices and the syllabus or examination instructions confirmed by your department.
