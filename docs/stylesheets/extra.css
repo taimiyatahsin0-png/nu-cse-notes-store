@@ -345,3 +345,18 @@ body {
 .site-command-result small { color:var(--muted); line-height:1.4; }
 .site-command-recent { justify-self:start; border:1px solid var(--line); border-radius:999px; padding:.35rem .7rem; background:transparent; color:inherit; cursor:pointer; }
 .site-command-empty { padding:.8rem; color:var(--muted); }
+
+/* Mobile touch targets and safe-area spacing */
+@media (max-width: 480px) {
+  .site-utility {
+    right: calc(.5rem + env(safe-area-inset-right));
+    bottom: calc(.5rem + env(safe-area-inset-bottom));
+  }
+  .site-utility-button {
+    min-height: 40px;
+  }
+  .site-command-palette {
+    max-height: calc(100dvh - 2rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+    overflow: auto;
+  }
+}
