@@ -33,6 +33,7 @@ A central collection of PDF notes created and added for the NU CSE Notes Store. 
 
 - **SPL – Chapter 01** · [View PDF](../subjects/spl/SPL-Chapter-01.pdf){ target=_blank } · [Download PDF](../subjects/spl/SPL-Chapter-01.pdf){ download="SPL-Chapter-01.pdf" }
 - **SPL – Chapter 02** · [View PDF](../subjects/spl/SPL-Chapter-02.pdf){ target=_blank } · [Download PDF](../subjects/spl/SPL-Chapter-02.pdf){ download="SPL-Chapter-02.pdf" }
+
 ### Electrical and Electronic Circuit (510203)
 
 - **EEC Kit** · [View PDF](../pdfs/semester-1/eec/EEC-Kit-GitHub.pdf){ target=_blank } · [Download PDF](../pdfs/semester-1/eec/EEC-Kit-GitHub.pdf){ download="EEC-Kit-GitHub.pdf" }
@@ -43,7 +44,12 @@ No personal PDFs added yet.
 
 ### Physics (510207)
 
-No personal PDFs added yet.
+**Uploaded Physics resources (4 PDFs)**
+
+- **Physics – Chapter 1: Charge, Electric Field & Gauss's Law** · [View PDF](../pdfs/semester-1/physics/chapter_1_260917_205523.pdf){ target=_blank } · [Download PDF](../pdfs/semester-1/physics/chapter_1_260917_205523.pdf){ download="chapter_1_260917_205523.pdf" }
+- **Physics – Chapter 2: RC Circuit and Capacitor Charging & Discharging** · [View PDF](../pdfs/semester-1/physics/chapter_2_260917_205203.pdf){ target=_blank } · [Download PDF](../pdfs/semester-1/physics/chapter_2_260917_205203.pdf){ download="chapter_2_260917_205203.pdf" }
+- **Physics – Chapter 3: Magnetic Field & Force on Current** · [View PDF](../pdfs/semester-1/physics/chapter_3_260917_205238.pdf){ target=_blank } · [Download PDF](../pdfs/semester-1/physics/chapter_3_260917_205238.pdf){ download="chapter_3_260917_205238.pdf" }
+- **Physics – Chapter 4: Magnetic Materials and Related Topics** · [View PDF](../pdfs/semester-1/physics/chapter_4_phy_compressed.pdf){ target=_blank } · [Download PDF](../pdfs/semester-1/physics/chapter_4_phy_compressed.pdf){ download="chapter_4_phy_compressed.pdf" }
 
 ### English (510209)
 
